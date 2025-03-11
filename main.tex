@@ -1,0 +1,57 @@
+% Masterarbeit LaTeX-Template
+\documentclass[a4paper,12pt]{report}
+
+% Pakete einbinden
+\usepackage[utf8]{inputenc}  % Umlaute unterstützen
+\usepackage[T1]{fontenc}    % Korrekte Silbentrennung
+\usepackage{lmodern}        % Moderne Schriftart
+\usepackage{geometry}       % Seitenränder einstellen
+\geometry{a4paper, left=3cm, right=3cm, top=3cm, bottom=3cm}
+\usepackage{setspace}       % Zeilenabstand
+\onehalfspacing
+\usepackage{graphicx}       % Bilder einfügen
+\usepackage{biblatex}       % Literaturverzeichnis
+\addbibresource{literatur.bib}
+\usepackage{hyperref}       % Hyperlinks
+\usepackage{appendix}       % Anhang
+
+% Titelseite
+\title{\textbf{Titel der Masterarbeit} \\ \Large Untertitel (falls nötig)}
+\author{Vorname Nachname \\ Universität XYZ \\ Betreuer: Dr. XYZ}
+\date{\today}
+
+\begin{document}
+	
+	% Titelseite
+	\maketitle
+	\thispagestyle{empty}
+	\newpage
+	
+	% Abstract
+	\begin{abstract}
+		Hier kommt die Zusammenfassung deiner Arbeit.
+	\end{abstract}
+	\newpage
+	
+	% Inhaltsverzeichnis
+	\tableofcontents
+	\newpage
+	
+	% Abbildungsverzeichnis, Tabellenverzeichnis
+	\listoffigures
+	\listoftables
+	\newpage
+	
+	% Einbinden der Kapitel
+	\input{chapters/kapitel1.tex}
+	\input{chapters/kapitel2.tex}
+	% Weitere Kapitel hier einfügen
+	
+	% Literaturverzeichnis
+	\printbibliography
+	
+	% Anhang
+	\appendix
+	\input{chapters/anhang.tex}
+	
+\end{document}
