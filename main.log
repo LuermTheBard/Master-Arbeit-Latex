@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.8)  11 MAR 2025 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.8)  11 MAR 2025 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -775,12 +775,12 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [4
 
-])
-(chapters/kapitel1.tex) (chapters/kapitel2.tex)
+]
+[5]) (chapters/kapitel1.tex) (chapters/kapitel2.tex)
 
 LaTeX Warning: Empty bibliography on input line 53.
 
-(chapters/anhang.tex) [5] (main.aux)
+(chapters/anhang.tex) [6] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FDC1D48DD684C6438F4723E15DEA0B13;241.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -788,9 +788,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17114 strings out of 478582
- 302162 string characters out of 2844345
- 1003275 words of memory out of 3000000
+ 17115 strings out of 478582
+ 302168 string characters out of 2844345
+ 1006275 words of memory out of 3000000
  35062 multiletter control sequences out of 15000+600000
  525550 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -803,9 +803,9 @@ sers/Lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users
 /Lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users
 /Lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/
 Lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on main.pdf (7 pages, 101352 bytes).
+Output written on main.pdf (8 pages, 105066 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
