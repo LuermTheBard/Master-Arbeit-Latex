@@ -1,3 +1,5 @@
 \contentsline {chapter}{\numberline {1}Ablauf Notizen}{4}{chapter.1}%
 \contentsline {section}{\numberline {1.1}RM of NGC4593}{4}{section.1.1}%
 \contentsline {chapter}{\numberline {2}Campaign and Analysis}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}NGC4593}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}2016 Campaign by E. M. Cackett}{7}{subsection.2.1.1}%
