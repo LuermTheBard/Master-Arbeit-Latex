@@ -78,6 +78,35 @@
       \field{pages}{53}
       \range{pages}{1}
     \endentry
+    \entry{stisgratings}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c000d1c3738d0c5397f8fead87c16ff2}{%
+           family={{Space Telescope Science Institute}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c000d1c3738d0c5397f8fead87c16ff2}
+      \strng{fullhash}{c000d1c3738d0c5397f8fead87c16ff2}
+      \strng{bibnamehash}{c000d1c3738d0c5397f8fead87c16ff2}
+      \strng{authorbibnamehash}{c000d1c3738d0c5397f8fead87c16ff2}
+      \strng{authornamehash}{c000d1c3738d0c5397f8fead87c16ff2}
+      \strng{authorfullhash}{c000d1c3738d0c5397f8fead87c16ff2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{STIS Instrument Handbook: Gratings}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://hst-docs.stsci.edu/stisihb/chapter-13-spectroscopic-reference-material/13-3-gratings
+      \endverb
+      \verb{url}
+      \verb https://hst-docs.stsci.edu/stisihb/chapter-13-spectroscopic-reference-material/13-3-gratings
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
