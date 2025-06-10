@@ -78,6 +78,35 @@
       \field{pages}{53}
       \range{pages}{1}
     \endentry
+    \entry{simbaNGC4593}{online}{}
+      \name{author}{1}{}{%
+        {{hash=eefafb9cf133300e92a791479bdfaec7}{%
+           family={{SIMBAD}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{eefafb9cf133300e92a791479bdfaec7}
+      \strng{fullhash}{eefafb9cf133300e92a791479bdfaec7}
+      \strng{bibnamehash}{eefafb9cf133300e92a791479bdfaec7}
+      \strng{authorbibnamehash}{eefafb9cf133300e92a791479bdfaec7}
+      \strng{authornamehash}{eefafb9cf133300e92a791479bdfaec7}
+      \strng{authorfullhash}{eefafb9cf133300e92a791479bdfaec7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NGC4593}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC4593
+      \endverb
+      \verb{url}
+      \verb https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC4593
+      \endverb
+    \endentry
     \entry{stisgratings}{online}{}
       \name{author}{1}{}{%
         {{hash=c000d1c3738d0c5397f8fead87c16ff2}{%
@@ -98,7 +127,7 @@
       \field{urlday}{12}
       \field{urlmonth}{5}
       \field{urlyear}{2025}
-      \field{year}{2024}
+      \field{year}{2025}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://hst-docs.stsci.edu/stisihb/chapter-13-spectroscopic-reference-material/13-3-gratings
