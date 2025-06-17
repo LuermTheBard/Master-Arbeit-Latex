@@ -105,12 +105,12 @@
            given={G},
            giveni={G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b5f638db922a8b0fe518065b7d8659b9}{%
+        {{un=1,uniquepart=given,hash=b5f638db922a8b0fe518065b7d8659b9}{%
            family={Peterson},
            familyi={P\bibinitperiod},
            given={BM},
            giveni={B\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=9e36c7eec9b3643fc90e15d9669d0b63}{%
            family={Barth},
            familyi={B\bibinitperiod},
@@ -178,6 +178,35 @@
       \field{year}{2021}
       \field{pages}{76}
       \range{pages}{1}
+    \endentry
+    \entry{peterson1997introduction}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=d9235e6cf41f9306904f873b2af9a74f}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Bradley\bibnamedelima M},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{fullhash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{fullhashraw}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{bibnamehash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{authorbibnamehash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{authornamehash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{authorfullhash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{authorfullhashraw}{d9235e6cf41f9306904f873b2af9a74f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An introduction to active galactic nuclei}
+      \field{year}{1997}
     \endentry
     \entry{simbaNGC4593}{online}{}{}
       \name{author}{1}{}{%
