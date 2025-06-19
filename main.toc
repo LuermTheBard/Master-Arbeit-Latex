@@ -1,6 +1,8 @@
 \contentsline {chapter}{\numberline {1}Ablauf Notizen}{4}{chapter.1}%
 \contentsline {section}{\numberline {1.1}RM of NGC4593}{4}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Campaign and Analysis}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}NGC4593}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}2016 Campaign by E. M. Cackett}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Reverberation Mapping}{8}{section.2.3}%
+\contentsline {chapter}{\numberline {2}Theoretical Background}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Active Galactic Nuclei}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Reverberation Mapping}{8}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Campaign and Analysis}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}NGC4593}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}2016 Campaign by E. M. Cackett}{11}{section.3.2}%
