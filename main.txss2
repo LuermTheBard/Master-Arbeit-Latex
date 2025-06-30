@@ -1,0 +1,72 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": true,
+        "File": "main.pdf"
+    },
+    "Session": {
+        "Bookmarks": [
+        ],
+        "CurrentFile": "chapters/kapitel4.tex",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "main.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 2
+            },
+            {
+                "Col": 1,
+                "EditorGroup": 0,
+                "FileName": "literatur.bib",
+                "FirstLine": 24,
+                "FoldedLines": "",
+                "Line": 72
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "chapters/kapitel2.tex",
+                "FirstLine": 3,
+                "FoldedLines": "",
+                "Line": 39
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "chapters/kapitel1.tex",
+                "FirstLine": 17,
+                "FoldedLines": "",
+                "Line": 44
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "chapters/anhang.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 28,
+                "EditorGroup": 0,
+                "FileName": "chapters/kapitel3.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 16
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "chapters/kapitel4.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 2
+            }
+        ],
+        "MasterFile": "",
+        "VerticalSplit": false
+    }
+}
