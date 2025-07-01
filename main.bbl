@@ -245,6 +245,51 @@
       \field{pages}{76}
       \range{pages}{1}
     \endentry
+    \entry{mo2010galaxy}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=62dd07b7d6fb9752bc5227a473571359}{%
+           family={Mo},
+           familyi={M\bibinitperiod},
+           given={Houjun},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9f4a0a06fdb9a8b8c9c1e28c7aadfb4}{%
+           family={Bosch},
+           familyi={B\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima den},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=fe0717fe9402f7716bed30595b857f30}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
+      \strng{fullhash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
+      \strng{fullhashraw}{e04736dcc2d1ff2e493b3b5a88ed61d0}
+      \strng{bibnamehash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
+      \strng{authorbibnamehash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
+      \strng{authornamehash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
+      \strng{authorfullhash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
+      \strng{authorfullhashraw}{e04736dcc2d1ff2e493b3b5a88ed61d0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780521857932}
+      \field{title}{Galaxy Formation and Evolution}
+      \field{year}{2010}
+    \endentry
     \entry{peterson1997introduction}{book}{}{}
       \name{author}{1}{}{%
         {{un=2,uniquepart=given,hash=d9235e6cf41f9306904f873b2af9a74f}{%
