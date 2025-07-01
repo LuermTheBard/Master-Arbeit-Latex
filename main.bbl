@@ -295,7 +295,7 @@
         {{un=2,uniquepart=given,hash=d9235e6cf41f9306904f873b2af9a74f}{%
            family={Peterson},
            familyi={P\bibinitperiod},
-           given={Bradley\bibnamedelima M},
+           given={Bradley\bibnamedelima M.},
            giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=2}}%
       }
@@ -316,8 +316,45 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{An introduction to active galactic nuclei}
+      \field{isbn}{9780521473484}
+      \field{title}{An Introduction to Active Galactic Nuclei}
       \field{year}{1997}
+    \endentry
+    \entry{shakura1973black}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b2bdc0c0f958beb2e5d0f3c6649a4187}{%
+           family={Shakura},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi I.},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=311a8d6482967758916f03936c9e4cff}{%
+           family={Sunyaev},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d993d271bac9eb80de0407199bdcd5bc}
+      \strng{fullhash}{d993d271bac9eb80de0407199bdcd5bc}
+      \strng{fullhashraw}{d993d271bac9eb80de0407199bdcd5bc}
+      \strng{bibnamehash}{d993d271bac9eb80de0407199bdcd5bc}
+      \strng{authorbibnamehash}{d993d271bac9eb80de0407199bdcd5bc}
+      \strng{authornamehash}{d993d271bac9eb80de0407199bdcd5bc}
+      \strng{authorfullhash}{d993d271bac9eb80de0407199bdcd5bc}
+      \strng{authorfullhashraw}{d993d271bac9eb80de0407199bdcd5bc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomy and Astrophysics}
+      \field{title}{Black holes in binary systems. Observational appearance}
+      \field{volume}{24}
+      \field{year}{1973}
+      \field{pages}{337\bibrangedash 355}
+      \range{pages}{19}
     \endentry
     \entry{simbaNGC4593}{online}{}{}
       \name{author}{1}{}{%
