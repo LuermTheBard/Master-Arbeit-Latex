@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  1 JUL 2025 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  4 JUL 2025 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -780,7 +780,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ...{\numberline {5}Discussion}{13}{chapter.5}
+l.37 ...{\numberline {5}Discussion}{15}{chapter.5}
                                                   % [1
 
 ])
@@ -824,68 +824,72 @@ t>
 File: pictures/Chapter2/AGN_standard_paradigm.png Graphic file (type png)
 <use pictures/Chapter2/AGN_standard_paradigm.png>
 Package pdftex.def Info: pictures/Chapter2/AGN_standard_paradigm.png  used on i
-nput line 20.
+nput line 19.
 (pdftex.def)             Requested size: 341.43437pt x 148.3868pt.
-<pictures/Chapter2/AGN_unified_model.jpg, id=214, 652.4375pt x 505.89pt>
+
+
+[7{C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
+c} <./pictures/Chapter2/AGN_standard_paradigm.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+<pictures/Chapter2/AGN_unified_model.jpg, id=227, 652.4375pt x 505.89pt>
 File: pictures/Chapter2/AGN_unified_model.jpg Graphic file (type jpg)
 <use pictures/Chapter2/AGN_unified_model.jpg>
 Package pdftex.def Info: pictures/Chapter2/AGN_unified_model.jpg  used on input
- line 33.
+ line 57.
 (pdftex.def)             Requested size: 426.79135pt x 330.93967pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
 
-
-[7 <./pictures/Chapter2/AGN_standard_paradigm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
 
 
-[8 <./pictures/Chapter2/AGN_unified_model.jpg>]) (chapters/kapitel2.tex
+[9 <./pictures/Chapter2/AGN_unified_model.jpg>]) (chapters/kapitel2.tex
 
-[9{C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
-c}]
+[10]
+
+[11]
 Chapter 3.
-<pictures/Chapter3/NGC4593.PNG, id=239, 835.62187pt x 599.23875pt>
+<pictures/Chapter3/NGC4593.PNG, id=260, 835.62187pt x 599.23875pt>
 File: pictures/Chapter3/NGC4593.PNG Graphic file (type png)
 <use pictures/Chapter3/NGC4593.PNG>
 Package pdftex.def Info: pictures/Chapter3/NGC4593.PNG  used on input line 12.
 (pdftex.def)             Requested size: 213.39568pt x 153.02788pt.
 
 
-[10
+[12
 
  <./pictures/Chapter3/NGC4593.PNG>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 28.
 ) (chapters/kapitel3.tex
 
-[11]
+[13]
 Chapter 4.
 
 Overfull \hbox (47.14755pt too wide) in paragraph at lines 1--1
@@ -894,13 +898,13 @@ Overfull \hbox (47.14755pt too wide) in paragraph at lines 1--1
 
 ) (chapters/kapitel4.tex
 
-[12
+[14
 
 ]
 Chapter 5.
 )
 
-[13
+[15
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
@@ -908,17 +912,18 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(chapters/anhang.tex)
 
-[14
+[16
 
-] (main.aux)
+] (chapters/anhang.tex)
+
+[17] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3703E2542D876CECAD19D48640BE080D;4084.
+(rerunfilecheck)             Checksum: AE0791637285482CD5A1379D61E42D92;4089.
 
 
 Package biblatex Warning: Please rerun LaTeX.
@@ -929,10 +934,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18870 strings out of 468225
- 329851 string characters out of 5432973
- 1172302 words of memory out of 5000000
- 47084 multiletter control sequences out of 15000+600000
+ 18898 strings out of 468225
+ 330566 string characters out of 5432973
+ 1172563 words of memory out of 5000000
+ 47106 multiletter control sequences out of 15000+600000
  698258 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,9n,67p,1068b,1699s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -948,9 +953,9 @@ b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (16 pages, 1357554 bytes).
+Output written on main.pdf (19 pages, 1367877 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

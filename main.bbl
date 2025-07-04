@@ -155,6 +155,50 @@
       \verb https://fermi.gsfc.nasa.gov/science/eteu/agn/figure1.jpg
       \endverb
     \endentry
+    \entry{hickox2018obscured}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=baa4c0f5f2a89ad9e175dc4b1d006d1f}{%
+           family={Hickox},
+           familyi={H\bibinitperiod},
+           given={Ryan\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ff4a0b2e5618baa4e004c3a657d51c8}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0a285cefb95126eeda5c88ccee24f987}
+      \strng{fullhash}{0a285cefb95126eeda5c88ccee24f987}
+      \strng{fullhashraw}{0a285cefb95126eeda5c88ccee24f987}
+      \strng{bibnamehash}{0a285cefb95126eeda5c88ccee24f987}
+      \strng{authorbibnamehash}{0a285cefb95126eeda5c88ccee24f987}
+      \strng{authornamehash}{0a285cefb95126eeda5c88ccee24f987}
+      \strng{authorfullhash}{0a285cefb95126eeda5c88ccee24f987}
+      \strng{authorfullhashraw}{0a285cefb95126eeda5c88ccee24f987}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+      \field{title}{{Obscured Active Galactic Nuclei}}
+      \field{volume}{56}
+      \field{year}{2018}
+      \field{pages}{625\bibrangedash 671}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1146/annurev-astro-081817-051719
+      \endverb
+      \verb{eprint}
+      \verb 1806.04680
+      \endverb
+    \endentry
     \entry{horne2021space}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -289,6 +333,71 @@
       \field{isbn}{9780521857932}
       \field{title}{Galaxy Formation and Evolution}
       \field{year}{2010}
+    \endentry
+    \entry{netzer2013agn}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=76b977acc7aedd6db01b638808b18aa6}{%
+           family={Netzer},
+           familyi={N\bibinitperiod},
+           given={Hagai},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{76b977acc7aedd6db01b638808b18aa6}
+      \strng{fullhash}{76b977acc7aedd6db01b638808b18aa6}
+      \strng{fullhashraw}{76b977acc7aedd6db01b638808b18aa6}
+      \strng{bibnamehash}{76b977acc7aedd6db01b638808b18aa6}
+      \strng{authorbibnamehash}{76b977acc7aedd6db01b638808b18aa6}
+      \strng{authornamehash}{76b977acc7aedd6db01b638808b18aa6}
+      \strng{authorfullhash}{76b977acc7aedd6db01b638808b18aa6}
+      \strng{authorfullhashraw}{76b977acc7aedd6db01b638808b18aa6}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Physics and Evolution of Active Galactic Nuclei}
+      \field{year}{2013}
+    \endentry
+    \entry{osterbrock1989agn}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=daffba04697d6726263faa59c68a7a5b}{%
+           family={Osterbrock},
+           familyi={O\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Mill Valley, California}%
+      }
+      \list{publisher}{1}{%
+        {University Science Books}%
+      }
+      \strng{namehash}{daffba04697d6726263faa59c68a7a5b}
+      \strng{fullhash}{daffba04697d6726263faa59c68a7a5b}
+      \strng{fullhashraw}{daffba04697d6726263faa59c68a7a5b}
+      \strng{bibnamehash}{daffba04697d6726263faa59c68a7a5b}
+      \strng{authorbibnamehash}{daffba04697d6726263faa59c68a7a5b}
+      \strng{authornamehash}{daffba04697d6726263faa59c68a7a5b}
+      \strng{authorfullhash}{daffba04697d6726263faa59c68a7a5b}
+      \strng{authorfullhashraw}{daffba04697d6726263faa59c68a7a5b}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780935702111}
+      \field{title}{Astrophysics of Gaseous Nebulae and Active Galactic Nuclei}
+      \field{year}{1989}
     \endentry
     \entry{peterson1997introduction}{book}{}{}
       \name{author}{1}{}{%
