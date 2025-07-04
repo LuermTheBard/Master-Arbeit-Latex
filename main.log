@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  4 JUL 2025 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  4 JUL 2025 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -839,7 +839,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-<pictures/Chapter2/AGN_unified_model.jpg, id=227, 652.4375pt x 505.89pt>
+<pictures/Chapter2/AGN_unified_model.jpg, id=229, 652.4375pt x 505.89pt>
 File: pictures/Chapter2/AGN_unified_model.jpg Graphic file (type jpg)
 <use pictures/Chapter2/AGN_unified_model.jpg>
 Package pdftex.def Info: pictures/Chapter2/AGN_unified_model.jpg  used on input
@@ -848,6 +848,8 @@ Package pdftex.def Info: pictures/Chapter2/AGN_unified_model.jpg  used on input
 
 
 [8]
+
+[9 <./pictures/Chapter2/AGN_unified_model.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
@@ -867,15 +869,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
-
-
-[9 <./pictures/Chapter2/AGN_unified_model.jpg>]) (chapters/kapitel2.tex
+) (chapters/kapitel2.tex
 
 [10]
 
 [11]
 Chapter 3.
-<pictures/Chapter3/NGC4593.PNG, id=260, 835.62187pt x 599.23875pt>
+<pictures/Chapter3/NGC4593.PNG, id=262, 835.62187pt x 599.23875pt>
 File: pictures/Chapter3/NGC4593.PNG Graphic file (type png)
 <use pictures/Chapter3/NGC4593.PNG>
 Package pdftex.def Info: pictures/Chapter3/NGC4593.PNG  used on input line 12.
@@ -924,20 +924,15 @@ L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AE0791637285482CD5A1379D61E42D92;4089.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18898 strings out of 468225
- 330566 string characters out of 5432973
- 1172563 words of memory out of 5000000
- 47106 multiletter control sequences out of 15000+600000
+ 18900 strings out of 468225
+ 330588 string characters out of 5432973
+ 1172571 words of memory out of 5000000
+ 47108 multiletter control sequences out of 15000+600000
  698258 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,9n,67p,1068b,1699s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -953,9 +948,9 @@ b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (19 pages, 1367877 bytes).
+Output written on main.pdf (19 pages, 1369409 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
+ 388 PDF objects out of 1000 (max. 8388607)
  67 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
