@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  4 JUL 2025 16:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  8 JUL 2025 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -780,7 +780,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 ...{\numberline {5}Discussion}{16}{chapter.5}
+l.39 ...{\numberline {5}Discussion}{16}{chapter.5}
                                                   % [1
 
 ])
@@ -832,52 +832,43 @@ nput line 23.
 c} <./pictures/Chapter2/AGN_standard_paradigm.png>]
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-<pictures/Chapter2/AGN_unified_model.jpg, id=242, 652.4375pt x 505.89pt>
+[9]
+<pictures/Chapter2/AGN_unified_model.jpg, id=250, 652.4375pt x 505.89pt>
 File: pictures/Chapter2/AGN_unified_model.jpg Graphic file (type jpg)
 <use pictures/Chapter2/AGN_unified_model.jpg>
 Package pdftex.def Info: pictures/Chapter2/AGN_unified_model.jpg  used on input
- line 63.
+ line 74.
 (pdftex.def)             Requested size: 426.79135pt x 330.93967pt.
 
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
+[10 <./pictures/Chapter2/AGN_unified_model.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
 
 
-[10 <./pictures/Chapter2/AGN_unified_model.jpg>]) (chapters/kapitel2.tex
-
-[11]
+[11]) (chapters/kapitel2.tex
 
 [12]
 Chapter 3.
-<pictures/Chapter3/NGC4593.PNG, id=274, 835.62187pt x 599.23875pt>
+<pictures/Chapter3/NGC4593.PNG, id=276, 835.62187pt x 599.23875pt>
 File: pictures/Chapter3/NGC4593.PNG Graphic file (type png)
 <use pictures/Chapter3/NGC4593.PNG>
 Package pdftex.def Info: pictures/Chapter3/NGC4593.PNG  used on input line 12.
@@ -936,10 +927,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18919 strings out of 468225
- 330923 string characters out of 5432973
- 1173237 words of memory out of 5000000
- 47126 multiletter control sequences out of 15000+600000
+ 18925 strings out of 468225
+ 331128 string characters out of 5432973
+ 1173320 words of memory out of 5000000
+ 47131 multiletter control sequences out of 15000+600000
  698258 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,9n,67p,1068b,1699s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -956,9 +947,9 @@ C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (20 pages, 1377651 bytes).
+Output written on main.pdf (20 pages, 1379411 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

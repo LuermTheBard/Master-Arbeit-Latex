@@ -429,6 +429,39 @@
       \field{title}{An Introduction to Active Galactic Nuclei}
       \field{year}{1997}
     \endentry
+    \entry{seyfert1943nuclear}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c867b66d1004733d9d1079e5bbcc5f50}{%
+           family={Seyfert},
+           familyi={S\bibinitperiod},
+           given={Carl\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c867b66d1004733d9d1079e5bbcc5f50}
+      \strng{fullhash}{c867b66d1004733d9d1079e5bbcc5f50}
+      \strng{fullhashraw}{c867b66d1004733d9d1079e5bbcc5f50}
+      \strng{bibnamehash}{c867b66d1004733d9d1079e5bbcc5f50}
+      \strng{authorbibnamehash}{c867b66d1004733d9d1079e5bbcc5f50}
+      \strng{authornamehash}{c867b66d1004733d9d1079e5bbcc5f50}
+      \strng{authorfullhash}{c867b66d1004733d9d1079e5bbcc5f50}
+      \strng{authorfullhashraw}{c867b66d1004733d9d1079e5bbcc5f50}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{Nuclear Emission in Spiral Nebulae}
+      \field{volume}{97}
+      \field{year}{1943}
+      \field{pages}{28\bibrangedash 40}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1086/144488
+      \endverb
+    \endentry
     \entry{shakura1973black}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b2bdc0c0f958beb2e5d0f3c6649a4187}{%
