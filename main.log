@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  8 JUL 2025 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  11 JUL 2025 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,19 +814,24 @@ Chapter 1.
 ]
 Chapter 2.
 
+Overfull \hbox (2.94165pt too wide) in paragraph at lines 15--16
+\T1/lmr/m/n/12 schemat-i-cally in Fig-ure []2.1[]. These in-clude a cen-tral su
+-per-mas-sive black hole (SMBH),
+ []
+
+<pictures/Chapter2/AGN_standard_paradigm.png, id=198, 1444.64719pt x 627.84563p
+t>
+File: pictures/Chapter2/AGN_standard_paradigm.png Graphic file (type png)
+<use pictures/Chapter2/AGN_standard_paradigm.png>
+Package pdftex.def Info: pictures/Chapter2/AGN_standard_paradigm.png  used on i
+nput line 20.
+(pdftex.def)             Requested size: 341.43437pt x 148.3868pt.
+
 
 [6
 
 {C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<pictures/Chapter2/AGN_standard_paradigm.png, id=207, 1444.64719pt x 627.84563p
-t>
-File: pictures/Chapter2/AGN_standard_paradigm.png Graphic file (type png)
-<use pictures/Chapter2/AGN_standard_paradigm.png>
-Package pdftex.def Info: pictures/Chapter2/AGN_standard_paradigm.png  used on i
-nput line 23.
-(pdftex.def)             Requested size: 341.43437pt x 148.3868pt.
-
 
 [7{C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
 c} <./pictures/Chapter2/AGN_standard_paradigm.png>]
@@ -834,31 +839,31 @@ c} <./pictures/Chapter2/AGN_standard_paradigm.png>]
 [8]
 
 [9]
-<pictures/Chapter2/AGN_unified_model.jpg, id=257, 652.4375pt x 505.89pt>
+<pictures/Chapter2/AGN_unified_model.jpg, id=258, 652.4375pt x 505.89pt>
 File: pictures/Chapter2/AGN_unified_model.jpg Graphic file (type jpg)
 <use pictures/Chapter2/AGN_unified_model.jpg>
 Package pdftex.def Info: pictures/Chapter2/AGN_unified_model.jpg  used on input
- line 76.
+ line 72.
 (pdftex.def)             Requested size: 426.79135pt x 330.93967pt.
 
 
 [10 <./pictures/Chapter2/AGN_unified_model.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
@@ -868,7 +873,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
 [12]
 Chapter 3.
-<pictures/Chapter3/NGC4593.PNG, id=282, 835.62187pt x 599.23875pt>
+<pictures/Chapter3/NGC4593.PNG, id=283, 835.62187pt x 599.23875pt>
 File: pictures/Chapter3/NGC4593.PNG Graphic file (type png)
 <use pictures/Chapter3/NGC4593.PNG>
 Package pdftex.def Info: pictures/Chapter3/NGC4593.PNG  used on input line 12.
@@ -951,9 +956,9 @@ C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (20 pages, 1383878 bytes).
+Output written on main.pdf (20 pages, 1384110 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
+ 414 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
