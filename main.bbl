@@ -52,100 +52,6 @@
       \verb 10.1146/annurev.aa.31.090193.002353
       \endverb
     \endentry
-    \entry{bentz2006reverberation}{article}{}{}
-      \name{author}{11}{}{%
-        {{un=2,uniquepart=given,hash=80de319b4b1fc634f7890ad1d5eae16b}{%
-           family={Bentz},
-           familyi={B\bibinitperiod},
-           given={Misty\bibnamedelima C.},
-           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=cd7b1595177656c12e9f53b1a7e8f0f2}{%
-           family={Denney},
-           familyi={D\bibinitperiod},
-           given={Kelly\bibnamedelima D.},
-           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0abdbe244884605d73631dcd4aaca091}{%
-           family={Cackett},
-           familyi={C\bibinitperiod},
-           given={Edward\bibnamedelima M.},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7e4b97a48aab8890d3ff3ec41184741c}{%
-           family={Dietrich},
-           familyi={D\bibinitperiod},
-           given={Matthias},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6031793125f1bc4509c94f1b8ea1e9ce}{%
-           family={Fogel},
-           familyi={F\bibinitperiod},
-           given={J.\bibnamedelimi Kyle},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b4c9c9afbf140c6e7572f18b11d8ba06}{%
-           family={Ghosh},
-           familyi={G\bibinitperiod},
-           given={Harsha},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b280757d1dfa5a202db66fb59c20508d}{%
-           family={Horne},
-           familyi={H\bibinitperiod},
-           given={Keith},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e66dd5ec2983a7898f4e1e4ac9e0220}{%
-           family={Kuehn},
-           familyi={K\bibinitperiod},
-           given={Charles\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=30cab169691d3907bfee01294aaa0fef}{%
-           family={Minezaki},
-           familyi={M\bibinitperiod},
-           given={Takeo},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3a77e0e4f5a02b1dcae821a766c68682}{%
-           family={Onken},
-           familyi={O\bibinitperiod},
-           given={Christopher\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d9235e6cf41f9306904f873b2af9a74f}{%
-           family={Peterson},
-           familyi={P\bibinitperiod},
-           given={Bradley\bibnamedelima M.},
-           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2e03b3a717de2359c0fb19696bc92481}
-      \strng{fullhash}{12b733eddf6b2b3de4561ef10b1ec8b6}
-      \strng{fullhashraw}{12b733eddf6b2b3de4561ef10b1ec8b6}
-      \strng{bibnamehash}{2e03b3a717de2359c0fb19696bc92481}
-      \strng{authorbibnamehash}{2e03b3a717de2359c0fb19696bc92481}
-      \strng{authornamehash}{2e03b3a717de2359c0fb19696bc92481}
-      \strng{authorfullhash}{12b733eddf6b2b3de4561ef10b1ec8b6}
-      \strng{authorfullhashraw}{12b733eddf6b2b3de4561ef10b1ec8b6}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Astrophysical Journal}
-      \field{number}{1}
-      \field{title}{The Radius–Luminosity Relationship for Active Galactic Nuclei: The Effect of Host-Galaxy Starlight on Luminosity Measurements}
-      \field{volume}{644}
-      \field{year}{2006}
-      \field{pages}{133\bibrangedash 142}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1086/503537
-      \endverb
-    \endentry
     \entry{cackett2018accretion}{article}{}{}
       \name{author}{7}{}{%
         {{un=2,uniquepart=given,hash=0abdbe244884605d73631dcd4aaca091}{%
@@ -345,12 +251,12 @@
            given={L},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=8a3757234d0da34885bd3f689a2152e1}{%
+        {{un=0,uniquepart=base,hash=8a3757234d0da34885bd3f689a2152e1}{%
            family={Bentz},
            familyi={B\bibinitperiod},
            given={MC},
            giveni={M\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=1,uniquepart=given,hash=433fa9004c12c8f1e82cce2128c76e00}{%
            family={Cackett},
            familyi={C\bibinitperiod},
@@ -492,6 +398,45 @@
       \field{isbn}{9780935702111}
       \field{title}{Astrophysics of Gaseous Nebulae and Active Galactic Nuclei}
       \field{year}{1989}
+    \endentry
+    \entry{osterbrock1985nls1}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=daffba04697d6726263faa59c68a7a5b}{%
+           family={Osterbrock},
+           familyi={O\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d6d3e3b7d50e184a57d432e727b9b37}{%
+           family={Pogge},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce395e561e3e65073fd1665f6dd08f55}
+      \strng{fullhash}{ce395e561e3e65073fd1665f6dd08f55}
+      \strng{fullhashraw}{ce395e561e3e65073fd1665f6dd08f55}
+      \strng{bibnamehash}{ce395e561e3e65073fd1665f6dd08f55}
+      \strng{authorbibnamehash}{ce395e561e3e65073fd1665f6dd08f55}
+      \strng{authornamehash}{ce395e561e3e65073fd1665f6dd08f55}
+      \strng{authorfullhash}{ce395e561e3e65073fd1665f6dd08f55}
+      \strng{authorfullhashraw}{ce395e561e3e65073fd1665f6dd08f55}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{The spectra of narrow-line Seyfert 1 galaxies}
+      \field{volume}{297}
+      \field{year}{1985}
+      \field{pages}{166\bibrangedash 176}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1086/163513
+      \endverb
     \endentry
     \entry{peterson1997introduction}{book}{}{}
       \name{author}{1}{}{%
@@ -699,6 +644,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{netzer2013physics}
 \endrefsection
 \endinput
 
