@@ -9,11 +9,10 @@ Its emission spans the entire electromagnetic spectrum and is powered by the acc
 To provide a basic understanding of the structure and physical processes within AGN, the following sections outline their key components, introduce the unification model that connects various AGN types, and summarize common classification schemes. Particular emphasis is placed on AGN variability, which plays a central role in the reverberation mapping analysis conducted in this thesis.
 
 
-\subsection{Structure of an AGN}
+\subsection{Structure and spectral Features of an AGN}
 \label{sec:agn_structure}
 
-The structure of an AGN consists of several components, which are illustrated schematically in Figure \ref{fig:agn_structure_mo}. These include a central supermassive black hole (SMBH), an accretion disk that feeds the SMBH, a surrounding dusty torus, and ionized gas regions known as the broad-line region (BLR) and narrow-line region (NLR). In some AGNs, powerful relativistic jets are launched perpendicular to the accretion disk. However, these jets will not be discussed further in this section, as they are not relevant to the scope of this thesis. Each of the components contributes differently to the observed spectrum of the AGN, as will be discussed in more detail in Section \ref{sec:spectral_features}.
-
+The structure of an AGN consists of several components, which are illustrated schematically in Figure \ref{fig:agn_structure_mo}. These include a central supermassive black hole (SMBH), an accretion disk that feeds the SMBH, a surrounding dusty torus, and ionized gas regions known as the broad-line region (BLR) and narrow-line region (NLR). In some AGNs, powerful relativistic jets are launched perpendicular to the accretion disk. However, these jets will not be discussed further in this section, as they are not relevant to the scope of this thesis. 
 
 \begin{figure}[!ht]
 	\centering
@@ -25,21 +24,27 @@ The structure of an AGN consists of several components, which are illustrated sc
 \subsubsection{Supermassive Black Hole and Accretion Disk}
 
 
-The center of an AGN is occupied by a supermassive black hole (SMBH), with masses typically ranging from $10^6\,M_\odot$ to more than $10^{10}\,M_\odot$. While the SMBH itself does not emit radiation, it dominates the gravitational potential in the innermost regions and acts as the central engine for all observed AGN phenomena. The matter from the surrounding accretion disk slowly spirals inward toward the SMBH due to angular momentum transport driven by viscosity inside the disk. During this process, gravitational potential energy is converted into heat, causing the disk to reach very high temperatures. As a result, a significant fraction of the gravitational energy of the matter is transformed into thermal radiation, which accounts for the enormous luminosity observed in AGNs \parencite{netzer2013agn}.\\
-The accretion disk itself is a geometrically thin and optically thick structure composed of ionized gas in differential rotation around the SMBH \parencite{shakura1973black}. The disk's composition is primarily ionized hydrogen and helium, with traces of heavier elements \parencite{netzer2013agn}. It extends from the innermost stable circular orbit (ISCO) near the event horizon out to distances of several light-days, where the temperature drops and dust can survive. The radial extent of the disk is relatively small on galactic scales, typically ranging from a few light-hours to a few light-days, corresponding to about $10^{-3}$ to $10^{-2}$\,pc \parencite{netzer2013agn,hickox2018obscured}.  The hottest regions are located in the innermost part of the disk, with typical temperatures ranging from $10^4$ to $10^5$\,K \parencite{hickox2018obscured}. 
+The center of an AGN is occupied by a supermassive black hole (SMBH), with masses typically ranging from $10^6\,M_\odot$ to more than $10^{10}\,M_\odot$. While the SMBH itself does not emit radiation, it dominates the gravitational potential in the innermost regions and acts as the central engine for all observed AGN phenomena. The matter from the surrounding accretion disk slowly spirals inward toward the SMBH due to angular momentum transport driven by viscosity inside the disk. The accretion disk itself is a geometrically thin and optically thick structure composed of ionized gas in differential rotation around the SMBH \parencite{shakura1973black}. The disk's composition is primarily ionized hydrogen and helium, with traces of heavier elements \parencite{netzer2013agn}. It extends from the innermost stable circular orbit (ISCO) near the event horizon out to distances of several light-days. The radial extent of the disk is relatively small on galactic scales, typically ranging from a few light-hours to a few light-days, corresponding to about $10^{-3}$ to $10^{-2}$\,pc \parencite{netzer2013agn,hickox2018obscured}.  \\
+During the accretion process, gravitational potential energy is converted into heat, causing the disk to reach very high temperatures. As a result, a significant fraction of the gravitational energy of the matter is transformed into thermal radiation, which accounts for the enormous luminosity observed in AGNs and heats the accretion disk depending on the size of the SMBH. While the maximum effective temperature for an accretion disk around a SMBH with $M = 10^8\,M_\odot$ is on the order of several $\times 10^5$\,K, leading to UV emission and optical emission. In comparison, disks around stellar-mass black holes reach much higher temperatures (up to a few $\times 10^6$\,K), emitting mostly in X-rays \parencite{netzer2013agn}. Due to the temperature gradient with hotter regions in the inner disk, the emitted spectrum can not be described as a single blackbody. Instead, it results from combination of many blackbody like components at different temperatures, often referred to as a multi-color blackbody. This creates a broad optical-UV continuum that cannot be fully described by simple blackbody radiation. In addition, processes like electron scattering and relativistic effects near the black hole further modify the shape of the spectrum \parencite{netzer2013agn}.
+The ionizing photons, emitted by the continuum, play a crucial role for other spectral features. They interact with the surrounding gas clouds near the nucleus, causing photo-ionization followed by recombination. This process leads to different kinds of strong emission lines, which are characteristic features of AGN spectra \parencite{osterbrock1989agn}.
+
 
 
 \subsubsection{Broad-Line and Narrow-Line Region}
 
-Outside the accretion disk lies a distribution of photo-ionized gas clouds that are the origin of the characteristic emission lines observed in AGN spectra. The innermost of these clouds is the broad-line region (BLR), located at distances of a few light-days to light-weeks from the central SMBH. The BLR consists of dense gas clouds (electron densities $n_e \sim 10^9$–$10^{11}\,\mathrm{cm}^{-3}$) moving at high velocities of several thousand kilometers per second due to the strong gravitational influence of the black hole \parencite{netzer2013agn}. These velocities lead to a significant Doppler broadening of permitted emission lines and line widths of several thousand km/s. The BLR is primarily photo-ionized by the continuum radiation emitted from the accretion disk.\\
-Further out lies the narrow-line region (NLR), which extends over scales of hundreds to thousands of parsecs. The gas in this region is less dense ($n_e \sim 10^2$–$10^6\,\mathrm{cm}^{-3}$) and moves at much lower velocities (a few hundred km/s), resulting in narrow emission lines with widths typically below $1000\,\mathrm{km/s}$. In contrast to the BLR, the NLR emits both permitted and forbidden lines, which gets excited by collision and can only form in low-density environments. The NLR is often spatially resolved in nearby AGNs and is photo-ionized by the central source, although additional ionization from shocks may also contribute in some cases \parencite{hickox2018obscured,netzer2013agn}.\\
-Both the BLR and NLR serve as important diagnostics of the AGN structure and provide key information about gas dynamics, ionization mechanisms, and the orientation-dependent appearance of the active nucleus.
+Outside the accretion disk lies a distribution of gas clouds photo-ionized by the energetic photons of the accretion disk continuum. The innermost of these clouds is the broad-line region (BLR), located at distances of a few light-days to light-weeks from the central SMBH. The BLR consists of dense gas clouds moving at high velocities of several thousand kilometers per second due to the strong gravitational influence of the black hole \parencite{netzer2013agn}. These velocities lead to a significant Doppler broadening of permitted emission lines and line widths of several thousand km/s. As described earlier, the BLR is primarily photo-ionized by the continuum radiation emitted from the accretion disk. As a result, the line emission from this region is strongly correlated with the continuum emission, which is particularly important for reverberation mapping, which will be discussed later in Section \ref{sec:reverberation_mapping}.\\ The exact geometry of the BLR remains uncertain, with models ranging from a spherical distribution of clouds to a flattened disk-like structure.  \parencite{netzer2013agn}. Broad emission lines appear in permitted transitions such as H$\alpha$, H$\beta$ and Ly$\alpha$. \parencite{peterson1997introduction}
+\\\\
+Further out lies the narrow-line region (NLR). The gas in this region moves at much lower velocities, resulting in narrow emission lines with widths typically below $1000,\mathrm{km/s}$. In contrast to the BLR, the NLR allows both permitted and forbidden transitions. The Forbidden Lines, such as [O,III]$\lambda5007$, arise due to collisional  excitation and can only form in low-density environments with electron densities around $10^2$ – $10^6 \ \mathrm{cm^{-3}}$ \parencite{osterbrock1989agn}. 
+
+
 
 
 
 \subsubsection{Dusty Torus}
 
 Surrounding the accretion disk and broad-line region is the dusty torus, a geometrically thick and optically dense structure composed of gas and dust. It extends from the sublimation radius, where dust can survive the intense radiation of the accretion disk, out to scales of a few parsecs. The torus likely has a clumpy distribution and plays a crucial role in the unified model of AGNs which will be discussed in a later section \parencite{netzer2013agn,hickox2018obscured}.
+The dust in the torus absorbs a significant fraction of the UV and optical radiation emitted by the accretion disk and re-emits it thermally in the infrared. As a result, AGNs typically exhibit strong infrared emission, with the peak wavelength depending on the dust temperature. This reprocessed radiation provides an important observational signature and can be used to trace obscured AGN activity, especially in AGNs where the central region is hidden from direct view \parencite{netzer2013agn}.
+
 
 
 
@@ -54,7 +59,7 @@ These classifications are based on the differences in luminosity, emission-line 
 Seyfert galaxies are named after Carl K. Seyfert, who in 1943 observed spiral galaxies characterized by exceptionally bright nuclei and prominent broad emission lines in their optical spectra \parencite{seyfert1943nuclear}. For that they represent a class of AGN with bright nuclei and strong emission lines. Today, they are classified primarily based on the presence and width of permitted and forbidden low- and high-ionized emission lines.\\
 Seyfert 1 galaxies, of which NGC 4593 is an example, show both broad and narrow emission lines in their optical spectra. The broad lines, such as $H_\alpha$ and $H_\beta$, have a full width at half maximum (FWHM) of typically several thousand kilometers per second and arise from the high-velocity BLR. In contrast, narrow lines, including prominent forbidden transitions like [O\,\textsc{iii}] $\lambda5007$ or [N\,\textsc{ii}] $\lambda6584$, originate from the lower-velocity NLR \parencite{osterbrock1989agn, peterson1997introduction}.\\
 The presence of both components in the spectrum allows for a clear classification as a Seyfert 1 galaxy, which is the case for NGC4593. More to NGC4593 in section \ref{NGC4593}.\\
-In comparison, Seyfert 2 galaxies lack these broad components in their optical spectra, likely due to orientation-dependent obscuration by circumnuclear material. This distinction is central to the Unified Model of AGN, which attributes observed differences between Seyfert types primarily to the viewing angle rather than intrinsic differences in structure adn will deepened in section \ref{sec:unification_model} \parencite{antonucci1993unified, urry1995unified}.\\ Another notable subclass are the so-called narrow-line Seyfert 1 galaxies (NLS1s). Despite their classification as Seyfert 1, the broad permitted lines in their spectra exhibit unusually small widths, with FWHM $<$ 1000 km\,s$^{-1}$. They often show strong Fe\,\textsc{ii} emission complexes and steep soft X-ray spectra. NLS1s are thought to have low-mass black holes accreting at high Eddington ratios, suggesting they may represent a young evolutionary phase of AGN activity \parencite{osterbrock1985nls1, netzer2013agn}.
+In comparison, Seyfert 2 galaxies lack these broad components in their optical spectra, likely due to orientation-dependent obscuration by circumnuclear material. This distinction is central to the Unified Model of AGN, which attributes observed differences between Seyfert types primarily to the viewing angle rather than intrinsic differences in structure adn will deepened in section \ref{sec:unification_model} \parencite{antonucci1993unified, urry1995unified}.\\ Another notable subclass are the so-called narrow-line Seyfert 1 galaxies (NLS1s). Despite their classification as Seyfert 1, the broad permitted lines in their spectra exhibit unusually small widths, with FWHM $<$ 2000 km\,s$^{-1}$. They often show strong Fe\,\textsc{ii} emission complexes and steep soft X-ray spectra. NLS1s are thought to have low-mass black holes accreting at high Eddington rates, suggesting they may represent a young evolutionary phase of AGN activity \parencite{osterbrock1985nls1, netzer2013agn}.
 
 
 
@@ -76,30 +81,6 @@ As illustrated an AGN is powered by a supermassive black hole surrounded by seve
 	\caption{Unification model of an AGN \parencite{fermi2025figure1}.}
 	\label{fig:agn_sed}
 \end{figure}
-
-
-
-\subsection{Spectral Features}
-\label{sec:spectral_features}
-
-AGNs emit radiation across the entire electromagnetic spectrum. A typical AGN exhibits strong X-ray and radio emission, as well as non-stellar ultraviolet and optical continua, along with both broad and narrow emission lines. However, not every AGN displays all of these features, as will be discussed in more detail later \parencite{peterson1997introduction}.
-\subsubsection{Non-stellar Continuum Emission}
-AGNs typically have a strong, non-stellar continuum emission. In the optical and ultraviolet range, the spectrum often follows a power-law shape instead of a blackbody curve, which implies a non-thermal origin. A noticeable feature in this part of the spectrum is the so-called \emph{big blue bump}, a broad increase in emission that peaks in the ultraviolet between about 1000 and 3000\,\AA. It is thought to be caused by thermal radiation from the hot inner part of the accretion disk around the supermassive black hole \parencite{peterson1997introduction, osterbrock1989agn}. The shape and strength of this bump can give information about how fast matter is falling into the black hole. \\
-Additionally, the ionized photons, emitted by the continuum, are responsible for exciting the gas clouds around the nucleus, which leads to emission lines in AGN spectra \parencite{osterbrock1989agn}.
-
-\subsubsection{Broad Emission Lines}
-
-
-\subsubsection{Narrow Emission Lines}
-
-
-\subsubsection{Infrared Emission}
-
-
-\subsubsection{X-ray Emission}
-
-
-\subsubsection{Radio Emission}
 
 
 
