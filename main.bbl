@@ -468,6 +468,75 @@
       \field{title}{An Introduction to Active Galactic Nuclei}
       \field{year}{1997}
     \endentry
+    \entry{ricci2022changinglook}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=58aedb3a7437cd594c23ccd4a2a42853}{%
+           family={Ricci},
+           familyi={R\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2c94e08932509cc5bf6917edbf2437c}{%
+           family={Trakhtenbrot},
+           familyi={T\bibinitperiod},
+           given={Benny},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20f0248b876a7058a5f156ce75d1350c}{%
+           family={Koss},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87e1e971562dfe7309435712ab1b263e}{%
+           family={Laha},
+           familyi={L\bibinitperiod},
+           given={Sibasish},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c0f9773b6ad01a7c9a0bb95f986fa46}{%
+           family={Ueda},
+           familyi={U\bibinitperiod},
+           given={Yoshihiro},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13bc8f669545a44f1d8a984d1e91c8d1}{%
+           family={Ichikawa},
+           familyi={I\bibinitperiod},
+           given={Kohei},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a07552897e65a2ecd1d4ff152025b447}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Teng},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ea9dd14adb710fa43b61c5d5e61941a}
+      \strng{fullhash}{d02860c079f20b4e1d040e36a84941af}
+      \strng{fullhashraw}{d02860c079f20b4e1d040e36a84941af}
+      \strng{bibnamehash}{4ea9dd14adb710fa43b61c5d5e61941a}
+      \strng{authorbibnamehash}{4ea9dd14adb710fa43b61c5d5e61941a}
+      \strng{authornamehash}{4ea9dd14adb710fa43b61c5d5e61941a}
+      \strng{authorfullhash}{d02860c079f20b4e1d040e36a84941af}
+      \strng{authorfullhashraw}{d02860c079f20b4e1d040e36a84941af}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Astronomy}
+      \field{title}{Changing-look Active Galactic Nuclei}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{1342\bibrangedash 1354}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1038/s41550-022-01796-7
+      \endverb
+    \endentry
     \entry{seyfert1943nuclear}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c867b66d1004733d9d1079e5bbcc5f50}{%
@@ -644,7 +713,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{netzer2013physics}
 \endrefsection
 \endinput
 
