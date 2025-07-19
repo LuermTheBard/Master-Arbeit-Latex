@@ -2407,11 +2407,20 @@
     <bcf:citekey order="29" intorder="1">ricci2022changinglook</bcf:citekey>
     <bcf:citekey order="30" intorder="1">fermi2025figure1</bcf:citekey>
     <bcf:citekey order="31" intorder="1">fermi2025figure1</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">horne2021space</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">simbaNGC4593</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">stisgratings</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">stisgratings</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Ulrich1997</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Hagen2024</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Cackett2021</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">horne2021space</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">bowen1934</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">selvelli2007</bcf:citekey>
+    <bcf:citekey order="37" intorder="2">baldini2023</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">grandi1980</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">grandi1980</bcf:citekey>
+    <bcf:citekey order="39" intorder="2">selvelli2007</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">simbaNGC4593</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">stisgratings</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">stisgratings</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

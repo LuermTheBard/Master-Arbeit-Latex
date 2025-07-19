@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  14 JUL 2025 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  19 JUL 2025 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -780,7 +780,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 ...{\numberline {5}Discussion}{17}{chapter.5}
+l.32 ...{\numberline {5}Discussion}{18}{chapter.5}
                                                   % [1
 
 ])
@@ -844,66 +844,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--38
 [8]
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 68--72
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
 
  []
 
 
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 75--79
 
  []
 
-<pictures/Chapter2/AGN_unified_model.jpg, id=265, 652.4375pt x 505.89pt>
+<pictures/Chapter2/AGN_unified_model.jpg, id=266, 652.4375pt x 505.89pt>
 File: pictures/Chapter2/AGN_unified_model.jpg Graphic file (type jpg)
 <use pictures/Chapter2/AGN_unified_model.jpg>
 Package pdftex.def Info: pictures/Chapter2/AGN_unified_model.jpg  used on input
- line 92.
+ line 91.
 (pdftex.def)             Requested size: 426.79135pt x 330.93967pt.
 
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+
+[12 <./pictures/Chapter2/AGN_unified_model.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
 
  []
 
 
 
-[12 <./pictures/Chapter2/AGN_unified_model.jpg>]) (chapters/kapitel2.tex
+[13]) (chapters/kapitel2.tex
 
-[13]
+[14]
 Chapter 3.
-<pictures/Chapter3/NGC4593.PNG, id=286, 835.62187pt x 599.23875pt>
+<pictures/Chapter3/NGC4593.PNG, id=307, 835.62187pt x 599.23875pt>
 File: pictures/Chapter3/NGC4593.PNG Graphic file (type png)
 <use pictures/Chapter3/NGC4593.PNG>
 Package pdftex.def Info: pictures/Chapter3/NGC4593.PNG  used on input line 12.
 (pdftex.def)             Requested size: 213.39568pt x 153.02788pt.
 
 
-[14
+[15
 
  <./pictures/Chapter3/NGC4593.PNG>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 28.
 ) (chapters/kapitel3.tex
 
-[15]
+[16]
 Chapter 4.
 
 Overfull \hbox (47.14755pt too wide) in paragraph at lines 1--1
@@ -912,13 +914,13 @@ Overfull \hbox (47.14755pt too wide) in paragraph at lines 1--1
 
 ) (chapters/kapitel4.tex
 
-[16
+[17
 
 ]
 Chapter 5.
 )
 
-[17
+[18
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
@@ -926,12 +928,24 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+! Undefined control sequence.
+<argument> \apj 
+                
+l.64 	
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[18
+
+
+[19
 
 ] (chapters/anhang.tex)
 
-[19] (main.aux)
+[20] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
@@ -943,13 +957,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18940 strings out of 468225
- 331555 string characters out of 5432973
- 1173486 words of memory out of 5000000
- 47144 multiletter control sequences out of 15000+600000
+ 18996 strings out of 468225
+ 333061 string characters out of 5432973
+ 1174962 words of memory out of 5000000
+ 47192 multiletter control sequences out of 15000+600000
  698258 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,9n,67p,1382b,1699s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,9n,67p,1381b,1699s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
@@ -963,9 +977,9 @@ C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (21 pages, 1386598 bytes).
+Output written on main.pdf (22 pages, 1396963 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
  232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

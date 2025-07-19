@@ -52,6 +52,131 @@
       \verb 10.1146/annurev.aa.31.090193.002353
       \endverb
     \endentry
+    \entry{baldini2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0834a539678ebe09a727c1d222309681}{%
+           family={Baldini},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de0cc7404d441e095f0435719b82c4ee}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=203428cf1d8e7c80bf58d93f34d0ea91}{%
+           family={Arcodia},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{931ab56168bf85ad07c2c86c7e3e3744}
+      \strng{fullhash}{931ab56168bf85ad07c2c86c7e3e3744}
+      \strng{fullhashraw}{931ab56168bf85ad07c2c86c7e3e3744}
+      \strng{bibnamehash}{931ab56168bf85ad07c2c86c7e3e3744}
+      \strng{authorbibnamehash}{931ab56168bf85ad07c2c86c7e3e3744}
+      \strng{authornamehash}{931ab56168bf85ad07c2c86c7e3e3744}
+      \strng{authorfullhash}{931ab56168bf85ad07c2c86c7e3e3744}
+      \strng{authorfullhashraw}{931ab56168bf85ad07c2c86c7e3e3744}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv e-prints}
+      \field{note}{arXiv:2507.05342}
+      \field{title}{A Bowen fluorescence flare as evidence of line pumping in a transient event}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2507.05342
+      \endverb
+    \endentry
+    \entry{bowen1934}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce4fc508ef106c5519cc0c1076b4fba2}{%
+           family={Bowen},
+           familyi={B\bibinitperiod},
+           given={I.\bibnamedelimi S.},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce4fc508ef106c5519cc0c1076b4fba2}
+      \strng{fullhash}{ce4fc508ef106c5519cc0c1076b4fba2}
+      \strng{fullhashraw}{ce4fc508ef106c5519cc0c1076b4fba2}
+      \strng{bibnamehash}{ce4fc508ef106c5519cc0c1076b4fba2}
+      \strng{authorbibnamehash}{ce4fc508ef106c5519cc0c1076b4fba2}
+      \strng{authornamehash}{ce4fc508ef106c5519cc0c1076b4fba2}
+      \strng{authorfullhash}{ce4fc508ef106c5519cc0c1076b4fba2}
+      \strng{authorfullhashraw}{ce4fc508ef106c5519cc0c1076b4fba2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
+      \field{title}{The Excitation of the Nebulium Spectrum}
+      \field{volume}{46}
+      \field{year}{1934}
+      \field{pages}{146\bibrangedash 149}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1086/124349
+      \endverb
+    \endentry
+    \entry{Cackett2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=433fa9004c12c8f1e82cce2128c76e00}{%
+           family={Cackett},
+           familyi={C\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=8a3757234d0da34885bd3f689a2152e1}{%
+           family={Bentz},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=c06e6d6ec9f60574b45d7259c69746c2}{%
+           family={Kara},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{45a424635d619537201d5c0cbdb5e959}
+      \strng{fullhash}{45a424635d619537201d5c0cbdb5e959}
+      \strng{fullhashraw}{45a424635d619537201d5c0cbdb5e959}
+      \strng{bibnamehash}{45a424635d619537201d5c0cbdb5e959}
+      \strng{authorbibnamehash}{45a424635d619537201d5c0cbdb5e959}
+      \strng{authornamehash}{45a424635d619537201d5c0cbdb5e959}
+      \strng{authorfullhash}{45a424635d619537201d5c0cbdb5e959}
+      \strng{authorfullhashraw}{45a424635d619537201d5c0cbdb5e959}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{iScience}
+      \field{number}{12}
+      \field{title}{Reverberation Mapping of Active Galactic Nuclei: From X-ray Corona to Dusty Torus}
+      \field{volume}{24}
+      \field{year}{2021}
+      \field{pages}{102557}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.isci.2021.102557
+      \endverb
+    \endentry
     \entry{cackett2018accretion}{article}{}{}
       \name{author}{7}{}{%
         {{un=2,uniquepart=given,hash=0abdbe244884605d73631dcd4aaca091}{%
@@ -155,6 +280,92 @@
       \verb https://fermi.gsfc.nasa.gov/science/eteu/agn/figure1.jpg
       \endverb
     \endentry
+    \entry{grandi1980}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e78ed445ca62304de583f8745f5f00d9}{%
+           family={{Grandi}},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e78ed445ca62304de583f8745f5f00d9}
+      \strng{fullhash}{e78ed445ca62304de583f8745f5f00d9}
+      \strng{fullhashraw}{e78ed445ca62304de583f8745f5f00d9}
+      \strng{bibnamehash}{e78ed445ca62304de583f8745f5f00d9}
+      \strng{authorbibnamehash}{e78ed445ca62304de583f8745f5f00d9}
+      \strng{authornamehash}{e78ed445ca62304de583f8745f5f00d9}
+      \strng{authorfullhash}{e78ed445ca62304de583f8745f5f00d9}
+      \strng{authorfullhashraw}{e78ed445ca62304de583f8745f5f00d9}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\apj}
+      \field{month}{5}
+      \field{title}{{OI lambda 8446 emission in Seyfert 1 galaxies.}}
+      \field{volume}{238}
+      \field{year}{1980}
+      \field{pages}{10}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/157952
+      \endverb
+      \keyw{Astronomical Spectroscopy,Infrared Spectra,Oxygen Spectra,Seyfert Galaxies,Emission Spectra,Fluorescence,H Alpha Line,Line Spectra,Lyman Spectra,Astronomy}
+    \endentry
+    \entry{Hagen2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fcb13e3e444b85a6cfe462928af01f37}{%
+           family={Hagen},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi M.\bibnamedelimi Z.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abcc5e91b4fac2bbb9c54122017ec2ca}{%
+           family={Fausnaugh},
+           familyi={F\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=433fa9004c12c8f1e82cce2128c76e00}{%
+           family={Cackett},
+           familyi={C\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{54b2c2665ff4d8a499e16ad52e48a22c}
+      \strng{fullhash}{6c433a6cd309bf9b563677f003772d59}
+      \strng{fullhashraw}{6c433a6cd309bf9b563677f003772d59}
+      \strng{bibnamehash}{54b2c2665ff4d8a499e16ad52e48a22c}
+      \strng{authorbibnamehash}{54b2c2665ff4d8a499e16ad52e48a22c}
+      \strng{authornamehash}{54b2c2665ff4d8a499e16ad52e48a22c}
+      \strng{authorfullhash}{6c433a6cd309bf9b563677f003772d59}
+      \strng{authorfullhashraw}{6c433a6cd309bf9b563677f003772d59}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{title}{What Drives the Variability in AGN? Insights from Disk Reprocessing and Inhomogeneous Accretion}
+      \field{volume}{530}
+      \field{year}{2024}
+      \field{pages}{4850\bibrangedash 4874}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1093/mnras/stad3782
+      \endverb
+    \endentry
     \entry{hickox2018obscured}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=baa4c0f5f2a89ad9e175dc4b1d006d1f}{%
@@ -251,12 +462,12 @@
            given={L},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8a3757234d0da34885bd3f689a2152e1}{%
+        {{un=1,uniquepart=given,hash=8a3757234d0da34885bd3f689a2152e1}{%
            family={Bentz},
            familyi={B\bibinitperiod},
            given={MC},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=1,uniquepart=given,hash=433fa9004c12c8f1e82cce2128c76e00}{%
            family={Cackett},
            familyi={C\bibinitperiod},
@@ -537,6 +748,57 @@
       \verb 10.1038/s41550-022-01796-7
       \endverb
     \endentry
+    \entry{selvelli2007}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fc6f90db036e8f2802a68171fda6dab4}{%
+           family={Selvelli},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb0acc7766aa915a937b8c25d3b9943d}{%
+           family={Cassatella},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=549dcb25575297812c2f4412303d460e}{%
+           family={Gilmozzi},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f5bc184869e61cd1e8cafdd71b1e6cd}{%
+           family={González-Riestra},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{80846c843910b3021819010deb68d3cf}
+      \strng{fullhash}{deb713111e2289ccb567eb3631240067}
+      \strng{fullhashraw}{deb713111e2289ccb567eb3631240067}
+      \strng{bibnamehash}{80846c843910b3021819010deb68d3cf}
+      \strng{authorbibnamehash}{80846c843910b3021819010deb68d3cf}
+      \strng{authornamehash}{80846c843910b3021819010deb68d3cf}
+      \strng{authorfullhash}{deb713111e2289ccb567eb3631240067}
+      \strng{authorfullhashraw}{deb713111e2289ccb567eb3631240067}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomy and Astrophysics}
+      \field{title}{The Bowen fluorescence lines in the spectrum of RR Telescopii}
+      \field{volume}{464}
+      \field{year}{2007}
+      \field{pages}{715\bibrangedash 728}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1051/0004-6361:20066616
+      \endverb
+    \endentry
     \entry{seyfert1943nuclear}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c867b66d1004733d9d1079e5bbcc5f50}{%
@@ -672,14 +934,59 @@
       \verb https://hst-docs.stsci.edu/stisihb/chapter-13-spectroscopic-reference-material/13-3-gratings
       \endverb
     \endentry
+    \entry{Ulrich1997}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=882f1e2e505572140a3f290797bb0ef7}{%
+           family={Ulrich},
+           familyi={U\bibinitperiod},
+           given={M.-H.},
+           giveni={M\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=083fd50e99ca07af34f0b8bd9337b058}{%
+           family={Maraschi},
+           familyi={M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=94a649710f2c4c135c88ab568ecda2d3}{%
+           family={Urry},
+           familyi={U\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{61c74679cd5aa4e8b3ce8f25a0e22969}
+      \strng{fullhash}{61c74679cd5aa4e8b3ce8f25a0e22969}
+      \strng{fullhashraw}{61c74679cd5aa4e8b3ce8f25a0e22969}
+      \strng{bibnamehash}{61c74679cd5aa4e8b3ce8f25a0e22969}
+      \strng{authorbibnamehash}{61c74679cd5aa4e8b3ce8f25a0e22969}
+      \strng{authornamehash}{61c74679cd5aa4e8b3ce8f25a0e22969}
+      \strng{authorfullhash}{61c74679cd5aa4e8b3ce8f25a0e22969}
+      \strng{authorfullhashraw}{61c74679cd5aa4e8b3ce8f25a0e22969}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+      \field{title}{Variability of Active Galactic Nuclei}
+      \field{volume}{35}
+      \field{year}{1997}
+      \field{pages}{445\bibrangedash 502}
+      \range{pages}{58}
+      \verb{doi}
+      \verb 10.1146/annurev.astro.35.1.445
+      \endverb
+    \endentry
     \entry{urry1995unified}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=4924ac32b98fd838bb0a92f38f857449}{%
+        {{un=2,uniquepart=given,hash=4924ac32b98fd838bb0a92f38f857449}{%
            family={Urry},
            familyi={U\bibinitperiod},
            given={C.\bibnamedelimi Megan},
            giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=b5b7d493cb46b26545937a5c5e67d07c}{%
            family={Padovani},
            familyi={P\bibinitperiod},
