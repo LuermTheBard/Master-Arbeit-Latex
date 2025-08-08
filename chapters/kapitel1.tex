@@ -82,10 +82,6 @@ Although the classical Unification Model treats AGN classification as fixed and 
 
 
 
-
-
-
-
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter2/AGN_unified_model.jpg}
@@ -99,19 +95,28 @@ Although the classical Unification Model treats AGN classification as fixed and 
 \label{sec:variability}
 Apart from changing-look AGNs, which change their observed type over time, many AGNs like NGC 4593 show continuous and significant variability in their emission. This variability is observed across the electromagnetic spectrum and spans timescales from hours to several years, making it a key characteristic of active galaxies. Higher-energy emission, such as X-rays, typically shows faster and stronger fluctuations than optical or infrared radiation, with variability amplitudes and timescales generally decreasing towards lower photon energies. Those changing timescales can be spanning from hours, to day, to years and are generally random \parencite{Ulrich1997}.\\
 This variability is linked to instabilities within the accretion flow around the supermassive black hole. Processes such as magnetic turbulence in the corona, local fluctuations in the accretion rate, and thermal inhomogeneities within the disk are thought to drive the observed flux changes. While short-term variations are likely related to processes in the inner corona and disk, slower changes originate from propagating fluctuations in the outer regions that modulate emission at larger radi \parencite{Hagen2024}.\\
-This intrinsic variability plays a central role in reverberation mapping. Continuum fluctuations from the accretion disk serve as a variable ionizing source, illuminating the surrounding BLR. The emission-line response follows these continuum variations with a measurable time delay corresponding to the light-travel distance between the continuum source and the BLR clouds. By monitoring these delays, the geometry and size of the BLR can be determined, providing direct insights into the inner structure of AGNs and enabling black hole mass estimates \parencite{Cackett2021}.
+This intrinsic variability plays a central role in reverberation mapping which will be talked about in the next section. 
 
 \section{Reverberation Mapping}
 \label{sec:reverberation_mapping}
+
+The main focus of this work is a classic reverberation mapping analysis of the Broad Lines of NGC 4593. This observational technique allows to probe the structure of the BLR around the SMBH inside the AGN. This technique bases on the time delay or time lag between the continuum's variation and the correlated response of the broad lines. With this calculable time lag it is possible to assume the geometry of the BLR and calculating the mass of the SMBH.  
 
 
 \subsection{Principle}
 \label{subsec:rm_principle}
 
+The fundamental assumption in reverberation mapping is that fluctuations in the observed continuum luminosity drive corresponding fluctuations in the emission-line flux, with a time delay. Like mentioned earlier, continuum fluctuations from the accretion disk serve as the ionizing source, illuminating the surrounding BLR. With variation in the continuum luminosity, the emission-line response follows these continuum variations with a measurable time lag \parencite{Cackett2021}.\\
+This time lag $\tau$ is corresponding to the average light-travel distance from the photoionization continuum to the line emitting regions. Furthermore it is possible to approximate the characteristic radius of the BLR depending on $\tau$ following this approximation: $R_{\mathrm{BLR}} \approx c \cdot \tau$.With different time lags from emission lines origination from different regions it is possible to infer the geometry of the BLR. A BLR with a thin shell of clouds would produce a more uniform lag, whereas a broad distribution of clouds produces a range of lags. In principle, reverberation mapping can be used to 'map' the BLR’s structure by inverting the delays \parencite{peterson1997introduction}.
+The response of the BLR's lines is typically assumed as linearly related tho the photo-ionization continuum. With this approximation the line flux can be expressed as a convolution of the continuum flux with the so called transferfunction $\Psi\left(\tau\right)$:
 
-The main focus of this work was to perform a classic reverberation analysis of NGC 4593, with a focus on the broad line region (BLR) and its geometry around the central supermassive black hole (SMBH).\\\\
-This type of analysis aims to measure the time lag $\tau$ between the variable continuum and the emission line response, in order to determine the spatial scale and structure of the BLR. By observing these variations over time and analyzing the delayed response of the broad lines, it is possible to learn more about the geometry and dynamics of the BLR and to estimate the mass of the SMBH.\\\\
-Reverberation mapping (RM) is based on the strong correlation between a variable continuum emission $C(t)$ and the emission line flux $L(\nu, t)$ \parencite{horne2021space}. This correlation originates from the photoionization of gas clouds in the BLR by the central continuum source. As the continuum changes, the emission lines react in a similar way, but with a time delay $\tau$, because of the distance between the central source and the BLR. This delay corresponds to the time it takes for light to travel from the central source to the BLR.\\\\
+\begin{equation}
+	L\left(t\right) = \int \Psi\left(\tau\right)C\left(t-\tau\right) d\tau
+\end{equation}
+	
+
+
+
 
 \subsection{Transferfunction}
 \label{subsec:rm_transferfunction}
