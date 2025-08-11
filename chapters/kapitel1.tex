@@ -106,27 +106,52 @@ The main focus of this work is a classic reverberation mapping analysis of the B
 \subsection{Principle}
 \label{subsec:rm_principle}
 
-The fundamental assumption in reverberation mapping is that fluctuations in the observed continuum luminosity drive corresponding fluctuations in the emission-line flux, with a time delay. Like mentioned earlier, continuum fluctuations from the accretion disk serve as the ionizing source, illuminating the surrounding BLR. With variation in the continuum luminosity, the emission-line response follows these continuum variations with a measurable time lag \parencite{Cackett2021}.\\
-This time lag $\tau$ is corresponding to the average light-travel distance from the photoionization continuum to the line emitting regions. Furthermore it is possible to approximate the characteristic radius of the BLR depending on $\tau$ following this approximation: $R_{\mathrm{BLR}} \approx c \cdot \tau$.With different time lags from emission lines origination from different regions it is possible to infer the geometry of the BLR. A BLR with a thin shell of clouds would produce a more uniform lag, whereas a broad distribution of clouds produces a range of lags. In principle, reverberation mapping can be used to 'map' the BLR’s structure by inverting the delays \parencite{peterson1997introduction}.
-The response of the BLR's lines is typically assumed as linearly related tho the photo-ionization continuum. With this approximation the line flux can be expressed as a convolution of the continuum flux with the so called transferfunction $\Psi\left(\tau\right)$:
-
+The fundamental assumption in reverberation mapping is that fluctuations in the observed continuum luminosity drive corresponding fluctuations in the emission-line flux, with a time delay. Like mentioned earlier, continuum fluctuations from the accretion disk serve as the ionizing source, illuminating the surrounding BLR. With variation in the continuum luminosity, the emission-line response follows these continuum variations with a measurable time lag \parencite{Cackett2021}.
+This time lag $\tau$ is corresponding to the average light-travel distance from the photoionization continuum to the line emitting regions. Furthermore it is possible to approximate the characteristic radius of the BLR depending on $\tau$ following this approximation: $R_{\mathrm{BLR}} \approx c \cdot \tau$. With different time lags from emission lines origination from different regions it is possible to infer the geometry of the BLR. A BLR with a thin shell of clouds would produce a more uniform lag, whereas a broad distribution of clouds produces a range of lags. In principle, reverberation mapping can be used to 'map' the BLR’s structure by inverting the delays \parencite{peterson1997introduction}.
+The response of the BLR's lines is typically assumed as linearly related tho the photo-ionization continuum, leading to the convolution expression:
+\\
 \begin{equation}
 	L\left(t\right) = \int \Psi\left(\tau\right)C\left(t-\tau\right) d\tau
 \end{equation}
-	
+\\
+where $\Psi\left(\tau\right)$ is the transfer function, delivering the BLR's geometric and kinematic information \parencite{horne2004observational}.
+While in theory the response of the BLR can be fully described by the transfer function $\Psi\left(\tau\right)$, this thesis focuses on measuring the time lag between continuum and line variations. This lag can be estimated using cross-correlation techniques, which are discussed in the following section.
 
 
-
-
-\subsection{Transferfunction}
-\label{subsec:rm_transferfunction}
-
-\subsection{Cross-Correlation Function}
+\subsection{Cross-Correlation Function and Lag Measurement}
 \label{subsec:rm_ccf}
+
+In practice, recovering the full transfer function $\Psi\left(\tau\right)$ would require very well-sampled and high signal-to-noise light curves over a duration much longer than the expected lag. Since real monitoring campaigns are often affected by observational gaps and noise, such reconstructions are rarely possible \parencite{horne2004observational,peterson1993}. For this reason, this thesis concentrates on measuring the mean time lag between continuum and emission-line variations using the Interpolated Cross-Correlation Function (ICCF) method.\\
+Measuring the same objects over a span of time, it is possible to determine the correlation coefficient (CCF)  as a function of the time shift $\tau$ between two light curves, e.g. the variable light curve of the ionizing continuum and the light curve of a broad emission line. By sliding one curve relative to the other, the ICCF quantifies how well the variations match for each lag.  In this context, two types of lags are defined: the lag corresponding to the maximum correlation $\tau_{\mathrm{peak}}$ and the centroid lag $\tau_{\mathrm{centroid}}$. $\tau_{\mathrm{centroid}}$ gets calculated over all points of the CCF, that are above a selected threshold which is typically $80\%$ of the CCF. Since the centroid lag is generally considered a more robust representation of the mean light-travel time of the BLR \parencite{peterson2004}, it is used in this thesis.\\
+The uncertainty of the measured lag is estimated using a Monte Carlo approach combining Flux Randomization (FR) and Random Subset Selection (RSS) \parencite{peterson1998,peterson2004}. In the FR step, each flux value is randomly perturbed according to its measurement uncertainty. In the RSS step, a subset of the data points is drawn at random with replacement, preserving the original sample size. For each realization, the ICCF analysis is repeated, resulting in a distribution of centroid lags. The median of this distribution is adopted as the final lag measurement, while the 16th and 84th percentiles are taken as the $1 \sigma$ confidence interval, accounting for both measurement noise and the effects of uneven temporal sampling.
+
 
 \subsection{Black-Hole Mass}
 \label{subsec:rm_bh_mass}
 
+With the measured rest-frame centroid lag $\tau_{\mathrm{centroid}}$ from the ICCF analysis and the velocity width of the broad emission line, the mass of the central supermassive black hole (SMBH) can be estimated under the assumption that the BLR gas is gravitationally bound and its motions are dominated by the SMBH potential \parencite{peterson2004}. The distance to the BLR is given by
+
+\begin{equation}
+	R_{\mathrm{BLR}} = c \cdot \tau_{\mathrm{centroid}}
+\end{equation}
+and, combined with the line-of-sight velocity dispersion $\Delta V$ of the BLR gas, the virial product is defined as
+
+\begin{equation}
+	M_{\mathrm{vir}} = \frac{R_{\mathrm{BLR}}\,\Delta V^2}{G}.
+\end{equation}
+The physical black hole mass is then obtained by applying a scale factor $f$, which accounts for the unknown geometry, kinematics, and inclination of the BLR:
+\begin{equation}
+	M_{\mathrm{BH}} = f \cdot M_{\mathrm{vir}}.
+\end{equation}
+Following \textcite{onken2004}, a mean value of $f$ is adopted, calibrated by aligning reverberation-based masses with the $M_{\mathrm{BH}}-\sigma_*$ relation observed in quiescent galaxies.
+The statistical uncertainty of $M_{\mathrm{BH}}$ is derived by propagating the $1\sigma$ errors of $\tau_{\mathrm{centroid}}$ (from the FR/RSS simulations; \cite{peterson1998}) and $\Delta V$:
+
+\begin{equation}
+	\left( \frac{\delta M_{\mathrm{BH}}}{M_{\mathrm{BH}}} \right)^2
+	= \left( \frac{\delta \tau_{\mathrm{centroid}}}{\tau_{\mathrm{centroid}}} \right)^2
+	+ \left( 2 \cdot \frac{\delta \Delta V}{\Delta V} \right)^2.
+\end{equation}
+Additional systematic uncertainties, mainly related to the choice of $f$, are typically of order a factor of 2 - 3 \parencite{peterson2004}.
 \section{Bowen Fluorescence}
 \label{sec:bowen_fluorescence}
 

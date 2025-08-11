@@ -139,12 +139,12 @@
            given={E.\bibnamedelimi M.},
            giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=2}}%
-        {{un=2,uniquepart=given,hash=8a3757234d0da34885bd3f689a2152e1}{%
+        {{un=0,uniquepart=base,hash=8a3757234d0da34885bd3f689a2152e1}{%
            family={Bentz},
            familyi={B\bibinitperiod},
            given={M.\bibnamedelimi C.},
            giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=c06e6d6ec9f60574b45d7259c69746c2}{%
            family={Kara},
            familyi={K\bibinitperiod},
@@ -410,94 +410,56 @@
       \verb 1806.04680
       \endverb
     \endentry
-    \entry{horne2021space}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
+    \entry{horne2004observational}{article}{}{}
+      \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=b280757d1dfa5a202db66fb59c20508d}{%
            family={Horne},
            familyi={H\bibinitperiod},
            given={Keith},
            giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dc623ec013337b2d625c7d5ae37bbe1a}{%
-           family={De\bibnamedelima Rosa},
-           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={G},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=b5f638db922a8b0fe518065b7d8659b9}{%
+        {{un=0,uniquepart=base,hash=d9235e6cf41f9306904f873b2af9a74f}{%
            family={Peterson},
            familyi={P\bibinitperiod},
-           given={BM},
-           giveni={B\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=9e36c7eec9b3643fc90e15d9669d0b63}{%
-           family={Barth},
-           familyi={B\bibinitperiod},
-           given={AJ},
-           giveni={A\bibinitperiod},
+           given={Bradley\bibnamedelima M},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8c466fef6277ac98b583891b6a8d2d79}{%
-           family={Ely},
-           familyi={E\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=abcc5e91b4fac2bbb9c54122017ec2ca}{%
-           family={Fausnaugh},
-           familyi={F\bibinitperiod},
-           given={MM},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=25123e2078c401ba6c2181a8d764ad4a}{%
-           family={Kriss},
-           familyi={K\bibinitperiod},
-           given={GA},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a280f9458cf80590009d2c004ae73434}{%
-           family={Pei},
-           familyi={P\bibinitperiod},
-           given={L},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=8a3757234d0da34885bd3f689a2152e1}{%
-           family={Bentz},
-           familyi={B\bibinitperiod},
-           given={MC},
-           giveni={M\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=433fa9004c12c8f1e82cce2128c76e00}{%
-           family={Cackett},
+        {{un=0,uniquepart=base,hash=e1c61693e721745534d3d77bef00cda3}{%
+           family={Collier},
            familyi={C\bibinitperiod},
-           given={EM},
-           giveni={E\bibinitperiod},
-           givenun=1}}%
+           given={Stefan\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76b977acc7aedd6db01b638808b18aa6}{%
+           family={Netzer},
+           familyi={N\bibinitperiod},
+           given={Hagai},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {IOP Publishing}%
       }
       \strng{namehash}{c1246c6ab87c6f43156e6d085aaa6efa}
-      \strng{fullhash}{28347ab49862a03f85fbd653b328dcc2}
-      \strng{fullhashraw}{28347ab49862a03f85fbd653b328dcc2}
+      \strng{fullhash}{a289f5f22fd585a395d1f688aca378c5}
+      \strng{fullhashraw}{a289f5f22fd585a395d1f688aca378c5}
       \strng{bibnamehash}{c1246c6ab87c6f43156e6d085aaa6efa}
       \strng{authorbibnamehash}{c1246c6ab87c6f43156e6d085aaa6efa}
       \strng{authornamehash}{c1246c6ab87c6f43156e6d085aaa6efa}
-      \strng{authorfullhash}{28347ab49862a03f85fbd653b328dcc2}
-      \strng{authorfullhashraw}{28347ab49862a03f85fbd653b328dcc2}
+      \strng{authorfullhash}{a289f5f22fd585a395d1f688aca378c5}
+      \strng{authorfullhashraw}{a289f5f22fd585a395d1f688aca378c5}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{The Astrophysical Journal}
-      \field{number}{2}
-      \field{title}{Space telescope and optical reverberation mapping project. IX. velocity--delay maps for broad emission lines in NGC 5548}
-      \field{volume}{907}
-      \field{year}{2021}
-      \field{pages}{76}
+      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
+      \field{number}{819}
+      \field{title}{Observational Requirements for High-Fidelity Reverberation Mapping}
+      \field{volume}{116}
+      \field{year}{2004}
+      \field{pages}{465}
       \range{pages}{1}
     \endentry
     \entry{mo2010galaxy}{book}{}{}
@@ -577,6 +539,75 @@
       \field{title}{The Physics and Evolution of Active Galactic Nuclei}
       \field{year}{2013}
     \endentry
+    \entry{onken2004}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=c34481958cc29b50a8dfc6e15a67a4c7}{%
+           family={Onken},
+           familyi={O\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1833e6a639e927ec69ebe7095edc6c6}{%
+           family={Ferrarese},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f2a3c154b6cffea88252433118031a0}{%
+           family={Merritt},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c16c33071ce888e53237db94dd9036b}{%
+           family={Pogge},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e828d465d46d2804b2f545e24b924f1b}{%
+           family={Vestergaard},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7c6439f8bf3549d55ff7ea6f8df5466}{%
+           family={Wandel},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36030c6b3010f89aa57e64aac3926834}
+      \strng{fullhash}{312a54a360fe4bf8c90569e6926c91da}
+      \strng{fullhashraw}{312a54a360fe4bf8c90569e6926c91da}
+      \strng{bibnamehash}{36030c6b3010f89aa57e64aac3926834}
+      \strng{authorbibnamehash}{36030c6b3010f89aa57e64aac3926834}
+      \strng{authornamehash}{36030c6b3010f89aa57e64aac3926834}
+      \strng{authorfullhash}{312a54a360fe4bf8c90569e6926c91da}
+      \strng{authorfullhashraw}{312a54a360fe4bf8c90569e6926c91da}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{Supermassive Black Holes in Active Galactic Nuclei. II. Calibration of the Black Hole Mass-Velocity Dispersion Relationship for Active Galactic Nuclei}
+      \field{volume}{615}
+      \field{year}{2004}
+      \field{pages}{645\bibrangedash 651}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1086/424655
+      \endverb
+    \endentry
     \entry{osterbrock1989agn}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=daffba04697d6726263faa59c68a7a5b}{%
@@ -647,6 +678,201 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1086/163513
+      \endverb
+    \endentry
+    \entry{peterson1993}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{b5f638db922a8b0fe518065b7d8659b9}
+      \strng{fullhash}{b5f638db922a8b0fe518065b7d8659b9}
+      \strng{fullhashraw}{b5f638db922a8b0fe518065b7d8659b9}
+      \strng{bibnamehash}{b5f638db922a8b0fe518065b7d8659b9}
+      \strng{authorbibnamehash}{b5f638db922a8b0fe518065b7d8659b9}
+      \strng{authornamehash}{b5f638db922a8b0fe518065b7d8659b9}
+      \strng{authorfullhash}{b5f638db922a8b0fe518065b7d8659b9}
+      \strng{authorfullhashraw}{b5f638db922a8b0fe518065b7d8659b9}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
+      \field{title}{Reverberation Mapping of Active Galactic Nuclei}
+      \field{volume}{105}
+      \field{year}{1993}
+      \field{pages}{247\bibrangedash 268}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1086/133140
+      \endverb
+    \endentry
+    \entry{peterson2004}{article}{}{}
+      \name{author}{12}{ul=2}{%
+        {{un=2,uniquepart=given,hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=d1833e6a639e927ec69ebe7095edc6c6}{%
+           family={Ferrarese},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59b33c7c40db7255b174647e0f91e7ae}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9986bc29611ff8e83e2f6d1e1312b8c0}{%
+           family={Kaspi},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c1fbe3f1f5fd272ec79237290a61db5}{%
+           family={Malkan},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87f95afe88c60c9c0214abdacf8fb47b}{%
+           family={Maoz},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f2a3c154b6cffea88252433118031a0}{%
+           family={Merritt},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cf43bf9f4da46530fd6550086c2ff44}{%
+           family={Netzer},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c34481958cc29b50a8dfc6e15a67a4c7}{%
+           family={Onken},
+           familyi={O\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c16c33071ce888e53237db94dd9036b}{%
+           family={Pogge},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e828d465d46d2804b2f545e24b924f1b}{%
+           family={Vestergaard},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7c6439f8bf3549d55ff7ea6f8df5466}{%
+           family={Wandel},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee42348ab6ef63a60d9efc644313ccb3}
+      \strng{fullhash}{21fb0042c9ebeaeed15fb4627ed0afec}
+      \strng{fullhashraw}{21fb0042c9ebeaeed15fb4627ed0afec}
+      \strng{bibnamehash}{ee42348ab6ef63a60d9efc644313ccb3}
+      \strng{authorbibnamehash}{ee42348ab6ef63a60d9efc644313ccb3}
+      \strng{authornamehash}{ee42348ab6ef63a60d9efc644313ccb3}
+      \strng{authorfullhash}{21fb0042c9ebeaeed15fb4627ed0afec}
+      \strng{authorfullhashraw}{21fb0042c9ebeaeed15fb4627ed0afec}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{Central Masses and Broad-Line Region Sizes of Active Galactic Nuclei. II. A Homogeneous Analysis of a Large Reverberation-Mapping Database}
+      \field{volume}{613}
+      \field{year}{2004}
+      \field{pages}{682\bibrangedash 699}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1086/423269
+      \endverb
+    \endentry
+    \entry{peterson1998}{article}{}{}
+      \name{author}{6}{ul=2}{%
+        {{un=2,uniquepart=given,hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=48bb86fb10042d860ab893149119600f}{%
+           family={Wanders},
+           familyi={W\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf13c17a4a01a025bf50344ecd83c718}{%
+           family={Bertram},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ba16c7f2e31754274f5a2ae3597012f}{%
+           family={Hunley},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c16c33071ce888e53237db94dd9036b}{%
+           family={Pogge},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2daeb76576e70e193a53d2879c5f23f}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8fe866f5743983e5a02ac709105b2583}
+      \strng{fullhash}{0d6ca690c5cd2b6e170d736076f2c370}
+      \strng{fullhashraw}{0d6ca690c5cd2b6e170d736076f2c370}
+      \strng{bibnamehash}{8fe866f5743983e5a02ac709105b2583}
+      \strng{authorbibnamehash}{8fe866f5743983e5a02ac709105b2583}
+      \strng{authornamehash}{8fe866f5743983e5a02ac709105b2583}
+      \strng{authorfullhash}{0d6ca690c5cd2b6e170d736076f2c370}
+      \strng{authorfullhashraw}{0d6ca690c5cd2b6e170d736076f2c370}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{Optical Continuum and Emission-Line Variability of Seyfert 1 Galaxies}
+      \field{volume}{501}
+      \field{year}{1998}
+      \field{pages}{82\bibrangedash 93}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1086/305813
       \endverb
     \endentry
     \entry{peterson1997introduction}{book}{}{}

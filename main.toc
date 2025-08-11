@@ -12,20 +12,19 @@
 \contentsline {subsection}{\numberline {2.1.4}Variability}{11}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}Reverberation Mapping}{12}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Principle}{12}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Transferfunction}{13}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Cross-Correlation Function}{13}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Black-Hole Mass}{13}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Bowen Fluorescence}{13}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Campaign and Analysis}{14}{chapter.3}%
-\contentsline {section}{\numberline {3.1}NGC4593}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}2016 Campaign by E. M. Cackett}{14}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Intercalibration}{15}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Reverberation Analysis of NGC4593}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}AVG- and RMS-Spectrum}{16}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Lightcurves}{16}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Continua}{16}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Emission Lines}{16}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Line Profiles}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Time Lag and BH Masses}{16}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Bowen Fluorescence}{16}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.5}%
+\contentsline {subsection}{\numberline {2.2.2}Cross-Correlation Function and Lag Measurement}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Black-Hole Mass}{13}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Bowen Fluorescence}{14}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Campaign and Analysis}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}NGC4593}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}2016 Campaign by E. M. Cackett}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Intercalibration}{17}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Reverberation Analysis of NGC4593}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}AVG- and RMS-Spectrum}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Lightcurves}{18}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Continua}{18}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Emission Lines}{18}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Line Profiles}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Time Lag and BH Masses}{18}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Bowen Fluorescence}{18}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion}{19}{chapter.5}%

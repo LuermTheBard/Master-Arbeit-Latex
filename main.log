@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  8 AUG 2025 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  11 AUG 2025 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,7 +817,7 @@ Overfull \hbox (2.94165pt too wide) in paragraph at lines 15--16
 -per-mas-sive black hole (SMBH),
  []
 
-<pictures/Chapter2/AGN_standard_paradigm.png, id=181, 1444.64719pt x 627.84563p
+<pictures/Chapter2/AGN_standard_paradigm.png, id=176, 1444.64719pt x 627.84563p
 t>
 File: pictures/Chapter2/AGN_standard_paradigm.png Graphic file (type png)
 <use pictures/Chapter2/AGN_standard_paradigm.png>
@@ -853,7 +853,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--79
 
  []
 
-<pictures/Chapter2/AGN_unified_model.jpg, id=256, 652.4375pt x 505.89pt>
+<pictures/Chapter2/AGN_unified_model.jpg, id=251, 652.4375pt x 505.89pt>
 File: pictures/Chapter2/AGN_unified_model.jpg Graphic file (type jpg)
 <use pictures/Chapter2/AGN_unified_model.jpg>
 Package pdftex.def Info: pictures/Chapter2/AGN_unified_model.jpg  used on input
@@ -864,27 +864,36 @@ Package pdftex.def Info: pictures/Chapter2/AGN_unified_model.jpg  used on input
 [10]
 
 [11 <./pictures/Chapter2/AGN_unified_model.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
+
+ []
+
+
 
 [12{C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.e
-nc}]) (chapters/kapitel2.tex
+nc}]
 
 [13]
+
+[14]) (chapters/kapitel2.tex
+
+[15]
 Chapter 3.
-<pictures/Chapter3/NGC4593.PNG, id=298, 835.62187pt x 599.23875pt>
+<pictures/Chapter3/NGC4593.PNG, id=320, 835.62187pt x 599.23875pt>
 File: pictures/Chapter3/NGC4593.PNG Graphic file (type png)
 <use pictures/Chapter3/NGC4593.PNG>
 Package pdftex.def Info: pictures/Chapter3/NGC4593.PNG  used on input line 12.
 (pdftex.def)             Requested size: 213.39568pt x 153.02788pt.
 
 
-[14
+[16
 
  <./pictures/Chapter3/NGC4593.PNG>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 28.
 ) (chapters/kapitel3.tex
 
-[15]
+[17]
 Chapter 4.
 
 Overfull \hbox (47.14755pt too wide) in paragraph at lines 1--1
@@ -893,13 +902,13 @@ Overfull \hbox (47.14755pt too wide) in paragraph at lines 1--1
 
 ) (chapters/kapitel4.tex
 
-[16
+[18
 
 ]
 Chapter 5.
 )
 
-[17
+[19
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
@@ -920,35 +929,28 @@ and I'll forget about whatever was undefined.
 
 
 
-[18
+[20
 
-] (chapters/anhang.tex)
+]
 
-[19] (main.aux)
+[21] (chapters/anhang.tex)
+
+[22] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3D869D0B3E424946DAD730DF8253FEB7;3870.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 3F19DBD83C3BDC22F9DB97EB7F27C876;3837.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18997 strings out of 468225
- 333115 string characters out of 5432973
- 1174951 words of memory out of 5000000
- 47193 multiletter control sequences out of 15000+600000
+ 19031 strings out of 468225
+ 333932 string characters out of 5432973
+ 1176270 words of memory out of 5000000
+ 47217 multiletter control sequences out of 15000+600000
  698258 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,9n,67p,1381b,1699s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -965,9 +967,9 @@ b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (21 pages, 1375666 bytes).
+Output written on main.pdf (24 pages, 1392025 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 475 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
