@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,46 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global/global}
-    \entry{antonucci1993unified}{article}{}{}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{anderson2010empirical}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7468e98aef939789b7ffe052c7016425}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59359b0959f93b4a2998ca9d15a061cb}{%
+           family={Bedin},
+           familyi={B\bibinitperiod},
+           given={Luigi\bibnamedelima R},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{41dcfca968d237b001bd6feb2263eb5c}
+      \strng{fullhash}{41dcfca968d237b001bd6feb2263eb5c}
+      \strng{bibnamehash}{41dcfca968d237b001bd6feb2263eb5c}
+      \strng{authorbibnamehash}{41dcfca968d237b001bd6feb2263eb5c}
+      \strng{authornamehash}{41dcfca968d237b001bd6feb2263eb5c}
+      \strng{authorfullhash}{41dcfca968d237b001bd6feb2263eb5c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
+      \field{number}{895}
+      \field{title}{An empirical pixel-based correction for imperfect cte. i. hst’s advanced camera for surveys1}
+      \field{volume}{122}
+      \field{year}{2010}
+      \field{pages}{1035}
+      \range{pages}{1}
+    \endentry
+    \entry{antonucci1993unified}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=565e2d447e8e9a73880c07fb89727e22}{%
            family={Antonucci},
@@ -30,16 +68,14 @@
       }
       \strng{namehash}{565e2d447e8e9a73880c07fb89727e22}
       \strng{fullhash}{565e2d447e8e9a73880c07fb89727e22}
-      \strng{fullhashraw}{565e2d447e8e9a73880c07fb89727e22}
       \strng{bibnamehash}{565e2d447e8e9a73880c07fb89727e22}
       \strng{authorbibnamehash}{565e2d447e8e9a73880c07fb89727e22}
       \strng{authornamehash}{565e2d447e8e9a73880c07fb89727e22}
       \strng{authorfullhash}{565e2d447e8e9a73880c07fb89727e22}
-      \strng{authorfullhashraw}{565e2d447e8e9a73880c07fb89727e22}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
@@ -52,7 +88,7 @@
       \verb 10.1146/annurev.aa.31.090193.002353
       \endverb
     \endentry
-    \entry{baldini2023}{article}{}{}
+    \entry{baldini2023}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{3}{}{%
@@ -77,16 +113,14 @@
       }
       \strng{namehash}{931ab56168bf85ad07c2c86c7e3e3744}
       \strng{fullhash}{931ab56168bf85ad07c2c86c7e3e3744}
-      \strng{fullhashraw}{931ab56168bf85ad07c2c86c7e3e3744}
       \strng{bibnamehash}{931ab56168bf85ad07c2c86c7e3e3744}
       \strng{authorbibnamehash}{931ab56168bf85ad07c2c86c7e3e3744}
       \strng{authornamehash}{931ab56168bf85ad07c2c86c7e3e3744}
       \strng{authorfullhash}{931ab56168bf85ad07c2c86c7e3e3744}
-      \strng{authorfullhashraw}{931ab56168bf85ad07c2c86c7e3e3744}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -98,7 +132,7 @@
       \verb 2507.05342
       \endverb
     \endentry
-    \entry{bowen1934}{article}{}{}
+    \entry{bowen1934}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ce4fc508ef106c5519cc0c1076b4fba2}{%
            family={Bowen},
@@ -109,16 +143,14 @@
       }
       \strng{namehash}{ce4fc508ef106c5519cc0c1076b4fba2}
       \strng{fullhash}{ce4fc508ef106c5519cc0c1076b4fba2}
-      \strng{fullhashraw}{ce4fc508ef106c5519cc0c1076b4fba2}
       \strng{bibnamehash}{ce4fc508ef106c5519cc0c1076b4fba2}
       \strng{authorbibnamehash}{ce4fc508ef106c5519cc0c1076b4fba2}
       \strng{authornamehash}{ce4fc508ef106c5519cc0c1076b4fba2}
       \strng{authorfullhash}{ce4fc508ef106c5519cc0c1076b4fba2}
-      \strng{authorfullhashraw}{ce4fc508ef106c5519cc0c1076b4fba2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
@@ -131,7 +163,7 @@
       \verb 10.1086/124349
       \endverb
     \endentry
-    \entry{Cackett2021}{article}{}{}
+    \entry{Cackett2021}{article}{}
       \name{author}{3}{}{%
         {{un=2,uniquepart=given,hash=433fa9004c12c8f1e82cce2128c76e00}{%
            family={Cackett},
@@ -154,16 +186,14 @@
       }
       \strng{namehash}{45a424635d619537201d5c0cbdb5e959}
       \strng{fullhash}{45a424635d619537201d5c0cbdb5e959}
-      \strng{fullhashraw}{45a424635d619537201d5c0cbdb5e959}
       \strng{bibnamehash}{45a424635d619537201d5c0cbdb5e959}
       \strng{authorbibnamehash}{45a424635d619537201d5c0cbdb5e959}
       \strng{authornamehash}{45a424635d619537201d5c0cbdb5e959}
       \strng{authorfullhash}{45a424635d619537201d5c0cbdb5e959}
-      \strng{authorfullhashraw}{45a424635d619537201d5c0cbdb5e959}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{iScience}
@@ -177,7 +207,7 @@
       \verb 10.1016/j.isci.2021.102557
       \endverb
     \endentry
-    \entry{cackett2018accretion}{article}{}{}
+    \entry{cackett2018accretion}{article}{}
       \name{author}{7}{}{%
         {{un=2,uniquepart=given,hash=0abdbe244884605d73631dcd4aaca091}{%
            family={Cackett},
@@ -227,16 +257,14 @@
       }
       \strng{namehash}{ccab224c21d12fc8e312e1ab8274a18c}
       \strng{fullhash}{0ab54d614aa23fef3cbad8715b4932ce}
-      \strng{fullhashraw}{0ab54d614aa23fef3cbad8715b4932ce}
       \strng{bibnamehash}{ccab224c21d12fc8e312e1ab8274a18c}
       \strng{authorbibnamehash}{ccab224c21d12fc8e312e1ab8274a18c}
       \strng{authornamehash}{ccab224c21d12fc8e312e1ab8274a18c}
       \strng{authorfullhash}{0ab54d614aa23fef3cbad8715b4932ce}
-      \strng{authorfullhashraw}{0ab54d614aa23fef3cbad8715b4932ce}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Astrophysical Journal}
@@ -247,7 +275,7 @@
       \field{pages}{53}
       \range{pages}{1}
     \endentry
-    \entry{fermi2025figure1}{online}{}{}
+    \entry{fermi2025figure1}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5e7a16507e2b6160d6d77893726b8dbf}{%
            family={{Fermi Gamma-ray Space Telescope}},
@@ -255,16 +283,14 @@
       }
       \strng{namehash}{5e7a16507e2b6160d6d77893726b8dbf}
       \strng{fullhash}{5e7a16507e2b6160d6d77893726b8dbf}
-      \strng{fullhashraw}{5e7a16507e2b6160d6d77893726b8dbf}
       \strng{bibnamehash}{5e7a16507e2b6160d6d77893726b8dbf}
       \strng{authorbibnamehash}{5e7a16507e2b6160d6d77893726b8dbf}
       \strng{authornamehash}{5e7a16507e2b6160d6d77893726b8dbf}
       \strng{authorfullhash}{5e7a16507e2b6160d6d77893726b8dbf}
-      \strng{authorfullhashraw}{5e7a16507e2b6160d6d77893726b8dbf}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Figure 1: Spectral Energy Distribution of an AGN}
@@ -280,7 +306,7 @@
       \verb https://fermi.gsfc.nasa.gov/science/eteu/agn/figure1.jpg
       \endverb
     \endentry
-    \entry{grandi1980}{article}{}{}
+    \entry{grandi1980}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e78ed445ca62304de583f8745f5f00d9}{%
            family={{Grandi}},
@@ -291,16 +317,14 @@
       }
       \strng{namehash}{e78ed445ca62304de583f8745f5f00d9}
       \strng{fullhash}{e78ed445ca62304de583f8745f5f00d9}
-      \strng{fullhashraw}{e78ed445ca62304de583f8745f5f00d9}
       \strng{bibnamehash}{e78ed445ca62304de583f8745f5f00d9}
       \strng{authorbibnamehash}{e78ed445ca62304de583f8745f5f00d9}
       \strng{authornamehash}{e78ed445ca62304de583f8745f5f00d9}
       \strng{authorfullhash}{e78ed445ca62304de583f8745f5f00d9}
-      \strng{authorfullhashraw}{e78ed445ca62304de583f8745f5f00d9}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{\apj}
@@ -315,7 +339,7 @@
       \endverb
       \keyw{Astronomical Spectroscopy,Infrared Spectra,Oxygen Spectra,Seyfert Galaxies,Emission Spectra,Fluorescence,H Alpha Line,Line Spectra,Lyman Spectra,Astronomy}
     \endentry
-    \entry{Hagen2024}{article}{}{}
+    \entry{Hagen2024}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fcb13e3e444b85a6cfe462928af01f37}{%
            family={Hagen},
@@ -344,16 +368,14 @@
       }
       \strng{namehash}{54b2c2665ff4d8a499e16ad52e48a22c}
       \strng{fullhash}{6c433a6cd309bf9b563677f003772d59}
-      \strng{fullhashraw}{6c433a6cd309bf9b563677f003772d59}
       \strng{bibnamehash}{54b2c2665ff4d8a499e16ad52e48a22c}
       \strng{authorbibnamehash}{54b2c2665ff4d8a499e16ad52e48a22c}
       \strng{authornamehash}{54b2c2665ff4d8a499e16ad52e48a22c}
       \strng{authorfullhash}{6c433a6cd309bf9b563677f003772d59}
-      \strng{authorfullhashraw}{6c433a6cd309bf9b563677f003772d59}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
@@ -366,7 +388,7 @@
       \verb 10.1093/mnras/stad3782
       \endverb
     \endentry
-    \entry{hickox2018obscured}{article}{}{}
+    \entry{hickox2018obscured}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=baa4c0f5f2a89ad9e175dc4b1d006d1f}{%
            family={Hickox},
@@ -383,16 +405,14 @@
       }
       \strng{namehash}{0a285cefb95126eeda5c88ccee24f987}
       \strng{fullhash}{0a285cefb95126eeda5c88ccee24f987}
-      \strng{fullhashraw}{0a285cefb95126eeda5c88ccee24f987}
       \strng{bibnamehash}{0a285cefb95126eeda5c88ccee24f987}
       \strng{authorbibnamehash}{0a285cefb95126eeda5c88ccee24f987}
       \strng{authornamehash}{0a285cefb95126eeda5c88ccee24f987}
       \strng{authorfullhash}{0a285cefb95126eeda5c88ccee24f987}
-      \strng{authorfullhashraw}{0a285cefb95126eeda5c88ccee24f987}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{astro-ph.GA}
@@ -410,7 +430,7 @@
       \verb 1806.04680
       \endverb
     \endentry
-    \entry{horne2004observational}{article}{}{}
+    \entry{horne2004observational}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=b280757d1dfa5a202db66fb59c20508d}{%
            family={Horne},
@@ -442,16 +462,14 @@
       }
       \strng{namehash}{c1246c6ab87c6f43156e6d085aaa6efa}
       \strng{fullhash}{a289f5f22fd585a395d1f688aca378c5}
-      \strng{fullhashraw}{a289f5f22fd585a395d1f688aca378c5}
       \strng{bibnamehash}{c1246c6ab87c6f43156e6d085aaa6efa}
       \strng{authorbibnamehash}{c1246c6ab87c6f43156e6d085aaa6efa}
       \strng{authornamehash}{c1246c6ab87c6f43156e6d085aaa6efa}
       \strng{authorfullhash}{a289f5f22fd585a395d1f688aca378c5}
-      \strng{authorfullhashraw}{a289f5f22fd585a395d1f688aca378c5}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
@@ -462,7 +480,7 @@
       \field{pages}{465}
       \range{pages}{1}
     \endentry
-    \entry{mo2010galaxy}{book}{}{}
+    \entry{mo2010galaxy}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=62dd07b7d6fb9752bc5227a473571359}{%
            family={Mo},
@@ -491,23 +509,21 @@
       }
       \strng{namehash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
       \strng{fullhash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
-      \strng{fullhashraw}{e04736dcc2d1ff2e493b3b5a88ed61d0}
       \strng{bibnamehash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
       \strng{authorbibnamehash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
       \strng{authornamehash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
       \strng{authorfullhash}{e04736dcc2d1ff2e493b3b5a88ed61d0}
-      \strng{authorfullhashraw}{e04736dcc2d1ff2e493b3b5a88ed61d0}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780521857932}
       \field{title}{Galaxy Formation and Evolution}
       \field{year}{2010}
     \endentry
-    \entry{netzer2013agn}{book}{}{}
+    \entry{netzer2013agn}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=76b977acc7aedd6db01b638808b18aa6}{%
            family={Netzer},
@@ -524,22 +540,20 @@
       }
       \strng{namehash}{76b977acc7aedd6db01b638808b18aa6}
       \strng{fullhash}{76b977acc7aedd6db01b638808b18aa6}
-      \strng{fullhashraw}{76b977acc7aedd6db01b638808b18aa6}
       \strng{bibnamehash}{76b977acc7aedd6db01b638808b18aa6}
       \strng{authorbibnamehash}{76b977acc7aedd6db01b638808b18aa6}
       \strng{authornamehash}{76b977acc7aedd6db01b638808b18aa6}
       \strng{authorfullhash}{76b977acc7aedd6db01b638808b18aa6}
-      \strng{authorfullhashraw}{76b977acc7aedd6db01b638808b18aa6}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Physics and Evolution of Active Galactic Nuclei}
       \field{year}{2013}
     \endentry
-    \entry{onken2004}{article}{}{}
+    \entry{onken2004}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=c34481958cc29b50a8dfc6e15a67a4c7}{%
            family={Onken},
@@ -586,16 +600,14 @@
       }
       \strng{namehash}{36030c6b3010f89aa57e64aac3926834}
       \strng{fullhash}{312a54a360fe4bf8c90569e6926c91da}
-      \strng{fullhashraw}{312a54a360fe4bf8c90569e6926c91da}
       \strng{bibnamehash}{36030c6b3010f89aa57e64aac3926834}
       \strng{authorbibnamehash}{36030c6b3010f89aa57e64aac3926834}
       \strng{authornamehash}{36030c6b3010f89aa57e64aac3926834}
       \strng{authorfullhash}{312a54a360fe4bf8c90569e6926c91da}
-      \strng{authorfullhashraw}{312a54a360fe4bf8c90569e6926c91da}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Astrophysical Journal}
@@ -608,7 +620,7 @@
       \verb 10.1086/424655
       \endverb
     \endentry
-    \entry{osterbrock1989agn}{book}{}{}
+    \entry{osterbrock1989agn}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=daffba04697d6726263faa59c68a7a5b}{%
            family={Osterbrock},
@@ -625,23 +637,21 @@
       }
       \strng{namehash}{daffba04697d6726263faa59c68a7a5b}
       \strng{fullhash}{daffba04697d6726263faa59c68a7a5b}
-      \strng{fullhashraw}{daffba04697d6726263faa59c68a7a5b}
       \strng{bibnamehash}{daffba04697d6726263faa59c68a7a5b}
       \strng{authorbibnamehash}{daffba04697d6726263faa59c68a7a5b}
       \strng{authornamehash}{daffba04697d6726263faa59c68a7a5b}
       \strng{authorfullhash}{daffba04697d6726263faa59c68a7a5b}
-      \strng{authorfullhashraw}{daffba04697d6726263faa59c68a7a5b}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780935702111}
       \field{title}{Astrophysics of Gaseous Nebulae and Active Galactic Nuclei}
       \field{year}{1989}
     \endentry
-    \entry{osterbrock1985nls1}{article}{}{}
+    \entry{osterbrock1985nls1}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=daffba04697d6726263faa59c68a7a5b}{%
            family={Osterbrock},
@@ -658,16 +668,14 @@
       }
       \strng{namehash}{ce395e561e3e65073fd1665f6dd08f55}
       \strng{fullhash}{ce395e561e3e65073fd1665f6dd08f55}
-      \strng{fullhashraw}{ce395e561e3e65073fd1665f6dd08f55}
       \strng{bibnamehash}{ce395e561e3e65073fd1665f6dd08f55}
       \strng{authorbibnamehash}{ce395e561e3e65073fd1665f6dd08f55}
       \strng{authornamehash}{ce395e561e3e65073fd1665f6dd08f55}
       \strng{authorfullhash}{ce395e561e3e65073fd1665f6dd08f55}
-      \strng{authorfullhashraw}{ce395e561e3e65073fd1665f6dd08f55}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Astrophysical Journal}
@@ -680,7 +688,7 @@
       \verb 10.1086/163513
       \endverb
     \endentry
-    \entry{peterson1993}{article}{}{}
+    \entry{peterson1993}{article}{}
       \name{author}{1}{}{%
         {{un=2,uniquepart=given,hash=b5f638db922a8b0fe518065b7d8659b9}{%
            family={Peterson},
@@ -691,16 +699,14 @@
       }
       \strng{namehash}{b5f638db922a8b0fe518065b7d8659b9}
       \strng{fullhash}{b5f638db922a8b0fe518065b7d8659b9}
-      \strng{fullhashraw}{b5f638db922a8b0fe518065b7d8659b9}
       \strng{bibnamehash}{b5f638db922a8b0fe518065b7d8659b9}
       \strng{authorbibnamehash}{b5f638db922a8b0fe518065b7d8659b9}
       \strng{authornamehash}{b5f638db922a8b0fe518065b7d8659b9}
       \strng{authorfullhash}{b5f638db922a8b0fe518065b7d8659b9}
-      \strng{authorfullhashraw}{b5f638db922a8b0fe518065b7d8659b9}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
@@ -713,7 +719,7 @@
       \verb 10.1086/133140
       \endverb
     \endentry
-    \entry{peterson2004}{article}{}{}
+    \entry{peterson2004}{article}{}
       \name{author}{12}{ul=2}{%
         {{un=2,uniquepart=given,hash=b5f638db922a8b0fe518065b7d8659b9}{%
            family={Peterson},
@@ -790,16 +796,14 @@
       }
       \strng{namehash}{ee42348ab6ef63a60d9efc644313ccb3}
       \strng{fullhash}{21fb0042c9ebeaeed15fb4627ed0afec}
-      \strng{fullhashraw}{21fb0042c9ebeaeed15fb4627ed0afec}
       \strng{bibnamehash}{ee42348ab6ef63a60d9efc644313ccb3}
       \strng{authorbibnamehash}{ee42348ab6ef63a60d9efc644313ccb3}
       \strng{authornamehash}{ee42348ab6ef63a60d9efc644313ccb3}
       \strng{authorfullhash}{21fb0042c9ebeaeed15fb4627ed0afec}
-      \strng{authorfullhashraw}{21fb0042c9ebeaeed15fb4627ed0afec}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Astrophysical Journal}
@@ -812,7 +816,7 @@
       \verb 10.1086/423269
       \endverb
     \endentry
-    \entry{peterson1998}{article}{}{}
+    \entry{peterson1998}{article}{}
       \name{author}{6}{ul=2}{%
         {{un=2,uniquepart=given,hash=b5f638db922a8b0fe518065b7d8659b9}{%
            family={Peterson},
@@ -853,16 +857,14 @@
       }
       \strng{namehash}{8fe866f5743983e5a02ac709105b2583}
       \strng{fullhash}{0d6ca690c5cd2b6e170d736076f2c370}
-      \strng{fullhashraw}{0d6ca690c5cd2b6e170d736076f2c370}
       \strng{bibnamehash}{8fe866f5743983e5a02ac709105b2583}
       \strng{authorbibnamehash}{8fe866f5743983e5a02ac709105b2583}
       \strng{authornamehash}{8fe866f5743983e5a02ac709105b2583}
       \strng{authorfullhash}{0d6ca690c5cd2b6e170d736076f2c370}
-      \strng{authorfullhashraw}{0d6ca690c5cd2b6e170d736076f2c370}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Astrophysical Journal}
@@ -875,7 +877,7 @@
       \verb 10.1086/305813
       \endverb
     \endentry
-    \entry{peterson1997introduction}{book}{}{}
+    \entry{peterson1997introduction}{book}{}
       \name{author}{1}{}{%
         {{un=2,uniquepart=given,hash=d9235e6cf41f9306904f873b2af9a74f}{%
            family={Peterson},
@@ -889,23 +891,21 @@
       }
       \strng{namehash}{d9235e6cf41f9306904f873b2af9a74f}
       \strng{fullhash}{d9235e6cf41f9306904f873b2af9a74f}
-      \strng{fullhashraw}{d9235e6cf41f9306904f873b2af9a74f}
       \strng{bibnamehash}{d9235e6cf41f9306904f873b2af9a74f}
       \strng{authorbibnamehash}{d9235e6cf41f9306904f873b2af9a74f}
       \strng{authornamehash}{d9235e6cf41f9306904f873b2af9a74f}
       \strng{authorfullhash}{d9235e6cf41f9306904f873b2af9a74f}
-      \strng{authorfullhashraw}{d9235e6cf41f9306904f873b2af9a74f}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780521473484}
       \field{title}{An Introduction to Active Galactic Nuclei}
       \field{year}{1997}
     \endentry
-    \entry{ricci2022changinglook}{article}{}{}
+    \entry{ricci2022changinglook}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=58aedb3a7437cd594c23ccd4a2a42853}{%
            family={Ricci},
@@ -952,16 +952,14 @@
       }
       \strng{namehash}{4ea9dd14adb710fa43b61c5d5e61941a}
       \strng{fullhash}{d02860c079f20b4e1d040e36a84941af}
-      \strng{fullhashraw}{d02860c079f20b4e1d040e36a84941af}
       \strng{bibnamehash}{4ea9dd14adb710fa43b61c5d5e61941a}
       \strng{authorbibnamehash}{4ea9dd14adb710fa43b61c5d5e61941a}
       \strng{authornamehash}{4ea9dd14adb710fa43b61c5d5e61941a}
       \strng{authorfullhash}{d02860c079f20b4e1d040e36a84941af}
-      \strng{authorfullhashraw}{d02860c079f20b4e1d040e36a84941af}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Astronomy}
@@ -974,7 +972,7 @@
       \verb 10.1038/s41550-022-01796-7
       \endverb
     \endentry
-    \entry{selvelli2007}{article}{}{}
+    \entry{selvelli2007}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fc6f90db036e8f2802a68171fda6dab4}{%
            family={Selvelli},
@@ -1003,16 +1001,14 @@
       }
       \strng{namehash}{80846c843910b3021819010deb68d3cf}
       \strng{fullhash}{deb713111e2289ccb567eb3631240067}
-      \strng{fullhashraw}{deb713111e2289ccb567eb3631240067}
       \strng{bibnamehash}{80846c843910b3021819010deb68d3cf}
       \strng{authorbibnamehash}{80846c843910b3021819010deb68d3cf}
       \strng{authornamehash}{80846c843910b3021819010deb68d3cf}
       \strng{authorfullhash}{deb713111e2289ccb567eb3631240067}
-      \strng{authorfullhashraw}{deb713111e2289ccb567eb3631240067}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Astronomy and Astrophysics}
@@ -1025,7 +1021,7 @@
       \verb 10.1051/0004-6361:20066616
       \endverb
     \endentry
-    \entry{seyfert1943nuclear}{article}{}{}
+    \entry{seyfert1943nuclear}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c867b66d1004733d9d1079e5bbcc5f50}{%
            family={Seyfert},
@@ -1036,16 +1032,14 @@
       }
       \strng{namehash}{c867b66d1004733d9d1079e5bbcc5f50}
       \strng{fullhash}{c867b66d1004733d9d1079e5bbcc5f50}
-      \strng{fullhashraw}{c867b66d1004733d9d1079e5bbcc5f50}
       \strng{bibnamehash}{c867b66d1004733d9d1079e5bbcc5f50}
       \strng{authorbibnamehash}{c867b66d1004733d9d1079e5bbcc5f50}
       \strng{authornamehash}{c867b66d1004733d9d1079e5bbcc5f50}
       \strng{authorfullhash}{c867b66d1004733d9d1079e5bbcc5f50}
-      \strng{authorfullhashraw}{c867b66d1004733d9d1079e5bbcc5f50}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Astrophysical Journal}
@@ -1058,7 +1052,7 @@
       \verb 10.1086/144488
       \endverb
     \endentry
-    \entry{shakura1973black}{article}{}{}
+    \entry{shakura1973black}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b2bdc0c0f958beb2e5d0f3c6649a4187}{%
            family={Shakura},
@@ -1075,16 +1069,14 @@
       }
       \strng{namehash}{d993d271bac9eb80de0407199bdcd5bc}
       \strng{fullhash}{d993d271bac9eb80de0407199bdcd5bc}
-      \strng{fullhashraw}{d993d271bac9eb80de0407199bdcd5bc}
       \strng{bibnamehash}{d993d271bac9eb80de0407199bdcd5bc}
       \strng{authorbibnamehash}{d993d271bac9eb80de0407199bdcd5bc}
       \strng{authornamehash}{d993d271bac9eb80de0407199bdcd5bc}
       \strng{authorfullhash}{d993d271bac9eb80de0407199bdcd5bc}
-      \strng{authorfullhashraw}{d993d271bac9eb80de0407199bdcd5bc}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Astronomy and Astrophysics}
@@ -1094,7 +1086,7 @@
       \field{pages}{337\bibrangedash 355}
       \range{pages}{19}
     \endentry
-    \entry{simbaNGC4593}{online}{}{}
+    \entry{simbaNGC4593}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=eefafb9cf133300e92a791479bdfaec7}{%
            family={{SIMBAD}},
@@ -1102,16 +1094,14 @@
       }
       \strng{namehash}{eefafb9cf133300e92a791479bdfaec7}
       \strng{fullhash}{eefafb9cf133300e92a791479bdfaec7}
-      \strng{fullhashraw}{eefafb9cf133300e92a791479bdfaec7}
       \strng{bibnamehash}{eefafb9cf133300e92a791479bdfaec7}
       \strng{authorbibnamehash}{eefafb9cf133300e92a791479bdfaec7}
       \strng{authornamehash}{eefafb9cf133300e92a791479bdfaec7}
       \strng{authorfullhash}{eefafb9cf133300e92a791479bdfaec7}
-      \strng{authorfullhashraw}{eefafb9cf133300e92a791479bdfaec7}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{NGC4593}
@@ -1127,7 +1117,7 @@
       \verb https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC4593
       \endverb
     \endentry
-    \entry{stisgratings}{online}{}{}
+    \entry{stisgratings}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c000d1c3738d0c5397f8fead87c16ff2}{%
            family={{Space Telescope Science Institute}},
@@ -1135,16 +1125,14 @@
       }
       \strng{namehash}{c000d1c3738d0c5397f8fead87c16ff2}
       \strng{fullhash}{c000d1c3738d0c5397f8fead87c16ff2}
-      \strng{fullhashraw}{c000d1c3738d0c5397f8fead87c16ff2}
       \strng{bibnamehash}{c000d1c3738d0c5397f8fead87c16ff2}
       \strng{authorbibnamehash}{c000d1c3738d0c5397f8fead87c16ff2}
       \strng{authornamehash}{c000d1c3738d0c5397f8fead87c16ff2}
       \strng{authorfullhash}{c000d1c3738d0c5397f8fead87c16ff2}
-      \strng{authorfullhashraw}{c000d1c3738d0c5397f8fead87c16ff2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{STIS Instrument Handbook: Gratings}
@@ -1160,7 +1148,7 @@
       \verb https://hst-docs.stsci.edu/stisihb/chapter-13-spectroscopic-reference-material/13-3-gratings
       \endverb
     \endentry
-    \entry{Ulrich1997}{article}{}{}
+    \entry{Ulrich1997}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=882f1e2e505572140a3f290797bb0ef7}{%
            family={Ulrich},
@@ -1183,16 +1171,14 @@
       }
       \strng{namehash}{61c74679cd5aa4e8b3ce8f25a0e22969}
       \strng{fullhash}{61c74679cd5aa4e8b3ce8f25a0e22969}
-      \strng{fullhashraw}{61c74679cd5aa4e8b3ce8f25a0e22969}
       \strng{bibnamehash}{61c74679cd5aa4e8b3ce8f25a0e22969}
       \strng{authorbibnamehash}{61c74679cd5aa4e8b3ce8f25a0e22969}
       \strng{authornamehash}{61c74679cd5aa4e8b3ce8f25a0e22969}
       \strng{authorfullhash}{61c74679cd5aa4e8b3ce8f25a0e22969}
-      \strng{authorfullhashraw}{61c74679cd5aa4e8b3ce8f25a0e22969}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
@@ -1205,7 +1191,7 @@
       \verb 10.1146/annurev.astro.35.1.445
       \endverb
     \endentry
-    \entry{urry1995unified}{article}{}{}
+    \entry{urry1995unified}{article}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=4924ac32b98fd838bb0a92f38f857449}{%
            family={Urry},
@@ -1222,16 +1208,14 @@
       }
       \strng{namehash}{b848119f51b4c34958393c868f66b6c6}
       \strng{fullhash}{b848119f51b4c34958393c868f66b6c6}
-      \strng{fullhashraw}{b848119f51b4c34958393c868f66b6c6}
       \strng{bibnamehash}{b848119f51b4c34958393c868f66b6c6}
       \strng{authorbibnamehash}{b848119f51b4c34958393c868f66b6c6}
       \strng{authornamehash}{b848119f51b4c34958393c868f66b6c6}
       \strng{authorfullhash}{b848119f51b4c34958393c868f66b6c6}
-      \strng{authorfullhashraw}{b848119f51b4c34958393c868f66b6c6}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
