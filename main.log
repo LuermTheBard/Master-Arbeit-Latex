@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  13 AUG 2025 15:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  18 AUG 2025 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,15 +890,22 @@ File: pictures/Chapter3/NGC4593.PNG Graphic file (type png)
 Package pdftex.def Info: pictures/Chapter3/NGC4593.PNG  used on input line 18.
 (pdftex.def)             Requested size: 213.39568pt x 153.02788pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+
 
 [16
 
 {C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 34.
-) (chapters/kapitel3.tex
+(Font)              <10.95> on input line 35.
 
-[17 <./pictures/Chapter3/NGC4593.PNG>]
+
+[17 <./pictures/Chapter3/NGC4593.PNG>]) (chapters/kapitel3.tex
+
+[18]
 Chapter 4.
 
 Overfull \hbox (47.14755pt too wide) in paragraph at lines 1--1
@@ -907,13 +914,13 @@ Overfull \hbox (47.14755pt too wide) in paragraph at lines 1--1
 
 ) (chapters/kapitel4.tex
 
-[18
+[19
 
 ]
 Chapter 5.
 )
 
-[19
+[20
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
@@ -934,26 +941,26 @@ and I'll forget about whatever was undefined.
 
 
 
-[20
+[21
 
 ]
 
-[21] (chapters/anhang.tex)
+[22] (chapters/anhang.tex)
 
-[22] (main.aux)
+[23] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3F19DBD83C3BDC22F9DB97EB7F27C876;3837.
+(rerunfilecheck)             Checksum: D92C0C8EF5BEFB364F8BADAEE655BA74;4055.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19095 strings out of 468225
- 335839 string characters out of 5432973
+ 19096 strings out of 468225
+ 335846 string characters out of 5432973
  1176670 words of memory out of 5000000
  47272 multiletter control sequences out of 15000+600000
  698633 words of font info for 87 fonts, out of 8000000 for 9000
@@ -972,9 +979,9 @@ b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (24 pages, 1397439 bytes).
+Output written on main.pdf (25 pages, 1399074 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

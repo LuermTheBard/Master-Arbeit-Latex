@@ -1,6 +1,6 @@
 \chapter{Campaign and Analysis}
 \label{campaign_and_analysis}
-The Analysis of this campaign bases of the observation campaign of NGC4593 in 2016 by Edward M. Cackett \parencite{cackett2018accretion}. The observations took place between the 12th of July and the 6th of August with 26 successful observations and was performed with the Hubble Space Telescope (HST) using the Space Telescope Imaging Spectrograph (STIS). The following section will cover important properties of NGC4593 and the 2016 campaign.
+The Analysis of this campaign bases of the observation campaign of NGC4593 in 2016 by Edward M. Cackett \parencite{cackett2018accretion}. The observations took place between the 12th of July and the 6th of August with 26 successful observations out of 27 and was performed with the Hubble Space Telescope (HST) using the Space Telescope Imaging Spectrograph (STIS). The following section will cover important properties of NGC4593 and the 2016 campaign.
 
 \section{NGC4593}
 \label{NGC4593}
@@ -24,7 +24,8 @@ ALMA observations further reveal a central molecular gas reservoir of $\sim 10^8
 \label{Campaign_Cackett}
 
 E. M. Cackett's campaign was designed to study wavelength dependent continuum lags. Therefore, the STIS instrument on the Hubble Space Telescope was used with low-resolution gratings to measure a broad range of wavelengths. In each observation, spectra were taken using three different gratings: G140L, G430L, and G750L. These were used together with the $52'' \times 0.2''$ slit.\\
-The characteristics of the STIS gratings used in this analysis are summarized in Table \ref{tab:stis_gratings}. After a standard pipeline-processing, a package was used to do a Charge Transfer Inefficiency correction with an algorithm based on \parencite{anderson2010empirical}. The few left rest of hot pixels got manually removed by interpolating the flux of neighbor pixels.
+The characteristics of the STIS gratings used in this analysis are summarized in Table \ref{tab:stis_gratings}. After a standard pipeline-processing, a package was used to do a Charge Transfer Inefficiency correction with an algorithm based on \parencite{anderson2010empirical}. The few left rest of hot pixels got manually removed by interpolating the flux of neighbor pixels.\\
+
 
 \begin{table}[h!]
 	\centering
@@ -42,4 +43,9 @@ The characteristics of the STIS gratings used in this analysis are summarized in
 	\end{tabular}
 \end{table}
 
-\section{Intercalibration}
+\newpage
+
+\section{Intercalibration and extraction of AVG- and RMS-Spectrum}
+
+To perform a reverberation mapping analysis it is essential to have multiple observations of the object to analyze its variability. In case of the 2016 campaign of NGC 4593, 26 of the 27 observations are usable. The datasets were downloaded from the ... archive and the faulty observation removed for the further analysis.\\
+To make sure that there are only minimal fluctuations because of possible shifts in the calibration, an intercalibration was performed using the forbidden narrow line [O,\textsc{iii}] $\lambda5006$. For this, the spectrum taken at the Julian date 57584.578 was taken as reference to calibrate the other spectra. Based on the intercalibrated set, the average (AVG) spectrum and the root-mean-square (RMS) spectrum, which traces the variable component, were computed. The intercalibration was considered complete once the narrow lines had disappeared from the RMS spectrum. 
