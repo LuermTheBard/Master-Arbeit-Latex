@@ -48,18 +48,20 @@ The characteristics of the STIS gratings used in this analysis are summarized in
 
 \section{Intercalibration and Determination of AVG and RMS spectra}
 
-To perform a reverberation mapping analysis, it is essential to have multiple observations of the object to analyze its variability. For the 2016 campaign of NGC 4593, 26 out of 27 observations are usable. The epochs were downloaded from the ... archive, and the faulty observation was removed from further analysis. The top panel of Figure \ref{fig:comparison_spectra} shows parts of the optical spectral range of those epochs.\\
-For the subsequent analysis, an average spectrum (AVG) is obtained by averaging over all epochs. In the best case, this results in a signal-to-noise ratio that allows one to identify spectral features of NGC 4593's spectrum. Furthermore, it is essential to identify variability between the epochs, which can be obtained with the root-mean-square (RMS) spectrum. It is calculated as the standard deviation of the flux at each wavelength across all epochs:
+\section{Intercalibration and Determination of AVG and RMS Spectra}
+
+Reverberation mapping requires multiple epochs to capture variability. For the 2016 campaign of NGC 4593, we retrieved 27 spectra from the ... archive of which 26 are usable for further analysis. The top panel of Figure \ref{fig:comparison_spectra} shows a section between about $4000 \AA$ and $9000 \AA$ of the optical spectral range from these epochs.\\
+For the subsequent analysis, the average spectrum (AVG) is obtained by averaging over all epochs. Ideally, this improves the signal-to-noise ratio (S/N) sufficiently to identify spectral features in NGC 4593.  Furthermore it is essential for the reverberation mapping analysis to identify variability between the epochs, which can be obtained with the root-mean-spuare (RMS) spectrum, defined as the standard deviation of the flux at each wavelength across epochs:
 \begin{equation}
-	F_{\mathrm{RMS}}(\lambda) = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} \left(F_i(\lambda) - \bar{F}(\lambda)\right)^2 } \,,
+	F_{\mathrm{RMS}}(\lambda) = \sqrt{\frac{1}{N-1}\sum_{i=1}^{N}\left[F_i(\lambda)-\bar{F}(\lambda)\right]^2}\,,
 \end{equation}
-with the mean spectrum at wavelength $\lambda$:
+with the mean spectrum at wavelength $\lambda$ given by
 \begin{equation}
-	\bar{F}(\lambda) = \frac{1}{N} \sum_{i=1}^{N} F_i(\lambda) \,.
+	\bar{F}(\lambda) = \frac{1}{N}\sum_{i=1}^{N} F_i(\lambda)\,.
 \end{equation}
 
-Constant features, such as narrow emission lines, should disappear from the RMS spectrum, whereas variable features, like broad emission lines, become strongly enhanced. In the top panel of Figure \ref{fig:comparison_spectra_avg_rms}, the results of the AVG and RMS spectra of the original data are shown. However, the RMS spectrum still shows variation for non-varying lines, especially for the forbidden lines at about $5000\,\text{\AA}$. This indicates a wavelength shift between different epochs, which can be fixed by an intercalibration based on a narrow line. Here, it is convenient to use the forbidden line [O \textsc{iii}] $\lambda5007$ for the intercalibration. The lower panels of Figures \ref{fig:comparison_spectra} and \ref{fig:comparison_spectra_avg_rms} show the intercalibrated versions of the epochs, as well as the AVG and RMS spectra.\\
-While the difference is not easy to see in the direct comparison of epochs in Figure \ref{fig:comparison_spectra}, the RMS spectra of the intercalibrated epochs show no residual variation in the narrow lines, indicating that the earlier variation was indeed due to a wavelength shift. If not explicit mentioned, the intercalibrated version of the AVG- and RMS-spectra will be used in the following analysis.
+Constant features, like narrow emission lines, vanishes in the RMS spectrum, whereas variable components, like broad emission lines stands out. The top panel of Figure \ref{fig:comparison_spectra_avg_rms} shows the AVG and RMS spectra from the original retrieved data. It showes, that residual variability remains in nominally non-varying lines, especially in the forbidden features near $5000\,\text{\AA}$. This indicates small wavelength misalignment between epochs. Therefore an intercalibration anchored to the narrow [O~\textsc{iii}] $\lambda5007$ line was performed. The lower panels of Figures \ref{fig:comparison_spectra} and \ref{fig:comparison_spectra_avg_rms} present the intercalibrated epochs and the corresponding AVG and RMS spectra. The disappearance of narrow features in the calibrated RMS spectrum confirms that the apparent variability in the uncalibrated RMS was induced by the wavelength shifts between the epochs rather than intrinsic line variability. Unless explicitly stated otherwise, the intercalibrated AVG and RMS spectra are used in the following analysis.
+
 \newpage
 \begin{figure}[!ht]
 	\centering
