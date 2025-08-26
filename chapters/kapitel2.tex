@@ -45,7 +45,49 @@ The characteristics of the STIS gratings used in this analysis are summarized in
 
 \newpage
 
-\section{Intercalibration and extraction of AVG- and RMS-Spectrum}
 
-To perform a reverberation mapping analysis it is essential to have multiple observations of the object to analyze its variability. In case of the 2016 campaign of NGC 4593, 26 of the 27 observations are usable. The datasets were downloaded from the ... archive and the faulty observation removed for the further analysis.\\
-To make sure that there are only minimal fluctuations because of possible shifts in the calibration, an intercalibration was performed using the forbidden narrow line [O,\textsc{iii}] $\lambda5006$. For this, the spectrum taken at the Julian date 57584.578 was taken as reference to calibrate the other spectra. Based on the intercalibrated set, the average (AVG) spectrum and the root-mean-square (RMS) spectrum, which traces the variable component, were computed. The intercalibration was considered complete once the narrow lines had disappeared from the RMS spectrum. 
+\section{Intercalibration and Determination of AVG- and RMS-Spectrum} 
+
+To perform a reverberation mapping analysis it is essential to have multiple observations of the object to analyze its variability. In case of the 2016 campaign of NGC 4593, 26 of the 27 observations are usable. The epochs were downloaded from the ... archive and the faulty observation removed for the further analysis. The top panel of figure \ref{fig:comparison_spectra} shows parts of the optical spectral range of those epochs.\\
+For the further analysis an average spectrum AVG gets obtained by averaging over all those epochs. In the best case this results in a signal-to-noise ratio in which it is possible to identify spectral features of NGC 4593s spectrum. Furthermore it is essential to identify variability between the epochs, which can be optained with the root-mean-spuare (RMS) spectrum. It is calculated as the standard deviation of the flux at each wavelength across all epochs:
+
+\begin{equation}
+	F_{\mathrm{RMS}}\left(\lambda\right) = \sqrt[]{\frac{1}{N-1}\sum_{N}^{i=1}\left(F_i\left(\lambda\right)- \bar{F}{\left(\lambda\right)}\right)^2}
+\end{equation}
+
+with the mean spectrum at $\lambda$:
+
+\begin{equation}
+	\bar{F} = \frac{1}{N} \sum_{N}^{i=1} F_i\left(\lambda\right)
+\end{equation}
+Constant features, such as narrow emission lines should be disappearing from the spectrum while Variable features, like the broad emission lines become strongly enhanced.\\
+In the top panel of figure \ref{fig:comparison_spectra_avg_rms} the results of the AVG and RMS spectrum of the original data can be found. However the RMS spectrum shows still variation for not variating lines, especially for the forbidden lines at about $5000 \AA$.
+
+
+
+
+
+
+
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter3/comparison_spectra}
+	\caption{Comparison of the optical spectral range of the original spectra and the [O \textsc{iii}] $\lambda5007$ intercalibrated spectra from the 2016 campaign of NGC 4593.}
+	\label{fig:comparison_spectra}
+\end{figure}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter3/comparison_avg_rms}
+	\caption{Comparison of the optical spectral range of the avg and rms spectra from the original data and the [O \textsc{iii}] $\lambda5007$ intercalibrated data from the 2016 campaign of NGC 4593.}
+	\label{fig:comparison_spectra_avg_rms}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\makebox[\textwidth][c]{%
+		\includegraphics[width=1.2\textwidth]{pictures/Chapter3/avg_rms_spec.pdf}}
+	\caption{AVG RMS spectrum}
+	\label{fig:AVG_RMS_SPECTRUM}
+\end{figure}
