@@ -4,9 +4,17 @@
 \section{Active Galactic Nuclei}
 \label{sec:agn}
 
-What are Active Galactic Nuclei (AGN)? An AGN refers to the central region of a galaxy that is exceptionally bright and energetic. These regions are among the most luminous objects in the universe, with bolometric luminosities ranging from $10^{41}$ to $10^{48} \ \mathrm{erg \ s^{-1}}$, outshining entire galaxies by several orders of magnitude \parencite{peterson1997introduction}.
-Its emission spans the entire electromagnetic spectrum and is powered by the accretion of matter onto the supermassive black hole in the center of the AGN. The most common model for this accretion is a hot, rotating accretion disk around the SMBH, which is responsible for most of the observed radiation \parencite{shakura1973black}.\\
-To provide a basic understanding of the structure and physical processes within AGN, the following sections outline their key components, introduce the unification model that connects various AGN types, and summarize common classification schemes. Particular emphasis is placed on AGN variability, which plays a central role in the reverberation mapping analysis conducted in this thesis.
+Active Galactic Nuclei (AGN) refers to the central region of active Galaxies. Those objects are among the most luminous objects in the universe, with bolometric luminosities ranging from $10^{41}$ to $10^{48} \ \mathrm{erg \ s^{-1}}$, outshining entire galaxies by several orders of magnitude \parencite{peterson1997introduction}.First explanation tries were unusually dense star clusters or repeated supernova explosions as power sources, but these models soon proved insufficient to account for the observed luminosities, which spans over the entire electromagnetic spectrum. Today it is understood, that these enormous luminosities are powered by accretion of matter onto a supermassive black hole (SMBH) in the center of the AGN. The most common model for this accretion is a hot, rotating accretion disk around the SMBH, which is responsible for most of the observed radiation \parencite{shakura1973black}.\\
+To provide a basic understanding of the structure and physical processes within AGN, the following sections will outline the key components, introduce the unification model that connects various AGN types, and summarize common classification schemes. A special focus will be on AGN variability, which plays a central role in the reverberation mapping analysis conducted in this thesis.
+
+
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.75\textwidth]{pictures/Chapter2/AGN_standard_paradigm.png}
+	\caption{Different components of an AGN. Adapted from \textcite{mo2010galaxy} Figure 14.3.}
+	\label{fig:agn_structure_mo}
+\end{figure}
 
 
 \subsection{Structure and spectral Features of an AGN}
@@ -14,12 +22,6 @@ To provide a basic understanding of the structure and physical processes within 
 
 The structure of an AGN consists of several components, which are illustrated schematically in Figure \ref{fig:agn_structure_mo}. These include a central supermassive black hole (SMBH), an accretion disk that feeds the SMBH, a surrounding dusty torus, and ionized gas regions known as the broad-line region (BLR) and narrow-line region (NLR). In some AGNs, powerful relativistic jets are launched perpendicular to the accretion disk. However, these jets will not be discussed further in this section, as they are not relevant to the scope of this thesis. 
 
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.8\textwidth]{pictures/Chapter2/AGN_standard_paradigm.png}
-	\caption{Different components of an AGN. Adapted from \textcite{mo2010galaxy} Figure 14.3.}
-	\label{fig:agn_structure_mo}
-\end{figure}
 
 \subsubsection{Supermassive Black Hole and Accretion Disk}
 
@@ -27,7 +29,6 @@ The structure of an AGN consists of several components, which are illustrated sc
 The center of an AGN is occupied by a supermassive black hole (SMBH), with masses typically ranging from $10^6\,M_\odot$ to more than $10^{10}\,M_\odot$. While the SMBH itself does not emit radiation, it dominates the gravitational potential in the innermost regions and acts as the central engine for all observed AGN phenomena. The matter from the surrounding accretion disk slowly spirals inward toward the SMBH due to angular momentum transport driven by viscosity inside the disk. The accretion disk itself is a geometrically thin and optically thick structure composed of ionized gas in differential rotation around the SMBH \parencite{shakura1973black}. The disk's composition is primarily ionized hydrogen and helium, with traces of heavier elements \parencite{netzer2013agn}. It extends from the innermost stable circular orbit (ISCO) near the event horizon out to distances of several light-days. The radial extent of the disk is relatively small on galactic scales, typically ranging from a few light-hours to a few light-days, corresponding to about $10^{-3}$ to $10^{-2}$\,pc \parencite{netzer2013agn,hickox2018obscured}.  \\
 During the accretion process, gravitational potential energy is converted into heat, causing the disk to reach very high temperatures. As a result, a significant fraction of the gravitational energy of the matter is transformed into thermal radiation, which accounts for the enormous luminosity observed in AGNs and heats the accretion disk depending on the size of the SMBH. While the maximum effective temperature for an accretion disk around a SMBH with $M = 10^8\,M_\odot$ is on the order of several $\times 10^5$ K, leading to UV emission and optical emission. In comparison, disks around stellar-mass black holes reach much higher temperatures (up to a few $\times 10^6$\,K), emitting mostly in X-rays \parencite{netzer2013agn}. Due to the temperature gradient with hotter regions in the inner disk, the emitted spectrum can not be described as a single blackbody. Instead, it results from combination of many blackbody-like components at different temperatures, often referred to as a multi-color blackbody. This creates a broad optical-UV continuum that cannot be fully described by simple blackbody radiation. In addition, processes like electron scattering and relativistic effects near the black hole further modify the shape of the spectrum \parencite{netzer2013agn}.
 The ionizing photons, emitted by the continuum, play a crucial role for other spectral features. They interact with the surrounding gas clouds near the nucleus, causing photo-ionization followed by recombination. This process leads to different kinds of strong emission lines, which are characteristic features of AGN spectra \parencite{osterbrock1989agn}.
-
 
 
 \subsubsection{Broad-Line and Narrow-Line Region}

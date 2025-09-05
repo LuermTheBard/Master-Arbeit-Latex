@@ -46,11 +46,9 @@ The characteristics of the STIS gratings used in this analysis are summarized in
 \newpage
 
 
-\section{Intercalibration and Determination of AVG and RMS spectra}
-
 \section{Intercalibration and Determination of AVG and RMS Spectra}
 
-Reverberation mapping requires multiple epochs to capture variability. For the 2016 campaign of NGC 4593, we retrieved 27 spectra from the ... archive of which 26 are usable for further analysis. The top panel of Figure \ref{fig:comparison_spectra} shows a section between about $4000 \AA$ and $9000 \AA$ of the optical spectral range from these epochs.\\
+Reverberation mapping requires multiple epochs to capture variability. For the 2016 campaign of NGC 4593, we retrieved 27 spectra from the ... archive of which 26 are usable for further analysis. The top panel of Figure \ref{fig:comparison_spectra} shows a section between about $4000\,\text{\AA}$ and $9000\,\text{\AA}$ of the optical spectral range from these epochs.\\
 For the subsequent analysis, the average spectrum (AVG) is obtained by averaging over all epochs. Ideally, this improves the signal-to-noise ratio (S/N) sufficiently to identify spectral features in NGC 4593.  Furthermore it is essential for the reverberation mapping analysis to identify variability between the epochs, which can be obtained with the root-mean-spuare (RMS) spectrum, defined as the standard deviation of the flux at each wavelength across epochs:
 \begin{equation}
 	F_{\mathrm{RMS}}(\lambda) = \sqrt{\frac{1}{N-1}\sum_{i=1}^{N}\left[F_i(\lambda)-\bar{F}(\lambda)\right]^2}\,,
@@ -60,8 +58,7 @@ with the mean spectrum at wavelength $\lambda$ given by
 	\bar{F}(\lambda) = \frac{1}{N}\sum_{i=1}^{N} F_i(\lambda)\,.
 \end{equation}
 
-Constant features, like narrow emission lines, vanishes in the RMS spectrum, whereas variable components, like broad emission lines stands out. The top panel of Figure \ref{fig:comparison_spectra_avg_rms} shows the AVG and RMS spectra from the original retrieved data. It showes, that residual variability remains in nominally non-varying lines, especially in the forbidden features near $5000\,\text{\AA}$. This indicates small wavelength misalignment between epochs. Therefore an intercalibration anchored to the narrow [O~\textsc{iii}] $\lambda5007$ line was performed. The lower panels of Figures \ref{fig:comparison_spectra} and \ref{fig:comparison_spectra_avg_rms} present the intercalibrated epochs and the corresponding AVG and RMS spectra. The disappearance of narrow features in the calibrated RMS spectrum confirms that the apparent variability in the uncalibrated RMS was induced by the wavelength shifts between the epochs rather than intrinsic line variability. Unless explicitly stated otherwise, the intercalibrated AVG and RMS spectra are used in the following analysis.
-
+Constant features, like narrow emission lines, vanishes in the RMS spectrum, whereas variable components, like broad emission lines stands out. The top panel of Figure \ref{fig:comparison_spectra_avg_rms} shows the AVG and RMS spectra from the original retrieved data. It showes, that residual variability remains in nominally non-varying lines, especially in the forbidden features near $5000\,\text{\AA}$. This indicates small wavelength misalignment between epochs. Therefore an intercalibration anchored to the narrow [O \textsc{iii}] $\lambda5007$ line was performed. The lower panels of Figures \ref{fig:comparison_spectra} and \ref{fig:comparison_spectra_avg_rms} present the intercalibrated epochs and the corresponding AVG and RMS spectra. The disappearance of narrow features in the calibrated RMS spectrum confirms that the apparent variability in the uncalibrated RMS was induced by the wavelength shifts between the epochs rather than intrinsic line variability. For the most part, the intercalibrated AVG and RMS spectra are used in the following analysis. The exception will be for the measurement of the emission lines in the UV part of spectrum and their analysis. During the analysis of the UV emission lines it showed, that the results of the uncalibrated spectrum showed higher correlation then the results of the intercalibrated spectrum, which will be explained further in Chapter \ref{cap: Results}. 
 \newpage
 \begin{figure}[!ht]
 	\centering
