@@ -834,6 +834,64 @@
       \field{pages}{465}
       \range{pages}{1}
     \endentry
+    \entry{McHardy2006}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7a47a269066f0c20a224ee9c326bf259}{%
+           family={McHardy},
+           familyi={M\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5036c529334236a9cc91c9dfd49eaf11}{%
+           family={Koerding},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d38b08f1c12b3227cb52ea9473036672}{%
+           family={Knigge},
+           familyi={K\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=384281d0bb6da7740f5e245f4c2003dd}{%
+           family={Uttley},
+           familyi={U\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25e75bf0504a8f06d3c567f0b9d1f4fb}{%
+           family={Fender},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{fullhash}{a50a42b01b16542d74d64c01bd8719ff}
+      \strng{fullhashraw}{a50a42b01b16542d74d64c01bd8719ff}
+      \strng{bibnamehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{authorbibnamehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{authornamehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{authorfullhash}{a50a42b01b16542d74d64c01bd8719ff}
+      \strng{authorfullhashraw}{a50a42b01b16542d74d64c01bd8719ff}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7120}
+      \field{title}{Active galactic nuclei as scaled-up Galactic black holes}
+      \field{volume}{444}
+      \field{year}{2006}
+      \field{pages}{730\bibrangedash 732}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/nature05389
+      \endverb
+    \endentry
     \entry{mo2010galaxy}{book}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=62dd07b7d6fb9752bc5227a473571359}{%
