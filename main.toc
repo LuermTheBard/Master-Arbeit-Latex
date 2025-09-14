@@ -1,30 +1,30 @@
 \contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Scientific Background}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Active Galactic Nuclei}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Structure and spectral Features of an AGN}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Structure and Spectral Features of an AGN}{6}{subsection.2.1.1}%
 \contentsline {subsubsection}{Supermassive Black Hole and Accretion Disk}{6}{subsection.2.1.1}%
 \contentsline {subsubsection}{Broad-Line and Narrow-Line Region}{7}{subsection.2.1.1}%
-\contentsline {subsubsection}{Dusty Torus}{8}{subsection.2.1.1}%
+\contentsline {subsubsection}{Dusty Torus}{7}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Classification}{8}{subsection.2.1.2}%
-\contentsline {subsubsection}{Seyfert Galaxies}{9}{figure.2.2}%
-\contentsline {subsubsection}{Others}{10}{figure.2.2}%
+\contentsline {subsubsection}{Seyfert Galaxies}{8}{figure.2.2}%
+\contentsline {subsubsection}{Others}{9}{figure.2.2}%
 \contentsline {subsection}{\numberline {2.1.3}Unification Model}{10}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {2.1.4}Variability}{11}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Reverberation Mapping}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Principle}{13}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Cross-Correlation Function and Lag Measurement}{14}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.2}Reverberation Mapping}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Principle}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Cross-Correlation Function and Lag Measurement}{13}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Black-Hole Mass}{14}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Bowen Fluorescence}{15}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Campaign and Analysis}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}NGC4593}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}2016 Campaign by E. M. Cackett}{18}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Intercalibration and Determination of AVG and RMS Spectra}{19}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Line Determination}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Lightcurves}{23}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Continua}{23}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Emission Lines}{23}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Line Profiles}{23}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Time Lag and BH Masses}{23}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Bowen Fluorescence}{23}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion}{29}{chapter.5}%
+\contentsline {chapter}{\numberline {3}Campaign and Analysis}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}NGC4593}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}2016 Campaign by E. M. Cackett}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Intercalibration and Determination of AVG and RMS Spectra}{18}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{20}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Line Determination}{20}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Lightcurves}{22}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Continua}{22}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Emission Lines}{22}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Line Profiles}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Time Lag and BH Masses}{22}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Bowen Fluorescence}{22}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion}{28}{chapter.5}%
