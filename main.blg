@@ -1,17 +1,17 @@
-[0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'main.blg'
-[92] biber-MSWIN64:340> INFO - === 
-[124] Biber.pm:420> INFO - Reading 'main.bcf'
-[223] Biber.pm:994> INFO - Found 33 citekeys in bib section 0
-[235] Biber.pm:4463> INFO - Processing section 0
-[245] Biber.pm:4654> INFO - Looking for bibtex file 'literatur.bib' for section 0
-[286] bibtex.pm:1713> INFO - LaTeX decoding ...
-[319] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur.bib'
-[559] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[560] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[560] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[560] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[595] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[623] bbl.pm:779> INFO - Output to main.bbl
-[624] Biber.pm:131> WARN - ISBN '9780935702111' in entry 'osterbrock1989agn' is invalid - run biber with '--validate_datamodel' for details.
-[624] Biber.pm:133> INFO - WARNINGS: 1
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[188] biber-MSWIN64:340> INFO - === 
+[235] Biber.pm:418> INFO - Reading 'main.bcf'
+[356] Biber.pm:972> INFO - Found 33 citekeys in bib section 0
+[371] Biber.pm:4383> INFO - Processing section 0
+[383] Biber.pm:4574> INFO - Looking for bibtex file 'literatur.bib' for section 0
+[463] bibtex.pm:1713> INFO - LaTeX decoding ...
+[523] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
+[835] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[835] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[835] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[835] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[872] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[901] bbl.pm:757> INFO - Output to main.bbl
+[901] Biber.pm:130> WARN - ISBN '9780935702111' in entry 'osterbrock1989agn' is invalid - run biber with '--validate_datamodel' for details.
+[901] Biber.pm:132> INFO - WARNINGS: 1
