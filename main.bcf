@@ -2402,11 +2402,11 @@
     <bcf:citekey order="45">cackett2018accretion</bcf:citekey>
     <bcf:citekey order="46">simbaNGC4593</bcf:citekey>
     <bcf:citekey order="47">mulchaey1997structure</bcf:citekey>
-    <bcf:citekey order="48">bentz2015agn</bcf:citekey>
+    <bcf:citekey order="48">garcia2019alma</bcf:citekey>
     <bcf:citekey order="49">bentz2015agn</bcf:citekey>
-    <bcf:citekey order="50">denney2006ngc4593</bcf:citekey>
-    <bcf:citekey order="51">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="52">garcia2019alma</bcf:citekey>
+    <bcf:citekey order="50">bentz2015agn</bcf:citekey>
+    <bcf:citekey order="51">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="52">cackett2018accretion</bcf:citekey>
     <bcf:citekey order="53">anderson2010empirical</bcf:citekey>
     <bcf:citekey order="54">stisgratings</bcf:citekey>
     <bcf:citekey order="55">stisgratings</bcf:citekey>
@@ -2438,9 +2438,9 @@
     <bcf:citekey order="81">grandi1980</bcf:citekey>
     <bcf:citekey order="82">simbaNGC4593</bcf:citekey>
     <bcf:citekey order="83">mulchaey1997structure</bcf:citekey>
-    <bcf:citekey order="84">bentz2015agn</bcf:citekey>
-    <bcf:citekey order="85">denney2006ngc4593</bcf:citekey>
-    <bcf:citekey order="86">garcia2019alma</bcf:citekey>
+    <bcf:citekey order="84">garcia2019alma</bcf:citekey>
+    <bcf:citekey order="85">bentz2015agn</bcf:citekey>
+    <bcf:citekey order="86">denney2006ngc4593</bcf:citekey>
     <bcf:citekey order="87">anderson2010empirical</bcf:citekey>
     <bcf:citekey order="88">stisgratings</bcf:citekey>
   </bcf:section>
