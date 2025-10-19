@@ -22,10 +22,10 @@
 \contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Line Determination}{21}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Lightcurves}{24}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Continua}{24}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Emission Lines}{24}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Variability Statistics}{25}{section.4.4}%
+\contentsline {section}{\numberline {4.3}Variability Statistics and Uncertainties}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Lightcurves}{24}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Continua}{24}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Emission Lines}{24}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Line Profiles}{25}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Time Lag and BH Masses}{25}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Bowen Fluorescence}{25}{section.4.7}%
