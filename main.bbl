@@ -709,12 +709,12 @@
     \endentry
     \entry{horne2004observational}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=b280757d1dfa5a202db66fb59c20508d}{%
+        {{un=2,uniquepart=given,hash=b280757d1dfa5a202db66fb59c20508d}{%
            family={Horne},
            familyi={H\bibinitperiod},
            given={Keith},
            giveni={K\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=d9235e6cf41f9306904f873b2af9a74f}{%
            family={Peterson},
            familyi={P\bibinitperiod},
@@ -759,12 +759,12 @@
     \endentry
     \entry{McHardy2006}{article}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=7a47a269066f0c20a224ee9c326bf259}{%
+        {{un=2,uniquepart=given,hash=7a47a269066f0c20a224ee9c326bf259}{%
            family={McHardy},
            familyi={M\bibinitperiod},
            given={I.\bibnamedelimi M.},
            giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=5036c529334236a9cc91c9dfd49eaf11}{%
            family={Koerding},
            familyi={K\bibinitperiod},
@@ -812,6 +812,94 @@
       \verb{doi}
       \verb 10.1038/nature05389
       \endverb
+    \endentry
+    \entry{mchardy2018x}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=7a47a269066f0c20a224ee9c326bf259}{%
+           family={McHardy},
+           familyi={M\bibinitperiod},
+           given={IM},
+           giveni={I\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=eb407ba309e2f21489782450dc3c8e17}{%
+           family={Connolly},
+           familyi={C\bibinitperiod},
+           given={SD},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8f1f9c3abf4c7a07a52b82c35ef9d93}{%
+           family={Horne},
+           familyi={H\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=433fa9004c12c8f1e82cce2128c76e00}{%
+           family={Cackett},
+           familyi={C\bibinitperiod},
+           given={EM},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=d8ad40875996bff0bff13cfa6712dc19}{%
+           family={Gelbord},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={BM},
+           giveni={B\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a52209f90e8529120b3798ec29079a84}{%
+           family={Pahari},
+           familyi={P\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c674ff80b2d72d665d0af918b3d729b}{%
+           family={Gehrels},
+           familyi={G\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1568c29ec405129daf6d1c96d742addd}{%
+           family={Goad},
+           familyi={G\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d48f3bc8f3c4a897d520a4ebf033d5cb}{%
+           family={Lira},
+           familyi={L\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{fullhash}{f1a754674ac40c0c42114ec118dd833c}
+      \strng{bibnamehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{authorbibnamehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{authornamehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{authorfullhash}{f1a754674ac40c0c42114ec118dd833c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{number}{3}
+      \field{title}{X-ray/UV/optical variability of NGC 4593 with Swift: reprocessing of X-rays by an extended reprocessor}
+      \field{volume}{480}
+      \field{year}{2018}
+      \field{pages}{2881\bibrangedash 2897}
+      \range{pages}{17}
     \endentry
     \entry{mo2010galaxy}{book}{}
       \name{author}{3}{}{%
@@ -1402,12 +1490,12 @@
            given={D\bibnamedelima Michael},
            giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b280757d1dfa5a202db66fb59c20508d}{%
+        {{un=2,uniquepart=given,hash=b280757d1dfa5a202db66fb59c20508d}{%
            family={Horne},
            familyi={H\bibinitperiod},
            given={Keith},
            giveni={K\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=e1722e2b0c11c604c1bcd2fb9d9238a2}{%
            family={Kriss},
            familyi={K\bibinitperiod},
