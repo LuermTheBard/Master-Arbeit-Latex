@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2025.4.4)  20 OCT 2025 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2025.4.4)  20 OCT 2025 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -803,79 +803,80 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
-)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 	\newpage
-               [1
+l.32 ...{\numberline {5}Discussion}{31}{chapter.5}
+                                                  % [1
 
-] (main.lof)
+])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [2] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [2
+
+[3
 
 ] (main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [3
+ [4
 
 ] (chapters/introduction.tex
 Chapter 1.
-) (chapters/kapitel1.tex [4
+) (chapters/kapitel1.tex [5
 
 ]
 Chapter 2.
-<pictures/Chapter2/AGN_standard_paradigm.png, id=220, 1444.64719pt x 627.84563p
+<pictures/Chapter2/AGN_standard_paradigm.png, id=230, 1444.64719pt x 627.84563p
 t>
 File: pictures/Chapter2/AGN_standard_paradigm.png Graphic file (type png)
 <use pictures/Chapter2/AGN_standard_paradigm.png>
 Package pdftex.def Info: pictures/Chapter2/AGN_standard_paradigm.png  used on i
 nput line 14.
 (pdftex.def)             Requested size: 320.0935pt x 139.1132pt.
-[5
+[6
 
- <./pictures/Chapter2/AGN_standard_paradigm.png>] [6] [7]
-<pictures/Chapter2/Syefert1vsSeyfer2.jpg, id=265, 325.215pt x 281.55188pt>
+ <./pictures/Chapter2/AGN_standard_paradigm.png>] [7] [8]
+<pictures/Chapter2/Syefert1vsSeyfer2.jpg, id=274, 325.215pt x 281.55188pt>
 File: pictures/Chapter2/Syefert1vsSeyfer2.jpg Graphic file (type jpg)
 <use pictures/Chapter2/Syefert1vsSeyfer2.jpg>
 Package pdftex.def Info: pictures/Chapter2/Syefert1vsSeyfer2.jpg  used on input
  line 57.
 (pdftex.def)             Requested size: 320.0935pt x 277.13904pt.
- [8]
+ [9]
 Underfull \hbox (badness 10000) in paragraph at lines 75--79
 
  []
 
-[9 <./pictures/Chapter2/Syefert1vsSeyfer2.jpg>] [10]
-<pictures/Chapter2/AGN_unified_model.jpg, id=300, 652.4375pt x 505.89pt>
+[10 <./pictures/Chapter2/Syefert1vsSeyfer2.jpg>] [11]
+<pictures/Chapter2/AGN_unified_model.jpg, id=310, 652.4375pt x 505.89pt>
 File: pictures/Chapter2/AGN_unified_model.jpg Graphic file (type jpg)
 <use pictures/Chapter2/AGN_unified_model.jpg>
 Package pdftex.def Info: pictures/Chapter2/AGN_unified_model.jpg  used on input
  line 94.
 (pdftex.def)             Requested size: 384.1096pt x 297.83952pt.
- [11 <./pictures/Chapter2/AGN_unified_model.jpg>]
+ [12 <./pictures/Chapter2/AGN_unified_model.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 119--123
 
  []
 
-[12] [13] [14]) (chapters/kapitel2.tex [15]
+[13] [14] [15]) (chapters/kapitel2.tex [16]
 Chapter 3.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
 .
 (C:\Users\Lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [16
+) [17
 
 ]
-<pictures/Chapter3/NGC4593.PNG, id=380, 835.62187pt x 599.23875pt>
+<pictures/Chapter3/NGC4593.PNG, id=390, 835.62187pt x 599.23875pt>
 File: pictures/Chapter3/NGC4593.PNG Graphic file (type png)
 <use pictures/Chapter3/NGC4593.PNG>
 Package pdftex.def Info: pictures/Chapter3/NGC4593.PNG  used on input line 17.
@@ -887,23 +888,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 38.
-[17 <./pictures/Chapter3/NGC4593.PNG>]
+[18 <./pictures/Chapter3/NGC4593.PNG>]
 
 LaTeX Warning: Command \r invalid in math mode on input line 64.
 
-<pictures/Chapter3/comparison_spectra.pdf, id=402, 722.7pt x 433.62pt>
+<pictures/Chapter3/comparison_spectra.pdf, id=411, 722.7pt x 433.62pt>
 File: pictures/Chapter3/comparison_spectra.pdf Graphic file (type pdf)
 <use pictures/Chapter3/comparison_spectra.pdf>
 Package pdftex.def Info: pictures/Chapter3/comparison_spectra.pdf  used on inpu
 t line 68.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<pictures/Chapter3/comparison_avg_rms.pdf, id=403, 722.7pt x 433.62pt>
+<pictures/Chapter3/comparison_avg_rms.pdf, id=412, 722.7pt x 433.62pt>
 File: pictures/Chapter3/comparison_avg_rms.pdf Graphic file (type pdf)
 <use pictures/Chapter3/comparison_avg_rms.pdf>
 Package pdftex.def Info: pictures/Chapter3/comparison_avg_rms.pdf  used on inpu
 t line 70.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-[18]) (chapters/kapitel3.tex [19 <./pictures/Chapter3/comparison_spectra.pdf> <
+[19]) (chapters/kapitel3.tex [20 <./pictures/Chapter3/comparison_spectra.pdf> <
 ./pictures/Chapter3/comparison_avg_rms.pdf>]
 Chapter 4.
 
@@ -918,16 +919,16 @@ LaTeX Warning: Command \r invalid in math mode on input line 6.
 
 LaTeX Warning: Command \r invalid in math mode on input line 6.
 
-<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=516, 578.16pt x 361.35pt>
+<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=525, 578.16pt x 361.35pt>
 File: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf Graphic file (type pdf)
 <use pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf>
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf  used 
 on input line 11.
 (pdftex.def)             Requested size: 512.14832pt x 320.10626pt.
-[20
+[21
 
  <./pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf>]
-<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=592, 578.16pt x
+<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=601, 578.16pt x
  361.35pt>
 File: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf Graphic file (
 type pdf)
@@ -935,55 +936,55 @@ type pdf)
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS
 .pdf  used on input line 24.
 (pdftex.def)             Requested size: 512.14832pt x 320.10626pt.
- [21 <./pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf>] [22]
-<pictures/Chapter4/lightcurves/NGC4593_Continua.pdf, id=677, 559.85161pt x 753.
+ [22 <./pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf>] [23]
+<pictures/Chapter4/lightcurves/NGC4593_Continua.pdf, id=687, 559.85161pt x 753.
 6898pt>
 File: pictures/Chapter4/lightcurves/NGC4593_Continua.pdf Graphic file (type pdf
 )
 <use pictures/Chapter4/lightcurves/NGC4593_Continua.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/NGC4593_Continua.pdf  us
-ed on input line 160.
+ed on input line 159.
 (pdftex.def)             Requested size: 426.79135pt x 574.55826pt.
- [23]
-<pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf, id=686, 558.84785pt x 75
+<pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf, id=688, 558.84785pt x 75
 3.6898pt>
 File: pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf Graphic file (type p
 df)
 <use pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf  
-used on input line 169.
+used on input line 168.
 (pdftex.def)             Requested size: 426.79135pt x 575.59329pt.
-<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=687, 424.2550
+ [24]
+<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=698, 424.2550
 2pt x 798.65755pt>
 File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
  (type pdf)
 <use pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/Normalized_Line_Profil
-es.pdf  used on input line 182.
+es.pdf  used on input line 181.
 (pdftex.def)             Requested size: 341.43437pt x 642.75346pt.
-<pictures/Chapter4/ccfs/CCFs_H_He_LyA_O_UVW2.pdf, id=688, 530.79433pt x 802.750
+<pictures/Chapter4/ccfs/CCFs_H_He_LyA_O_UVW2.pdf, id=699, 530.79433pt x 802.750
 96pt>
 File: pictures/Chapter4/ccfs/CCFs_H_He_LyA_O_UVW2.pdf Graphic file (type pdf)
 <use pictures/Chapter4/ccfs/CCFs_H_He_LyA_O_UVW2.pdf>
 Package pdftex.def Info: pictures/Chapter4/ccfs/CCFs_H_He_LyA_O_UVW2.pdf  used 
-on input line 191.
+on input line 190.
 (pdftex.def)             Requested size: 384.1096pt x 580.92001pt.
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UV_to_HAlpha_ccfs_an
-d_reference_lightcurves.pdf, id=689, 350.5095pt x 746.03621pt>
+d_reference_lightcurves.pdf, id=700, 350.5095pt x 746.03621pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UV_to_HAlpha_cc
 fs_and_reference_lightcurves.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UV_to_HAlpha_ccf
 s_and_reference_lightcurves.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UV_to_HAlpha_ccfs_and_reference_lightcurves.pdf  used on input line 198.
+les/UV_to_HAlpha_ccfs_and_reference_lightcurves.pdf  used on input line 197.
 (pdftex.def)             Requested size: 298.75264pt x 635.88686pt.
-) (chapters/kapitel4.tex [24] [25 <./pictures/Chapter4/lightcurves/NGC4593_Cont
-inua.pdf>] [26 <./pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf>] [27 <.
-/pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>] [28 <./pictures
-/Chapter4/ccfs/CCFs_H_He_LyA_O_UVW2.pdf>] [29 <./pictures/Chapter4/lighcurves_a
+) (chapters/kapitel4.tex [25] [26 <./pictures/Chapter4/lightcurves/NGC4593_Cont
+inua.pdf>] [27 <./pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf>] [28 <.
+/pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>] [29 <./pictures
+/Chapter4/ccfs/CCFs_H_He_LyA_O_UVW2.pdf>] [30 <./pictures/Chapter4/lighcurves_a
 nd_ccfs_and_time_lag_tables/UV_to_HAlpha_ccfs_and_reference_lightcurves.pdf>]
 Chapter 5.
-) [30
+) [31
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
@@ -1002,9 +1003,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[31
+[32
 
-] [32] (chapters/anhang.tex) [33] (main.aux)
+] [33] (chapters/anhang.tex) [34] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1014,8 +1015,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D2811E3C59A41DA271B78C5E8DB1797B;4345
-(rerunfilecheck)             After:  E819CE165BFDC8B9B011FCFE702635DF;4513.
+(rerunfilecheck)             Before: E819CE165BFDC8B9B011FCFE702635DF;4513
+(rerunfilecheck)             After:  D2811E3C59A41DA271B78C5E8DB1797B;4345.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1026,19 +1027,23 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20370 strings out of 478582
- 365839 string characters out of 2844345
- 1075196 words of memory out of 3000000
- 38136 multiletter control sequences out of 15000+600000
+ 20372 strings out of 478582
+ 365859 string characters out of 2844345
+ 1073199 words of memory out of 3000000
+ 38137 multiletter control sequences out of 15000+600000
  547047 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,13n,77p,1542b,1829s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-pdfTeX warning (dest): name{subsection.4.3.2} has been referenced but does not 
+pdfTeX warning (dest): name{section.4.7} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.4.2} has been referenced but does not 
 exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{subsection.4.3.1} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.4.4.1} has been referenced but does not 
 exist, replaced by a fixed one
 
 {C:/Users/Lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/
@@ -1061,9 +1066,9 @@ as/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Lukas
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lukas
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Lukas/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (35 pages, 2688775 bytes).
+Output written on main.pdf (36 pages, 2689804 bytes).
 PDF statistics:
- 1266 PDF objects out of 1440 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
- 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1274 PDF objects out of 1440 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 282 words of extra memory for PDF output out of 10000 (max. 10000000)
 
