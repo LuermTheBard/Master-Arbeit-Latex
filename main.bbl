@@ -88,6 +88,38 @@
       \verb 10.1146/annurev.aa.31.090193.002353
       \endverb
     \endentry
+    \entry{beckmann_unified}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b4c9bdd2b2c546a9b1cf3e6895d9851e}{%
+           family={Beckmann},
+           familyi={B\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21eb486b2a6197e6eaeb2275ea36899f}{%
+           family={Shrader},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{29c7c22ab8fd85ee6551a5940c55b591}
+      \strng{fullhash}{29c7c22ab8fd85ee6551a5940c55b591}
+      \strng{bibnamehash}{29c7c22ab8fd85ee6551a5940c55b591}
+      \strng{authorbibnamehash}{29c7c22ab8fd85ee6551a5940c55b591}
+      \strng{authornamehash}{29c7c22ab8fd85ee6551a5940c55b591}
+      \strng{authorfullhash}{29c7c22ab8fd85ee6551a5940c55b591}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of Science}
+      \field{month}{02}
+      \field{title}{The AGN phenomenon: Open issues}
+      \field{year}{2013}
+    \endentry
     \entry{bentz2015agn}{article}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=80de319b4b1fc634f7890ad1d5eae16b}{%
@@ -404,37 +436,6 @@
       \verb 10.1086/508533
       \endverb
     \endentry
-    \entry{fermi2025figure1}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5e7a16507e2b6160d6d77893726b8dbf}{%
-           family={{Fermi Gamma-ray Space Telescope}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{5e7a16507e2b6160d6d77893726b8dbf}
-      \strng{fullhash}{5e7a16507e2b6160d6d77893726b8dbf}
-      \strng{bibnamehash}{5e7a16507e2b6160d6d77893726b8dbf}
-      \strng{authorbibnamehash}{5e7a16507e2b6160d6d77893726b8dbf}
-      \strng{authornamehash}{5e7a16507e2b6160d6d77893726b8dbf}
-      \strng{authorfullhash}{5e7a16507e2b6160d6d77893726b8dbf}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Figure 1: Spectral Energy Distribution of an AGN}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://fermi.gsfc.nasa.gov/science/eteu/agn/figure1.jpg
-      \endverb
-      \verb{url}
-      \verb https://fermi.gsfc.nasa.gov/science/eteu/agn/figure1.jpg
-      \endverb
-    \endentry
     \entry{garcia2019alma}{article}{}
       \name{author}{21}{}{%
         {{un=0,uniquepart=base,hash=3d3bc4e3ca19f1e2f242c94de6e1fc23}{%
@@ -592,7 +593,7 @@
     \entry{grandi1980}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e78ed445ca62304de583f8745f5f00d9}{%
-           family={{Grandi}},
+           family={Grandi},
            familyi={G\bibinitperiod},
            given={S.\bibnamedelimi A.},
            giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
@@ -612,7 +613,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{\apj}
       \field{month}{5}
-      \field{title}{{OI lambda 8446 emission in Seyfert 1 galaxies.}}
+      \field{title}{OI lambda 8446 emission in Seyfert 1 galaxies.}
       \field{volume}{238}
       \field{year}{1980}
       \field{pages}{10}
@@ -1314,36 +1315,6 @@
       \field{title}{An Introduction to Active Galactic Nuclei}
       \field{year}{1997}
     \endentry
-    \entry{researchgate_seyfert2025}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9c71ca0e8ac5da7336ffa149007898f9}{%
-           family={{ResearchGate}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{fullhash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{bibnamehash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{authorbibnamehash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{authornamehash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \strng{authorfullhash}{9c71ca0e8ac5da7336ffa149007898f9}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{url}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Frequency of Seyfert Type Transitions in a Sample of 102 Local Active Galactic Nuclei - Scientific Figure}
-      \field{urlday}{8}
-      \field{urlmonth}{9}
-      \field{urlyear}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.researchgate.net/figure/An-example-of-Seyfert-1-and-Seyfert-2-spectra-highlighting-their-differences-The-broad_fig1_304162356
-      \endverb
-      \verb{url}
-      \verb https://www.researchgate.net/figure/An-example-of-Seyfert-1-and-Seyfert-2-spectra-highlighting-their-differences-The-broad_fig1_304162356
-      \endverb
-    \endentry
     \entry{ricci2022changinglook}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=58aedb3a7437cd594c23ccd4a2a42853}{%
@@ -1469,6 +1440,30 @@
       \field{year}{1997}
       \field{pages}{9}
       \range{pages}{1}
+    \endentry
+    \entry{runco2015frequency}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8e62c5e09342ce3d9b1477ba82731bb}{%
+           family={Runco},
+           familyi={R\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8e62c5e09342ce3d9b1477ba82731bb}
+      \strng{fullhash}{a8e62c5e09342ce3d9b1477ba82731bb}
+      \strng{bibnamehash}{a8e62c5e09342ce3d9b1477ba82731bb}
+      \strng{authorbibnamehash}{a8e62c5e09342ce3d9b1477ba82731bb}
+      \strng{authornamehash}{a8e62c5e09342ce3d9b1477ba82731bb}
+      \strng{authorfullhash}{a8e62c5e09342ce3d9b1477ba82731bb}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Frequency of Seyfert Type Transitions in a Sample of 102 Local Active Galactic Nuclei}
+      \field{year}{2015}
     \endentry
     \entry{selvelli2007}{article}{}
       \name{author}{3}{}{%

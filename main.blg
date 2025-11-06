@@ -1,18 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[119] biber-MSWIN64:340> INFO - === 
-[154] Biber.pm:418> INFO - Reading 'main.bcf'
-[258] Biber.pm:972> INFO - Found 36 citekeys in bib section 0
-[272] Biber.pm:4383> INFO - Processing section 0
-[285] Biber.pm:4574> INFO - Looking for bibtex file 'literatur.bib' for section 0
-[352] bibtex.pm:1713> INFO - LaTeX decoding ...
-[423] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
-[681] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[681] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[682] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[682] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[728] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[762] bbl.pm:757> INFO - Output to main.bbl
-[763] Biber.pm:130> WARN - ISBN '9780935702111' in entry 'osterbrock1989agn' is invalid - run biber with '--validate_datamodel' for details.
-[763] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Lukas\AppData\Local\Temp\biber_tmp_SgXG\a3880c76f34ea5bee4730f185bf8bebe_2560.utf8, line 204, warning: 1 characters of junk seen at toplevel
-[763] Biber.pm:132> INFO - WARNINGS: 2
+[140] biber-MSWIN64:340> INFO - === 
+[202] Biber.pm:418> INFO - Reading 'main.bcf'
+[313] Biber.pm:972> INFO - Found 36 citekeys in bib section 0
+[326] Biber.pm:4383> INFO - Processing section 0
+[338] Biber.pm:4574> INFO - Looking for bibtex file 'literatur.bib' for section 0
+[399] bibtex.pm:1713> INFO - LaTeX decoding ...
+[462] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
+[722] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[722] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[723] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[723] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[761] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[794] bbl.pm:757> INFO - Output to main.bbl
+[794] Biber.pm:130> WARN - ISBN '9780935702111' in entry 'osterbrock1989agn' is invalid - run biber with '--validate_datamodel' for details.
+[794] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Lukas\AppData\Local\Temp\biber_tmp_FD6l\a3880c76f34ea5bee4730f185bf8bebe_3884.utf8, line 226, warning: 1 characters of junk seen at toplevel
+[794] Biber.pm:132> INFO - WARNINGS: 2
