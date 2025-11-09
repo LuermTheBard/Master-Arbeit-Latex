@@ -10,8 +10,19 @@
 \usepackage{setspace}       % Zeilenabstand
 \onehalfspacing
 \usepackage{graphicx}       % Bilder einfügen
-\usepackage[style=authoryear,backend=biber]{biblatex}
-\addbibresource{literatur.bib} % Deine .bib-Datei
+\usepackage[
+backend=biber,
+style=authoryear,
+% --- nur für ZITATE (nicht fürs Literaturverzeichnis) ---
+maxcitenames=2,   % bis 2 Autor:innen: alle anzeigen
+mincitenames=1,   % ab 3: kürzen auf „et al.“
+% --- Eindeutigkeits-Regeln: keine Vornamen in Zitaten erzwingen ---
+uniquename=false,
+uniquelist=false,
+dashed=false
+]{biblatex}
+
+\addbibresource{literatur.bib}
 \usepackage{hyperref}       % Hyperlinks
 \usepackage{appendix}       % Anhang
 \usepackage{amsmath}
