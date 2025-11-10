@@ -597,6 +597,60 @@
       \verb 10.1051/0004-6361/201936606
       \endverb
     \endentry
+    \entry{goadBroadLine}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=dc3c817c1b26950319d815b4cee3bb6f}{%
+           family={Goad},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d7937544e8b3538a88ac4116f62aa8d7}{%
+           family={Korista},
+           familyi={K\bibinitperiod},
+           given={K.\bibnamedelimi T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=ae1b6e0b37d44f62dc66b8aace784bea}{%
+           family={Ruff},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{de2cd1ce020c8be820c3a483589a8f93}
+      \strng{fullhash}{e111805a49aff6befd22d5176c4e60e4}
+      \strng{fullhashraw}{e111805a49aff6befd22d5176c4e60e4}
+      \strng{bibnamehash}{e111805a49aff6befd22d5176c4e60e4}
+      \strng{authorbibnamehash}{e111805a49aff6befd22d5176c4e60e4}
+      \strng{authornamehash}{de2cd1ce020c8be820c3a483589a8f93}
+      \strng{authorfullhash}{e111805a49aff6befd22d5176c4e60e4}
+      \strng{authorfullhashraw}{e111805a49aff6befd22d5176c4e60e4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0035-8711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{The broad emission-line region: the confluence of the outer accretion disc with the inner edge of the dusty torus}
+      \field{volume}{426}
+      \field{year}{2012}
+      \field{pages}{3086\bibrangedash 3111}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2012.21808.x
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mnras/article-pdf/426/4/3086/3319519/426-4-3086.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/j.1365-2966.2012.21808.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/j.1365-2966.2012.21808.x
+      \endverb
+    \endentry
     \entry{grandi1980}{article}{}{}
       \name{author}{1}{}{%
         {{hash=e78ed445ca62304de583f8745f5f00d9}{%
@@ -1044,7 +1098,7 @@
       \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
       \field{month}{02}
       \field{number}{2}
-      \field{title}{Physical Conditions in Active Nuclei–II O I λ 8446 FLUORESCENCE}
+      \field{title}{Physical Conditions in Active Nuclei–II O I $\lambda$ 8446 FLUORESCENCE}
       \field{volume}{174}
       \field{year}{1976}
       \field{pages}{319\bibrangedash 325}
@@ -1376,6 +1430,39 @@
       \verb 10.1086/423269
       \endverb
     \endentry
+    \entry{peterson2006BLR}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=03b0787baa8348d241b5b53cfd768d81}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Bradley},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{03b0787baa8348d241b5b53cfd768d81}
+      \strng{fullhash}{03b0787baa8348d241b5b53cfd768d81}
+      \strng{fullhashraw}{03b0787baa8348d241b5b53cfd768d81}
+      \strng{bibnamehash}{03b0787baa8348d241b5b53cfd768d81}
+      \strng{authorbibnamehash}{03b0787baa8348d241b5b53cfd768d81}
+      \strng{authornamehash}{03b0787baa8348d241b5b53cfd768d81}
+      \strng{authorfullhash}{03b0787baa8348d241b5b53cfd768d81}
+      \strng{authorfullhashraw}{03b0787baa8348d241b5b53cfd768d81}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-31207-9}
+      \field{journaltitle}{Lecture Notes in Physics}
+      \field{month}{01}
+      \field{title}{The Broad-Line Region in Active Galactic Nuclei}
+      \field{volume}{693}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.1007/3-540-34621-X_3
+      \endverb
+    \endentry
     \entry{peterson1997introduction}{book}{}{}
       \name{author}{1}{}{%
         {{hash=d9235e6cf41f9306904f873b2af9a74f}{%
@@ -1395,7 +1482,7 @@
       \strng{authornamehash}{d9235e6cf41f9306904f873b2af9a74f}
       \strng{authorfullhash}{d9235e6cf41f9306904f873b2af9a74f}
       \strng{authorfullhashraw}{d9235e6cf41f9306904f873b2af9a74f}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
