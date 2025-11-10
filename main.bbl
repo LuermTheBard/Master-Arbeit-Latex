@@ -1160,38 +1160,6 @@
       \verb 10.1086/424655
       \endverb
     \endentry
-    \entry{osterbrock1989agn}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=daffba04697d6726263faa59c68a7a5b}{%
-           family={Osterbrock},
-           familyi={O\bibinitperiod},
-           given={Donald\bibnamedelima E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Mill Valley, California}%
-      }
-      \list{publisher}{1}{%
-        {University Science Books}%
-      }
-      \strng{namehash}{daffba04697d6726263faa59c68a7a5b}
-      \strng{fullhash}{daffba04697d6726263faa59c68a7a5b}
-      \strng{fullhashraw}{daffba04697d6726263faa59c68a7a5b}
-      \strng{bibnamehash}{daffba04697d6726263faa59c68a7a5b}
-      \strng{authorbibnamehash}{daffba04697d6726263faa59c68a7a5b}
-      \strng{authornamehash}{daffba04697d6726263faa59c68a7a5b}
-      \strng{authorfullhash}{daffba04697d6726263faa59c68a7a5b}
-      \strng{authorfullhashraw}{daffba04697d6726263faa59c68a7a5b}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9780935702111}
-      \field{title}{Astrophysics of Gaseous Nebulae and Active Galactic Nuclei}
-      \field{year}{1989}
-    \endentry
     \entry{osterbrock1985nls1}{article}{}{}
       \name{author}{2}{}{%
         {{hash=daffba04697d6726263faa59c68a7a5b}{%
@@ -1437,6 +1405,39 @@
       \field{isbn}{9780521473484}
       \field{title}{An Introduction to Active Galactic Nuclei}
       \field{year}{1997}
+    \endentry
+    \entry{rees1984oldAGN}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b991574de4846e67022005d1addab500}{%
+           family={{Rees}},
+           familyi={R\bibinitperiod},
+           given={Martin\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b991574de4846e67022005d1addab500}
+      \strng{fullhash}{b991574de4846e67022005d1addab500}
+      \strng{fullhashraw}{b991574de4846e67022005d1addab500}
+      \strng{bibnamehash}{b991574de4846e67022005d1addab500}
+      \strng{authorbibnamehash}{b991574de4846e67022005d1addab500}
+      \strng{authornamehash}{b991574de4846e67022005d1addab500}
+      \strng{authorfullhash}{b991574de4846e67022005d1addab500}
+      \strng{authorfullhashraw}{b991574de4846e67022005d1addab500}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\araa}
+      \field{month}{1}
+      \field{title}{{Black Hole Models for Active Galactic Nuclei}}
+      \field{volume}{22}
+      \field{year}{1984}
+      \field{pages}{471\bibrangedash 506}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1146/annurev.aa.22.090184.002351
+      \endverb
     \endentry
     \entry{ricci2022changinglook}{article}{}{}
       \name{author}{2}{}{%
