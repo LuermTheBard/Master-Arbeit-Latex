@@ -685,40 +685,6 @@
       \endverb
       \keyw{Astronomical Spectroscopy,Infrared Spectra,Oxygen Spectra,Seyfert Galaxies,Emission Spectra,Fluorescence,H Alpha Line,Line Spectra,Lyman Spectra,Astronomy}
     \endentry
-    \entry{hickox2018obscured}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=baa4c0f5f2a89ad9e175dc4b1d006d1f}{%
-           family={Hickox},
-           familyi={H\bibinitperiod},
-           given={Ryan\bibnamedelima C.},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=0ff4a0b2e5618baa4e004c3a657d51c8}{%
-           family={Alexander},
-           familyi={A\bibinitperiod},
-           given={David\bibnamedelima M.},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{0a285cefb95126eeda5c88ccee24f987}
-      \strng{fullhash}{0a285cefb95126eeda5c88ccee24f987}
-      \strng{fullhashraw}{0a285cefb95126eeda5c88ccee24f987}
-      \strng{bibnamehash}{0a285cefb95126eeda5c88ccee24f987}
-      \strng{authorbibnamehash}{0a285cefb95126eeda5c88ccee24f987}
-      \strng{authornamehash}{0a285cefb95126eeda5c88ccee24f987}
-      \strng{authorfullhash}{0a285cefb95126eeda5c88ccee24f987}
-      \strng{authorfullhashraw}{0a285cefb95126eeda5c88ccee24f987}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
-      \field{title}{{Obscured Active Galactic Nuclei}}
-      \field{volume}{56}
-      \field{year}{2018}
-      \field{pages}{625\bibrangedash 671}
-      \range{pages}{47}
-    \endentry
     \entry{horne2004observational}{article}{}{}
       \name{author}{4}{}{%
         {{hash=b280757d1dfa5a202db66fb59c20508d}{%
@@ -1214,6 +1180,75 @@
       \verb 10.1086/424655
       \endverb
     \endentry
+    \entry{osterbrock1977SeyfertSub}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=23a5f27d9aec56ae118a7f0460d7b5db}{%
+           family={{Osterbrock}},
+           familyi={O\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{fullhash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{fullhashraw}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{bibnamehash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{authorbibnamehash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{authornamehash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{authorfullhash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{authorfullhashraw}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\apj}
+      \field{month}{8}
+      \field{title}{{Spectrophotometry of Seyfert 1 galaxies.}}
+      \field{volume}{215}
+      \field{year}{1977}
+      \field{pages}{733\bibrangedash 745}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1086/155407
+      \endverb
+      \keyw{Emission Spectra,H Lines,Radio Galaxies,Seyfert Galaxies,Spectral Line Width,Spectrophotometry,Abundance,Astronomical Photometry,Astronomical Spectroscopy,H Alpha Line,H Beta Line,Helium,Radio Spectra,Tables (Data),Astrophysics}
+    \endentry
+    \entry{osterbrock1981SeyfertSub}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=23a5f27d9aec56ae118a7f0460d7b5db}{%
+           family={{Osterbrock}},
+           familyi={O\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{fullhash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{fullhashraw}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{bibnamehash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{authorbibnamehash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{authornamehash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{authorfullhash}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \strng{authorfullhashraw}{23a5f27d9aec56ae118a7f0460d7b5db}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\apj}
+      \field{month}{10}
+      \field{title}{{Seyfert galaxies with weak broad H alpha emission lines}}
+      \field{volume}{249}
+      \field{year}{1981}
+      \field{pages}{462\bibrangedash 470}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1086/159306
+      \endverb
+    \endentry
     \entry{osterbrock1985nls1}{article}{}{}
       \name{author}{2}{}{%
         {{hash=daffba04697d6726263faa59c68a7a5b}{%
@@ -1430,39 +1465,6 @@
       \verb 10.1086/423269
       \endverb
     \endentry
-    \entry{peterson2006BLR}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=03b0787baa8348d241b5b53cfd768d81}{%
-           family={Peterson},
-           familyi={P\bibinitperiod},
-           given={Bradley},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{03b0787baa8348d241b5b53cfd768d81}
-      \strng{fullhash}{03b0787baa8348d241b5b53cfd768d81}
-      \strng{fullhashraw}{03b0787baa8348d241b5b53cfd768d81}
-      \strng{bibnamehash}{03b0787baa8348d241b5b53cfd768d81}
-      \strng{authorbibnamehash}{03b0787baa8348d241b5b53cfd768d81}
-      \strng{authornamehash}{03b0787baa8348d241b5b53cfd768d81}
-      \strng{authorfullhash}{03b0787baa8348d241b5b53cfd768d81}
-      \strng{authorfullhashraw}{03b0787baa8348d241b5b53cfd768d81}
-      \field{extraname}{2}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-3-540-31207-9}
-      \field{journaltitle}{Lecture Notes in Physics}
-      \field{month}{01}
-      \field{title}{The Broad-Line Region in Active Galactic Nuclei}
-      \field{volume}{693}
-      \field{year}{2006}
-      \verb{doi}
-      \verb 10.1007/3-540-34621-X_3
-      \endverb
-    \endentry
     \entry{peterson1997introduction}{book}{}{}
       \name{author}{1}{}{%
         {{hash=d9235e6cf41f9306904f873b2af9a74f}{%
@@ -1482,6 +1484,33 @@
       \strng{authornamehash}{d9235e6cf41f9306904f873b2af9a74f}
       \strng{authorfullhash}{d9235e6cf41f9306904f873b2af9a74f}
       \strng{authorfullhashraw}{d9235e6cf41f9306904f873b2af9a74f}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0521473489}
+      \field{title}{An Introduction to Active Galactic Nuclei}
+      \field{year}{1997}
+    \endentry
+    \entry{peterson2011massesblackholesactive}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d9235e6cf41f9306904f873b2af9a74f}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Bradley\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{fullhash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{fullhashraw}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{bibnamehash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{authorbibnamehash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{authornamehash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{authorfullhash}{d9235e6cf41f9306904f873b2af9a74f}
+      \strng{authorfullhashraw}{d9235e6cf41f9306904f873b2af9a74f}
       \field{extraname}{3}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -1489,9 +1518,19 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9780521473484}
-      \field{title}{An Introduction to Active Galactic Nuclei}
-      \field{year}{1997}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{title}{Masses of Black Holes in Active Galactic Nuclei: Implications for NLS1s}
+      \field{year}{2011}
+      \verb{eprint}
+      \verb 1109.4181
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1109.4181
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1109.4181
+      \endverb
     \endentry
     \entry{rees1984oldAGN}{article}{}{}
       \name{author}{1}{}{%
@@ -1668,49 +1707,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Frequency of Seyfert Type Transitions in a Sample of 102 Local Active Galactic Nuclei}
       \field{year}{2015}
-    \endentry
-    \entry{selvelli2007}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=cfea25d4f952ef77d68e70bf48f633fd}{%
-           family={Selvelli},
-           familyi={S\bibinitperiod},
-           given={Pierluigi},
-           giveni={P\bibinitperiod}}}%
-        {{hash=6726b2681dee6e268b3572543f93ab4b}{%
-           family={Danziger},
-           familyi={D\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-        {{hash=44fe10a93dcb4685a5acb4a8038c949d}{%
-           family={Bonifacio},
-           familyi={B\bibinitperiod},
-           given={Piercarlo},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {EDP Sciences}%
-      }
-      \strng{namehash}{95055eeba04267df3945e8ebd514d51b}
-      \strng{fullhash}{0b01f439bbe5183786ca73950241085a}
-      \strng{fullhashraw}{0b01f439bbe5183786ca73950241085a}
-      \strng{bibnamehash}{0b01f439bbe5183786ca73950241085a}
-      \strng{authorbibnamehash}{0b01f439bbe5183786ca73950241085a}
-      \strng{authornamehash}{95055eeba04267df3945e8ebd514d51b}
-      \strng{authorfullhash}{0b01f439bbe5183786ca73950241085a}
-      \strng{authorfullhashraw}{0b01f439bbe5183786ca73950241085a}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Astronomy \& Astrophysics}
-      \field{number}{2}
-      \field{title}{The He Fowler lines and the O and N Bowen fluorescence lines in the symbiotic nova RR Telescopii}
-      \field{volume}{464}
-      \field{year}{2007}
-      \field{pages}{715\bibrangedash 734}
-      \range{pages}{20}
     \endentry
     \entry{seyfert1943nuclear}{article}{}{}
       \name{author}{1}{}{%
