@@ -1377,6 +1377,227 @@
       \verb 10.1086/305813
       \endverb
     \endentry
+    \entry{Peterson_1999}{article}{}{}
+      \name{author}{37}{}{%
+        {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9e36c7eec9b3643fc90e15d9669d0b63}{%
+           family={Barth},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6c56f9c84086d8d53a6244bda1d8a047}{%
+           family={Berlind},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cf13c17a4a01a025bf50344ecd83c718}{%
+           family={Bertram},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1af60ba08d84038699f49d29e2b30230}{%
+           family={Bischoff},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e3757cf3835d9258c20eb7cc9d38dd08}{%
+           family={Bochkarev},
+           familyi={B\bibinitperiod},
+           given={N.\bibnamedelimi G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=c0518817853cc59a72cfd024234ecd9a}{%
+           family={Burenkov},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=35e342dc4c2517b3ddff8c9abc5aee17}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={F.-Z.},
+           giveni={F\bibinithyphendelim Z\bibinitperiod}}}%
+        {{hash=9e140b9408f012d2d70c939ef0be1700}{%
+           family={Dietrich},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2998af531829b595cf52e1457f4cd626}{%
+           family={Filippenko},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=f6b992459974e7a8532e12a7dcc3ceb9}{%
+           family={Giannuzzo},
+           familyi={G\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fc1333bf18507f4a5c2d2189fce8528e}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=93d743b838cd363453ef893b16f8c7fb}{%
+           family={Huchra},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=3e1839985d37bb0633cc978e1e986672}{%
+           family={Hunley},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9986bc29611ff8e83e2f6d1e1312b8c0}{%
+           family={Kaspi},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e6b501f51b210c44134155f268f2a6f0}{%
+           family={Kollatschny},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2e8beeeff3b2be6c600223b876671482}{%
+           family={Leonard},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=655f033abded839bed74aa60f92eaa2d}{%
+           family={Malkov},
+           familyi={M\bibinitperiod},
+           given={Yu.\bibnamedelimi F.},
+           giveni={Y\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=266d4dc62963a3238bc760add85aed09}{%
+           family={Matheson},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=727075bcb35aac127ea6d9ce03fc8bf1}{%
+           family={Mignoli},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a1e9ce49e2d2bbb2857123f66a18bff1}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2621cf98604e4bd52f193a468b11aaeb}{%
+           family={Papaderos},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7d6fd635c07c909c9be27ad633ff1260}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3c16c33071ce888e53237db94dd9036b}{%
+           family={Pogge},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8616f60123560195b0b385f43a8d60c2}{%
+           family={Pronik},
+           familyi={P\bibinitperiod},
+           given={V.\bibnamedelimi I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=1406a7fdf74ce0ae95ffeedabee24b6d}{%
+           family={Sergeev},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=77717a4a0e73562fef298498b0384887}{%
+           family={Sergeeva},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=faf8a7c93b110a78c426e293cf9c3452}{%
+           family={Shapovalova},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=a0fd8a2f87c2324f7295fe3663baafef}{%
+           family={Stirpe},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=624e8d8ffff9950f74716cc53454f63b}{%
+           family={Tokarz},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b2daeb76576e70e193a53d2879c5f23f}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=48bb86fb10042d860ab893149119600f}{%
+           family={Wanders},
+           familyi={W\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=3126ef5fd87ed984a0360861eb7220dc}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={J.-Y.},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=4ab55b01afc5b434d91268b10e5a481f}{%
+           family={Wilkes},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=30dea90e19629b6b7395a1f947eed163}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e83ef74f66d5254aef941c7596bab3c7}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={S.-J.},
+           giveni={S\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=2aad52610b3d9e9380254de2436d9296}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Z.-L.},
+           giveni={Z\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
+      \strng{fullhash}{53772d003c3fd12ae8e6d6dcd063689f}
+      \strng{fullhashraw}{53772d003c3fd12ae8e6d6dcd063689f}
+      \strng{bibnamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
+      \strng{authorbibnamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
+      \strng{authornamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
+      \strng{authorfullhash}{53772d003c3fd12ae8e6d6dcd063689f}
+      \strng{authorfullhashraw}{53772d003c3fd12ae8e6d6dcd063689f}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Steps toward Determination of the Size and Structure of the Broad-Line Region in Active Galactic Nuclei. XV. Long-Term Optical Monitoring of NGC 5548}
+      \field{volume}{510}
+      \field{year}{1999}
+      \field{pages}{659}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/306604
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1086/306604
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1086/306604
+      \endverb
+    \endentry
     \entry{peterson2004}{article}{}{}
       \name{author}{12}{}{%
         {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
@@ -1448,7 +1669,7 @@
       \strng{authornamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
       \strng{authorfullhash}{21fb0042c9ebeaeed15fb4627ed0afec}
       \strng{authorfullhashraw}{21fb0042c9ebeaeed15fb4627ed0afec}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}

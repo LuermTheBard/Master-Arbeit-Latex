@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  16 NOV 2025 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  16 NOV 2025 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,11 +890,6 @@ Package pdftex.def Info: pictures/Chapter2/AGN_unified_model_3.png  used on inp
 ut line 111.
 (pdftex.def)             Requested size: 384.1096pt x 335.30814pt.
 
-
-LaTeX Warning: Citation 'Peterson_1999' on page 12 undefined on input line 122.
-
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
@@ -1191,10 +1186,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20755 strings out of 468225
- 372483 string characters out of 5432973
- 1214563 words of memory out of 5000000
- 48878 multiletter control sequences out of 15000+600000
+ 20761 strings out of 468225
+ 372670 string characters out of 5432973
+ 1214607 words of memory out of 5000000
+ 48883 multiletter control sequences out of 15000+600000
  704613 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,13n,77p,1916b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1212,9 +1207,9 @@ b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (40 pages, 2874673 bytes).
+Output written on main.pdf (40 pages, 2875351 bytes).
 PDF statistics:
- 1427 PDF objects out of 1440 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
+ 1430 PDF objects out of 1440 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
  276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
