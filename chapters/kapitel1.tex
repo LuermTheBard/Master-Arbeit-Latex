@@ -124,7 +124,7 @@ Although the classical Unification Model treats AGN classification as fixed and 
 
 The variability of active galactic nuclei (AGN) is one of the key aspects that enables the study of their central regions, which generally cannot be probed with classical spatially resolved methods. Variability is observed on timescales from hours to several years and generally shows stochastic behavior, resulting in flux variations of both emission lines and continuum emission of up to a few tens of percent in the UV and optical regimes \parencite{Ulrich1997, ochmann2024transient}. While the origin of this variability is not yet fully understood, the most widely accepted models attribute it to inhomogeneities and instabilities within the accretion disk \parencite{Ulrich1997, Dexter_2010}. \\
 Depending on the physical process, the variations occur on different characteristic timescales. Processes such as thermal fluctuations or changes in the accretion flow act on timescales of decades to centuries for typical SMBH masses and radii, and are therefore difficult to observe directly. In contrast, processes operating on shorter timescales are much easier to study. Examples of such processes are gas motions and mechanical instabilities, such as sound waves, within the disk, which occur on timescales of weeks to months \parencite{ricci2022changinglook}. 
-The shortest timescale is the light-crossing timescale, $t_\mathrm{lc} = R/c$, which specifies how long light takes to traverse the variable emitting region, such as the broad-line region (BLR) \parencite{ricci2022changinglook}. Here, $c$ denotes the speed of light and $R$ describes the characteristic size or radius of the variable emitting region. Assuming a SMBH of mass $\approx 10^8\,M_\odot$, the light-crossing timescale can be written as
+The shortest timescale is the light-crossing timescale, $t_\mathrm{lc} = R/c$, which specifies how long light takes to traverse the variable emitting region, such as the broad-line region (BLR) \parencite{ricci2022changinglook}. Here, $c$ denotes the speed of light and $R$ describes the characteristic size or radius of the variable emitting region. Following \cite{ricci2022changinglook}, by assuming a SMBH of mass $\approx 10^8\,M_\odot$, the light-crossing timescale can be written as
 \[
 t_\mathrm{lc} = \frac{R}{c} \simeq 0.87 \left(\frac{R}{150\,r_g}\right)M_8\,\mathrm{days},
 \]
@@ -137,14 +137,24 @@ Because variations in the ionizing continuum occur on such short timescales, it 
 \section{Reverberation Mapping}
 \label{sec:reverberation_mapping}
 
-The main focus of this work is a classic reverberation mapping analysis of the Broad Lines of NGC 4593. This observational technique allows to probe the structure of the BLR around the SMBH inside the AGN. This technique bases on the time delay or time lag between the continuum's variation and the correlated response of the broad lines. With this calculable time lag it is possible to assume the geometry of the BLR and calculating the mass of the SMBH.  
+The main focus of this work is a classic reverberation mapping analysis of the broad lines of NGC 4593. This observational technique allows to probe the structure of the BLR around the SMBH inside the AGN. This technique bases on the time delay or time lag between the continuum's variation and the correlated response of the broad lines. With this calculable time lag it is possible to infer the geometry of the BLR and to calculate the mass of the SMBH \parencite{cackett2018accretion}.  
 
 
-\subsection{Principle}
+\subsection{Principle of Reverberation Mapping}
 \label{subsec:rm_principle}
 
-The fundamental assumption in reverberation mapping is that fluctuations in the observed continuum luminosity drive corresponds to the fluctuations in the emission-line flux, with a measurable time delay. Like mentioned earlier, continuum fluctuations from the accretion disk serve as the ionizing source, illuminating the surrounding BLR. With variation in the continuum luminosity, the emission-line response follows these continuum variations with a measurable time lag \parencite{Cackett2021}.
-This time lag $\tau$ is corresponding to the average light-travel distance from the photoionization continuum to the line emitting regions. Furthermore it is possible to approximate the characteristic radius of the BLR depending on $\tau$ following this approximation: $R_{\mathrm{BLR}} \approx c \cdot \tau$. With different time lags from emission lines origination from different regions it is possible to infer the geometry of the BLR. A BLR with a thin shell of clouds would produce a more uniform lag, whereas a broad distribution of clouds produces a range of lags. In principle, reverberation mapping can be used to 'map' the BLR’s structure by inverting the delays \parencite{peterson1997introduction}.
+The fundamental assumption in reverberation mapping is that variation in the observed continuum's flux corresponds to the variation in the emission-line flux, with a measurable time delay. With variation in the continuum luminosity, the emission-line response follows these continuum variations with a measurable time lag \parencite{Cackett2021}.
+This time lag $\tau$ is corresponding to the average light-travel time from the photoionization continuum to the line emitting regions. Taking the idealized model for the BLR as spherical distributed clouds \parencite{goadBroadLine}, the $\tau$ can be assumed with \parencite{peterson1997introduction}:
+\begin{equation}
+	\tau = \left(1+\cos\theta\right)\cdot \frac{r}{c}
+\end{equation}
+
+
+
+
+
+
+Furthermore it is possible to approximate the characteristic radius of the BLR depending on $\tau$ following this approximation: $R_{\mathrm{BLR}} \approx c \cdot \tau$. With different time lags from emission lines origination from different regions it is possible to infer the geometry of the BLR. A BLR with a thin shell of clouds would produce a more uniform lag, whereas a broad distribution of clouds produces a range of lags. In principle, reverberation mapping can be used to 'map' the BLR’s structure by inverting the delays \parencite{peterson1997introduction}.
 The response of the BLR's lines is typically assumed as linearly related tho the photo-ionization continuum, leading to the convolution expression:
 \\
 \begin{equation}
