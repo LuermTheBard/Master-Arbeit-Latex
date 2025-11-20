@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.8" bltxversion="3.17" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.11" bltxversion="3.20" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -37,6 +37,11 @@
     <bcf:option type="singlevalued">
       <bcf:key>alphaothers</bcf:key>
       <bcf:value>+</bcf:value>
+    </bcf:option>
+    <bcf:option type="multivalued">
+      <bcf:key>extradatecontext</bcf:key>
+      <bcf:value order="1">labelname</bcf:value>
+      <bcf:value order="2">labeltitle</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
@@ -135,6 +140,10 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>nosortothers</bcf:key>
+      <bcf:value>0</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
+      <bcf:key>pluralothers</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -272,6 +281,11 @@
   </bcf:options>
   <!-- online -->
   <bcf:options component="biblatex" type="online">
+    <bcf:option type="multivalued">
+      <bcf:key>extradatecontext</bcf:key>
+      <bcf:value order="1">labelname</bcf:value>
+      <bcf:value order="2">labeltitle</bcf:value>
+    </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
       <bcf:value>0</bcf:value>
@@ -372,11 +386,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
+      <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
+      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -488,9 +502,11 @@
     <bcf:option datatype="xml">inheritance</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">uniquenametemplate</bcf:option>
+    <bcf:option datatype="xml">namehashtemplate</bcf:option>
     <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
     <bcf:option datatype="xml">sortingtemplate</bcf:option>
     <bcf:option datatype="xml">extradatespec</bcf:option>
+    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -599,6 +615,7 @@
     <bcf:option datatype="boolean">labeltitle</bcf:option>
     <bcf:option datatype="boolean">labeltitleyear</bcf:option>
     <bcf:option datatype="boolean">labeldateparts</bcf:option>
+    <bcf:option datatype="boolean">pluralothers</bcf:option>
     <bcf:option datatype="boolean">nohashothers</bcf:option>
     <bcf:option datatype="boolean">nosortothers</bcf:option>
     <bcf:option datatype="boolean">noroman</bcf:option>
@@ -714,6 +731,7 @@
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">sortexclusion</bcf:option>
     <bcf:option datatype="xml">sortinclusion</bcf:option>
+    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -732,9 +750,10 @@
   </bcf:optionscope>
   <bcf:optionscope type="ENTRY">
     <bcf:option datatype="string">noinherit</bcf:option>
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
+    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">presort</bcf:option>
     <bcf:option datatype="string" backendout="1">indexing</bcf:option>
@@ -811,9 +830,10 @@
     <bcf:option datatype="integer" backendout="1">minalphanames</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAMELIST">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
+    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
@@ -827,9 +847,10 @@
     <bcf:option datatype="boolean" backendout="1">useprefix</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAME">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
+    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
     <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
@@ -1043,8 +1064,15 @@
     <bcf:namepart order="2" base="1">family</bcf:namepart>
     <bcf:namepart order="3">given</bcf:namepart>
   </bcf:uniquenametemplate>
+  <!-- NAME HASH TEMPLATES -->
+  <bcf:namehashtemplate name="global">
+    <bcf:namepart order="1" hashscope="full">family</bcf:namepart>
+    <bcf:namepart order="2" hashscope="full">given</bcf:namepart>
+    <bcf:namepart order="3" hashscope="full">prefix</bcf:namepart>
+    <bcf:namepart order="4" hashscope="full">suffix</bcf:namepart>
+  </bcf:namehashtemplate>
   <!-- SORTING NAME KEY TEMPLATES -->
-  <bcf:sortingnamekeytemplate name="global">
+  <bcf:sortingnamekeytemplate name="global" visibility="sort">
     <bcf:keypart order="1">
       <bcf:part type="namepart" order="1" use="1">prefix</bcf:part>
       <bcf:part type="namepart" order="2">family</bcf:part>
@@ -2345,165 +2373,129 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="6">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="7">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="8">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="9">peterson1993</bcf:citekey>
-    <bcf:citekey order="10">mchardy2017ngc4593</bcf:citekey>
-    <bcf:citekey order="11">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="12">Bowen_1947</bcf:citekey>
-    <bcf:citekey order="12">netzer1976</bcf:citekey>
-    <bcf:citekey order="13">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="14">rees1984oldAGN</bcf:citekey>
-    <bcf:citekey order="15">rees1984oldAGN</bcf:citekey>
-    <bcf:citekey order="16">shakura1973black</bcf:citekey>
-    <bcf:citekey order="17">mo2010galaxy</bcf:citekey>
-    <bcf:citekey order="18">mo2010galaxy</bcf:citekey>
-    <bcf:citekey order="19">urry1995unified</bcf:citekey>
-    <bcf:citekey order="20">peterson2004</bcf:citekey>
-    <bcf:citekey order="21">shakura1973black</bcf:citekey>
-    <bcf:citekey order="22">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="23">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="24">shakura1973black</bcf:citekey>
-    <bcf:citekey order="24">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="25">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="26">shakura1973black</bcf:citekey>
-    <bcf:citekey order="26">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="27">shakura1973black</bcf:citekey>
-    <bcf:citekey order="27">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="28">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="29">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="30">urry1995unified</bcf:citekey>
-    <bcf:citekey order="31">goadBroadLine</bcf:citekey>
-    <bcf:citekey order="32">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="33">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="34">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="35">goadBroadLine</bcf:citekey>
-    <bcf:citekey order="36">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="37">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="38">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="39">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="40">peterson1993</bcf:citekey>
-    <bcf:citekey order="41">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="42">urry1995unified</bcf:citekey>
-    <bcf:citekey order="42">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="43">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="44">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="45">runco2015frequency</bcf:citekey>
-    <bcf:citekey order="46">runco2015frequency</bcf:citekey>
-    <bcf:citekey order="47">antonucci1993unified</bcf:citekey>
-    <bcf:citekey order="47">urry1995unified</bcf:citekey>
-    <bcf:citekey order="48">seyfert1943nuclear</bcf:citekey>
-    <bcf:citekey order="49">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="50">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="51">osterbrock1977SeyfertSub</bcf:citekey>
-    <bcf:citekey order="51">osterbrock1981SeyfertSub</bcf:citekey>
-    <bcf:citekey order="51">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="52">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="53">osterbrock1977SeyfertSub</bcf:citekey>
-    <bcf:citekey order="54">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="55">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="56">osterbrock1985nls1</bcf:citekey>
-    <bcf:citekey order="57">peterson2011massesblackholesactive</bcf:citekey>
-    <bcf:citekey order="57">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="58">osterbrock1985nls1</bcf:citekey>
-    <bcf:citekey order="59">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="60">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="61">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="62">antonucci1993unified</bcf:citekey>
-    <bcf:citekey order="63">urry1995unified</bcf:citekey>
-    <bcf:citekey order="64">urry1995unified</bcf:citekey>
-    <bcf:citekey order="65">ricci2022changinglook</bcf:citekey>
-    <bcf:citekey order="66">ricci2022changinglook</bcf:citekey>
-    <bcf:citekey order="67">beckmann_unified</bcf:citekey>
-    <bcf:citekey order="68">beckmann_unified</bcf:citekey>
-    <bcf:citekey order="69">Ulrich1997</bcf:citekey>
-    <bcf:citekey order="69">ochmann2024transient</bcf:citekey>
-    <bcf:citekey order="70">Ulrich1997</bcf:citekey>
-    <bcf:citekey order="70">Dexter_2010</bcf:citekey>
-    <bcf:citekey order="71">ricci2022changinglook</bcf:citekey>
-    <bcf:citekey order="72">ricci2022changinglook</bcf:citekey>
-    <bcf:citekey order="73">ricci2022changinglook</bcf:citekey>
-    <bcf:citekey order="74">ricci2022changinglook</bcf:citekey>
-    <bcf:citekey order="75">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="76">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="77">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="78">Cackett2021</bcf:citekey>
-    <bcf:citekey order="79">goadBroadLine</bcf:citekey>
-    <bcf:citekey order="80">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="81">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="82">horne2004observational</bcf:citekey>
-    <bcf:citekey order="83">horne2004observational</bcf:citekey>
-    <bcf:citekey order="83">peterson1993</bcf:citekey>
-    <bcf:citekey order="84">peterson2004</bcf:citekey>
-    <bcf:citekey order="85">peterson1998</bcf:citekey>
-    <bcf:citekey order="85">peterson2004</bcf:citekey>
-    <bcf:citekey order="86">peterson2004</bcf:citekey>
-    <bcf:citekey order="87">onken2004</bcf:citekey>
-    <bcf:citekey order="88">bowen1934</bcf:citekey>
-    <bcf:citekey order="89">netzer1976</bcf:citekey>
-    <bcf:citekey order="90">grandi1980</bcf:citekey>
-    <bcf:citekey order="91">grandi1980</bcf:citekey>
-    <bcf:citekey order="92">grandi1980</bcf:citekey>
-    <bcf:citekey order="93">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="94">simbaNGC4593</bcf:citekey>
-    <bcf:citekey order="95">mulchaey1997structure</bcf:citekey>
-    <bcf:citekey order="96">garcia2019alma</bcf:citekey>
-    <bcf:citekey order="97">bentz2015agn</bcf:citekey>
-    <bcf:citekey order="98">veron2010catalogue</bcf:citekey>
-    <bcf:citekey order="99">Skrutskie2006</bcf:citekey>
-    <bcf:citekey order="100">bentz2015agn</bcf:citekey>
-    <bcf:citekey order="101">denney2006ngc4593</bcf:citekey>
-    <bcf:citekey order="102">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="103">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="104">anderson2010empirical</bcf:citekey>
-    <bcf:citekey order="105">stisgratings</bcf:citekey>
-    <bcf:citekey order="106">stisgratings</bcf:citekey>
-    <bcf:citekey order="107">rodriguez1997steps</bcf:citekey>
-    <bcf:citekey order="108">mchardy2018x</bcf:citekey>
-    <bcf:citekey order="109">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="110">netzer2013agn</bcf:citekey>
-    <bcf:citekey order="111">peterson1997introduction</bcf:citekey>
-    <bcf:citekey order="112">peterson1993</bcf:citekey>
-    <bcf:citekey order="113">mchardy2017ngc4593</bcf:citekey>
-    <bcf:citekey order="114">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="115">Bowen_1947</bcf:citekey>
-    <bcf:citekey order="116">netzer1976</bcf:citekey>
-    <bcf:citekey order="117">rees1984oldAGN</bcf:citekey>
-    <bcf:citekey order="118">shakura1973black</bcf:citekey>
-    <bcf:citekey order="119">mo2010galaxy</bcf:citekey>
-    <bcf:citekey order="120">urry1995unified</bcf:citekey>
-    <bcf:citekey order="121">peterson2004</bcf:citekey>
-    <bcf:citekey order="122">goadBroadLine</bcf:citekey>
-    <bcf:citekey order="123">runco2015frequency</bcf:citekey>
-    <bcf:citekey order="124">antonucci1993unified</bcf:citekey>
-    <bcf:citekey order="125">seyfert1943nuclear</bcf:citekey>
-    <bcf:citekey order="126">osterbrock1977SeyfertSub</bcf:citekey>
-    <bcf:citekey order="127">osterbrock1981SeyfertSub</bcf:citekey>
-    <bcf:citekey order="128">osterbrock1985nls1</bcf:citekey>
-    <bcf:citekey order="129">peterson2011massesblackholesactive</bcf:citekey>
-    <bcf:citekey order="130">ricci2022changinglook</bcf:citekey>
-    <bcf:citekey order="131">beckmann_unified</bcf:citekey>
-    <bcf:citekey order="132">Ulrich1997</bcf:citekey>
-    <bcf:citekey order="133">ochmann2024transient</bcf:citekey>
-    <bcf:citekey order="134">Dexter_2010</bcf:citekey>
-    <bcf:citekey order="135">Cackett2021</bcf:citekey>
-    <bcf:citekey order="136">horne2004observational</bcf:citekey>
-    <bcf:citekey order="137">peterson1998</bcf:citekey>
-    <bcf:citekey order="138">onken2004</bcf:citekey>
-    <bcf:citekey order="139">bowen1934</bcf:citekey>
-    <bcf:citekey order="140">grandi1980</bcf:citekey>
-    <bcf:citekey order="141">simbaNGC4593</bcf:citekey>
-    <bcf:citekey order="142">mulchaey1997structure</bcf:citekey>
-    <bcf:citekey order="143">garcia2019alma</bcf:citekey>
-    <bcf:citekey order="144">bentz2015agn</bcf:citekey>
-    <bcf:citekey order="145">veron2010catalogue</bcf:citekey>
-    <bcf:citekey order="146">Skrutskie2006</bcf:citekey>
-    <bcf:citekey order="147">denney2006ngc4593</bcf:citekey>
-    <bcf:citekey order="148">anderson2010empirical</bcf:citekey>
-    <bcf:citekey order="149">stisgratings</bcf:citekey>
-    <bcf:citekey order="150">rodriguez1997steps</bcf:citekey>
-    <bcf:citekey order="151">mchardy2018x</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">peterson1993</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">mchardy2017ngc4593</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Bowen_1947</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">netzer1976</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">rees1984oldAGN</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">rees1984oldAGN</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">shakura1973black</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">mo2010galaxy</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">mo2010galaxy</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">urry1995unified</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">peterson2004</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">shakura1973black</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">shakura1973black</bcf:citekey>
+    <bcf:citekey order="25" intorder="2">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">shakura1973black</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">shakura1973black</bcf:citekey>
+    <bcf:citekey order="28" intorder="2">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">urry1995unified</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">goadBroadLine</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">goadBroadLine</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">peterson1993</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">urry1995unified</bcf:citekey>
+    <bcf:citekey order="43" intorder="2">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">runco2015frequency</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">runco2015frequency</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">antonucci1993unified</bcf:citekey>
+    <bcf:citekey order="48" intorder="2">urry1995unified</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">seyfert1943nuclear</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">osterbrock1977SeyfertSub</bcf:citekey>
+    <bcf:citekey order="52" intorder="2">osterbrock1981SeyfertSub</bcf:citekey>
+    <bcf:citekey order="52" intorder="3">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">osterbrock1977SeyfertSub</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">osterbrock1985nls1</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">peterson2011massesblackholesactive</bcf:citekey>
+    <bcf:citekey order="58" intorder="2">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">osterbrock1985nls1</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">netzer2013agn</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">antonucci1993unified</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">urry1995unified</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">urry1995unified</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">ricci2022changinglook</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">ricci2022changinglook</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">beckmann_unified</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">beckmann_unified</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">Ulrich1997</bcf:citekey>
+    <bcf:citekey order="70" intorder="2">ochmann2024transient</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">Ulrich1997</bcf:citekey>
+    <bcf:citekey order="71" intorder="2">Dexter_2010</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">ricci2022changinglook</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">ricci2022changinglook</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">ricci2022changinglook</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">ricci2022changinglook</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">Cackett2021</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">goadBroadLine</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">horne2004observational</bcf:citekey>
+    <bcf:citekey order="89" intorder="2">peterson1993</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">gaskell_peterson1986</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">peterson2004</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">peterson1998</bcf:citekey>
+    <bcf:citekey order="92" intorder="2">peterson2004</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">peterson2004</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">onken2004</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">bowen1934</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">netzer1976</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">grandi1980</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">grandi1980</bcf:citekey>
+    <bcf:citekey order="99" intorder="1">grandi1980</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">simbaNGC4593</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">mulchaey1997structure</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">garcia2019alma</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">bentz2015agn</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">veron2010catalogue</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">Skrutskie2006</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">bentz2015agn</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">anderson2010empirical</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">stisgratings</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">stisgratings</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">rodriguez1997steps</bcf:citekey>
+    <bcf:citekey order="115" intorder="1">mchardy2018x</bcf:citekey>
+    <bcf:citekey order="116" intorder="1">cackett2018accretion</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
@@ -2536,12 +2528,13 @@
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nyt/global//global/global"
+                name="nyt/global//global/global/global"
                 type="entry"
                 sortingtemplatename="nyt"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
-                labelalphanametemplatename="global">
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
   </bcf:datalist>
 </bcf:controlfile>
