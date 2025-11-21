@@ -164,7 +164,7 @@ $\Psi\left(\tau\right)$ refers to the transfer function, delivering the BLR's ge
 While in theory the response of the BLR can be fully described by the transfer function $\Psi\left(\tau\right)$, this lag can be estimated using cross-correlation techniques. In practice, recovering the full transfer function $\Psi\left(\tau\right)$ would require very well-sampled and high signal-to-noise light curves over a duration much longer than the expected lag. Since real monitoring campaigns are often affected by observational gaps and noise, such reconstructions are rarely possible \parencite{horne2004observational,peterson1993}. For this reason, this thesis concentrates on measuring the mean time lag between continuum and emission-line variations using the interpolated cross-correlation function (ICCF) method \parencite{gaskell_peterson1986}.\\
 
 
-\subsection{Lag Measurement and Black-Hole Mass}
+\subsection{Lag Measurement}
 \label{subsec:rm_ccf}
 
 Using the notation from \cite{peterson1997introduction} the cross-correlation function between the ionizing continuum and an emission line is defined as \begin{equation}
@@ -174,14 +174,16 @@ With the auto-correlation function of the ionizing continuum\begin{equation}
 	F_\mathrm{ACF}(\tau) = \int_{-\infty}^{\infty}C(t)C(t-\tau)dt
 \end{equation} 
 and the transfer equation \ref{eqn:transfer-function}, the cross-correlation function can be written as the convolution of the transferfunction and the auto-correlation function of the ionizing continuum:
-
 \begin{equation}
 	F_\mathrm{CCF}(\tau) = \int_{-\infty}^{\infty}\Psi(\tau') F_\mathrm{ACF}(\tau-\tau')d\tau'
 \end{equation}
-
 The lag is defined to be at the location of the peak ($\tau_{\mathrm{peak}}$) or the centroid ($\tau_{\mathrm{centroid}}$) of the CCF \parencite{peterson1997introduction}. 
 While $\tau_{\mathrm{peak}}$ is defined as the peak of the CCF, $\tau_{\mathrm{centroid}}$ gets calculated over all points of the CCF, which are above a selected threshold which is typically $80\%$. Because of the strong relation of the CCF and the transferfunction, it is possible to infer a scale length for the BLR, where the emission line originated from \parencite{peterson1997introduction}, which can be describe with $R_\mathrm{BLR} = c \cdot \tau_{\mathrm{centroid}}$ using the light-travel time scale \parencite{peterson2004}. Since the centroid lag is generally considered a more robust representation of the mean light-travel time of the BLR \parencite{peterson2004}, it is used in this thesis.\\
-The uncertainty of the measured lag is estimated using a monte varlo approach combining flux randomization (FR) and random subset selection (RSS) \parencite{peterson2004}. In the FR step, each flux value is randomly perturbed according to its measurement uncertainty. In the RSS step, a subset of the data points is drawn at random with replacement, preserving the original sample size. For each realization, the ICCF analysis is repeated, resulting in a distribution of centroid lags. The median of this distribution is adopted as the final lag measurement, while the 16th and 84th percentiles are taken as the $1 \sigma$ confidence interval, accounting for both measurement noise and the effects of uneven temporal sampling.\\\\
+The uncertainty of the measured lag is estimated using a monte varlo approach combining flux randomization (FR) and random subset selection (RSS) \parencite{peterson2004}. In the FR step, each flux value is randomly perturbed according to its measurement uncertainty. In the RSS step, a subset of the data points is drawn at random with replacement, preserving the original sample size. For each realization, the ICCF analysis is repeated, resulting in a distribution of centroid lags. The median of this distribution is adopted as the final lag measurement, while the 16th and 84th percentiles are taken as the $1 \sigma$ confidence interval, accounting for both measurement noise and the effects of uneven temporal sampling.
+
+\subsection{Black-Hole Mass}
+\label{subsec:BHM}
+
 With the measured rest-frame centroid lag $\tau_{\mathrm{centroid}}$ from the ICCF analysis and the velocity width of the broad emission line, the mass of the central supermassive black hole (SMBH) can be estimated under the assumption that the BLR gas is gravitationally bound and its motions are dominated by the SMBH potential \parencite{peterson2004}. The distance to the BLR is given by
 
 \begin{equation}
