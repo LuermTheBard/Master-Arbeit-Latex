@@ -1432,64 +1432,6 @@
       \verb 10.1086/133140
       \endverb
     \endentry
-    \entry{peterson1998}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
-           family={Peterson},
-           familyi={P\bibinitperiod},
-           given={B.\bibnamedelimi M.},
-           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=48bb86fb10042d860ab893149119600f}{%
-           family={Wanders},
-           familyi={W\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=cf13c17a4a01a025bf50344ecd83c718}{%
-           family={Bertram},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=9ba16c7f2e31754274f5a2ae3597012f}{%
-           family={Hunley},
-           familyi={H\bibinitperiod},
-           given={J.\bibnamedelimi F.},
-           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=3c16c33071ce888e53237db94dd9036b}{%
-           family={Pogge},
-           familyi={P\bibinitperiod},
-           given={R.\bibnamedelimi W.},
-           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=b2daeb76576e70e193a53d2879c5f23f}{%
-           family={Wagner},
-           familyi={W\bibinitperiod},
-           given={R.\bibnamedelimi M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
-      \strng{fullhash}{0d6ca690c5cd2b6e170d736076f2c370}
-      \strng{fullhashraw}{0d6ca690c5cd2b6e170d736076f2c370}
-      \strng{bibnamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
-      \strng{authorbibnamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
-      \strng{authornamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
-      \strng{authorfullhash}{0d6ca690c5cd2b6e170d736076f2c370}
-      \strng{authorfullhashraw}{0d6ca690c5cd2b6e170d736076f2c370}
-      \field{extraname}{1}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Astrophysical Journal}
-      \field{title}{Optical Continuum and Emission-Line Variability of Seyfert 1 Galaxies}
-      \field{volume}{501}
-      \field{year}{1998}
-      \field{pages}{82\bibrangedash 93}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1086/305813
-      \endverb
-    \endentry
     \entry{peterson2004}{article}{}{}
       \name{author}{12}{}{%
         {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
@@ -1561,7 +1503,7 @@
       \strng{authornamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
       \strng{authorfullhash}{21fb0042c9ebeaeed15fb4627ed0afec}
       \strng{authorfullhashraw}{21fb0042c9ebeaeed15fb4627ed0afec}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1643,6 +1585,80 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/1109.4181
+      \endverb
+    \endentry
+    \entry{Peterson_1998b}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=d9235e6cf41f9306904f873b2af9a74f}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Bradley\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4916ab3839d28ed19400896ae266ebc8}{%
+           family={Wanders},
+           familyi={W\bibinitperiod},
+           given={Ignaz},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b280757d1dfa5a202db66fb59c20508d}{%
+           family={Horne},
+           familyi={H\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b2c85899c72d655ea08770a5b1a97196}{%
+           family={Collier},
+           familyi={C\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2e34590714269afe9ccf649a58b2565e}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5cdc8d18deaabb7d0ffd1192ccee3289}{%
+           family={Kaspi},
+           familyi={K\bibinitperiod},
+           given={Shai},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1470f9ea2f5aa1776671731398c2ace5}{%
+           family={Maoz},
+           familyi={M\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{4fe59f9f810d299dbf43ef8d3485b687}
+      \strng{fullhash}{86d8dc59ff73b2bd5972a54472dbbf8e}
+      \strng{fullhashraw}{86d8dc59ff73b2bd5972a54472dbbf8e}
+      \strng{bibnamehash}{4fe59f9f810d299dbf43ef8d3485b687}
+      \strng{authorbibnamehash}{4fe59f9f810d299dbf43ef8d3485b687}
+      \strng{authornamehash}{4fe59f9f810d299dbf43ef8d3485b687}
+      \strng{authorfullhash}{86d8dc59ff73b2bd5972a54472dbbf8e}
+      \strng{authorfullhashraw}{86d8dc59ff73b2bd5972a54472dbbf8e}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
+      \field{month}{6}
+      \field{number}{748}
+      \field{title}{On Uncertainties in Cross‐Correlation Lags and the Reality of Wavelength‐dependent Continuum Lags in Active Galactic Nuclei}
+      \field{volume}{110}
+      \field{year}{1998}
+      \field{pages}{660}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/316177
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1086/316177
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1086/316177
       \endverb
     \endentry
     \entry{rees1984oldAGN}{article}{}{}

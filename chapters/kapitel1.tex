@@ -176,26 +176,43 @@ and the transfer equation \ref{eqn:transfer-function}, the cross-correlation fun
 	F_\mathrm{CCF}(\tau) = \int_{-\infty}^{\infty}\Psi(\tau') F_\mathrm{ACF}(\tau-\tau')d\tau'
 \end{equation}
 The lag is defined to be at the location of the peak ($\tau_{\mathrm{peak}}$) or the centroid ($\tau_{\mathrm{centroid}}$) of the CCF \parencite{peterson1997introduction}. 
-While $\tau_{\mathrm{peak}}$ is defined as the peak of the CCF, $\tau_{\mathrm{centroid}}$ gets calculated over all points of the CCF, which are above a selected threshold which is typically $80\%$. Because of the strong relation of the CCF and the transferfunction, it is possible to infer a scale length for the BLR, where the emission line originated from \parencite{peterson1997introduction}, which can be describe with $R_\mathrm{BLR} = c \cdot \tau_{\mathrm{centroid}}$ using the light-travel time scale \parencite{peterson2004}. Since the centroid lag is generally considered a more robust representation of the mean light-travel time of the BLR \parencite{peterson2004}, it is used in this thesis.\\
+While $\tau_{\mathrm{peak}}$ is defined as the peak of the CCF, $\tau_{\mathrm{centroid}}$ gets calculated over all points of the CCF, which are above a selected threshold which is typically $80\%$. Because of the strong relation of the CCF and the transferfunction, it is possible to infer a scale length for the BLR, where the emission line originated from \parencite{peterson1997introduction}, which can be describe with \begin{equation}
+	R_\mathrm{BLR} = c \cdot \tau_{\mathrm{centroid}},
+\end{equation}  using the light-travel time scale \parencite{peterson2004}. Since the centroid lag is generally considered a more robust representation of the mean light-travel time of the BLR \parencite{peterson2004}, it is used in this thesis.\\
 The uncertainty of the measured lag is estimated using a Monte Carlo approach combining flux randomization (FR) and random subset selection (RSS) \parencite{Peterson_1998b, peterson2004}. In the FR step, each flux value is randomly perturbed according to its measurement uncertainty. In the RSS step, a set of $N$ data points is randomly drawn with replacement, but redundant selections are discarded, resulting in a new light curve with $M \leq N$ points. For each realization, the ICCF analysis is repeated, yielding a distribution of centroid lags. The uncertainties are estimated from the distribution of centroid lags obtained through the simulations\parencite{peterson2004}.The 16th and 84th percentiles of this distribution are adopted as the bounds of the $1\sigma$ confidence interval \parencite{Peterson_1998b}.
 \subsection{Black-Hole Mass}
 \label{subsec:BHM}
 
-With the measured rest-frame centroid lag $\tau_{\mathrm{centroid}}$ from the ICCF analysis and the velocity width of the broad emission line, the mass of the central supermassive black hole (SMBH) can be estimated under the assumption that the BLR gas is gravitationally bound and its motions are dominated by the SMBH potential \parencite{peterson2004}. The distance to the BLR is given by
+The reverberation mapping methode can further be used to calculate the mass of the central SMBH. Having the centroid lag of broad emission lines, it can be determined together with velocity dispersion $\Delta V$ of the BLR:
+
+\begin{equation}
+	M_\mathrm{BH}= \frac{fc\tau_\mathrm{centroid}\Delta V^2}{G}
+\end{equation}
+Here, $G$ describes the gravitational constant and $f$ a scale factor which accounts for the unkonw geometry, kinematics and inclination of the BLR \parencite{peterson2004}.
+\\\\
+
+With the measured centroid lag $\tau_{\mathrm{centroid}}$ from the ICCF analysis and the velocity width of the broad emission line, the mass of the central supermassive black hole (SMBH) can be estimated under the assumption that the BLR gas is gravitationally bound and its motions are dominated by the SMBH potential \parencite{peterson2004}. The distance to the BLR is given by
 
 \begin{equation}
 	R_{\mathrm{BLR}} = c \cdot \tau_{\mathrm{centroid}}
 \end{equation}
-and, combined with the line-of-sight velocity dispersion $\Delta V$ of the BLR gas, the virial product is defined as:
+and, combined with the line-of-sight velocity dispersion $\Delta V$ of the BLR, the virial product is defined as:
 
 \begin{equation}
 	M_{\mathrm{vir}} = \frac{R_{\mathrm{BLR}}\,\Delta V^2}{G}.
 \end{equation}
-The physical black hole mass is then obtained by applying a scale factor $f$, which accounts for the unknown geometry, kinematics, and inclination of the BLR:
+
+The black hole mass is then obtained by applying a scale factor $f$, which accounts for the unknown geometry, kinematics, and inclination of the BLR:
 \begin{equation}
 	M_{\mathrm{BH}} = f \cdot M_{\mathrm{vir}}.
 \end{equation}
-Following \textcite{onken2004}, a mean value of $f$ is adopted, calibrated by aligning reverberation-based masses with the $M_{\mathrm{BH}}-\sigma_*$ relation observed in not-active galaxies. Here, $\sigma_*$ describes the stellar velocity dispersion of the galactic bulge. The actual scale factor can still vary between individual AGN because of differences in their geometry and orientation, which results in systematic uncertainties in the SMBH mass estimation. Still, the calibration of $f$ against $M_{\mathrm{BH}}-\sigma_*$ delivers a well-established methode for estimation the SMBH mass and will be used in this thesis.
+Following \textcite{onken2004}, a mean value of $f$ is adopted, calibrated by aligning reverberation-based masses with the $M_{\mathrm{BH}}-\sigma_*$ relation observed in not-active galaxies. Here, $\sigma_*$ describes the stellar velocity dispersion of the galactic bulge. The actual scale factor can still vary between individual AGN because of differences in their geometry and orientation, which results in systematic uncertainties in the SMBH mass estimation. Still, the calibration of $f$ against $M_{\mathrm{BH}}-\sigma_*$ delivers a well-established method for estimation the SMBH mass. With that and the mass of the SMBH is given by
+\begin{equation}
+	M_\mathrm{BH}= \frac{fc\tau_\mathrm{centroid}\Delta V^2}{G}
+\end{equation}
+
+$\Delta V$ can be obtained, by measuring the line widths of the broad emission-lines. Following \cite{peterson2004} 
+
 
 
 

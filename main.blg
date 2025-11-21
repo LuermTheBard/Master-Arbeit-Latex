@@ -1,18 +1,19 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[106] biber-MSWIN64:340> INFO - === 
-[137] Biber.pm:420> INFO - Reading 'main.bcf'
-[242] Biber.pm:994> INFO - Found 43 citekeys in bib section 0
-[254] Biber.pm:4463> INFO - Processing section 0
-[265] Biber.pm:4654> INFO - Looking for bibtex file 'literatur.bib' for section 0
-[304] bibtex.pm:1713> INFO - LaTeX decoding ...
-[366] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur.bib'
-[698] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[698] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[699] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[699] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[741] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[770] bbl.pm:779> INFO - Output to main.bbl
-[771] Biber.pm:131> WARN - legacy month field 'aug' in entry 'Bowen_1947' is not an integer - this will probably not sort properly.
-[771] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\lukas\AppData\Local\Temp\biber_tmp_S_y8\a3880c76f34ea5bee4730f185bf8bebe_31656.utf8, line 287, warning: 1 characters of junk seen at toplevel
-[771] Biber.pm:133> INFO - WARNINGS: 2
+[119] biber-MSWIN64:340> INFO - === 
+[154] Biber.pm:420> INFO - Reading 'main.bcf'
+[270] Biber.pm:994> INFO - Found 43 citekeys in bib section 0
+[285] Biber.pm:4463> INFO - Processing section 0
+[297] Biber.pm:4654> INFO - Looking for bibtex file 'literatur.bib' for section 0
+[346] bibtex.pm:1713> INFO - LaTeX decoding ...
+[404] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur.bib'
+[717] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[717] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[718] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[718] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[767] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[798] bbl.pm:779> INFO - Output to main.bbl
+[798] Biber.pm:131> WARN - legacy month field 'aug' in entry 'Bowen_1947' is not an integer - this will probably not sort properly.
+[798] Biber.pm:131> WARN - legacy month field 'jun' in entry 'Peterson_1998b' is not an integer - this will probably not sort properly.
+[798] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\lukas\AppData\Local\Temp\biber_tmp_e2Em\a3880c76f34ea5bee4730f185bf8bebe_37680.utf8, line 287, warning: 1 characters of junk seen at toplevel
+[798] Biber.pm:133> INFO - WARNINGS: 3
