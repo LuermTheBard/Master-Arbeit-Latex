@@ -157,23 +157,31 @@ This time lag $\tau$ is corresponding to the average light-travel time from the 
 \end{equation}
 where $R_\mathrm{BLR}$ is the characteristic size or radius of the BLR, c the speed of light and $\theta$ the angle of the BLR from the line of sight of the observer to the central source  (\ref{fig:iso-delay}) \parencite{peterson1997introduction}. The circle in Figure \ref{fig:iso-delay} describes the spherical distribution of the BLR. For a fixed lag $\tau$ the location for the responding emitting region must lay on a paraboloid, that fits to the observers line of sight to the continuum, which is called the isodelay surface. Following that the position of the BLR, that is emitting with the fixed lag $\tau$ has to be located on the intersection of the BLR distribution and the isodelay surface \parencite{peterson1997introduction}. Thus, reverberation mapping can be used to 'map' the BLR’s structure by infer the characteristic radius of the BLR from the time lag \parencite{peterson1997introduction}. But because the observer sees not one, but all possible isodelay surfaces that a possible for a fixed lag $\tau$, the so called 'transfer equation' is needed which integrates over all isodelay surfaces \parencite{peterson1997introduction}:
 \begin{equation}
+	\label{eqn:transfer-function}
 	L\left(t\right) = \int \Psi\left(\tau\right)C\left(t-\tau\right) d\tau
 \end{equation}
 $\Psi\left(\tau\right)$ refers to the transfer function, delivering the BLR's geometric and kinematic information, $C(t)$ refers to the contiuuum light curve and $L(t)$ the emission light curve \parencite{peterson1997introduction}.
-While in theory the response of the BLR can be fully described by the transfer function $\Psi\left(\tau\right)$, this lag can be estimated using cross-correlation techniques, which are discussed in the following section. In practice, recovering the full transfer function $\Psi\left(\tau\right)$ would require very well-sampled and high signal-to-noise light curves over a duration much longer than the expected lag. Since real monitoring campaigns are often affected by observational gaps and noise, such reconstructions are rarely possible \parencite{horne2004observational,peterson1993}. For this reason, this thesis concentrates on measuring the mean time lag between continuum and emission-line variations using the interpolated cross-correlation function (ICCF) method \parencite{gaskell_peterson1986}.\\
+While in theory the response of the BLR can be fully described by the transfer function $\Psi\left(\tau\right)$, this lag can be estimated using cross-correlation techniques. In practice, recovering the full transfer function $\Psi\left(\tau\right)$ would require very well-sampled and high signal-to-noise light curves over a duration much longer than the expected lag. Since real monitoring campaigns are often affected by observational gaps and noise, such reconstructions are rarely possible \parencite{horne2004observational,peterson1993}. For this reason, this thesis concentrates on measuring the mean time lag between continuum and emission-line variations using the interpolated cross-correlation function (ICCF) method \parencite{gaskell_peterson1986}.\\
 
 
-\subsection{Cross-Correlation Function and Lag Measurement}
+\subsection{Lag Measurement and Black-Hole Mass}
 \label{subsec:rm_ccf}
 
+Using the notation from \cite{peterson1997introduction} the cross-correlation function between the ionizing continuum and an emission line is defined as \begin{equation}
+	F_\mathrm{CCF}(\tau) = \int_{-\infty}^{\infty}L(t)C(t-\tau)dt,
+\end{equation}
+With the auto-correlation function of the ionizing continuum\begin{equation}
+	F_\mathrm{ACF}(\tau) = \int_{-\infty}^{\infty}C(t)C(t-\tau)dt
+\end{equation} 
+and the transfer equation \ref{eqn:transfer-function}, the cross-correlation function can be written as the convolution of the transferfunction and the auto-correlation function of the ionizing continuum:
 
-Measuring the same objects over a span of time, it is possible to determine the correlation coefficient (CCF)  as a function of the time shift $\tau$ between two light curves, e.g. the variable light curve of the ionizing continuum and the light curve of a broad emission line. By sliding one curve relative to the other, the ICCF quantifies how well the variations match for each lag.  In this context, two types of lags are defined: the lag corresponding to the maximum correlation $\tau_{\mathrm{peak}}$ and the centroid lag $\tau_{\mathrm{centroid}}$. $\tau_{\mathrm{centroid}}$ gets calculated over all points of the CCF, that are above a selected threshold which is typically $80\%$ of the CCF. Since the centroid lag is generally considered a more robust representation of the mean light-travel time of the BLR \parencite{peterson2004}, it is used in this thesis.\\
-The uncertainty of the measured lag is estimated using a Monte Carlo approach combining Flux Randomization (FR) and Random Subset Selection (RSS) \parencite{peterson1998,peterson2004}. In the FR step, each flux value is randomly perturbed according to its measurement uncertainty. In the RSS step, a subset of the data points is drawn at random with replacement, preserving the original sample size. For each realization, the ICCF analysis is repeated, resulting in a distribution of centroid lags. The median of this distribution is adopted as the final lag measurement, while the 16th and 84th percentiles are taken as the $1 \sigma$ confidence interval, accounting for both measurement noise and the effects of uneven temporal sampling.
+\begin{equation}
+	F_\mathrm{CCF}(\tau) = \int_{-\infty}^{\infty}\Psi(\tau') F_\mathrm{ACF}(\tau-\tau')d\tau'
+\end{equation}
 
-
-\subsection{Black-Hole Mass}
-\label{subsec:rm_bh_mass}
-
+The lag is defined to be at the location of the peak ($\tau_{\mathrm{peak}}$) or the centroid ($\tau_{\mathrm{centroid}}$) of the CCF \parencite{peterson1997introduction}. 
+While $\tau_{\mathrm{peak}}$ is defined as the peak of the CCF, $\tau_{\mathrm{centroid}}$ gets calculated over all points of the CCF, which are above a selected threshold which is typically $80\%$. Because of the strong relation of the CCF and the transferfunction, it is possible to infer a scale length for the BLR, where the emission line originated from \parencite{peterson1997introduction}, which can be describe with $R_\mathrm{BLR} = c \cdot \tau_{\mathrm{centroid}}$ using the light-travel time scale \parencite{peterson2004}. Since the centroid lag is generally considered a more robust representation of the mean light-travel time of the BLR \parencite{peterson2004}, it is used in this thesis.\\
+The uncertainty of the measured lag is estimated using a monte varlo approach combining flux randomization (FR) and random subset selection (RSS) \parencite{peterson2004}. In the FR step, each flux value is randomly perturbed according to its measurement uncertainty. In the RSS step, a subset of the data points is drawn at random with replacement, preserving the original sample size. For each realization, the ICCF analysis is repeated, resulting in a distribution of centroid lags. The median of this distribution is adopted as the final lag measurement, while the 16th and 84th percentiles are taken as the $1 \sigma$ confidence interval, accounting for both measurement noise and the effects of uneven temporal sampling.\\\\
 With the measured rest-frame centroid lag $\tau_{\mathrm{centroid}}$ from the ICCF analysis and the velocity width of the broad emission line, the mass of the central supermassive black hole (SMBH) can be estimated under the assumption that the BLR gas is gravitationally bound and its motions are dominated by the SMBH potential \parencite{peterson2004}. The distance to the BLR is given by
 
 \begin{equation}
