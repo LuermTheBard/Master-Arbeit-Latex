@@ -37,7 +37,9 @@ The Bowen fluorescence of O\,I $\lambda 8446$, which is investigated in this ana
 
 \section{Emission Line and Continua Measurement}
 
-After identifying the emission lines, the next step of the analysis is to calculate the fluxes of those lines. This is done with the help of a python-based tool called GECHO created by M. Probst.\\\\ uses methods for lag measurements and line-width measurements based on ... .\\\\ With help of this tool the flux density gets integrated over the extent of each emission line for every observed spectrum of the campaign. Here it is important to define the integration limits so that only the variable component of the emission line is measured in this way To ensure this, a parallel view of the AVG- and RMS-spectrum was used to define those integration limits, by identifying the variable components of the line in the RMS-spectrum. Additionally, it must be ensured, that no component of any other line is contributing to the line flux of the measured line. But before the line flux can be calculated, the surrounding continuum has to be subtracted, which can be done by interpolating a linear underlying continuum between sections on the blue and red side with no line contribution. The chosen integration limits and pseudo-continua can be found in Table \ref{tab:emission_lines}. With the fluxes of each line now derived from all observed spectra, it is possible to extract the lightcurves of the measured emission line, which will be further covered in the next section.
+After identifying the emission lines, the next step of the analysis is to calculate the fluxes of those lines. This is done with the help of a python-based tool called GECHO created by M. Probst. It enables to import full campaigns, determine the AVG and RMS spectra, extracting lightcurves and do further measurments, like e.g. ICCF methode to measure lags and line-wifth measurments \parencite{gaskell_peterson1986, peterson2004}, which will be further discussed in Section \ref{sec:time_lag_bh_mass}\\
+With help of GECHO the flux density gets integrated over the extent of each emission line for every observed spectrum of the campaign. Here it is important to define the integration limits so that all of the emission line flux is measured in this way. To ensure this, a parallel view of the AVG- and RMS-spectrum was used to define those integration limits, and to ensured, that no component of any other line is contributing to the line flux of the measured line. But before the line flux can be calculated, the surrounding continuum has to be subtracted, which can be done by interpolating a linear underlying continuum between sections on the blue and red side with no line contribution. The chosen integration limits and pseudo-continua can be found in Table \ref{tab:emission_lines}. With the fluxes of each line now derived from all observed spectra, it is possible to extract the lightcurves of the measured emission line, which will be further covered in the next section.\\
+Besides the emission line lightcurves, continua lightcurves from different wavelength ranges are required for the further analysis. The extraction process is similar to the emission line lightcurves, except that they get calculated by the mean flux density of a sufficiently large region without line emission or absorption.Therefore, no pseudo-continuum subtraction is necessary. The chosen integration limits for the continua can be found in Table \ref{tab:continua}.\\
 
 \begin{table}[h!]
 	\centering
@@ -66,10 +68,6 @@ After identifying the emission lines, the next step of the analysis is to calcul
 \end{table}
 
 
-Besides the emission line lightcurves, continua lightcurves from different wavelength ranges are needed for the further analysis. The extraction process is similar to the emission line lightcurves, except that they get calculated by the mean flux density of a sufficiently large region without line emission or absorption. Logically a pseudo-continua subtraction is not needed here. The chosen integration limits for the continua can be found in Table \ref{tab:continua}.\\
-
-
-
 \begin{table}[h!]
 	\centering
 	\small
@@ -94,7 +92,7 @@ Besides the emission line lightcurves, continua lightcurves from different wavel
 	\end{tabular}
 \end{table}
 
-The variability of the emission lines and continua being the basis of a reverberation analysis, it is helpful to use variability statistics, as defined by \cite{rodriguez1997steps}. Thus include the extrema of the flux densities of the emission lines as well as the extrema of the integrated fluxes of the continua $F_\mathrm{min}$ and $F_\mathrm{max}$, the ratio of the maximum and minimum flux $R_\mathrm{max}$, the mean flux $\left<F\right>$, the standard deviation $\sigma_F$ and finally the fractional variation, which is defined as: 
+Since the variability of the emission lines and continua forms the basis of reverberation analysis, it is useful to quantify it using variability statistics. Here the definition of  \cite{rodriguez1997steps} gets adopted. This definition includes the extrema of the emission line flux densities as well as the extrema of the integrated continuum fluxes, $F_\mathrm{min}$ and $F_\mathrm{max}$, the maximum-to-minimum flux ratio $R_\mathrm{max}$, the mean flux $\langle F \rangle$, the standard deviation $\sigma_F$, and finally the fractional variability, which is defined as: 
 \begin{equation}
 	F_\mathrm{var}=\frac{\sqrt{\sigma_F^2-\Delta^2}}{\left<F\right>}
 \end{equation}
@@ -102,10 +100,10 @@ The variability of the emission lines and continua being the basis of a reverber
 Here $\Delta^2$ is the mean square value of the uncertainties of the fluxes defined as:
 
 \begin{equation}
-	\Delta^2 = \frac{1}{N} \sum_{N}^{i=1}\Delta_i^2
+	\Delta^2 = \frac{1}{N} \sum_{i=1}^{N}\Delta_i^2
 \end{equation}
 
-The results of these parameters can be found in table \ref{tab:varstatistics}. \\
+The results of these parameters can be found in Table \ref{tab:varstatistics}. \\
 
 
 
@@ -151,7 +149,7 @@ The results of these parameters can be found in table \ref{tab:varstatistics}. \
 
 \section{Lightcurves}
 
-This chapter will cover the plots and comparison of the extracted emission line and continua lightcurves. Additionally to the measured lightcurves, the UVW2 continuum lightcurve from the swift campaign taken by \parencite{mchardy2018x} is included in the further analysis, as it was used by E. Cackett in his analysis too \parencite{cackett2018accretion}. \\
+This chapter will cover the plots and comparison of the extracted emission line and continua lightcurves. Additionally to the measured lightcurves, the UVW2 continuum lightcurve from the Swift campaign taken by \parencite{mchardy2018x} is included in the further analysis, as it was used by E. Cackett in his analysis too \parencite{cackett2018accretion}. \\
 
 
 
@@ -199,6 +197,7 @@ Like mentioned earlier, the lightcurves of the emission-lines H$\alpha$, H$\beta
 \end{figure}
 
 \section{Time Lag and BH Masses}
+\label{sec:time_lag_bh_mass}
 
 \begin{figure}[!ht]
 	\centering
