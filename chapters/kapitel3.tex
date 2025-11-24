@@ -15,7 +15,7 @@ Having obtained the AVG- and RMS spectrum of NGC4593, the next step is the ident
 
 \newpage
 
-Looking at Figure \ref{fig:AVG_RMS_SPECTRUM}, the most prominent broad emission lines in the AVG spectrum are the Balmer-Lines, with H$\alpha$ being the strongest followed by H$\beta$ and H$\gamma$. Their variations are clearly visible in the RMS spectrum and the line profiles of H$\alpha$ and H$\beta$ in particular show strong similarities, which will be discussed in more detail later in this chapter. In addition to the Balmer emission lines there are several He-emission lines such as He\,II $\lambda 4685$, He\,I $\lambda 5875$ and He\,I $\lambda 7065$ show measurable variability. Another significant broad emission line complex appears in the NIR part of the spectrum, including the O\,I $\lambda 8446$ and Ca\,II lines. The O\,I $\lambda 8446$ line is of particular interest in this thesis, as it shows variation which was never measured through a reverberation mapping analysis before. \\
+Looking at Figure \ref{fig:AVG_RMS_SPECTRUM}, the most prominent broad emission lines in the AVG spectrum are the Balmer-Lines, with H$\alpha$ being the strongest followed by H$\beta$ and H$\gamma$. Their variations are clearly visible in the RMS spectrum and the line profiles of H$\alpha$ and H$\beta$ in particular show strong similarities, which will be discussed in more detail later in this chapter. In addition to the Balmer emission lines, several He-emission lines such as He\,II $\lambda 4685$, He\,I $\lambda 5875$ and He\,I $\lambda 7065$ show  variability. Another significant broad emission line complex appears in the NIR part of the spectrum, including the O\,I $\lambda 8446$ and Ca\,II lines. The O\,I $\lambda 8446$ line is of particular interest in this thesis, as it shows variability that has never been measured using reverberation mapping before. \\
 Apart from the broad emission lines, the AVG spectrum also exhibits several strong forbidden emission lines with the [O\,III] $\lambda 5007$ and the [O\,III] $\lambda 4958$ as the most prominent ones. As mentioned in the previous chapter, the first one was used for the intercalibration of the spectra and, as expected, shows no variability in the RMS spectrum, similar to the other forbidden lines. Finally, the AVG spectrum shows additionally two Fe II emission line groups, that shows no variation in the RMS spectrum.
 
 \begin{figure}[!htbp]
@@ -27,8 +27,8 @@ Apart from the broad emission lines, the AVG spectrum also exhibits several stro
 \end{figure}
 
 
-The UV spectrum, shown in figure \ref{fig:UV_uncalibrated_AVG_RMS}, contains only a few additional broad and semi-forbidden emission lines due to its limited coverage. In addition to the prominent Si and C broad emission lines, it shows strong and variable Ly$_\alpha$ emission, which is of particular significance for this thesis. \\
-The Bowen fluorescence of O\,I $\lambda 8446$, which is investigated in this analysis, is typical driven by the emission of the Ly$\beta$ line, which lies outside the spectral range of the HST Campaign. However, as can be seen in figure \ref{fig:UV_uncalibrated_AVG_RMS}, Ly$\alpha$  still lies in the spectral range of the campaign, as the most blue broad line of the taken spectra. As Ly$_\alpha$ and Ly$_\beta$ are assumed to originate from the same physical region, Ly$_\alpha$ can be used to examine the correlation of O\,I $\lambda 8446$ and Ly$\alpha$ for Bowen fluorescence.
+The UV spectrum shown in Figure \ref{fig:UV_uncalibrated_AVG_RMS} contains both broad and semi-forbidden emission lines. In addition to the prominent Si and C broad emission lines, it shows strong and variable Ly$\alpha$ emission, which is of particular significance for this thesis. \\
+The Bowen fluorescence of O\,I $\lambda 8446$, which is investigated in this analysis, is typical driven by the emission of the Ly$\beta$ line \parencite{grandi1980}, which lies outside the spectral range of the HST Campaign. However, as can be seen in figure \ref{fig:UV_uncalibrated_AVG_RMS}, Ly$\alpha$  still lies in the spectral range of the campaign, as the bluest broad line of the taken spectra. As Ly$\alpha$ and Ly$\beta$ are assumed to originate in the same physical region, Ly$_\alpha$ can be used to examine the corelation of O\,I $\lambda 8446$ and Ly$\alpha$ for Bowen fluorescence.
  
  
 
@@ -37,7 +37,7 @@ The Bowen fluorescence of O\,I $\lambda 8446$, which is investigated in this ana
 
 \section{Emission Line and Continua Measurement}
 
-After identifying the emission lines, the next step of the analysis is to calculate the fluxes of those lines. This is done with the help of a python-based tool called gecho, which uses methods for lag measurements and line-width measurements based on ... . With help of this tool the flux density gets integrated over the extent of each emission line for every observed spectrum of the campaign. Here it is important to define the integration limits so that only the variable component of the emission line is measured in this way To ensure this, a parallel view of the AVG- and RMS-spectrum was used to define those integration limits, by identifying the variable components of the line in the RMS-spectrum. Additionally, it must be ensured, that no component of any other line is contributing to the line flux of the measured line, which can lead to misleading conclusions. But before the line flux can be calculated, the surrounding continuum has to be subtracted, which can be done by interpolating a linear pseudo-continuum between sections on the blue and red side with no line contribution. The chosen integration limits and pseudo-continua can be found in Table \ref{tab:emission_lines}. With the fluxes of each line now derived from all observed spectra, it is possible to extract the lightcurves of the measured emission line, which will be further covered in the next section.
+After identifying the emission lines, the next step of the analysis is to calculate the fluxes of those lines. This is done with the help of a python-based tool called GECHO created by M. Probst.\\\\ uses methods for lag measurements and line-width measurements based on ... .\\\\ With help of this tool the flux density gets integrated over the extent of each emission line for every observed spectrum of the campaign. Here it is important to define the integration limits so that only the variable component of the emission line is measured in this way To ensure this, a parallel view of the AVG- and RMS-spectrum was used to define those integration limits, by identifying the variable components of the line in the RMS-spectrum. Additionally, it must be ensured, that no component of any other line is contributing to the line flux of the measured line. But before the line flux can be calculated, the surrounding continuum has to be subtracted, which can be done by interpolating a linear underlying continuum between sections on the blue and red side with no line contribution. The chosen integration limits and pseudo-continua can be found in Table \ref{tab:emission_lines}. With the fluxes of each line now derived from all observed spectra, it is possible to extract the lightcurves of the measured emission line, which will be further covered in the next section.
 
 \begin{table}[h!]
 	\centering
@@ -47,7 +47,7 @@ After identifying the emission lines, the next step of the analysis is to calcul
 	\begin{tabular}{lcc}
 		\hline
 		\hline
-		\textbf{Line} & \textbf{Integration Limits} & \textbf{Pseudo-Continua}  \\
+		\textbf{Line} & \textbf{Integration Limits $[\AA]$} & \textbf{Pseudo-Continua $[\AA]$}  \\
 		\hline
 		Ly$\alpha$ & $1207-1238$ & $1151-1161, 1462-1468$\\
 		\hline
@@ -78,7 +78,7 @@ Besides the emission line lightcurves, continua lightcurves from different wavel
 	\begin{tabular}{lc}
 		\hline
 		\hline
-		\textbf{Line} & \textbf{Integration Limits}  \\
+		\textbf{Line} & \textbf{Integration Limits $[\AA]$}  \\
 		\hline
 		Cont. 1150 & $1151-1161$\\
 		\hline
@@ -138,8 +138,6 @@ The results of these parameters can be found in table \ref{tab:varstatistics}. \
 		HeII$\,\lambda$4685  & $5.53$ & $9.81$ & $1.77$ & $7.73$ & $1.37$ & $0.18$ \\
 		HeI$\,\lambda5875$  & $6.81$ & $9.54$ & $1.4$ & $8.49$ & $0.62$ & $0.07$ \\
 		OI$\,\lambda 8446$ & $7.47$ & $9.13$ & $1.22$ & $8.32$ & $0.37$ & $0.04$ \\
-		\hline
-		OIII$\,\lambda 5007$  & $12.97$ & $13.65$ & $1.05$ & $13.39$ & $0.18$ & $0.01$ \\
 		\hline 
 		UVW2 & - & - & - & - & - & $0.125$ \\
 		\hline 
