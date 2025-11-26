@@ -177,24 +177,34 @@ and the transfer equation \ref{eqn:transfer-function}, the cross-correlation fun
 \end{equation}
 The lag is defined to be at the location of the peak ($\tau_{\mathrm{peak}}$) or the centroid ($\tau_{\mathrm{centroid}}$) of the CCF \parencite{peterson1997introduction}. 
 While $\tau_{\mathrm{peak}}$ is defined as the peak of the CCF, $\tau_{\mathrm{centroid}}$ gets calculated over all points of the CCF, which are above a selected threshold which is typically $80\%$. Because of the strong relation of the CCF and the transferfunction, it is possible to infer a scale length for the BLR, where the emission line originated from \parencite{peterson1997introduction}, which can be describe with \begin{equation}
+	\label{eqn:charc_radius}
 	R_\mathrm{BLR} = c \cdot \tau_{\mathrm{centroid}},
 \end{equation}  using the light-travel time scale \parencite{peterson2004}. Since the centroid lag is generally considered a more robust representation of the mean light-travel time of the BLR \parencite{peterson2004}, it is used in this thesis.\\
 The uncertainty of the measured lag is estimated using a Monte Carlo approach combining flux randomization (FR) and random subset selection (RSS) \parencite{Peterson_1998b, peterson2004}. In the FR step, each flux value is randomly perturbed according to its measurement uncertainty. In the RSS step, a set of $N$ data points is randomly drawn with replacement, but redundant selections are discarded, resulting in a new light curve with $M \leq N$ points. For each realization, the ICCF analysis is repeated, yielding a distribution of centroid lags. The uncertainties are estimated from the distribution of centroid lags obtained through the simulations\parencite{peterson2004}.The 16th and 84th percentiles of this distribution are adopted as the bounds of the $1\sigma$ confidence interval for the error estimation \parencite{Peterson_1998b}.
-\subsection{Black-Hole Mass}
+
+
+\subsection{Black Hole Mass}
 \label{subsec:BHM}
 
-The reverberation mapping method can further be used to calculate the mass of the central SMBH. Based on the assumption that the dynamics of the BLR is dominated by the central SMBH it is possible to calculate its mass by using the viral mass \parencite{peterson2004}. Following  \cite{peterson2004}, the centroid lag of broad emission lines, it can be determined together with the velocity dispersion $\Delta V$ of the BLR
-
+The reverberation mapping method can be used not only to measure the characteristic size of the BLR, but also to estimate the mass of the central SMBH. Under the assumption that the gas dynamics in the BLR are dominated by the gravitational potential of the central SMBH, the black hole mass can be derived using the virial mass \parencite{peterson2004}.\\  
+The centroid time lag $\tau_{\mathrm{centroid}}$ provides an estimate of the characteristic radius of the BLR via Equation 
+\ref{eqn:charc_radius}. 
+Together with the velocity dispersion $\Delta V$ of the BLR gas, the virial mass is given by
 \begin{equation}
-	M_{\mathrm{vir}} = \frac{R_{\mathrm{BLR}}\,\Delta V^2}{G},
+	M_{\mathrm{vir}} = \frac{R_{\mathrm{BLR}}\,\Delta V^2}{G}
 \end{equation}
 
-and following that the mass of the black hole:
+The black hole mass is then obtained through
 
 \begin{equation}
-	M_\mathrm{BH}= f \cdot M_{\mathrm{vir}}.
+	M_{\mathrm{BH}} = f \cdot M_{\mathrm{vir}}
 \end{equation}
-Here, $G$ describes the gravitational constant and $f$ a scale factor which accounts for the unknown geometry, kinematics and inclination of the BLR \parencite{peterson2004}. The velocity dispersion of the BLR ccan be parametized by the line widths of the broad emission lines \parencite{peterson2004}. The scale factor $f$ can be calibrated by aligning reverberation-based masses with the $M_{\mathrm{BH}}-\sigma_*$ relation observed in not-active galaxies, with $\sigma_*$ as the stellar velocity dispersion of the galactic bulge \parencite{onken2004}. Several values for f has been calibrated based on different sample AGN naming $f=5.5$ \parencite{onken2004}, $f=4.31$ \parencite{gier2013a} and $f=3.6$ as examples. The way how the line width of the broad emission lines gets measured, influences the calibration of the scale factor \parencite{peterson2004}. There are too main methods to parameterize the line width $\sigma_\mathrm{line}$. The line dispersion, which is described in \cite{peterson2004}, and by using the FWHM, which will be used in this thesis. Following \cite{probst2025emission}, the scale factor $f = 1.8$ gets adopted, which gets adapted by taking the ratio $FWHM/\sigma_\mathrm{line} \approx 2$ from \cite{peterson2004} together with the scale factor found by \cite{graham2011expanded}
+Here, $G$ denotes the gravitational constant and $f$ is a scale factor that accounts for the unknown geometry, kinematics, and inclination of the BLR \parencite{peterson2004}. The velocity dispersion $\Delta V$ can be parameterized using the widths of the broad emission lines \parencite{peterson2004}.\\ 
+The scale factor $f$ is calibrated by aligning reverberation-based black hole masses with the empirical $M_{\mathrm{BH}}-\sigma_*$ relation observed in inactive galaxies, where $\sigma_*$ denotes the stellar velocity dispersion of the galactic bulge \parencite{onken2004}. Different studies have reported values for $f$ based on various AGN samples, for example $f = 5.5$ \parencite{onken2004}, $f = 4.31$ \parencite{gier2013a}, and $f = 3.6$ \parencite{graham2011expanded}.\\
+The calibration of the scale factor additionally depends on the measuring method for the line width of the broad emission lines \parencite{peterson2004}. Two commonly used parameterizations are the line dispersion $\sigma_{\mathrm{line}}$ (see \parencite{peterson2004}) and the FWHM. In this thesis, the FWHM is used to characterize the line width.\\
+Following \cite{probst2025emission}, a scale factor of $f = 1.8$ is adopted. This value is adjusted using the relation $\mathrm{FWHM}/\sigma_{\mathrm{line}} \approx 2$ from \cite{peterson2004} together with the scale factor reported by \cite{graham2011expanded}.
+
+
 
 
 
@@ -216,7 +226,7 @@ through the near-resonant transition $2p^4\,^3\!P_2 \rightarrow 3d\,^3\!D^0$ of 
 at $\lambda1025.77$\,\AA. The excited $3d\,^3\!D^0$ level decays to $3p\,^3\!P$, 
 which then decays to $ 3s\,^3\!S^\circ$, 
 emitting the O\,\textsc{i}\,$\lambda8446$ emission line (see figure \ref{fig:bowen_cascate} ) \parencite{grandi1980}. This adds another possible contributing excitation mechanism to the O\textsc{i}$\lambda$8446 emission line, in addition to recombination.
-\textbf{evtl noch erweitern}
+
 
 
 \begin{figure}[!ht]

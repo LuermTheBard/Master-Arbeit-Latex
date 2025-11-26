@@ -739,6 +739,54 @@
       \verb https://doi.org/10.1111/j.1365-2966.2012.21808.x
       \endverb
     \endentry
+    \entry{graham2011expanded}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=1f24ddcf9c5a8b5372d1b89278bdd1d1}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Alister\bibnamedelima W},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=3a77e0e4f5a02b1dcae821a766c68682}{%
+           family={Onken},
+           familyi={O\bibinitperiod},
+           given={Christopher\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=eefec0f63ac3e216ad6d15d61565c907}{%
+           family={Athanassoula},
+           familyi={A\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=28866cc1975c1d50d3710858fba3ab55}{%
+           family={Combes},
+           familyi={C\bibinitperiod},
+           given={Francoise},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Publishing Ltd Oxford, UK}%
+      }
+      \strng{namehash}{c461a5ae64ef47c65c32979d563ca90a}
+      \strng{fullhash}{c5173b41c0318b1a702174941082e2d5}
+      \strng{fullhashraw}{c5173b41c0318b1a702174941082e2d5}
+      \strng{bibnamehash}{c461a5ae64ef47c65c32979d563ca90a}
+      \strng{authorbibnamehash}{c461a5ae64ef47c65c32979d563ca90a}
+      \strng{authornamehash}{c461a5ae64ef47c65c32979d563ca90a}
+      \strng{authorfullhash}{c5173b41c0318b1a702174941082e2d5}
+      \strng{authorfullhashraw}{c5173b41c0318b1a702174941082e2d5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{number}{4}
+      \field{title}{An expanded m bh--$\sigma$ diagram, and a new calibration of active galactic nuclei masses}
+      \field{volume}{412}
+      \field{year}{2011}
+      \field{pages}{2211\bibrangedash 2228}
+      \range{pages}{18}
+    \endentry
     \entry{grandi1980}{article}{}{}
       \name{author}{1}{}{%
         {{hash=e78ed445ca62304de583f8745f5f00d9}{%
@@ -772,6 +820,92 @@
       \verb 10.1086/157952
       \endverb
       \keyw{Astronomical Spectroscopy,Infrared Spectra,Oxygen Spectra,Seyfert Galaxies,Emission Spectra,Fluorescence,H Alpha Line,Line Spectra,Lyman Spectra,Astronomy}
+    \endentry
+    \entry{gier2013a}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=f06789eb7e52d927994f307a457aaf29}{%
+           family={{Grier}},
+           familyi={G\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b653cbe25f181396cef47ce7f30e8fcf}{%
+           family={{Martini}},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f3f9910c97f6b3cd80a19a500f162467}{%
+           family={{Watson}},
+           familyi={W\bibinitperiod},
+           given={L.\bibnamedelimi C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={{Peterson}},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8a3757234d0da34885bd3f689a2152e1}{%
+           family={{Bentz}},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e6b1b434145a34d27ec7bb81bf549171}{%
+           family={{Dasyra}},
+           familyi={D\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9e140b9408f012d2d70c939ef0be1700}{%
+           family={{Dietrich}},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d1833e6a639e927ec69ebe7095edc6c6}{%
+           family={{Ferrarese}},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3c16c33071ce888e53237db94dd9036b}{%
+           family={{Pogge}},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1000a0ad5fd8ffeab652e61b96115d09}{%
+           family={{Zu}},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{5623fbd6daac4b6d4eb334c407bf2440}
+      \strng{fullhash}{62f7e095d64b74e913d9785c8550c4aa}
+      \strng{fullhashraw}{62f7e095d64b74e913d9785c8550c4aa}
+      \strng{bibnamehash}{5623fbd6daac4b6d4eb334c407bf2440}
+      \strng{authorbibnamehash}{5623fbd6daac4b6d4eb334c407bf2440}
+      \strng{authornamehash}{5623fbd6daac4b6d4eb334c407bf2440}
+      \strng{authorfullhash}{62f7e095d64b74e913d9785c8550c4aa}
+      \strng{authorfullhashraw}{62f7e095d64b74e913d9785c8550c4aa}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{90}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apj}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{{Stellar Velocity Dispersion Measurements in High-luminosity Quasar Hosts and Implications for the AGN Black Hole Mass Scale}}
+      \field{volume}{773}
+      \field{year}{2013}
+      \field{pages}{90}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0004-637X/773/2/90
+      \endverb
+      \verb{eprint}
+      \verb 1305.2447
+      \endverb
+      \keyw{galaxies: active,galaxies: kinematics and dynamics,galaxies: nuclei,quasars: individual: PG1411+442 PG1617+175 Mrk 509 PG 2130+099,Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
     \entry{horne2004observational}{article}{}{}
       \name{author}{4}{}{%
@@ -1660,6 +1794,72 @@
       \verb{url}
       \verb https://doi.org/10.1086/316177
       \endverb
+    \endentry
+    \entry{probst2025emission}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=73f86a540a442d77508ad91e3565a05c}{%
+           family={Probst},
+           familyi={P\bibinitperiod},
+           given={MA},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e6b501f51b210c44134155f268f2a6f0}{%
+           family={Kollatschny},
+           familyi={K\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=4ec254d67654f9665b2884cc5faad980}{%
+           family={Ochmann},
+           familyi={O\bibinitperiod},
+           given={MW},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3bda65bdc202b391f374f45bdb81eb16}{%
+           family={Figaredo},
+           familyi={F\bibinitperiod},
+           given={C\bibnamedelima Sobrino},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=cdfe91767a1b6990a53220b4fd95f749}{%
+           family={Chelouche},
+           familyi={C\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a0c91a6f7d3b267aa45a2afbc77f3024}{%
+           family={Haas},
+           familyi={H\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9986bc29611ff8e83e2f6d1e1312b8c0}{%
+           family={Kaspi},
+           familyi={K\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=19545377a1a966d61d5c07f05c40622d}{%
+           family={Meerwart},
+           familyi={M\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4c9170128aeb7ca21f8e85b511b567b3}{%
+           family={Husser},
+           familyi={H\bibinitperiod},
+           given={T-O},
+           giveni={T\bibinithyphendelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{e74f857dbd80d6361bf9c48300d24215}
+      \strng{fullhash}{e9933645e75a3c1276d01611e85671c7}
+      \strng{fullhashraw}{e9933645e75a3c1276d01611e85671c7}
+      \strng{bibnamehash}{e74f857dbd80d6361bf9c48300d24215}
+      \strng{authorbibnamehash}{e74f857dbd80d6361bf9c48300d24215}
+      \strng{authornamehash}{e74f857dbd80d6361bf9c48300d24215}
+      \strng{authorfullhash}{e9933645e75a3c1276d01611e85671c7}
+      \strng{authorfullhashraw}{e9933645e75a3c1276d01611e85671c7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2511.09153}
+      \field{title}{Emission-Line and Continuum Reverberation Mapping of the NLS1 Galaxy WPVS 48}
+      \field{year}{2025}
     \endentry
     \entry{rees1984oldAGN}{article}{}{}
       \name{author}{1}{}{%
