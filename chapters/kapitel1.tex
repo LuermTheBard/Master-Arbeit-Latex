@@ -183,42 +183,23 @@ The uncertainty of the measured lag is estimated using a Monte Carlo approach co
 \subsection{Black-Hole Mass}
 \label{subsec:BHM}
 
-The reverberation mapping methode can further be used to calculate the mass of the central SMBH. Having the centroid lag of broad emission lines, it can be determined together with the emission-line width $\Delta V$ of the BLR:
+The reverberation mapping method can further be used to calculate the mass of the central SMBH. Based on the assumption that the dynamics of the BLR is dominated by the central SMBH it is possible to calculate its mass by using the viral mass \parencite{peterson2004}. Following  \cite{peterson2004}, the centroid lag of broad emission lines, it can be determined together with the velocity dispersion $\Delta V$ of the BLR
 
 \begin{equation}
-	M_\mathrm{BH}= \frac{fc\tau_\mathrm{centroid}\Delta V^2}{G}
+	M_{\mathrm{vir}} = \frac{R_{\mathrm{BLR}}\,\Delta V^2}{G},
 \end{equation}
-Here, $G$ describes the gravitational constant and $f$ a scale factor which accounts for the unknown geometry, kinematics and inclination of the BLR \parencite{peterson2004}. 
 
-
-
-
-
-Following \cite{onken2004}, a mean value of $f$ can be calibrated by aligning reverberation-based masses with the $M_{\mathrm{BH}}-\sigma_*$ relation observed in not-active galaxies, giving $\left<f\right> = 5.5$. Here, $\sigma_*$ describes the stellar velocity dispersion of the galactic bulge.\\
-
-\\\\
-
-With the measured centroid lag $\tau_{\mathrm{centroid}}$ from the ICCF analysis and the velocity width of the broad emission line, the mass of the central supermassive black hole (SMBH) can be estimated under the assumption that the BLR gas is gravitationally bound and its motions are dominated by the SMBH potential \parencite{peterson2004}. The distance to the BLR is given by
+and following that the mass of the black hole:
 
 \begin{equation}
-	R_{\mathrm{BLR}} = c \cdot \tau_{\mathrm{centroid}}
+	M_\mathrm{BH}= f \cdot M_{\mathrm{vir}}.
 \end{equation}
-and, combined with the line-of-sight velocity dispersion $\Delta V$ of the BLR, the virial product is defined as:
+Here, $G$ describes the gravitational constant and $f$ a scale factor which accounts for the unknown geometry, kinematics and inclination of the BLR \parencite{peterson2004}. The velocity dispersion of the BLR ccan be parametized by the line widths of the broad emission lines \parencite{peterson2004}. The scale factor $f$ can be calibrated by aligning reverberation-based masses with the $M_{\mathrm{BH}}-\sigma_*$ relation observed in not-active galaxies, with $\sigma_*$ as the stellar velocity dispersion of the galactic bulge \parencite{onken2004}. Several values for f has been calibrated based on different sample AGN naming $f=5.5$ \parencite{onken2004}, $f=4.31$ \parencite{gier2013a} and $f=3.6$ as examples. The way how the line width of the broad emission lines gets measured, influences the calibration of the scale factor \parencite{peterson2004}. There are too main methods to parameterize the line width $\sigma_\mathrm{line}$. The line dispersion, which is described in \cite{peterson2004}, and by using the FWHM, which will be used in this thesis. Following \cite{probst2025emission}, the scale factor $f = 1.8$ gets adopted, which gets adapted by taking the ratio $FWHM/\sigma_\mathrm{line} \approx 2$ from \cite{peterson2004} together with the scale factor found by \cite{graham2011expanded}
 
-\begin{equation}
-	M_{\mathrm{vir}} = \frac{R_{\mathrm{BLR}}\,\Delta V^2}{G}.
-\end{equation}
 
-The black hole mass is then obtained by applying a scale factor $f$, which accounts for the unknown geometry, kinematics, and inclination of the BLR:
-\begin{equation}
-	M_{\mathrm{BH}} = f \cdot M_{\mathrm{vir}}.
-\end{equation}
-Following \textcite{onken2004}, a mean value of $f$ is adopted, calibrated by aligning reverberation-based masses with the $M_{\mathrm{BH}}-\sigma_*$ relation observed in not-active galaxies. Here, $\sigma_*$ describes the stellar velocity dispersion of the galactic bulge. The actual scale factor can still vary between individual AGN because of differences in their geometry and orientation, which results in systematic uncertainties in the SMBH mass estimation. Still, the calibration of $f$ against $M_{\mathrm{BH}}-\sigma_*$ delivers a well-established method for estimation the SMBH mass. With that and the mass of the SMBH is given by
-\begin{equation}
-	M_\mathrm{BH}= \frac{fc\tau_\mathrm{centroid}\Delta V^2}{G}
-\end{equation}
 
-$\Delta V$ can be obtained, by measuring the line widths of the broad emission-lines. Following \cite{peterson2004} 
+
+
 
 
 
