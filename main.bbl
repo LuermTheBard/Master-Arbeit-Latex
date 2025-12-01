@@ -121,44 +121,6 @@
       \field{title}{The AGN phenomenon: Open issues}
       \field{year}{2013}
     \endentry
-    \entry{bentz2015agn}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=80de319b4b1fc634f7890ad1d5eae16b}{%
-           family={Bentz},
-           familyi={B\bibinitperiod},
-           given={Misty\bibnamedelima C},
-           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=6d486c780fe8b96bca8afe1182951311}{%
-           family={Katz},
-           familyi={K\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{ddae95cfb93cea87a908316d722446e7}
-      \strng{fullhash}{ddae95cfb93cea87a908316d722446e7}
-      \strng{fullhashraw}{ddae95cfb93cea87a908316d722446e7}
-      \strng{bibnamehash}{ddae95cfb93cea87a908316d722446e7}
-      \strng{authorbibnamehash}{ddae95cfb93cea87a908316d722446e7}
-      \strng{authornamehash}{ddae95cfb93cea87a908316d722446e7}
-      \strng{authorfullhash}{ddae95cfb93cea87a908316d722446e7}
-      \strng{authorfullhashraw}{ddae95cfb93cea87a908316d722446e7}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
-      \field{number}{947}
-      \field{title}{The AGN black hole mass database}
-      \field{volume}{127}
-      \field{year}{2015}
-      \field{pages}{67}
-      \range{pages}{1}
-    \endentry
     \entry{bowen1934}{article}{}{}
       \name{author}{1}{}{%
         {{hash=ce4fc508ef106c5519cc0c1076b4fba2}{%
@@ -512,140 +474,6 @@
       \verb http://dx.doi.org/10.1088/2041-8205/727/1/L24
       \endverb
     \endentry
-    \entry{garcia2019alma}{article}{}{}
-      \name{author}{21}{}{%
-        {{hash=3d3bc4e3ca19f1e2f242c94de6e1fc23}{%
-           family={Garcia-Burillo},
-           familyi={G\bibinithyphendelim B\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b56b08a9485554a2211db17d6f3cc8ac}{%
-           family={Combes},
-           familyi={C\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=716db369ef8d2b3d1ff9b7f8db53ea8c}{%
-           family={Ramos\bibnamedelima Almeida},
-           familyi={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0c0a3469a661f96779e4e62f24927135}{%
-           family={Usero},
-           familyi={U\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e6657aceedabc071af6cfa518eedccc8}{%
-           family={Alonso-Herrero},
-           familyi={A\bibinithyphendelim H\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=7829bd957a5e4d18c9df2ae91809fe10}{%
-           family={Hunt},
-           familyi={H\bibinitperiod},
-           given={L.\bibnamedelimi K.},
-           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=b7c8585434d303a28608be411fbd3bbf}{%
-           family={Rouan},
-           familyi={R\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=7c72fbd41ffb1a9316788ad53e8d142c}{%
-           family={Aalto},
-           familyi={A\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=161f2845c624d1b6a1575a993f3129e1}{%
-           family={Querejeta},
-           familyi={Q\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c0a1f66216dc9e9b79c85bcac861258f}{%
-           family={Viti},
-           familyi={V\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9eab094d9e7264d86f7452676ed5ba46}{%
-           family={Werf},
-           familyi={W\bibinitperiod},
-           given={P.\bibnamedelimi P.},
-           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
-           prefix={van\bibnamedelima der},
-           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
-        {{hash=7397777a5d4fa2709f0d538beb7aa896}{%
-           family={Vives-Arias},
-           familyi={V\bibinithyphendelim A\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=d2a685ef506e90149e5a8bbacead664d}{%
-           family={Fuente},
-           familyi={F\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3f705566a00e24f5871af06d153cd081}{%
-           family={Colina},
-           familyi={C\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=090d8d055390626bc9f95ba56cfc58dc}{%
-           family={Martin-Pintado},
-           familyi={M\bibinithyphendelim P\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=e7b7da1b987d9ac67ca0408307ffba00}{%
-           family={Henkel},
-           familyi={H\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=a22e86c8cc1280bcab65ea7258adfa03}{%
-           family={Martin},
-           familyi={M\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=77f81217302eee9f26494885e945e754}{%
-           family={Krips},
-           familyi={K\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a44d5cdf7cdfc7509ccb383324d40dee}{%
-           family={Gratadour},
-           familyi={G\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=6750a8b32639631b66866337d0931369}{%
-           family={Neri},
-           familyi={N\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=8d41e3435a5e2f8e69576c63a87f1bfc}{%
-           family={Tacconi},
-           familyi={T\bibinitperiod},
-           given={L.\bibnamedelimi J.},
-           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{7f469570e9c96dbd379e78b3a37fa06c}
-      \strng{fullhash}{0ec3ea417bc16a43a60e608b9c3b72ae}
-      \strng{fullhashraw}{0ec3ea417bc16a43a60e608b9c3b72ae}
-      \strng{bibnamehash}{7f469570e9c96dbd379e78b3a37fa06c}
-      \strng{authorbibnamehash}{7f469570e9c96dbd379e78b3a37fa06c}
-      \strng{authornamehash}{7f469570e9c96dbd379e78b3a37fa06c}
-      \strng{authorfullhash}{0ec3ea417bc16a43a60e608b9c3b72ae}
-      \strng{authorfullhashraw}{0ec3ea417bc16a43a60e608b9c3b72ae}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Astronomy \& Astrophysics}
-      \field{title}{ALMA images the many faces of the NGC1068 torus and its surroundings}
-      \field{volume}{632}
-      \field{year}{2019}
-      \field{pages}{A61}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1051/0004-6361/201936606
-      \endverb
-    \endentry
     \entry{gaskell_peterson1986}{article}{}{}
       \name{author}{2}{}{%
         {{hash=0204d0443d875dc3e5c7766e0cdeb0c5}{%
@@ -955,6 +783,251 @@
       \field{pages}{465}
       \range{pages}{1}
     \endentry
+    \entry{kollatschny1997balmer}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e6b501f51b210c44134155f268f2a6f0}{%
+           family={Kollatschny},
+           familyi={K\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9e140b9408f012d2d70c939ef0be1700}{%
+           family={Dietrich},
+           familyi={D\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{117e797fbf16f5187b89feff7c542d43}
+      \strng{fullhash}{117e797fbf16f5187b89feff7c542d43}
+      \strng{fullhashraw}{117e797fbf16f5187b89feff7c542d43}
+      \strng{bibnamehash}{117e797fbf16f5187b89feff7c542d43}
+      \strng{authorbibnamehash}{117e797fbf16f5187b89feff7c542d43}
+      \strng{authornamehash}{117e797fbf16f5187b89feff7c542d43}
+      \strng{authorfullhash}{117e797fbf16f5187b89feff7c542d43}
+      \strng{authorfullhashraw}{117e797fbf16f5187b89feff7c542d43}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomy and Astrophysics, v. 323, p. 5-13}
+      \field{title}{Balmer emission-line profile variations in NGC 4593.}
+      \field{volume}{323}
+      \field{year}{1997}
+      \field{pages}{5\bibrangedash 13}
+      \range{pages}{9}
+    \endentry
+    \entry{bass_cataloge}{article}{}{}
+      \name{author}{35}{}{%
+        {{hash=20f0248b876a7058a5f156ce75d1350c}{%
+           family={{Koss}},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=58aedb3a7437cd594c23ccd4a2a42853}{%
+           family={{Ricci}},
+           familyi={R\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d2c94e08932509cc5bf6917edbf2437c}{%
+           family={{Trakhtenbrot}},
+           familyi={T\bibinitperiod},
+           given={Benny},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4c75bdc12e8fdb260c97611d2657b520}{%
+           family={{Oh}},
+           familyi={O\bibinitperiod},
+           given={Kyuseok},
+           giveni={K\bibinitperiod}}}%
+        {{hash=24ed5f5c7a49096df18c23b2c8a7eccc}{%
+           family={{den Brok}},
+           familyi={d\bibinitperiod},
+           given={Jakob\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=10726583aa3bd7649985cf5986834020}{%
+           family={{Mejía-Restrepo}},
+           familyi={M\bibinitperiod},
+           given={Julian\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=2859cd6287ab516b048ea4cb2dae9e9c}{%
+           family={{Stern}},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cd5605b37e223b11748c37701b12e8a2}{%
+           family={{Privon}},
+           familyi={P\bibinitperiod},
+           given={George\bibnamedelima C.},
+           giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=cc740fb8136ae5144812ecdb9b8e3426}{%
+           family={{Treister}},
+           familyi={T\bibinitperiod},
+           given={Ezequiel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a00f4c282b23b7263246db9642efa209}{%
+           family={{Powell}},
+           familyi={P\bibinitperiod},
+           given={Meredith\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5af7393685afb1defa77e834bf0d6665}{%
+           family={{Mushotzky}},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=daf3629a41416f980560508e6f7c9c3f}{%
+           family={{Bauer}},
+           familyi={B\bibinitperiod},
+           given={Franz\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=fef6d9635ee96781022a3537450980dc}{%
+           family={{Ananna}},
+           familyi={A\bibinitperiod},
+           given={Tonima\bibnamedelima T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=e7055e44b555ea932a089dd2caed2996}{%
+           family={{Baloković}},
+           familyi={B\bibinitperiod},
+           given={Mislav},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a9a4e97a288a520e0fb03e06c19ec788}{%
+           family={{Bär}},
+           familyi={B\bibinitperiod},
+           given={Rudolf\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=649d22220106794959bd3db775135995}{%
+           family={{Becker}},
+           familyi={B\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d0454956b66cb905e55d005cd0e0b3d4}{%
+           family={{Bessiere}},
+           familyi={B\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7cfd40d047aa7e46cf42bca7535e39b5}{%
+           family={{Burtscher}},
+           familyi={B\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod}}}%
+        {{hash=54526735c3dcc3909e6c7587a0bf269c}{%
+           family={{Caglar}},
+           familyi={C\bibinitperiod},
+           given={Turgay},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5fee785bbe953c09f64e9915fcbf8a78}{%
+           family={{Congiu}},
+           familyi={C\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f886a4da328651897f996d499330d77c}{%
+           family={{Evans}},
+           familyi={E\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod}}}%
+        {{hash=51c27f678aea25f423d79ebb2bef3b55}{%
+           family={{Harrison}},
+           familyi={H\bibinitperiod},
+           given={Fiona},
+           giveni={F\bibinitperiod}}}%
+        {{hash=52fd6de95466025a8dbd7c15786cb304}{%
+           family={{Heida}},
+           familyi={H\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13bc8f669545a44f1d8a984d1e91c8d1}{%
+           family={{Ichikawa}},
+           familyi={I\bibinitperiod},
+           given={Kohei},
+           giveni={K\bibinitperiod}}}%
+        {{hash=837c1a13d53e99d7c0918d25bdf9b610}{%
+           family={{Kamraj}},
+           familyi={K\bibinitperiod},
+           given={Nikita},
+           giveni={N\bibinitperiod}}}%
+        {{hash=079899d856c4ac7642e3e31370ca80f1}{%
+           family={{Lamperti}},
+           familyi={L\bibinitperiod},
+           given={Isabella},
+           giveni={I\bibinitperiod}}}%
+        {{hash=1e79e0c638bde5f350c6e35bce7f0378}{%
+           family={{Pacucci}},
+           familyi={P\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=23106f6d1c2e1cf50f19b0ca1c88323d}{%
+           family={{Ricci}},
+           familyi={R\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a5145c14f52b3d1c8ff365f9c7d31ac0}{%
+           family={{Riffel}},
+           familyi={R\bibinitperiod},
+           given={Rogério},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2872ea45e484db7da6b893b2ab75adb5}{%
+           family={{Rojas}},
+           familyi={R\bibinitperiod},
+           given={Alejandra\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=2396f6fdd509ea8a2e3d2f4e42fbff93}{%
+           family={{Schawinski}},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=92caca3b9678773c4c6e01e9aea80fbb}{%
+           family={{Temple}},
+           familyi={T\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4924ac32b98fd838bb0a92f38f857449}{%
+           family={{Urry}},
+           familyi={U\bibinitperiod},
+           given={C.\bibnamedelimi Megan},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=de1603b0c3188dbf3707f75a01ad0a0b}{%
+           family={{Veilleux}},
+           familyi={V\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7c3d809e6592a34d096000cf95a34ff9}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{de31a990ef3cc2019c286142496eeb72}
+      \strng{fullhash}{334480dd22d070e3a1ef8e92b534dc89}
+      \strng{fullhashraw}{334480dd22d070e3a1ef8e92b534dc89}
+      \strng{bibnamehash}{de31a990ef3cc2019c286142496eeb72}
+      \strng{authorbibnamehash}{de31a990ef3cc2019c286142496eeb72}
+      \strng{authornamehash}{de31a990ef3cc2019c286142496eeb72}
+      \strng{authorfullhash}{334480dd22d070e3a1ef8e92b534dc89}
+      \strng{authorfullhashraw}{334480dd22d070e3a1ef8e92b534dc89}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{2}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apjs}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{{BASS. XXII. The BASS DR2 AGN Catalog and Data}}
+      \field{volume}{261}
+      \field{year}{2022}
+      \field{pages}{2}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/1538-4365/ac6c05
+      \endverb
+      \verb{eprint}
+      \verb 2207.12432
+      \endverb
+      \keyw{X-ray active galactic nuclei,Active galactic nuclei,Seyfert galaxies,X-ray quasars,X-ray surveys,Surveys,Sky surveys,Galaxy spectroscopy,2035,16,1447,1821,1824,1671,1464,2171,Astrophysics - Astrophysics of Galaxies,Astrophysics - High Energy Astrophysical Phenomena}
+    \endentry
     \entry{mchardy2017ngc4593}{article}{}{}
       \name{author}{11}{}{%
         {{hash=7a47a269066f0c20a224ee9c326bf259}{%
@@ -1161,45 +1234,6 @@
       \field{title}{Galaxy Formation and Evolution}
       \field{year}{2010}
     \endentry
-    \entry{mulchaey1997structure}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=7baee12576aebdd0ce7611bba9f09104}{%
-           family={Mulchaey},
-           familyi={M\bibinitperiod},
-           given={John\bibnamedelima S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=a6c1bcb46f3d39a105d5db502f18707e}{%
-           family={Regan},
-           familyi={R\bibinitperiod},
-           given={Michael\bibnamedelima W.},
-           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \strng{namehash}{9f6a754bea9703f95b9c86b41dc589e2}
-      \strng{fullhash}{9f6a754bea9703f95b9c86b41dc589e2}
-      \strng{fullhashraw}{9f6a754bea9703f95b9c86b41dc589e2}
-      \strng{bibnamehash}{9f6a754bea9703f95b9c86b41dc589e2}
-      \strng{authorbibnamehash}{9f6a754bea9703f95b9c86b41dc589e2}
-      \strng{authornamehash}{9f6a754bea9703f95b9c86b41dc589e2}
-      \strng{authorfullhash}{9f6a754bea9703f95b9c86b41dc589e2}
-      \strng{authorfullhashraw}{9f6a754bea9703f95b9c86b41dc589e2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Astrophysical Journal Letters}
-      \field{month}{6}
-      \field{number}{2}
-      \field{title}{The Fueling of Nuclear Activity: II. The Bar Properties of Seyfert and Normal Galaxies}
-      \field{volume}{482}
-      \field{year}{1997}
-      \field{pages}{L135\bibrangedash L138}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1086/310710
-      \endverb
-    \endentry
     \entry{netzer1976}{article}{}{}
       \name{author}{2}{}{%
         {{hash=5cf43bf9f4da46530fd6550086c2ff44}{%
@@ -1286,6 +1320,95 @@
       \field{title}{The Physics and Evolution of Active Galactic Nuclei}
       \field{year}{2013}
     \endentry
+    \entry{Ochmann_2025}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=4ec254d67654f9665b2884cc5faad980}{%
+           family={Ochmann},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=42eb791e2a339d5db6fc9389eb76beb3}{%
+           family={Weilbacher},
+           familyi={W\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=73f86a540a442d77508ad91e3565a05c}{%
+           family={Probst},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e6b501f51b210c44134155f268f2a6f0}{%
+           family={Kollatschny},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=cdfe91767a1b6990a53220b4fd95f749}{%
+           family={Chelouche},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5b93fd78ecb11450a5b38c1682ab1720}{%
+           family={Chini},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5cc282e2e0cb0a6c747fdee3fca1a533}{%
+           family={Grupe},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a0c91a6f7d3b267aa45a2afbc77f3024}{%
+           family={Haas},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9986bc29611ff8e83e2f6d1e1312b8c0}{%
+           family={Kaspi},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6b7c8a05f80dc4ba48aa8aa8986d08ff}{%
+           family={Komossa},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{8a9a56a3aac9e56605a55d235ac52dac}
+      \strng{fullhash}{6c63679ab366055106f1828676845df8}
+      \strng{fullhashraw}{6c63679ab366055106f1828676845df8}
+      \strng{bibnamehash}{8a9a56a3aac9e56605a55d235ac52dac}
+      \strng{authorbibnamehash}{8a9a56a3aac9e56605a55d235ac52dac}
+      \strng{authornamehash}{8a9a56a3aac9e56605a55d235ac52dac}
+      \strng{authorfullhash}{6c63679ab366055106f1828676845df8}
+      \strng{authorfullhashraw}{6c63679ab366055106f1828676845df8}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0746}
+      \field{journaltitle}{Astronomy &amp; Astrophysics}
+      \field{month}{5}
+      \field{title}{Double-peaked Ca II traces a relativistic broad-line region disk in NGC 4593}
+      \field{volume}{697}
+      \field{year}{2025}
+      \field{pages}{L5}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/202554800
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1051/0004-6361/202554800
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1051/0004-6361/202554800
+      \endverb
+    \endentry
     \entry{ochmann2024transient}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1352,6 +1475,7 @@
       \strng{authornamehash}{8a9a56a3aac9e56605a55d235ac52dac}
       \strng{authorfullhash}{b914b3216f5d8894424502b0ce4303fa}
       \strng{authorfullhashraw}{b914b3216f5d8894424502b0ce4303fa}
+      \field{extraname}{2}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -2103,76 +2227,6 @@
       \field{pages}{337\bibrangedash 355}
       \range{pages}{19}
     \endentry
-    \entry{simbaNGC4593}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=eefafb9cf133300e92a791479bdfaec7}{%
-           family={{SIMBAD}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{eefafb9cf133300e92a791479bdfaec7}
-      \strng{fullhash}{eefafb9cf133300e92a791479bdfaec7}
-      \strng{fullhashraw}{eefafb9cf133300e92a791479bdfaec7}
-      \strng{bibnamehash}{eefafb9cf133300e92a791479bdfaec7}
-      \strng{authorbibnamehash}{eefafb9cf133300e92a791479bdfaec7}
-      \strng{authornamehash}{eefafb9cf133300e92a791479bdfaec7}
-      \strng{authorfullhash}{eefafb9cf133300e92a791479bdfaec7}
-      \strng{authorfullhashraw}{eefafb9cf133300e92a791479bdfaec7}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{NGC4593}
-      \field{urlday}{10}
-      \field{urlmonth}{6}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC4593
-      \endverb
-      \verb{url}
-      \verb https://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC4593
-      \endverb
-    \endentry
-    \entry{Skrutskie2006}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=daecb0b2fec62e8e209d92bcfad32306}{%
-           family={Skrutskie},
-           familyi={S\bibinitperiod},
-           given={M.\bibnamedelimi F.},
-           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{4decf5154a52220242714d3f40992061}
-      \strng{fullhash}{4decf5154a52220242714d3f40992061}
-      \strng{fullhashraw}{4decf5154a52220242714d3f40992061}
-      \strng{bibnamehash}{4decf5154a52220242714d3f40992061}
-      \strng{authorbibnamehash}{4decf5154a52220242714d3f40992061}
-      \strng{authornamehash}{4decf5154a52220242714d3f40992061}
-      \strng{authorfullhash}{4decf5154a52220242714d3f40992061}
-      \strng{authorfullhashraw}{4decf5154a52220242714d3f40992061}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Astronomical Journal}
-      \field{title}{The Two Micron All Sky Survey (2MASS)}
-      \field{volume}{131}
-      \field{year}{2006}
-      \field{pages}{1163\bibrangedash 1183}
-      \range{pages}{21}
-      \verb{doi}
-      \verb 10.1086/498708
-      \endverb
-    \endentry
     \entry{stisgratings}{online}{}{}
       \name{author}{1}{}{%
         {{hash=c000d1c3738d0c5397f8fead87c16ff2}{%
@@ -2286,43 +2340,6 @@
       \verb{doi}
       \verb 10.1086/133630
       \endverb
-    \endentry
-    \entry{veron2010catalogue}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=1e8ab5b22d94736bdd9e84269db02796}{%
-           family={Véron-Cetty},
-           familyi={V\bibinithyphendelim C\bibinitperiod},
-           given={M-P},
-           giveni={M\bibinithyphendelim P\bibinitperiod}}}%
-        {{hash=189bb4db6938088ed6c01006110b6fda}{%
-           family={Véron},
-           familyi={V\bibinitperiod},
-           given={Philippe},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {EDP Sciences}%
-      }
-      \strng{namehash}{8a858388d587309d48dd2b1efe483eee}
-      \strng{fullhash}{8a858388d587309d48dd2b1efe483eee}
-      \strng{fullhashraw}{8a858388d587309d48dd2b1efe483eee}
-      \strng{bibnamehash}{8a858388d587309d48dd2b1efe483eee}
-      \strng{authorbibnamehash}{8a858388d587309d48dd2b1efe483eee}
-      \strng{authornamehash}{8a858388d587309d48dd2b1efe483eee}
-      \strng{authorfullhash}{8a858388d587309d48dd2b1efe483eee}
-      \strng{authorfullhashraw}{8a858388d587309d48dd2b1efe483eee}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Astronomy and Astrophysics}
-      \field{title}{A catalogue of quasars and active nuclei}
-      \field{volume}{518}
-      \field{year}{2010}
-      \field{pages}{A10}
-      \range{pages}{-1}
     \endentry
   \enddatalist
 \endrefsection

@@ -18,13 +18,13 @@
 \contentsline {chapter}{\numberline {3}Campaign and Data Preparation}{19}{chapter.3}%
 \contentsline {section}{\numberline {3.1}NGC4593}{19}{section.3.1}%
 \contentsline {section}{\numberline {3.2}The 2016 Hst Campaign}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Intercalibration and Determination of AVG and RMS Spectra}{20}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Line Identification}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{25}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Lightcurves}{27}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Continua}{27}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Emission Lines}{28}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Line Profiles}{28}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Time Lag and BH Masses}{28}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion}{35}{chapter.5}%
+\contentsline {section}{\numberline {3.3}Intercalibration and Determination of AVG and RMS Spectra}{21}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Line Identification}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Lightcurves}{28}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Continua}{28}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Emission Lines}{29}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Line Profiles}{29}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Time Lag and BH Masses}{29}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion}{36}{chapter.5}%

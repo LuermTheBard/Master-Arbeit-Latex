@@ -2499,20 +2499,27 @@
     <bcf:citekey order="117" intorder="1">cackett2018accretion</bcf:citekey>
     <bcf:citekey order="118" intorder="1">denney2006ngc4593</bcf:citekey>
     <bcf:citekey order="119" intorder="1">bass_cataloge</bcf:citekey>
-    <bcf:citekey order="120" intorder="1">bentz2015agn</bcf:citekey>
-    <bcf:citekey order="121" intorder="1">bentz2015agn</bcf:citekey>
-    <bcf:citekey order="122" intorder="1">denney2006ngc4593</bcf:citekey>
-    <bcf:citekey order="123" intorder="1">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="124" intorder="1">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="125" intorder="1">anderson2010empirical</bcf:citekey>
-    <bcf:citekey order="126" intorder="1">stisgratings</bcf:citekey>
-    <bcf:citekey order="127" intorder="1">stisgratings</bcf:citekey>
-    <bcf:citekey order="128" intorder="1">grandi1980</bcf:citekey>
-    <bcf:citekey order="129" intorder="1">gaskell_peterson1986</bcf:citekey>
-    <bcf:citekey order="129" intorder="2">peterson2004</bcf:citekey>
-    <bcf:citekey order="130" intorder="1">rodriguez1997steps</bcf:citekey>
-    <bcf:citekey order="131" intorder="1">mchardy2018x</bcf:citekey>
-    <bcf:citekey order="132" intorder="1">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">kollatschny1997balmer</bcf:citekey>
+    <bcf:citekey order="120" intorder="2">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="120" intorder="3">Ochmann_2025</bcf:citekey>
+    <bcf:citekey order="121" intorder="1">kollatschny1997balmer</bcf:citekey>
+    <bcf:citekey order="121" intorder="2">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="122" intorder="1">kollatschny1997balmer</bcf:citekey>
+    <bcf:citekey order="123" intorder="1">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="124" intorder="1">kollatschny1997balmer</bcf:citekey>
+    <bcf:citekey order="125" intorder="1">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="126" intorder="1">Ochmann_2025</bcf:citekey>
+    <bcf:citekey order="127" intorder="1">Ochmann_2025</bcf:citekey>
+    <bcf:citekey order="128" intorder="1">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="129" intorder="1">anderson2010empirical</bcf:citekey>
+    <bcf:citekey order="130" intorder="1">stisgratings</bcf:citekey>
+    <bcf:citekey order="131" intorder="1">stisgratings</bcf:citekey>
+    <bcf:citekey order="132" intorder="1">grandi1980</bcf:citekey>
+    <bcf:citekey order="133" intorder="1">gaskell_peterson1986</bcf:citekey>
+    <bcf:citekey order="133" intorder="2">peterson2004</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">rodriguez1997steps</bcf:citekey>
+    <bcf:citekey order="135" intorder="1">mchardy2018x</bcf:citekey>
+    <bcf:citekey order="136" intorder="1">cackett2018accretion</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
