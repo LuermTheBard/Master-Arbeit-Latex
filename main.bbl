@@ -783,6 +783,28 @@
       \field{pages}{465}
       \range{pages}{1}
     \endentry
+    \entry{HASP}{online}{}{}
+      \list{organization}{1}{%
+        {Space Telescope Science Institute}%
+      }
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Hubble Advanced Spectral Products (HASP)}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://archive.stsci.edu/missions-and-data/hst/hasp
+      \endverb
+      \verb{url}
+      \verb https://archive.stsci.edu/missions-and-data/hst/hasp
+      \endverb
+    \endentry
     \entry{kollatschny1997balmer}{article}{}{}
       \name{author}{2}{}{%
         {{hash=e6b501f51b210c44134155f268f2a6f0}{%
@@ -1192,6 +1214,28 @@
       \field{year}{2018}
       \field{pages}{2881\bibrangedash 2897}
       \range{pages}{17}
+    \endentry
+    \entry{MAST}{online}{}{}
+      \list{organization}{1}{%
+        {Space Telescope Science Institute}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Mikulski Archive for Space Telescopes (MAST)}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://mast.stsci.edu/search/ui/#/hst
+      \endverb
+      \verb{url}
+      \verb https://mast.stsci.edu/search/ui/#/hst
+      \endverb
     \endentry
     \entry{mo2010galaxy}{book}{}{}
       \name{author}{3}{}{%
