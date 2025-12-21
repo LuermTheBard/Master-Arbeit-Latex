@@ -4,9 +4,9 @@
 \section{Active Galactic Nuclei}
 \label{sec:agn}
 
-Active Galactic Nuclei (AGN) refer to the central region of active galaxies. Those objects are among the most luminous objects in the universe, with bolometric luminosities ranging from $10^{41}$ to $10^{48} \ \mathrm{erg \ s^{-1}}$, outshining entire galaxies by several orders of magnitude \parencite{peterson1997introduction}. 
-Over the years, several stellar-powered models were proposed, such as dense star clusters or supermassive stars. However, these scenarios were discarded, as they are expected to collapse into black holes themselves, and they cannot provide the required energy output \parencite{rees1984oldAGN}. Today, it is understood that the enormous luminosities of AGN are powered by accretion of matter onto a supermassive black hole (SMBH) at their centers \parencite{rees1984oldAGN}. The most widely accepted model for this accretion is a hot, rotating accretion disk surrounding the SMBH, which produces most of the observed radiation \parencite{shakura1973black}.
-The following sections will outline the key components of an AGN, introduce the unification model that connects various AGN types, and summarize common classification schemes. A special focus will be on AGN variability, which plays a central role in the reverberation mapping analysis conducted in this thesis.
+Active Galactic Nuclei (AGNs) refer to the central region of active galaxies. These objects are among the most luminous in the universe, with bolometric luminosities ranging from $10^{41}$ to $10^{48} \ \mathrm{erg \ s^{-1}}$, outshining entire galaxies by several orders of magnitude \parencite{peterson1997introduction}. 
+Historically, several stellar-based models were proposed, such as dense star clusters or supermassive stars. However, these scenarios were discarded, as they are expected to collapse into black holes themselves, and they cannot provide the required energy output. Today, it is understood that the enormous luminosities of AGN are powered by accretion of matter onto a supermassive black hole (SMBH) at the centers of galaxies \parencite{rees1984oldAGN}. The most widely accepted model for this accretion is a hot, rotating accretion disk surrounding the SMBH, which produces most of the observed radiation \parencite{shakura1973black}.
+The following sections will outline the key components of an AGN and its variability, which is central to reverberation mapping analysis.
 
 
 
@@ -21,33 +21,32 @@ The following sections will outline the key components of an AGN, introduce the 
 \subsection{Structure and Spectral Features of an AGN}
 \label{sec:agn_structure}
 
-Figure \ref{fig:agn_structure_mo} shows a schematic structure of an AGN, consisting of a central supermassive black hole (SMBH), a surrounding accretion disk, a dusty torus, and ionized gas regions known as the broad-line region (BLR) and narrow-line region (NLR). In some cases, relativistic jets are launched perpendicular to the plane of the accretion disk \parencite{urry1995unified}. The following subsections describe the intrinsic structures of AGN and the spectral features associated with them.
+Figure \ref{fig:agn_structure_mo} shows a schematic illustration of an AGN, consisting of a central supermassive black hole (SMBH), a surrounding accretion disk, a dusty torus and ionized gas regions known as the broad-line region (BLR) and narrow-line region (NLR). In some cases, relativistic jets are launched perpendicular to the plane of the accretion disk \parencite{urry1995unified}. The following subsections describe the physical components of AGN and the spectral features associated with them.
 
 
 \subsubsection{Supermassive Black Hole and Accretion Disk}
 
-The center of an AGN is formed by a supermassive black hole (SMBH), with typical masses between $10^6\,M_\odot$ and $10^{9}\,M_\odot$ \parencite{peterson2004}. It does not contribute to the AGN spectrum by itself, but acts as the central engine for all observed spectral features of the AGN. It dominates the gravitational potential and other then inactive Galaxies, like the milky-way, it is surrounded by an accretion disk. Due to viscosity processes within the disk, like turbulent friction or magneto-rotational instability, the angular momentum of the matter is getting transported further out of the disk, which leads to a spiraling matter flow inwards the SMBH \parencite{shakura1973black}. 
-Several models have been proposed to describe the accretion process. The most widely used one is the geometrically thin and optically thick accretion disk, consisting of ionized gas in differential rotation around the SMBH \parencite{netzer2013agn}. The disk is composed mainly of ionized hydrogen and helium, with traces of heavier elements \parencite{netzer2013agn}. It extends from the innermost stable circular orbit (ISCO) near the event horizon out to distances of several light-days. The radial extent of the disk is relatively small compared to  galactic scales and typical ranges from a few light-hours to a few light-days, corresponding to about $10^{-3}$ to $10^{-2}$\,pc \parencite{shakura1973black, netzer2013agn}.  \\
-During the accretion process a significant fraction of the gravitational energy of the matter is transformed into thermal radiation, which accounts for the enormous luminosity observed in AGNs and heats the accretion disk up to very high temperatures depending on the size of the SMBH \parencite{netzer2013agn}. As an example, the maximum effective temperature for an accretion disk around a SMBH with $M = 10^8,M_\odot$ is on the order of several $\times 10^5$ K, leading to UV and optical emission \parencite{shakura1973black, netzer2013agn}. In comparison, disks around stellar-mass black holes reach much higher temperatures (up to a few $\times 10^6$ K), emitting mostly in X-rays \parencite{shakura1973black, netzer2013agn}. Due to the radial temperature gradient, the emitted spectrum cannot be described as a single black body. Instead, it results from a combination of many black-body-like components at different temperatures, often referred to as a multi-color black-body \parencite{netzer2013agn}. This produces a broad optical–UV continuum of ionizing photons, which interact with gas clouds near the nucleus and play a crucial role in shaping the spectral features of the BLR and NLR. These photons cause photoionization followed by recombination, which leads to to the strong emission lines that are characteristic of AGN spectra \parencite{netzer2013agn}.
-
+The center of an AGN is defined by a supermassive black hole (SMBH), with typical masses between $10^6\,M_\odot$ and $10^{9}\,M_\odot$ \parencite{peterson2004}. It does not contribute to the AGN spectrum directly, but acts as the central engine driving observed spectral features of the AGN. It dominates the gravitational potential and, unlike inactive galaxies such as the Milky Way, it is surrounded by an accretion disk. Through viscous processes within the disk, such as turbulent friction and magneto-rotational instability, the angular momentum of the matter is transported outward, which leads to a spiraling inflow of matter toward the SMBH \parencite{shakura1973black}. 
+Several models have been proposed to describe the accretion process. The most widely used model is the geometrically thin and optically thick accretion disk, which consists of ionized gas in differential rotation around the SMBH \parencite{shakura1973black, netzer2013agn}. The disk is composed primarily of ionized hydrogen and helium, with trace amounts of heavier elements \parencite{netzer2013agn}. It extends from the innermost stable circular orbit (ISCO) near the event horizon out to distances of several light-days. The radial extent of the disk is relatively small compared to galactic scales and typically ranges from a few light-hours to a few light-days, corresponding to about $10^{-3}$ to $10^{-2}$\,pc \parencite{shakura1973black, netzer2013agn}.  \\
+During the accretion process a substantial fraction of the gravitational energy of the matter is transformed into thermal radiation, which accounts for the enormous luminosity observed in AGNs and heats the accretion disk to high temperatures that depend on the mass of the SMBH \parencite{netzer2013agn}. For example, the maximum effective temperature for an accretion disk around a SMBH with $M = 10^8,M_\odot$ is on the order of several $\times 10^5$ K, leading to UV and optical emission \parencite{shakura1973black, netzer2013agn}. By contrast, disks around stellar-mass black holes reach much higher temperatures (up to a few $\times 10^6$ K), and therefore emit mostly in X-rays \parencite{shakura1973black, netzer2013agn}. Due to the radial temperature gradient, the emitted spectrum cannot be described as a single blackbody. Instead, it results from a superposition of many blackbody-like components at different temperatures, often referred to as a multicolour black-body \parencite{netzer2013agn}. This produces a broad optical–UV continuum of ionizing photons, which interact with gas clouds near the nucleus and play a crucial role in shaping the spectral features of the BLR and NLR. These photons cause photoionization followed by recombination, which gives rise to the strong emission lines that are characteristic of AGN spectra \parencite{netzer2013agn}.
 
 \subsubsection{Broad-Line and Narrow-Line Region}
 \label{sec:BLRNLR}
 
-The ionized gas clouds near the nucleus can be divided into the broad-line region (BLR) and the narrow-line region (NLR). Both regions differ in density, distance from the SMBH, and observed line widths \parencite{urry1995unified}. The BLR is located close to the nucleus at distances of a few light-days to a few light-years from the central SMBH \parencite{goadBroadLine}(see Figure \ref{fig:agn_structure_mo}). It consists of dense gas clouds with electron densities of $n_e \approx 10^{11}\,\mathrm{cm^{-3}}$, moving at high velocities of several thousand $\mathrm{km\,s^{-1}}$ due to the strong gravitational influence of the SMBH. These velocities lead to a significant Doppler broadening of permitted emission lines with widths of $(500$–$10{,}000)\,\mathrm{km\,s^{-1}}$ \parencite{peterson1997introduction}.
-As described earlier, the BLR is photo-ionized by the continuum radiation emitted from the accretion disk. Consequently, the line emission from this region responds to changes in the continuum, leading to a strong correlation between both and shows strong variation \parencite{netzer2013agn}. This relationship is particularly relevant for reverberation mapping, which will be discussed later in Section \ref{sec:reverberation_mapping}.\\ To model the geometry of the BLR is a challenging task, as several emission lines have to be considered, which vary in their intensities due to changes in the variable continuum radiation \parencite{netzer2013agn}. A common model assumes a spherical distribution of clouds that is connected to the accretion disk and located between the accretion disk and the dusty torus  \parencite{goadBroadLine}. Broad emission lines appear in permitted transitions such as H$\alpha$, H$\beta$ and Ly$\alpha$. \parencite{netzer2013agn}
+The ionized gas clouds near the nucleus can be divided into the broad-line region (BLR) and the narrow-line region (NLR). Both regions differ in density, distance from the SMBH, and the observed line widths \parencite{urry1995unified}. The BLR is located close to the nucleus, at distances ranging from a few light-days to a few light-years from the central SMBH \parencite{goadBroadLine}(see Figure \ref{fig:agn_structure_mo}). It consists of dense gas clouds with electron densities of $n_e \approx 10^{11}\,\mathrm{cm^{-3}}$, moving at velocities of several thousand $\mathrm{km\,s^{-1}}$ due to the strong gravitational influence of the SMBH. These velocities lead to significant Doppler broadening of permitted emission lines, with widths of $(500$–$10{,}000)\,\mathrm{km\,s^{-1}}$ \parencite{peterson1997introduction}.
+As described earlier, the BLR is photoionized by the continuum radiation emitted from the accretion disk. Consequently, the line emission from this region responds to changes in the continuum, leading to a strong correlation between the two and strong variability \parencite{netzer2013agn}. This relationship is particularly relevant for reverberation mapping, which will be discussed later in Section \ref{sec:reverberation_mapping}.\\ Modelling the geometry of the BLR is challenging, because several emission lines have to be considered, whose intensities vary in response to changes in the continuum radiation \parencite{netzer2013agn}. A common model assumes a spherical distribution of clouds connected to the accretion disk and located between the accretion disk and the dusty torus  \parencite{goadBroadLine}. Broad emission lines arise from permitted transitions such as H$\alpha$, H$\beta$, and Ly$\alpha$ \parencite{netzer2013agn}.
 \\\\
-Up to several hundred parsecs from the central region lies the narrow-line region (NLR) \parencite{peterson1997introduction}. The gas in this region moves at much lower velocities, resulting in emission lines with widths typically in the order of $(350 - 400)\ \mathrm{km \ s^{-1}}$\parencite{peterson1997introduction}. In contrast to the BLR, the NLR allows both permitted and forbidden transitions. Forbidden lines, such as [O III] $\lambda5007$, arise because collisional de-excitation is inefficient at the relatively low densities of the NLR ($n_e \sim 10^2$–$10^4 \mathrm{cm^{-3}}$) \parencite{peterson1997introduction}. Due to its much larger extends, compared to the BLR, the NLR responds only very slowly to variations in the ionizing continuum. Following that, the flux of the narrow emission lines can be seen as constant over the time scales of several years \parencite{peterson1993}.
-Therefore, narrow lines can be used to intercalibrate the spectra of the various observations employed in this thesis. In this work, the narrow [O III] $\lambda5007$ line was used for intercalibration (see Chapter \ref{campaign_and_analysis}).
+The narrow-line region (NLR) extends out to several hundred parsecs from the central region \parencite{peterson1997introduction}. The gas in this region moves at much lower velocities, resulting in emission lines with widths typically of order $(350$--$400)\,\mathrm{km\,s^{-1}}$ \parencite{peterson1997introduction}. In contrast to the BLR, the NLR exhibits both permitted and forbidden transitions. Forbidden lines, such as [O \textsc{iii}] $\lambda5007$, are prominent in the NLR because at its low densities ($n_e \sim 10^2$–$10^4\,\mathrm{cm^{-3}}$) collisional de-excitation is rare, allowing radiative decay from metastable levels \parencite{peterson1997introduction}. Due to its much larger extent compared to the BLR, the NLR responds only very slowly to variations in the ionizing continuum. Therefore, the flux of the narrow emission lines can be treated as constant over timescales of several years \parencite{peterson1993}. Because permitted emission lines can also originate in the NLR, multi-component emission-line profiles can be observed in AGN spectra \parencite{peterson1997introduction}.
+
 
 
 
 
 \subsubsection{Dusty Torus}
 
-Surrounding the accretion disk and broad-line region is the dusty torus, a geometrically thick and optically dense structure composed of gas and dust. It extends from a radius, where dust can survive the intense radiation of the accretion disk, out to scales of a few parsecs \parencite{netzer2013agn}. The torus likely has a clumpy distribution and plays a crucial role in the unified model of AGNs which will be discussed in a later section \parencite{urry1995unified, netzer2013agn}.
-The dust in the torus absorbs a significant fraction of the UV and optical radiation emitted by the accretion disk and re-emits it thermally in the infrared. As a result, AGNs typically exhibit strong infrared emission, with the peak wavelength depending on the temperature of the dust in the torus \parencite{netzer2013agn}.
-Even in cases where the central region is hidden from direct view by the torus, this reprocessed infrared emission remains observable. It therefore provides a characteristic signature of obscured AGN activity and enables indirect constraints on the otherwise hidden central region \parencite{netzer2013agn}.
+Surrounding the accretion disk and the broad-line region is the dusty torus, a geometrically thick, optically dense structure composed of gas and dust. It extends from the radius at which dust can survive the intense radiation from the accretion disk out to scales of a few parsecs \parencite{netzer2013agn}. The torus likely has a clumpy distribution and plays a crucial role in the unified model of AGNs \parencite{urry1995unified, netzer2013agn}.
+The dust in the torus absorbs a significant fraction of the UV and optical radiation emitted by the accretion disk and re-emits it thermally in the infrared. As a result, AGNs typically exhibit strong infrared emission, with the peak wavelength depending on the dust temperature in the torus \parencite{netzer2013agn}.
+Even when the central region is hidden from direct view by the torus, this reprocessed infrared emission remains observable. It therefore provides a characteristic signature of obscured AGN activity and enables indirect constraints on the otherwise hidden central engine \parencite{netzer2013agn}.
 
 
 \begin{figure}[!ht]
@@ -119,14 +118,14 @@ Although the classical Unification Model treats AGN classification as fixed and 
 \label{sec:variability}
 
 
-The variability of active galactic nuclei (AGN) is one of the key aspects that enables the study of their central regions, which generally cannot be probed with classical spatially resolved methods. Variability is observed on timescales from hours to several years and generally shows stochastic behavior, resulting in flux variations of both emission lines and continuum emission of up to a few tens of percent in the UV and optical regimes \parencite{Ulrich1997, ochmann2024transient}. While the origin of this variability is not yet fully understood, the most widely accepted models attribute it to inhomogeneities and instabilities within the accretion disk \parencite{Ulrich1997, Dexter_2010}. \\
-Depending on the physical process, the variations occur on different characteristic timescales. Processes such as thermal fluctuations or changes in the accretion flow act on timescales of decades to centuries for typical SMBH masses and radii, and are therefore difficult to observe directly. In contrast, processes operating on shorter timescales are much easier to study. Examples of such processes are gas motions and mechanical instabilities, such as sound waves, within the disk, which occur on timescales of weeks to months \parencite{ricci2022changinglook}. 
-The shortest timescale is the light-crossing timescale, $t_\mathrm{lc} = R/c$, which specifies how long light takes to traverse the variable emitting region, such as the broad-line region (BLR) \parencite{ricci2022changinglook}. Here, $c$ denotes the speed of light and $R$ describes the characteristic size or radius of the variable emitting region. Following \cite{ricci2022changinglook}, by assuming a SMBH of mass $\approx 10^8\,M_\odot$, the light-crossing timescale can be written as
+The variability of active galactic nuclei (AGNs) is one of the key aspects that enables the study of their central regions, which generally cannot be probed with conventional spatially resolved observations. Variability is observed on timescales ranging from hours to several years and is generally stochastic, resulting in flux variations of both emission lines and continuum emission of up to a few tens of percent in the UV and optical bands \parencite{Ulrich1997, ochmann2024transient}. Although the origin of this variability is not yet fully understood, the most widely accepted models attribute it to inhomogeneities and instabilities within the accretion disk \parencite{Ulrich1997, Dexter_2010}. \\
+Depending on the underlying physical process, variations occur on different characteristic timescales. Processes such as thermal fluctuations or changes in the accretion flow happen on timescales of decades to centuries for typical SMBH masses and radii, and are therefore difficult to observe directly. In contrast, processes operating on shorter timescales are easier to study. Examples include gas motions and mechanical instabilities (e.g., sound waves) within the disk, which occur on timescales of weeks to months \parencite{ricci2022changinglook}. 
+The shortest timescale is the light-crossing timescale, $t_\mathrm{lc} = R/c$, which specifies how long light takes to traverse the emitting region (e.g., the broad-line region, BLR) \parencite{ricci2022changinglook}. Here, $c$ denotes the speed of light, and $R$ denotes the characteristic size or radius of the variable emitting region. Following \cite{ricci2022changinglook}, assuming a SMBH of mass $\approx 10^8\,M_\odot$, the light-crossing timescale can be written as
 \begin{equation}
 	t_\mathrm{lc} = \frac{R}{c} \simeq 0.87 \left(\frac{R}{150\,r_g}\right)M_8\,\mathrm{days},
 \end{equation}
-where $r_g = GM/c^2$ denotes the gravitational radius of the black hole. It follows that the light-crossing timescale of the variable emitting regions is on the order of days, and that $t_\mathrm{lc}$ scales linearly with the size of the emitting region \parencite{ricci2022changinglook}.\\
-Because variations in the ionizing continuum occur on such short timescales, it is possible to measure delayed responses from other correlated regions within the AGN using long-term monitoring campaigns \parencite{peterson1997introduction}. In particular, the BLR responds to changes in the photoionizing continuum radiation of the central source with a time delay or lag that is bigger than the light-crossing timescale of the emitting region \parencite{peterson1997introduction}. This time lag forms the basis of a classical reverberation mapping analysis, which will be further elaborated in the next section.
+where $r_g = GM/c^2$ is the gravitational radius of the black hole. Thus, the light-crossing timescale of the variable emitting region is of order days, and $t_\mathrm{lc}$ scales linearly with the size of the emitting region \parencite{ricci2022changinglook}.\\
+Because variations in the ionizing continuum occur on such short timescales, it is possible to measure delayed responses from other regions within the AGN that are correlated with the continuum, using long-term monitoring campaigns \parencite{peterson1997introduction}. In particular, the BLR responds to changes in the photoionizing continuum radiation of the central source with a time delay (lag) that is longer than the light-crossing timescale of the emitting region \parencite{peterson1997introduction}. This lag forms the basis of classical reverberation mapping, which will be further elaborated in the next section.
 
 
 
@@ -134,104 +133,96 @@ Because variations in the ionizing continuum occur on such short timescales, it 
 \section{Reverberation Mapping}
 \label{sec:reverberation_mapping}
 
-The main focus of this work is a classic reverberation mapping analysis of the broad lines of NGC 4593. This observational technique allows to probe the structure of the BLR around the SMBH inside the AGN. This technique bases on the time delay or time lag between the continuum's variation and the correlated response of the broad lines. With this calculable time lag it is possible to infer the geometry of the BLR and to calculate the mass of the SMBH \parencite{cackett2018accretion}.  
+The main focus of this work is a classical reverberation mapping analysis of the broad lines of NGC 4593. Reverberation mapping probes the structure of the BLR around the SMBH by measuring the time delay (lag) between continuum variations and the correlated response of the broad lines. This lag can be used to constrain the BLR geometry and to estimate the SMBH mass \parencite{cackett2018accretion}.  
 
 
 \subsection{Principle of Reverberation Mapping}
 \label{subsec:rm_principle}
 
-The fundamental assumption in reverberation mapping is that variation in the observed continuum's flux corresponds to the variation in the emission-line flux, with a measurable time delay. With variation in the continuum luminosity, the emission-line response follows these continuum variations with a measurable time lag \parencite{Cackett2021}.
+The fundamental assumption in reverberation mapping is that variations in the observed continuum flux are echoed by variations in the emission-line flux, with a measurable time delay (lag). When the continuum luminosity varies, the emission-line response follows with a measurable time lag \parencite{Cackett_2021}.
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.7\textwidth]{pictures/Chapter2/iso-delay_surface}
-	\caption{Spherical distribution model of the broad line region and isodelay surface, adopted from \parencite{peterson1997introduction}.}
+	\caption{Spherical BLR model and an isodelay surface, adopted from \parencite{Peterson_2004}.}
 	\label{fig:iso-delay}
 \end{figure}
-
-This time lag $\tau$ is corresponding to the average light-travel time from the photoionization continuum to the line emitting regions. Taking the idealized model for the BLR as spherical distributed clouds \parencite{goadBroadLine}, then $\tau$ can be assumed as \parencite{peterson1997introduction}
+The time lag $\tau$ corresponds to the average light-travel time between the photoionizing continuum source and the line-emitting regions. Assuming an idealized BLR consisting of spherically distributed clouds \parencite{goadBroadLine}, then $\tau$ can be written as \parencite{peterson1997introduction}
 \begin{equation}
 	\tau = \left(1+\cos\theta\right)\cdot \frac{R_\mathrm{BLR}}{c},
 \end{equation}
-where $R_\mathrm{BLR}$ is the characteristic size or radius of the BLR, c the speed of light and $\theta$ the angle of the BLR from the line of sight of the observer to the central source  (\ref{fig:iso-delay}) \parencite{peterson1997introduction}. The circle in Figure \ref{fig:iso-delay} describes the spherical distribution of the BLR. For a fixed lag $\tau$ the location for the responding emitting region must lay on a paraboloid, that fits to the observers line of sight to the continuum, which is called the isodelay surface. Following that the position of the BLR, that is emitting with the fixed lag $\tau$ has to be located on the intersection of the BLR distribution and the isodelay surface \parencite{peterson1997introduction}. Thus, reverberation mapping can be used to 'map' the BLR’s structure by infer the characteristic radius of the BLR from the time lag \parencite{peterson1997introduction}. But because the observer sees not one, but all possible isodelay surfaces that a possible for a fixed lag $\tau$, the so called 'transfer equation' is needed which integrates over all isodelay surfaces \parencite{peterson1997introduction}:
+where $R_\mathrm{BLR}$ is the characteristic BLR radius, $c$ is the speed of light, and $\theta$ is the angle between the line of sight and the position vector of the emitting gas with respect to the central source (see Figure \ref{fig:iso-delay}) \parencite{peterson1997introduction}. The circle in Figure~\ref{fig:iso-delay} represents the BLR modeled as spherical distribution of the clouds. For a fixed lag $\tau$, the emitting regions that respond at that delay lie on a paraboloid aligned with the observer’s line of sight, known as an isodelay surface. Therefore, emission observed at a given lag $\tau$ originates from the intersection of the BLR distribution with the corresponding isodelay surface \parencite{peterson1997introduction}. Thus, reverberation mapping can be used to "map" the BLR by inferring a characteristic BLR radius from the measured time lag \parencite{peterson1997introduction}. However, the observer receives emission from a range of delays (i.e., effectively from many isodelay surfaces), so the so-called transfer equation is required, which integrates over all delays \parencite{peterson1997introduction}:
 \begin{equation}
 	\label{eqn:transfer-function}
-	L\left(t\right) = \int \Psi\left(\tau\right)C\left(t-\tau\right) d\tau
+	L\left(t\right) = \int \Psi\left(\tau\right)C\left(t-\tau\right) d\tau.
 \end{equation}
-$\Psi\left(\tau\right)$ refers to the transfer function, delivering the BLR's geometric and kinematic information, $C(t)$ refers to the contiuuum light curve and $L(t)$ the emission light curve \parencite{peterson1997introduction}.
-While in theory the response of the BLR can be fully described by the transfer function $\Psi\left(\tau\right)$, this lag can be estimated using cross-correlation techniques. In practice, recovering the full transfer function $\Psi\left(\tau\right)$ would require very well-sampled and high signal-to-noise light curves over a duration much longer than the expected lag. Since real monitoring campaigns are often affected by observational gaps and noise, such reconstructions are rarely possible \parencite{horne2004observational,peterson1993}. For this reason, this thesis concentrates on measuring the mean time lag between continuum and emission-line variations using the interpolated cross-correlation function (ICCF) method \parencite{gaskell_peterson1986}.\\
+Here, $\Psi(\tau)$ is the transfer function, which encodes the BLR geometry and kinematics, $C(t)$ is the continuum light curve, and $L(t)$ is the emission-line light curve \parencite{peterson1997introduction}.
+Although the BLR response is, in principle, fully described by the transfer function $\Psi(\tau)$, the lag is commonly estimated using cross-correlation techniques. In practice, recovering the full transfer function $\Psi\left(\tau\right)$ requires densely sampled, high signal-to-noise light curves spanning a duration much longer than the expected lag. Since real monitoring campaigns are often affected by observational gaps and noise, such reconstructions are rarely possible \parencite{horne2004observational,peterson1993}. For this reason, this project focuses on measuring the mean time lag between continuum and emission-line variations using the interpolated cross-correlation function (ICCF) method \parencite{gaskell_peterson1986}.\\
 
 
 \subsection{Lag Measurement}
 \label{subsec:rm_ccf}
 
-Using the notation from \cite{peterson1997introduction} the cross-correlation function between the ionizing continuum and an emission line is defined as \begin{equation}
-	F_\mathrm{CCF}(\tau) = \int_{-\infty}^{\infty}L(t)C(t-\tau)dt,
+Using the notation of \cite{peterson1997introduction}, the cross-correlation function between the ionizing continuum and an emission line is defined as \begin{equation}
+	F_\mathrm{CCF}(\tau) = \int_{-\infty}^{\infty}L(t)C(t-\tau)dt.
 \end{equation}
-With the auto-correlation function of the ionizing continuum\begin{equation}
-	F_\mathrm{ACF}(\tau) = \int_{-\infty}^{\infty}C(t)C(t-\tau)dt
-\end{equation} 
-and the transfer equation \ref{eqn:transfer-function}, the cross-correlation function can be written as the convolution of the transferfunction and the auto-correlation function of the ionizing continuum:
+The auto-correlation function of the ionizing continuum is \begin{equation}
+	F_\mathrm{ACF}(\tau) = \int_{-\infty}^{\infty}C(t)C(t-\tau)dt.
+\end{equation}
+Together with the transfer equation (Equation \ref{eqn:transfer-function}), the cross-correlation function can be written as the convolution of the transfer function and the auto-correlation function of the ionizing continuum:
 \begin{equation}
-	F_\mathrm{CCF}(\tau) = \int_{-\infty}^{\infty}\Psi(\tau') F_\mathrm{ACF}(\tau-\tau')d\tau'
+	F_\mathrm{CCF}(\tau) = \int_{-\infty}^{\infty}\Psi(\tau') F_\mathrm{ACF}(\tau-\tau')d\tau'.
 \end{equation}
-The lag is defined to be at the location of the peak ($\tau_{\mathrm{peak}}$) or the centroid ($\tau_{\mathrm{centroid}}$) of the CCF \parencite{peterson1997introduction}. 
-While $\tau_{\mathrm{peak}}$ is defined as the peak of the CCF, $\tau_{\mathrm{centroid}}$ gets calculated over all points of the CCF, which are above a selected threshold which is typically $80\%$. Because of the strong relation of the CCF and the transferfunction, it is possible to infer a scale length for the BLR, where the emission line originated from \parencite{peterson1997introduction}, which can be describe with \begin{equation}
+The lag is commonly defined as either the peak location ($\tau_{\mathrm{peak}}$) or the centroid ($\tau_{\mathrm{centroid}}$) of the CCF \parencite{peterson1997introduction}. 
+While $\tau_{\mathrm{peak}}$ is defined as the location of the CCF maximum, $\tau_{\mathrm{centroid}}$ is calculated over all CCF points above a selected threshold, typically $80\%$ of the peak value. Because the CCF is closely related to the transfer function, it is possible to infer a characteristic BLR size associated with the emission-line response \parencite{peterson1997introduction}, which can be expressed as \begin{equation}
 	\label{eqn:charc_radius}
-	R_\mathrm{BLR} = c \cdot \tau_{\mathrm{centroid}},
-\end{equation}  using the light-travel time scale \parencite{peterson2004}. Since the centroid lag is generally considered a more robust representation of the mean light-travel time of the BLR \parencite{peterson2004}, it is used in this thesis.\\
-The uncertainty of the measured lag is estimated using a Monte Carlo approach combining flux randomization (FR) and random subset selection (RSS) \parencite{Peterson_1998b, peterson2004}. In the FR step, each flux value is randomly perturbed according to its measurement uncertainty. In the RSS step, a set of $N$ data points is randomly drawn with replacement, but redundant selections are discarded, resulting in a new light curve with $M \leq N$ points. For each realization, the ICCF analysis is repeated, yielding a distribution of centroid lags. The uncertainties are estimated from the distribution of centroid lags obtained through the simulations\parencite{peterson2004}.The 16th and 84th percentiles of this distribution are adopted as the bounds of the $1\sigma$ confidence interval for the error estimation \parencite{Peterson_1998b}.
+	R_\mathrm{BLR} = c \cdot \tau_{\mathrm{centroid}}.
+\end{equation}
+This follows from the light-travel timescale \parencite{peterson2004}. Since the centroid lag is generally considered a more robust estimator of the mean BLR light-travel time of the BLR \parencite{peterson2004}, it is used in this project.\\
+The uncertainty of the measured lag is estimated using a Monte Carlo approach combining flux randomization (FR) and random subset selection (RSS) \parencite{Peterson_1998b, peterson2004}. In the FR step, each flux value is randomly perturbed according to its measurement uncertainty. In the RSS step, $N$ data points are drawn randomly with replacement, while duplicate selections are discarded, resulting in a new light curve with $M \leq N$ points. For each realization, the ICCF analysis is repeated, yielding a distribution of centroid lags. The uncertainties are estimated from the distribution of centroid lags obtained from the simulations \parencite{peterson2004}. The 16th and 84th percentiles of this distribution are adopted as the bounds of the $1\sigma$ confidence interval \parencite{Peterson_1998b}.
 
 
 \subsection{Black Hole Mass}
 \label{subsec:BHM}
 
-The reverberation mapping method can be used not only to measure the characteristic size of the BLR, but also to estimate the mass of the central SMBH. Under the assumption that the gas dynamics in the BLR are dominated by the gravitational potential of the central SMBH, the black hole mass can be derived using the virial mass \parencite{peterson2004}.\\  
-The centroid time lag $\tau_{\mathrm{centroid}}$ provides an estimate of the characteristic radius of the BLR via Equation 
+The reverberation mapping method can be used not only to measure the characteristic size of the BLR, but also to estimate the mass of the central SMBH. Under the assumption that the gas dynamics in the BLR are dominated by the gravitational potential of the central SMBH, the black hole mass can be estimated using the virial theorem \parencite{peterson2004}.\\  
+The centroid time lag $\tau_{\mathrm{centroid}}$ provides an estimate of the characteristic BLR radius via Equation 
 \ref{eqn:charc_radius}. 
 Together with the velocity dispersion $\Delta V$ of the BLR gas, the virial mass is given by
 \begin{equation}
-	M_{\mathrm{vir}} = \frac{R_{\mathrm{BLR}}\,\Delta V^2}{G}
+	M_{\mathrm{vir}} = \frac{R_{\mathrm{BLR}}\,\Delta V^2}{G}.
 \end{equation}
 
-The black hole mass is then obtained through
+The black hole mass is then given by
 
 \begin{equation}
-	M_{\mathrm{BH}} = f \cdot M_{\mathrm{vir}}
+	M_{\mathrm{BH}} = f \cdot M_{\mathrm{vir}}.
 \end{equation}
-Here, $G$ denotes the gravitational constant and $f$ is a scale factor that accounts for the unknown geometry, kinematics, and inclination of the BLR \parencite{peterson2004}. The velocity dispersion $\Delta V$ can be parameterized using the widths of the broad emission lines \parencite{peterson2004}.\\ 
-The scale factor $f$ is calibrated by aligning reverberation-based black hole masses with the empirical $M_{\mathrm{BH}}-\sigma_*$ relation observed in inactive galaxies, where $\sigma_*$ denotes the stellar velocity dispersion of the galactic bulge \parencite{onken2004}. Different studies have reported values for $f$ based on various AGN samples, for example $f = 5.5$ \parencite{onken2004}, $f = 4.31$ \parencite{gier2013a}, and $f = 3.6$ \parencite{graham2011expanded}.\\
-The calibration of the scale factor additionally depends on the measuring method for the line width of the broad emission lines \parencite{peterson2004}. Two commonly used parameterizations are the line dispersion $\sigma_{\mathrm{line}}$ (see \parencite{peterson2004}) and the FWHM. In this thesis, the FWHM is used to characterize the line width.\\
-Following \cite{probst2025emission}, a scale factor of $f = 1.8$ is adopted. This value is adjusted using the relation $\mathrm{FWHM}/\sigma_{\mathrm{line}} \approx 2$ from \cite{peterson2004} together with the scale factor reported by \cite{graham2011expanded}.
+Here, $G$ denotes the gravitational constant, and $f$ is a scale factor that accounts for the unknown geometry, kinematics, and inclination of the BLR \parencite{peterson2004}.The velocity dispersion $\Delta V$ can be estimated from the widths of the broad emission lines \parencite{peterson2004}.\\ 
+The scale factor $f$ is calibrated by matching reverberation-based black hole masses to the empirical $M_{\mathrm{BH}}-\sigma_*$ relation observed in inactive galaxies, where $\sigma_*$ denotes the stellar velocity dispersion of the galactic bulge \parencite{onken2004}. Different studies have reported values of $f$ based on various AGN samples, for example, $f = 5.5$ \parencite{onken2004}, $f = 4.31$ \parencite{gier2013a}, and $f = 3.6$ \parencite{graham2011expanded}.\\
+The calibration of the scale factor also depends on the measurement method used for the line width of the broad emission lines \parencite{peterson2004}. Two commonly used measures are the line dispersion $\sigma_{\mathrm{line}}$ (see \parencite{peterson2004}) and the FWHM. In this project, the FWHM is used as the line-width measure.\\
+Following \cite{probst2025emissionlinecontinuumreverberationmapping}, we adopt a scale factor of $f = 1.8$. This value is obtained by applying the relation $\mathrm{FWHM}/\sigma_{\mathrm{line}} \approx 2$ from \cite{peterson2004} to the scale factor reported by \cite{graham2011expanded}.
 
 
 
 
 
-
-
-
-
-
-
-
-
-\section{Bowen Fluorescence}
+\section{Bowen Fluorescence of O\textsc{I}$\lambda$8446}
 \label{sec:bowen_fluorescence}
-
-The mechanism known as Bowen Fluorescence was first described by I.S. Bowen in 1934 to explain unexpected emission lines in nebular spectra. This mechanism describes a resonant line pumping process, where Photons emitted by an ion, hits randomly another ion of a different species with a matching permitted transition, and excites it via absorption due to a near-wavelength coincidence. The resulting de-excitation leads to an enhancement of the emission lines \parencite{bowen1934}. \\
-One transition that can be enhanced by Bowen fluorescence is the O\textsc{i}$\lambda$8446 emission line, which is pumped by Ly$\beta$ fluorescence \parencite{netzer1976}.  
+Previous studies of NGC\,4593 report strong emission in the low-ionization lines O\textsc{i}$\,\lambda8446$ and the Ca\,\textsc{ii}$\,\lambda8498\,\lambda8542\,\lambda8662$ triplet \parencite{Ochmann_2025}. In particular, O\,\textsc{i}\,$\lambda8446$ is of interest because it can be enhanced through a fluorescence mechanism referred to as Bowen fluorescence \parencite{grandi1980}.
+The mechanism was first described by I.S. Bowen in 1934 to explain unexpected emission lines in nebular spectra. This mechanism describes a resonant line-pumping process in which photons emitted by one ion are absorbed by another ion of a different species via a permitted transition enabled by a near coincidence in wavelength between the pumping line and the absorbing transition. The resulting de-excitation leads to an enhancement of the emission lines \parencite{bowen1934}. \\
+One transition that can be enhanced by Bowen fluorescence is O\,\textsc{i}\,$\lambda8446$, which can be pumped by Ly$\beta$ photons \parencite{netzer1976}.  
 In this process, Ly$\beta$ photons at $\lambda1025.72$\,\AA{} are absorbed by neutral oxygen 
 through the near-resonant transition $2p^4\,^3\!P_2 \rightarrow 3d\,^3\!D^0$ of O\,\textsc{i} 
 at $\lambda1025.77$\,\AA. The excited $3d\,^3\!D^0$ level decays to $3p\,^3\!P$, 
 which then decays to $ 3s\,^3\!S^\circ$, 
-emitting the O\,\textsc{i}\,$\lambda8446$ emission line (see figure \ref{fig:bowen_cascate} ) \parencite{grandi1980}. This adds another possible contributing excitation mechanism to the O\textsc{i}$\lambda$8446 emission line, in addition to recombination.
+emitting the O\,\textsc{i}\,$\lambda8446$ emission line (see figure \ref{fig:bowen_cascate} ) \parencite{grandi1980}. This provides an additional excitation channel for O\,\textsc{i}\,$\lambda8446$, in addition to recombination.
 
 
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.7\textwidth]{pictures/Chapter2/OITriplet.jpg}
-	\caption{Energy level diagram of the triplet states of OI, adopted from \parencite{grandi1980}.}
+	\includegraphics[width=0.6\textwidth]{pictures/Chapter2/OITriplet.jpg}
+	\caption{Energy level diagram displaying the process of Bowen fluorescence pumping of OI, adopted from \parencite{grandi1980}.}
 	\label{fig:bowen_cascate}
 \end{figure}
 

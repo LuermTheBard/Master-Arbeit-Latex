@@ -13,16 +13,112 @@
 \usepackage[
 backend=biber,
 style=authoryear,
-% --- nur für ZITATE (nicht fürs Literaturverzeichnis) ---
-maxcitenames=2,   % bis 2 Autor:innen: alle anzeigen
-mincitenames=1,   % ab 3: kürzen auf „et al.“
-% --- Eindeutigkeits-Regeln: keine Vornamen in Zitaten erzwingen ---
+maxcitenames=2,   % Zitate: bis 2 Namen, danach et al.
+mincitenames=1,
+maxbibnames=3,    % Literaturverzeichnis: bis 3 Namen, dann et al.
+minbibnames=3,
 uniquename=false,
 uniquelist=false,
 dashed=false
 ]{biblatex}
+\DeclareFieldFormat{pages}{#1}
+\setlength{\bibitemsep}{0.8\baselineskip} % Abstand zwischen Einträgen
+\setlength{\bibparsep}{0pt}               % Abstand innerhalb eines Eintrags-Absatzes
 
 \addbibresource{literatur.bib}
+
+% Kommas zwischen Namen, vor dem letzten ein Komma + &
+\DeclareDelimFormat{multinamedelim}{\addcomma\space}
+\DeclareDelimFormat{finalnamedelim}{%
+	\ifnumgreater{\value{liststop}}{2}
+	{\addcomma\space\&\space}% 3+ Namen: ", &"
+	{\space\&\space}%          2 Namen: " &"
+}
+\DeclareBibliographyDriver{article}{%
+	\usebibmacro{bibindex}%
+	\usebibmacro{begentry}%
+	% Namen
+	\printnames{author}%
+	\setunit{\addspace}%
+	% Jahr
+	\printfield{year}%
+	\setunit{\addcomma\space}%
+	% Journal
+	\printfield{journaltitle}%
+	\setunit{\addcomma\space}%
+	% Band
+	\printfield{volume}%
+	\setunit{\addcomma\space}%
+	% Seiten / Artikelnummer
+	\printfield{pages}%
+	\usebibmacro{finentry}%
+}
+
+
+\DeclareBibliographyDriver{inproceedings}{%
+	\usebibmacro{bibindex}%
+	\usebibmacro{begentry}%
+	% Autor:innen
+	\printnames{author}%
+	\setunit{\addspace}%
+	% Jahr
+	\printfield{year}%
+	\setunit{\addcomma\space}%
+	% "in" + Buchtitel
+	\printtext{in\space}%
+	\printfield{booktitle}%
+	% Editor:innen
+	\iffieldundef{editor}
+	{}
+	{%
+		\setunit{\addcomma\space}%
+		\printtext{ed.\ }%
+		\printnames{editor}%
+	}%
+	% Seiten
+	\setunit{\addcomma\space}%
+	\printfield{pages}%
+	\usebibmacro{finentry}%
+}
+
+
+\DeclareBibliographyDriver{book}{%
+	\usebibmacro{bibindex}%
+	\usebibmacro{begentry}%
+	\printnames{author}%
+	\setunit{\addspace}%
+	\printfield{year}%
+	\setunit{\addcomma\space}%
+	\printfield{title}%
+	\setunit{\addcomma\space}%
+	\printlist{publisher}%
+	\setunit{\addcomma\space}%
+	\printlist{location}%
+	\usebibmacro{finentry}%
+}
+
+
+\DeclareBibliographyDriver{misc}{%
+	\usebibmacro{bibindex}%
+	\usebibmacro{begentry}%
+	% Autor oder Organisation
+	\printnames{author}%
+	\iffieldundef{author}{\printlist{organization}}{}%
+	\setunit{\addspace}%
+	% Jahr (falls vorhanden)
+	\printfield{year}%
+	\setunit{\addcomma\space}%
+	% Titel (z.B. "DSS red image", "LTT 4364")
+	\printfield{title}%
+	% URL (falls vorhanden)
+	\iffieldundef{url}
+	{}
+	{%
+		\setunit{\addcomma\space}%
+		\printfield{url}%
+	}%
+	\usebibmacro{finentry}%
+}
 \usepackage{hyperref}       % Hyperlinks
 \usepackage{appendix}       % Anhang
 \usepackage{amsmath}

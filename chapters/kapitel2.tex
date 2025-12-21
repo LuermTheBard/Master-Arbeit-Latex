@@ -5,19 +5,26 @@ The analysis of this campaign is based on the observation campaign of NGC4593 in
 \section{NGC4593}
 \label{NGC4593}
 
-NGC 4593 is classified as a Seyfert 1 galaxy with a \mbox{(R)SB(rs)b} barred spiral morphology \parencite{denney2006ngc4593}. 
-It is located in the southern sky at RA = 12:39:39.44, DEC = $-05$°$ 20' 39.03''$ (J2000) and has a redshift of $z = 0.0083 \pm 0.0005$, corresponding to a distance of about $35.9$ Mpc \parencite{bass_cataloge} based on the $\Lambda$CDM model. The galaxy exhibits a prominent large-scale bar and nuclear dust ring connected to dust lanes along the bar, as seen in figure \ref{fig:NGC4593}.\\
+NGC 4593 is classified as a Seyfert 1 galaxy with a barred spiral morphology of type (R)SB(rs)b \parencite{denney2006ngc4593}. 
+It is located at $\mathrm{RA}=12^\mathrm{h}39^\mathrm{m}39.44^\mathrm{s}$, $\mathrm{Dec}=-05^\circ20'39.03''$ (J2000) and has a redshift of $z = 0.0083 \pm 0.0005$, corresponding to a distance of $\sim 35.9$\,Mpc \parencite{bass_cataloge} assuming a $\Lambda$CDM cosmology. The galaxy exhibits a prominent large-scale bar and nuclear dust ring connected to dust lanes along the bar, as seen in Figure \ref{fig:NGC4593}.\\
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.5\textwidth]{pictures/Chapter3/NGC4593.PNG}
 	\caption{Screenshot of NGC 4593, visualized using Aladin Lite based on DSS2 survey data.}
 	\label{fig:NGC4593}
 \end{figure}\\
-The AGN in NGC 4593 exhibits strong broad emission lines, including Balmer lines, Lyman lines, helium lines, oxygen lines and calcium lines among others \parencite{kollatschny1997balmer, cackett2018accretion, Ochmann_2025}.
-Several previous variability and reverberation-mapping campaigns have monitored different broad emission lines, naming here \cite{kollatschny1997balmer, denney2006ngc4593}. They reported FWHM values for the average (AVG) and root-mean-squared (RMS) spectra (further explained in Section \ref{sec:spectra}) of their respective campaigns.
-\cite{kollatschny1997balmer} measured $\mathrm{FWHM_{AVG/RMS}} = (3400 \pm 200)\,\mathrm{km\,s^{-1}}$ for H$\alpha$, while \cite{denney2006ngc4593} reported for H$\beta$ $\mathrm{FWHM_{AVG}} = (5142 \pm 16)\,\mathrm{km\,s^{-1}}$ and $\mathrm{FWHM_{RMS}} = (4141 \pm 416)\,\mathrm{km\,s^{-1}}$. Based on these broad-line widths, they calculated the mass of the SMBH to be $M \approx 1.4 \times 10^7\,M_\odot$ \parencite{kollatschny1997balmer} and $M = (9.8 \pm 2.1) \times 10^6\,M_\odot$ \parencite{denney2006ngc4593}. Consequently, these results suggest that the SMBH mass is expected to be on the order of $10^7\,M_\odot$.\\
-Furthermore, NGC 4593 shows a rare double-peaked emission-line complex, consisting of the O\textsc{i}$\,\lambda8446$ emission line and the Ca\,\textsc{ii}$\,\lambda8498\,\lambda8542\,\lambda8662$ triplet \parencite{Ochmann_2025}. \cite{Ochmann_2025} found that the Ca\,\textsc{ii} triplet shows an intensity ratio of 1:1:1, with line profiles that closely resemble the line profile of the O\textsc{i}$\,\lambda8446$ emission line, exhibiting a red-blue peak ratio of 4:3 and a FWHM of $\approx 3700,\mathrm{km,s^{-1}}$, which suggests a similar high-density emission region.
-
+The AGN in NGC 4593 exhibits strong broad emission lines, including Balmer and Lyman lines as well as He, O, and Ca lines among others \parencite{kollatschny1997balmer, cackett2018accretion, Ochmann_2025}.
+Several variability and reverberation-mapping campaigns have monitored different broad emission lines, including \cite{kollatschny1997balmer, denney2006ngc4593}. They reported FWHM values from the mean (AVG) and root-mean-square (RMS) spectra of their respective campaigns. The RMS spectrum is defined as the standard deviation of the flux at each wavelength across epochs:
+\begin{equation}
+	\label{eqn:RMS}
+	F_{\mathrm{RMS}}(\lambda) = \sqrt{\frac{1}{N-1}\sum_{i=1}^{N}\left[F_i(\lambda)-\bar{F}(\lambda)\right]^2}\,,
+\end{equation}
+with the mean spectrum at wavelength $\lambda$ given by
+\begin{equation}
+	\bar{F}(\lambda) = \frac{1}{N}\sum_{i=1}^{N} F_i(\lambda)\,.
+\end{equation}
+\cite{kollatschny1997balmer} measured $\mathrm{FWHM_{AVG/RMS}}=(3400 \pm 200)\,\mathrm{km\,s^{-1}}$ for H$\alpha$, while \cite{denney2006ngc4593} reported for H$\beta$ $\mathrm{FWHM_{AVG}} = (5142 \pm 16)\,\mathrm{km\,s^{-1}}$ and $\mathrm{FWHM_{RMS}} = (4141 \pm 416)\,\mathrm{km\,s^{-1}}$. Based on these broad-line widths, they estimated the SMBH mass to be $M \approx 1.4 \times 10^7\,M_\odot$ \parencite{kollatschny1997balmer} and $M = (9.8 \pm 2.1) \times 10^6\,M_\odot$ \parencite{denney2006ngc4593}. Overall, these results suggest that the SMBH mass is of order $10^7\,M_\odot$.\\
+Furthermore, NGC 4593 shows a rare double-peaked emission-line complex involving O\,\textsc{i}\,$\lambda8446$ and the Ca\,\textsc{ii} $\lambda8498$, $\lambda8542$, $\lambda8662$ triplet \parencite{Ochmann_2025}. \cite{Ochmann_2025} found that the Ca\,\textsc{ii} triplet has an intensity ratio of 1:1:1 and line profiles that closely resemble those of O\,\textsc{i}\,$\lambda8446$, exhibiting a red-to-blue peak ratio of 4:3 and a FWHM of $\approx 3700\,\mathrm{km\,s^{-1}}$, suggesting that these lines originate in a similar high-density emission region.
 
 
 
@@ -25,14 +32,14 @@ Furthermore, NGC 4593 shows a rare double-peaked emission-line complex, consisti
 \section{The 2016 Hst Campaign}
 \label{Campaign_Cackett}
 
-The \cite{cackett2018accretion} campaign was designed to study wavelength dependent continuum lags. Therefore, the STIS instrument on the Hubble Space Telescope was used with low-resolution gratings to measure a broad range of wavelengths. In each observation, spectra were taken using three different gratings: G140L, G430L, and G750L. These were used together with the $52'' \times 0.2''$ slit.\\
-The characteristics of the STIS gratings used in this analysis are summarized in Table \ref{tab:stis_gratings}. After a standard pipeline-processing, a package was used to do a Charge Transfer Inefficiency correction with an algorithm based on \parencite{anderson2010empirical}. The few left rest of hot pixels got manually removed by interpolating the flux of neighbor pixels.\\
+The campaign of \cite{cackett2018accretion} was designed to study wavelength-dependent continuum lags. It took place between the 12th of July and the 6th of August with daily observations, which resulted in 26 successful out of 27 observations. Observations were carried out with the Hubble Space Telescope (HST) using the Space Telescope Imaging Spectrograph (STIS) and three different gratings. The low-resolution STIS gratings provided continuous spectral coverage over a broad wavelength range. In each observation, spectra were obtained using the G140L, G430L, and G750L. All spectra were acquired with the $52'' \times 0.2''$ slit.\\
+The characteristics of the STIS gratings used in this work are summarized in Table \ref{tab:stis_gratings}. After standard pipeline processing, charge-transfer inefficiency (CTI) corrections were applied using an algorithm based on \parencite{anderson2010empirical}. Remaining hot pixels were removed manually by interpolating the flux from neighboring pixels.\\
 
 
 \begin{table}[h!]
 	\centering
 	\small
-	\caption{Overview of STIS Grating Characteristics \parencite{stisgratings}}
+	\caption{Overview of STIS grating characteristics \parencite{stisgratings}.}
 	\label{tab:stis_gratings}
 	\begin{tabular}{lcccc}
 		\hline
@@ -52,14 +59,7 @@ The characteristics of the STIS gratings used in this analysis are summarized in
 \label{sec:spectra}
 
 Reverberation mapping requires multiple epochs to capture variability. For the 2016 campaign of NGC 4593, we retrieved 27 spectra from the \cite{HASP} archive  using the HASP search form in \cite{MAST} . 26 of these spectra are usable for further analysis. The top panel of Figure \ref{fig:comparison_combined} shows all spectra in the spectral range from $4000\AA$ to $9000\AA$.\\
-For the subsequent analysis, the average spectrum (AVG) is obtained by averaging over all epochs, improving the signal-to-noise ratio (S/N).  Furthermore it is essential for the reverberation mapping analysis to identify variability between the epochs, which can be assessed with the root-mean-spuare (RMS) spectrum, defined as the standard deviation of the flux at each wavelength across epochs:
-\begin{equation}
-	F_{\mathrm{RMS}}(\lambda) = \sqrt{\frac{1}{N-1}\sum_{i=1}^{N}\left[F_i(\lambda)-\bar{F}(\lambda)\right]^2}\,,
-\end{equation}
-with the mean spectrum at wavelength $\lambda$ given by
-\begin{equation}
-	\bar{F}(\lambda) = \frac{1}{N}\sum_{i=1}^{N} F_i(\lambda)\,.
-\end{equation}
+For the subsequent analysis, the average spectrum (AVG) is obtained by averaging over all epochs, improving the signal-to-noise ratio (S/N).  Furthermore it is essential for the reverberation mapping analysis to identify variability between the epochs, which can be assessed with the root-mean-spuare (RMS) spectrum, defined as the standard deviation of the flux at each wavelength across epochs (see. Equation \ref{eqn:RMS}).
 Constant features, such as narrow emission lines, vanish in the RMS spectrum, leaving only variable components such as broad emission lines. The top panel of Figure \ref{fig:comparison_combined} shows the AVG and RMS spectra from the original retrieved data. Residual variability is still noticeable in nominally non-varying lines, particularly in the forbidden line [O \textsc{iii}] $\lambda5007$. This indicates small wavelength misalignments between epochs. Therefore, an intercalibration anchored to the narrow [O \textsc{iii}] $\lambda5007$ line was performed. This was achieved by shifting the wavelengths of the individual spectra and scaling the line flux to a constant value. As a narrow line, the flux of [O \textsc{iii}] $\lambda5007$ can be assumed to remain constant over the timescale of the campaign. Based on this assumption, the flux of each spectrum was scaled to $(106 \pm 5)\times10^{-15}\,\mathrm{erg\,s^{-1}\,cm^{-2}}$ and the wavelength was shifted by a maximum of 1$\AA$. \\
 Figures \ref{fig:comparison_combined} shows a comparison of the original and the intercalibrated epochs and the corresponding AVG and RMS spectra. The disappearance of narrow features in the calibrated RMS spectrum, especially the [O \textsc{iii}] $\lambda5007$ line, confirms that the apparent variability in the RMS of the original epochs was induced by the wavelength shifts between them, rather than intrinsic line variability. However the intercalibration was only applied to the optical part of the spectra  due to its limited reliability. In the following analysis, the intercalibrated AVG and RMS spectra are used for the optical range obtained with the G430L and G750L gratings, while the AVG and RMS spectra from the original epochs are used for the UV emission-line analysis, as these were acquired with the G140L grating. 
 
