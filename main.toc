@@ -5,8 +5,8 @@
 \contentsline {subsubsection}{Supermassive Black Hole and Accretion Disk}{7}{subsection.2.1.1}%
 \contentsline {subsubsection}{Broad-Line and Narrow-Line Region}{8}{subsection.2.1.1}%
 \contentsline {subsubsection}{Dusty Torus}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Classification}{9}{subsection.2.1.2}%
-\contentsline {subsubsection}{Seyfert Galaxies}{9}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Classification}{10}{subsection.2.1.2}%
+\contentsline {subsubsection}{Seyfert Galaxies}{10}{subsection.2.1.2}%
 \contentsline {subsubsection}{Additional AGN Classes}{11}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Unification Model}{12}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {2.1.4}Variability}{13}{subsection.2.1.4}%
@@ -15,16 +15,16 @@
 \contentsline {subsection}{\numberline {2.2.2}Lag Measurement}{16}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Black Hole Mass}{17}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Bowen Fluorescence of O\textsc {I}$\lambda $8446}{18}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Campaign and Data Preparation}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}NGC4593}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The 2016 Hst Campaign}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Intercalibration and Determination of AVG and RMS Spectra}{22}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Line Identification}{25}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{27}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Lightcurves}{29}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Continua}{29}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Emission Lines}{30}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Line Profiles}{30}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Time Lag and BH Masses}{30}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion}{37}{chapter.5}%
+\contentsline {chapter}{\numberline {3}Campaign and Data Preparation}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}NGC4593}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The 2016 Hst Campaign}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Intercalibration and Determination of AVG and RMS Spectra}{21}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Line Identification}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Lightcurves}{28}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Continua}{28}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Emission Lines}{29}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Line Profiles}{29}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Time Lag and BH Masses}{29}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion}{36}{chapter.5}%

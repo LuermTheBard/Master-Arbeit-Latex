@@ -860,6 +860,38 @@
       \verb https://hst-docs.stsci.edu/stisihb/chapter-13-spectroscopic-reference-material/13-3-gratings
       \endverb
     \endentry
+    \entry{keel2002quasars}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=920b865aa3778205f102e12b81182f2e}{%
+           family={Keel},
+           familyi={K\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{920b865aa3778205f102e12b81182f2e}
+      \strng{fullhash}{920b865aa3778205f102e12b81182f2e}
+      \strng{fullhashraw}{920b865aa3778205f102e12b81182f2e}
+      \strng{bibnamehash}{920b865aa3778205f102e12b81182f2e}
+      \strng{authorbibnamehash}{920b865aa3778205f102e12b81182f2e}
+      \strng{authornamehash}{920b865aa3778205f102e12b81182f2e}
+      \strng{authorfullhash}{920b865aa3778205f102e12b81182f2e}
+      \strng{authorfullhashraw}{920b865aa3778205f102e12b81182f2e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-12-22}
+      \field{title}{Quasars and Active Galactic Nuclei - Optical spectra of various kinds of active galactic nuclei}
+      \field{year}{2002}
+      \verb{urlraw}
+      \verb https://pages.astronomy.ua.edu/keel/agn/spectra.html
+      \endverb
+      \verb{url}
+      \verb https://pages.astronomy.ua.edu/keel/agn/spectra.html
+      \endverb
+    \endentry
     \entry{kollatschny1997balmer}{article}{}{}
       \name{author}{2}{}{%
         {{hash=e6b501f51b210c44134155f268f2a6f0}{%
@@ -2293,31 +2325,6 @@
       \field{year}{1997}
       \field{pages}{9}
       \range{pages}{1}
-    \endentry
-    \entry{runco2015frequency}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=a8e62c5e09342ce3d9b1477ba82731bb}{%
-           family={Runco},
-           familyi={R\bibinitperiod},
-           given={Jordan},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{a8e62c5e09342ce3d9b1477ba82731bb}
-      \strng{fullhash}{a8e62c5e09342ce3d9b1477ba82731bb}
-      \strng{fullhashraw}{a8e62c5e09342ce3d9b1477ba82731bb}
-      \strng{bibnamehash}{a8e62c5e09342ce3d9b1477ba82731bb}
-      \strng{authorbibnamehash}{a8e62c5e09342ce3d9b1477ba82731bb}
-      \strng{authornamehash}{a8e62c5e09342ce3d9b1477ba82731bb}
-      \strng{authorfullhash}{a8e62c5e09342ce3d9b1477ba82731bb}
-      \strng{authorfullhashraw}{a8e62c5e09342ce3d9b1477ba82731bb}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Frequency of Seyfert Type Transitions in a Sample of 102 Local Active Galactic Nuclei}
-      \field{year}{2015}
     \endentry
     \entry{seyfert1943nuclear}{article}{}{}
       \name{author}{1}{}{%
