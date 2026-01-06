@@ -92,17 +92,16 @@ Besides the emission line lightcurves, continua lightcurves from different wavel
 	\end{tabular}
 \end{table}
 
-Since the variability of the emission lines and continua forms the basis of reverberation analysis, it is useful to quantify it using variability statistics. Here the definition of  \cite{rodriguez1997steps} gets adopted. This definition includes the extrema of the emission line flux densities as well as the extrema of the integrated continuum fluxes, $F_\mathrm{min}$ and $F_\mathrm{max}$, the maximum-to-minimum flux ratio $R_\mathrm{max}$, the mean flux $\langle F \rangle$, the standard deviation $\sigma_F$, and finally the fractional variability, which is defined as: 
+\subsection{Variability Statistics}
+
+To quantify the variability of the emission lines and continua variability statistics, defined by  \cite{rodriguez1997steps} gets adopted. This definition includes the extrema of the emission line flux densities as well as the extrema of the integrated continuum fluxes, $F_\mathrm{min}$ and $F_\mathrm{max}$, the maximum-to-minimum flux ratio $R_\mathrm{max}$, the mean flux $\langle F \rangle$, the standard deviation $\sigma_F$, and finally the fractional variability, which is defined as: 
 \begin{equation}
 	F_\mathrm{var}=\frac{\sqrt{\sigma_F^2-\Delta^2}}{\left<F\right>}
 \end{equation}
-
 Here $\Delta^2$ is the mean square value of the uncertainties of the fluxes defined as:
-
 \begin{equation}
 	\Delta^2 = \frac{1}{N} \sum_{i=1}^{N}\Delta_i^2
 \end{equation}
-
 The results of these parameters can be found in Table \ref{tab:varstatistics}. \\
 
 
@@ -113,7 +112,7 @@ The results of these parameters can be found in Table \ref{tab:varstatistics}. \
 
 \begin{table}[!htb] 
 	\centering 
-	\caption{Variability statistics of the investigated continua and broad lines with minimum (2) and maximum flux density or integrated flux (3), peak-to-peak ratio (4), mean (5), standard deviation (6) and fractional variation (7).} 
+	\caption{Variability statistics of the measured continua and broad lines with minimum (2) and maximum flux density or integrated flux (3), peak-to-peak ratio (4), mean (5), standard deviation (6) and fractional variation (7).} 
 	\begin{tabular}{lrrrrrr} 
 		\hline 
 		\hline 
@@ -137,8 +136,6 @@ The results of these parameters can be found in Table \ref{tab:varstatistics}. \
 		HeI$\,\lambda5875$  & $6.81$ & $9.54$ & $1.4$ & $8.49$ & $0.62$ & $0.07$ \\
 		OI$\,\lambda 8446$ & $7.47$ & $9.13$ & $1.22$ & $8.32$ & $0.37$ & $0.04$ \\
 		\hline 
-		UVW2 & - & - & - & - & - & $0.125$ \\
-		\hline 
 		\hline 
 		\label{tab:varstatistics} 
 	\end{tabular} 
@@ -146,42 +143,39 @@ The results of these parameters can be found in Table \ref{tab:varstatistics}. \
 \end{table}
 
 
-
 \section{Lightcurves}
 
-This chapter will cover the plots and comparison of the extracted emission line and continua lightcurves. Additionally to the measured lightcurves, the UVW2 continuum lightcurve from the Swift campaign taken by \parencite{mchardy2018x} is included in the further analysis, as it was used by E. Cackett in his analysis too \parencite{cackett2018accretion}. \\
-
-
-
-\subsection{Continua}
-First looking at the continua lightcurves in figure \ref{fig:continua_lightcurves}, it shows that they follow a similar overall shape. All lightcurves start with a pronounced maxima, which shows in most cases the highest flux level, with exception of the 1150 continuum. This is followed by a significant flux minimum where the flux decreases by about $25 - 46 $\% relative to the total flux maximum of the curve. From there the curves rise again toward another local maximum that nearly reaches the initial peak. In most cases, this second maximum is composed of a higher plateau, a smaller plateau, and an additional peak, before the lightcurves steadily decline toward their overall flux minimum.
-
-\textbf{Describe the selection of the Cont. 1015 continuum and the UVW2 continuum}
+The variability of the lightcurves can be seen in the visualization of the lightcurves in Figure \ref{fig:continua_lightcurves} and \ref{fig:emission_line_lightcurves}. In addition to the measured lightcurves of the HST campaign, the UVOT UVW2 lightcurve taken with SWIFT by \cite{mchardy2018x} is displayed for comparison which shows a higher sample-size that the lightcurves of the HST campaign. Its central wavelength is located at about 1930\,\AA\, \parencite{mchardy2018x} and was used as a reference lightcurve in \cite{cackett2018accretion} as well, which makes is interesting as a reference lightcurve for this analysis too. \\
+Looking at the  continuum lightcurves in Figure \ref{fig:continua_lightcurves} they show a broadly similar overall shape. All lightcurves begin at the highest flux level in most cases, except for UVW2, whose peaks have comparable heights throughout, and the 1150 continuum, which reaches its highest flux at the second maximum. The initial maximum is followed by a pronounced flux minimum, with a decrease of about $25$--$46\%$ relative to the overall maximum flux of each curve. Subsequently, the light curves rise again toward another peak, which is more distinct in the UV and blue continua and is followed by another drop in flux. While all continua except Cont. 4010 exhibit an additional another local maximum, the flux then decline steadily toward a global minimum near the end of the campaign.
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Continua.pdf}
-	\caption{...}
+	\caption{Comparison of the continua lightcurves. The first panel shows the UVW2 continuum lightcurve obtained from \cite{mchardy2018x}, while the other panels show the measured continua defined in Table \ref{tab:continua} }
 	\label{fig:continua_lightcurves}
 \end{figure}
-
-\subsection{Emission Lines}
-Like mentioned earlier, the lightcurves of the emission-lines H$\alpha$, H$\beta$, H$\gamma$, Ly$\alpha$, HeI$\,\lambda5875$, HeII$\,\lambda$4685 and OI$\,\lambda 8446$ where selected for the further reverberation mapping analysis. Figure \ref{fig:emission_line_lightcurves_hst} and \ref{fig:emission_line_lightcurves} show those lightcurves compared to the selected blue continuum Cont. 1150 and respectively compared to the external swift continuum UVW2. This comparison shows strong similarities between the continua and emission-line lightcurves, as most features of the 1150 and UVW2 continuum lightcurves can be found in the emission-line curves too, shifted within a few days. 
-
-\textbf{create comparison figures for this lightcurves}
-
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=1\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Lines_Cont1150_not_optical_calibrated.pdf}
-	\caption{AVG RMS Spektrum}
-	\label{fig:emission_line_lightcurves_hst}
-\end{figure}
-
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=1\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf}
-	\caption{AVG RMS Spektrum}
+	\caption{Comparison of the emission-line lightcurves to the UVW2 reference lightcurve in the first panel. The UVW2 lightcurve was obtained from \cite{mchardy2018x}}
 	\label{fig:emission_line_lightcurves}
 \end{figure}
+\\
+For the RM analysis the real distance between the SMBH and the BLR is of most interests. Assuming that the continuum radiation originate from the accretion disk it is common to use the bluest available continuum band, which is
+expected to originate closest to the SMBH, which would be the continuum around 1150 \AA. But because the higher sample rate, the UVW2 continuum was selected as the main reference lightcurve for the further analysis. \\
+Looking now at the emission-line lightcurves in Figure \ref{fig:emission_line_lightcurves} correlation between them and the UVW2 continuum can already be spotted. The three major features of the UVW2 lightcurve, the first strong minimum, the two maxima in the center and the strong drop at the end, can be also identified in the emission line lightcurves with respective shifts in time, which will be further investigated in Section \ref{sec:time_lag_bh_mass}.
+
+
+
+
+
+%\begin{figure}[!ht]
+%	\centering
+%	\includegraphics[width=1\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Lines_Cont1150_not_optical_calibrated.pdf}
+%	\caption{AVG RMS Spektrum}
+%	\label{fig:emission_line_lightcurves_hst}
+%\end{figure}
+
+
 
 
 
