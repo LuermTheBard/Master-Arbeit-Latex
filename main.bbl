@@ -19,6 +19,27 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{AladinLite_CDS}{online}{}{}
+      \list{organization}{1}{%
+        {CDS (Centre de Données astronomiques de Strasbourg)}%
+      }
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Aladin Lite}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://aladin.cds.unistra.fr/AladinLite/
+      \endverb
+      \verb{url}
+      \verb https://aladin.cds.unistra.fr/AladinLite/
+      \endverb
+    \endentry
     \entry{anderson2010empirical}{article}{}{}
       \name{author}{2}{}{%
         {{hash=fba14484c0de15296dc39f63583e6497}{%
@@ -2391,6 +2412,44 @@
       \field{year}{1973}
       \field{pages}{337\bibrangedash 355}
       \range{pages}{19}
+    \endentry
+    \entry{DSS_IRSA441}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{hash=890e04d88b13a4e37b40ea4cfb0289fb}{%
+           family={{STScI}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IPAC}%
+      }
+      \strng{namehash}{890e04d88b13a4e37b40ea4cfb0289fb}
+      \strng{fullhash}{890e04d88b13a4e37b40ea4cfb0289fb}
+      \strng{fullhashraw}{890e04d88b13a4e37b40ea4cfb0289fb}
+      \strng{bibnamehash}{890e04d88b13a4e37b40ea4cfb0289fb}
+      \strng{authorbibnamehash}{890e04d88b13a4e37b40ea4cfb0289fb}
+      \strng{authornamehash}{890e04d88b13a4e37b40ea4cfb0289fb}
+      \strng{authorfullhash}{890e04d88b13a4e37b40ea4cfb0289fb}
+      \strng{authorfullhashraw}{890e04d88b13a4e37b40ea4cfb0289fb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Digitized Sky Survey}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.26131/IRSA441
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ipac.caltech.edu/doi/irsa/10.26131/IRSA441
+      \endverb
+      \verb{url}
+      \verb https://www.ipac.caltech.edu/doi/irsa/10.26131/IRSA441
+      \endverb
     \endentry
     \entry{Ulrich1997}{article}{}{}
       \name{author}{3}{}{%

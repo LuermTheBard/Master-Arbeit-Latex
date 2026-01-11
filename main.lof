@@ -1,19 +1,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Different components of an AGN. Adopted from \blx@tocontentsinit {0}\parencite {mo2010galaxy} Figure 14.3.}}{7}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces An example of Seyfert I and Seyfert II spectra illustrating their differences. Broad lines, such as the highlighted $H\alpha $ and $H\beta $, are only present in the Seyfert I spectrum, whereas forbidden [O III] lines are visible in both cases. Adapted from \blx@tocontentsinit {0}\parencite {keel2002quasars}.}}{10}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces This graphic shows a schematic of the unification model of an AGN. The figure was adopted from \blx@tocontentsinit {0}\parencite {beckmann_unified}.}}{14}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Spherical BLR model and an isodelay surface, adopted from \blx@tocontentsinit {0}\parencite {Peterson_2004}.}}{16}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Energy level diagram displaying the process of Bowen fluorescence pumping of OI, adopted from \blx@tocontentsinit {0}\parencite {grandi1980}.}}{19}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Different components of an AGN. Adopted from \blx@tocontentsinit {0}\parencite {mo2010galaxy} Figure 14.3.}}{8}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces An example of Seyfert I and Seyfert II spectra illustrating their differences. Broad lines, such as the highlighted $H\alpha $ and $H\beta $, are only present in the Seyfert I spectrum, whereas forbidden [O III] lines are visible in both cases. Adapted from \blx@tocontentsinit {0}\parencite {keel2002quasars}.}}{11}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces This graphic shows a schematic of the unification model of an AGN. The figure was adopted from \blx@tocontentsinit {0}\parencite {beckmann_unified}.}}{15}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Spherical BLR model and an isodelay surface, adopted from \blx@tocontentsinit {0}\parencite {Peterson_2004}.}}{17}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Energy level diagram displaying the process of Bowen fluorescence pumping of OI, adopted from \blx@tocontentsinit {0}\parencite {grandi1980}.}}{20}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Screenshot of NGC 4593, visualized using Aladin Lite based on DSS2 survey data.}}{20}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Comparison of the spectral range between $4000 \r A$ and $9000 \r A$ from the 2016 HST campaign of NGC 4593, showing the effects of [O \textsc {iii}] $\lambda 5007$ intercalibration on both the individual spectra (top) and the derived average and rms spectra (bottom).}}{24}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Screenshot of NGC 4593 visualized with Aladin Lite \blx@tocontentsinit {0}\parencite {AladinLite_CDS} using DSS2 survey imagery \blx@tocontentsinit {0}\parencite {DSS_IRSA441}. The image is oriented with north up and east to the left. Right ascension increases to the left and declination increases upward.}}{22}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Comparison of the spectral range between $4000 \r A$ and $9000 \r A$ from the 2016 HST campaign of NGC 4593, showing the effects of [O \textsc {iii}] $\lambda 5007$ intercalibration on both the individual spectra (top) and the derived average and rms spectra (bottom).}}{25}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Optical-to-NIR AVG and RMS spectrum with identified emission lines.}}{25}{figure.caption.12}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces UV spectrum AVG and RMS spectrum with identified emission lines}}{26}{figure.caption.13}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of the continua lightcurves. The first panel shows the UVW2 continuum lightcurve obtained from \blx@tocontentsinit {0}\cite {mchardy2018x}, while the other panels show the measured continua defined in Table \ref {tab:continua} }}{30}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison of the emission-line lightcurves to the UVW2 reference lightcurve in the first panel. The UVW2 lightcurve was obtained from \blx@tocontentsinit {0}\cite {mchardy2018x}}}{31}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces AVG RMS Spektrum}}{33}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces AVG RMS Spektrum}}{34}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces AVG RMS Spektrum}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Optical-to-NIR AVG and RMS spectrum with identified emission lines.}}{26}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces UV spectrum AVG and RMS spectrum with identified emission lines}}{27}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of the continua lightcurves. The first panel shows the UVW2 continuum lightcurve obtained from \blx@tocontentsinit {0}\cite {mchardy2018x}, while the other panels show the measured continua defined in Table \ref {tab:continua} }}{31}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison of the emission-line lightcurves to the UVW2 reference lightcurve in the first panel. The UVW2 lightcurve was obtained from \blx@tocontentsinit {0}\cite {mchardy2018x}}}{32}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A plot of the AVG and RMS line profiles of the broad emission lines H$\alpha $, H$\beta $ and H$\gamma $.}}{34}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces AVG RMS Spektrum}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A plot of the AVG and RMS line profiles of the broad emission lines HeII$\,\lambda $4685 and HeI$\,\lambda 5875$.}}{36}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces A plot of the AVG and RMS line profiles of the broad emission lines Ly$\alpha $ and OI$\,\lambda 8446$ .}}{36}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces AVG RMS Spektrum}}{37}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces AVG RMS Spektrum}}{38}{figure.caption.25}%
 \addvspace {10\p@ }
