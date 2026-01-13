@@ -183,42 +183,47 @@ Looking now at the emission-line lightcurves in Figure \ref{fig:emission_line_li
 
 \section{Line Profiles}
 
-To investigate the kinematics of the BLR, the AVG and RMS line profile from the selected broad emission lines H$\alpha$, H$\beta$, H$\gamma$, Ly$\alpha$, HeII$\,\lambda$4685, HeI$\,\lambda5875$ and OI$\,\lambda 8446$ has been extracted. Following the same procedure as for the lightcurve extraction, a linear underlying continuum gets interpolated using a chosen red and blue pseudo-continua for each line in either the AVG and RMS spectrum. By subtracting this underlying continuum the true line profile can be extracted. The selected boundaries of the pseudo-continua are shown in Table \ref{tab:line_profiles_pseudo}.  \\
+Apart of the variability, it is possible to investigate the kinematics of the broad line region, by extracting the line profiles of given broad emission lines and investigate their shape and line width. Following the same procedure as for the lightcurve extraction, a linear underlying continuum gets interpolated using a chosen red and blue pseudo-continua for each line in either the AVG and RMS spectrum. The selected boundaries of the pseudo-continua can be found in Table \ref{tab:line_profiles_pseudo}. This interpolated continuum gets subtracted to define a base line at zero flux for every line profile for better comparison. Subsequently, the line gets converted into the velocity space using 
+
+\begin{equation}
+	v_i = \frac{(\lambda_i - \lambda_\mathrm{central})}{\lambda_\mathrm{central} \cdot c}.
+\end{equation}\\
+Here donates $\lambda_i$ the wavelength values, $\lambda_\mathrm{cetral}$ the central wavelength of the emission line and $c$ the speed of light. The flux gets normalized to the maximum of the emission lines. Figure \ref{fig:line_profiles} shows an overview of the extracted and normalized line profiles of H$\alpha$, H$\beta$, H$\gamma$, OI$\,\lambda 8446$, HeI$\,\lambda5875$ and  HeII$\,\lambda4685$ in the AVG spectrum as well as in the RMS spectrum. \\
+The Balmer Lines, as well as the Helium lines, show well-defined profiles in both AVG and RMS, qualifying them for further investigation of their kinematics. In case of the  OI$\,\lambda 8446$ emission line, the line profile overlaps with the Ca\,\textsc{ii}$\,\lambda8498\,\lambda8542\,\lambda8662$ triplet in the AVG spectrum. The RMS is very noisy, which makes a further investigation of the kinematics of this emission line not expedient for this analysis. 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
+	\caption{A plot of the AVG and RMS line profiles of the broad emission lines H$\alpha$, H$\beta$, H$\gamma$, OI$\,\lambda 8446$, HeI$\,\lambda5875$ and  HeII$\,\lambda4685$.}
+	\label{fig:line_profiles}
+\end{figure}
 \begin{table}[h!]
 	\centering
 	\small
-	\caption{AVG and RMS Pseudo-Continua for line profile extraction}
+	\caption{Bounderies of the blue and red pseudo-continua used for the interpolation of underlying continua for line profile extraction.}
 	\label{tab:line_profiles_pseudo}
 	\begin{tabular}{lcc}
 		\hline
 		\hline
 		\textbf{Line} & \textbf{\textbf{Pseudo-Continua AVG $[\AA]$}} & \textbf{Pseudo-Continua RMS $[\AA]$}  \\
 		\hline
-		Ly$\alpha$ & $1155-1165, 1270-1285$ & $1155-1165, 1300-1315$\\
-		\hline
-		H$\alpha$ & $6107-6129, 6861-6900$ & $6201-6223, 6970-6994$ \\
-		H$\beta$ & $4762-4774, 5085-5112$ & $4762-4774, 4970-4990$ \\
-		H$\gamma$ & $4197-4220, 4435-4450$ & $4197-4220, 4435-4450$ \\
-		
-		HeI$\,\lambda5875$ & $5645-5653, 6044-6057$ & $5649-5660, 6068-6081$ \\
-		HeII$\,\lambda4685$ & $4198-4225, 4762-4774$ & $4198-4225, 4770-4787$ \\
+		H$\alpha$ & $6194-6216, 6861-6900$ & $6279-6301, 6742-6781$ \\
+		H$\beta$ & $4762-4774, 5085-5112$ & $4762-4774, 4967-4984$ \\
+		H$\gamma$ & $4197-4220, 4435-4450$ & $4197-4220, 4417-4429$ \\
 		OI$\,\lambda 8446$ & $7999-8025, 8775-8798$ & $8222-8238, 8748-8767$ \\
+		HeI$\,\lambda5875$ & $5679-5697, 6044-6057$ & $5736-5753, 6027-6045$ \\
+		HeII$\,\lambda4685$ & $4198-4225, 4762-4774$ & $4543-4554, 4766-4778$ \\
+		
 		\hline
 		\hline
 	\end{tabular}
 \end{table}
+
+
 \newpage
+
 
 \subsection{Balmer-Lines}
 
-Figure \ref{fig:line_profiles_balmer} shows an overlay of the AVG (black) and RMS (red) line profiles of the Balmer lines H$\alpha$, H$\beta$ and H$\gamma$.\\
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.95\textwidth]{pictures/Chapter4/line_profiles/Normalized_Balmer_Line_Profiles.pdf}
-	\caption{A plot of the AVG and RMS line profiles of the broad emission lines H$\alpha$, H$\beta$ and H$\gamma$.}
-	\label{fig:line_profiles_balmer}
-\end{figure}\\
-More interesting are the RMS line profiles that show a overall similar shape, which can be seen in Figure \ref{fig:RMS_Balmer}. All three profiles show a asymmetric double peaked shape with a higher flux in the more blue peak.  
 
 
 \begin{figure}[!ht]
@@ -231,16 +236,11 @@ More interesting are the RMS line profiles that show a overall similar shape, wh
 
 
 \subsection{Helium-Lines}
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.8\textwidth]{pictures/Chapter4/line_profiles/Normalized_Helium_Line_Profiles.pdf}
-	\caption{A plot of the AVG and RMS line profiles of the broad emission lines  HeII$\,\lambda$4685 and HeI$\,\lambda5875$.}
-	\label{fig:line_profiles_Helium}
-\end{figure}
+
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.8\textwidth]{pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Helium.pdf}
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Helium.pdf}
 	\caption{Comparison of the AVG and RMS line profiles of the Helium lines HeII$\,\lambda$4685 vs HeI$\,\lambda5875$.}
 	\label{fig:AVG_Helium}
 \end{figure}
