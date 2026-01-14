@@ -224,13 +224,17 @@ The Balmer Lines, as well as the Helium lines, show well-defined profiles in bot
 
 \subsection{Balmer-Lines}
 
+A comparison of the Balmer-line profiles H$\alpha$, H$\beta$, and H$\gamma$ is shown in Figure \ref{fig:AVG_RMS_Balmer}. With the exception of the AVG profile of H$\gamma$, which is affected by the narrow [O III] $\lambda 4363$ line overlapping the H$\gamma$ profile, the lines exhibit a very similar asymmetric shape their AVG profiles. While all three lines show a similar steep blue wing, an increased broadening of the red wing is clearly noticeable in H$\alpha$ and H$\beta$ starting at $\approx 1500 \, \mathrm{km/s}$. It has to be noted that the both line profiles are influenced by narrow components, which results in slightly different line widths. This components are hardly distinguishable, which is why it was not attempt to correct the profiles, by subtracting the narrow components from the profiles.\\
+This problem does not occur in the RMS line profiles (see. Chapter \ref{sec:spectra}). Looking in the second row of Figure \ref{fig:AVG_RMS_Balmer}, all three lines show an asymmetric double-peaked shape, with higher flux variation in the blue peak. The profile of H$\alpha$ and H$\beta$ are nearly identical, while H$\gamma$'s blue wing is more spread and noisy at higher velocities.\\
+The close similarities of all three Balmer-lines indicates that they originate all from the same region.
+
 
 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Balmer.pdf}
-	\caption{Comparison of the AVG and RMS line profiles of the Balmer lines H$\alpha$ vs H$\beta$ and H$\alpha$ vs H$\gamma$.}
-	\label{fig:RMS_Balmer}
+	\caption{Comparison of the normalized AVG and RMS line profiles of the Balmer lines H$\alpha$ vs H$\beta$ and H$\alpha$ vs H$\gamma$ in velocity space.}
+	\label{fig:AVG_RMS_Balmer}
 \end{figure}
 
 
@@ -242,9 +246,33 @@ The Balmer Lines, as well as the Helium lines, show well-defined profiles in bot
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Helium.pdf}
 	\caption{Comparison of the AVG and RMS line profiles of the Helium lines HeII$\,\lambda$4685 vs HeI$\,\lambda5875$.}
-	\label{fig:AVG_Helium}
+	\label{fig:AVG_RMS_Helium}
 \end{figure}
 
+\subsection{FWHM}
+
+
+\begin{table}[h!]
+	\centering
+	\small
+	\caption{Measured FWHM and line dispersion $\sigma_\mathrm{line}$ of the  RMS line profiles.}
+	\label{tab:line_width_FWHM}
+	\begin{tabular}{lcc}
+		\hline
+		\hline
+		\textbf{Line} & \textbf{FWHM [km/s]} & \textbf{$\sigma_\mathrm{line}$ [km/s]}   \\
+		\hline
+		H$\alpha$ &  $3111 \pm 250$ & $1180 \pm 250$\\
+		H$\beta$ &  $3437 \pm 200$ & $1210 \pm 200$\\
+		H$\gamma$ &  $3852 \pm 300$ & $1243 \pm 300$\\
+		\hline
+		HeI$\,\lambda5875$ &  $3793 \pm 300$ & $1216 \pm 300$ \\
+		HeII$\,\lambda4685$ &  $5778 \pm 200$ &  $1998 \pm 200$\\
+		
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 
 
