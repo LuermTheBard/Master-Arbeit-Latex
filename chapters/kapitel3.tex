@@ -185,10 +185,14 @@ Looking now at the emission-line lightcurves in Figure \ref{fig:emission_line_li
 
 In addition to the variability, it is possible to investigate the kinematics of the BLR by extracting the line profiles of broad emission lines and investigating their shape and line width. Following the same procedure as for the lightcurve extraction, an underlying linear continuum is interpolated using a chosen blue and red pseudo-continuum for each line in both the AVG and RMS spectra. The selected boundaries of the pseudo-continua are listed in Table \ref{tab:line_profiles_pseudo}. This interpolated continuum is subtracted to define a zero-flux baseline for each line profile and to allow a better comparison. Subsequently, the line profile is converted to velocity space using\\ 
 \begin{equation}
+	\label{eqn:velocity_space}
 	v_i =  c \cdot \frac{(\lambda_i - \lambda_\mathrm{central})}{\lambda_\mathrm{central}}.
 \end{equation}\\
 Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the central wavelength of the emission line, and $c$ the speed of light. The flux is normalized to the maximum of the emission lines. Figure \ref{fig:line_profiles} shows an overview of the extracted and normalized line profiles of H$\alpha$, H$\beta$, H$\gamma$, O\,\textsc{i}$\,\lambda8446$, He\,\textsc{i}$\,\lambda5875$, and He\,\textsc{ii}$\,\lambda4685$ in both the AVG and RMS spectra. It should be noted that the AVG profiles are influenced by narrow-line components, which results in slightly different line widths and shapes. However, since the narrow components are difficult to distinguish and vanish in the RMS profiles, no attempt was made to subtract them from the AVG profiles, as the RMS line widths are used for the further analysis. \\
-The Balmer lines, as well as the helium lines, show well-defined profiles in both AVG and RMS, making them suitable for further kinematic analysis. The O\,\textsc{i}$\,\lambda8446$ profile is blended with the Ca\,\textsc{ii} $\lambda8498$\, $\lambda8542$\, $\lambda8662$ triplet in the AVG spectrum. Moreover, the RMS profile has low signal-to-noise, so this line is not considered further in the kinematic analysis. 
+The Balmer lines and the helium lines show well-defined profiles in both AVG and RMS, making them suitable for further kinematic analysis. The O\,\textsc{i}$\,\lambda8446$ profile is blended with the Ca\,\textsc{ii} $\lambda8498$\, $\lambda8542$\, $\lambda8662$ triplet in the AVG spectrum. Moreover, the RMS profile has low signal-to-noise, so this line is not considered further in the kinematic analysis. \\
+After selecting the suitable broad emission lines, GECHO was used to measure the FWHM of the normalized AVG and RMS profiles, which are listed in Table \ref{tab:line_width_FWHM}. The uncertainties were estimated based on the instrumental dispersion of the grating, the shape and noise of the line profiles. Table \ref{tab:stis_gratings} lists the gratings used for the different wavelength ranges. H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ were measured with the G750L grating (dispersion $4.97\,\text{\AA}/\mathrm{pixel}$), while H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$ were measured with the G430L grating (dispersion $2.73\,\text{\AA}/\mathrm{pixel}$). Using Equation \ref{eqn:velocity_space} and the rest-frame central wavelengths of the emission lines, this corresponds to an equivalent dispersion of $222.9$ and $249.1\,\mathrm{km\,s^{-1}\,/\,pixel}$ for H$\alpha$ and He\,\textsc{i}$\,\lambda5875$, and $169.2$, $189.4$ and $175.7\,\mathrm{km\,s^{-1}\,/\,pixel}$ for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$, respectively. Based on these dispersions and the observed profile shapes and noise levels, the FWHM uncertainties were estimated accordingly.
+
+
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
@@ -217,10 +221,33 @@ The Balmer lines, as well as the helium lines, show well-defined profiles in bot
 	\end{tabular}
 \end{table}
 
+\begin{table}[h!]
+	\centering
+	\small
+	\caption{Measured FWHM and of the AVG and RMS line profiles.}
+	\label{tab:line_width_FWHM}
+	\begin{tabular}{lcc}
+		\hline
+		\hline
+		\textbf{Line} & \textbf{FWHM AVG[km/s]} & \textbf{FWHM RMS[km/s]}   \\
+		\hline
+		H$\alpha$  & $2974 \pm 250$ &  $3111 \pm 250$\\
+		H$\beta$ & $3439 \pm 200$&  $3437 \pm 200$ \\
+		H$\gamma$ & $3852 \pm 300$&  $3852 \pm 300$ \\
+		\hline
+		HeI$\,\lambda5875$ & $3477 \pm 300$&  $3793 \pm 300$  \\
+		HeII$\,\lambda4685$ &  $5596 \pm 200$&  $5782 \pm 200$ \\
+		
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
+
 
 \subsection{Balmer-Lines}
 
-A comparison of the Balmer-line profiles H$\alpha$, H$\beta$, and H$\gamma$ is shown in Figure \ref{fig:AVG_RMS_Balmer}. With the exception of the AVG profile of H$\gamma$, which is affected by the narrow [O III] $\lambda4363$ line overlapping the H$\gamma$ profile, the lines exhibit a similar asymmetric shape their AVG profiles. All three lines show a steep blue wing. H$\alpha$ and H$\beta$ exhibit nearly identical gradients, while H$\gamma$ is broader up to $\approx -1000\,\mathrm{km\,s^{-1}}$ before matching the slope of the other profiles. The red wings of H$\alpha$ and H$\beta$ are again similar, showing a bump at around $\approx 1000\,\mathrm{km\,s^{-1}}$ and $\approx 2500\,\mathrm{km\,s^{-1}}$, respectively, resulting in the asymmetric profile. \\
+Taking a closer look to the line profiles, a comparison of the Balmer-line profiles H$\alpha$, H$\beta$, and H$\gamma$ is shown in Figure \ref{fig:AVG_RMS_Balmer}. With the exception of the AVG profile of H$\gamma$, which is affected by the narrow [O III] $\lambda4363$ line overlapping the H$\gamma$ profile, the lines exhibit a similar asymmetric shape their AVG profiles. All three lines show a steep blue wing. H$\alpha$ and H$\beta$ exhibit nearly identical gradients, while H$\gamma$ is broader up to $\approx -1000\,\mathrm{km\,s^{-1}}$ before matching the slope of the other profiles. The red wings of H$\alpha$ and H$\beta$ are again similar, showing a bump at around $\approx 1000\,\mathrm{km\,s^{-1}}$ and $\approx 2500\,\mathrm{km\,s^{-1}}$, respectively, resulting in the asymmetric profile. \\
 A similar behavior is seen in the RMS profiles shown in the second row of Figure \ref{fig:AVG_RMS_Balmer}. All three profiles show an asymmetric double-peaked shape, with higher flux variation in the blue peak and lower flux variation in the red peak. Again, the profiles of H$\alpha$ and H$\beta$ show a very similar shape, while the blue wing of H$\gamma$ is more extended and becomes noisy at higher velocities. Since the narrow components vanish in the RMS profiles, the red wing of H$\gamma$ becomes visible and follows the shape of H$\alpha$ and H$\beta$. For all three profiles, the double-peaked structure is red-shifted, with the blue peak located at $\approx 200\,\mathrm{km\,s^{-1}}$ and the red peak at $\approx 2000\,\mathrm{km\,s^{-1}}$. \\
 The similarity of these features suggests that the Balmer lines likely originate from the same emitting region and share a common kinematic structure.
 
@@ -238,8 +265,14 @@ The similarity of these features suggests that the Balmer lines likely originate
 
 \subsection{Helium-Lines}
 
+
+
 Figure \ref{fig:AVG_RMS_Helium}, shows a comparison of the HeI$\,\lambda5875$ and HeII$\,\lambda$4685 emission line profile. The blue wing of the HeII$\,\lambda$4685 AVG profile is partly overlapped by the Fe II regime between $4489 \, \AA$  and $4629 \, \AA$ at velocities above about $-1000\,\mathrm{km\,s^{-1}}$. While the visible part of its blue wing follows the same shape as the HeI$\,\lambda5875$ blue wing shape, its red wing is only half as broad as the red wing of the HeI$\,\lambda5875$ red wing. Apart from that both lines show a smaller peak at around $1000\,\mathrm{km\,s^{-1}}$, which gives both line an asymmetric shape like the balmer line profiles. \\
 
+
+
+
+The peak of the RMS line profile of HeI$\,\lambda5875$ is red-shifted by about $2000\,\mathrm{km\,s^{-1}}$. 
 
 \begin{figure}[!ht]
 	\centering
@@ -248,30 +281,6 @@ Figure \ref{fig:AVG_RMS_Helium}, shows a comparison of the HeI$\,\lambda5875$ an
 	\label{fig:AVG_RMS_Helium}
 \end{figure}
 
-\subsection{FWHM}
-
-
-\begin{table}[h!]
-	\centering
-	\small
-	\caption{Measured FWHM and line dispersion $\sigma_\mathrm{line}$ of the  RMS line profiles.}
-	\label{tab:line_width_FWHM}
-	\begin{tabular}{lcc}
-		\hline
-		\hline
-		\textbf{Line} & \textbf{FWHM [km/s]} & \textbf{$\sigma_\mathrm{line}$ [km/s]}   \\
-		\hline
-		H$\alpha$ &  $3111 \pm 250$ & $1180 \pm 250$\\
-		H$\beta$ &  $3437 \pm 200$ & $1210 \pm 200$\\
-		H$\gamma$ &  $3852 \pm 300$ & $1243 \pm 300$\\
-		\hline
-		HeI$\,\lambda5875$ &  $3793 \pm 300$ & $1216 \pm 300$ \\
-		HeII$\,\lambda4685$ &  $5778 \pm 200$ &  $1998 \pm 200$\\
-		
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
 
 
 
