@@ -28,4 +28,4 @@
 \contentsline {subsection}{\numberline {4.4.1}Balmer-Lines}{35}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Helium-Lines}{36}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Time Lag and BH Masses}{37}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion}{40}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Discussion}{39}{chapter.5}%
