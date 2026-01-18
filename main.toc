@@ -25,7 +25,7 @@
 \contentsline {subsection}{\numberline {4.2.1}Variability Statistics and Uncertainties estimation}{27}{subsection.4.2.1}%
 \contentsline {section}{\numberline {4.3}Lightcurves}{29}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Line Profiles}{33}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Balmer-Lines}{34}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Balmer-Lines}{35}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Helium-Lines}{36}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Time Lag and BH Masses}{36}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Time Lag and BH Masses}{37}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Discussion}{40}{chapter.5}%
