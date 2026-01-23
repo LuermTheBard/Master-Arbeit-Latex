@@ -236,7 +236,7 @@ The Balmer lines and the helium lines show well-defined profiles in both AVG and
 \end{figure}
 \subsection{FWHM}
 After selecting the suitable broad emission lines, the FWHM of the normalized AVG and RMS profiles are calculated, which are listed in Table \ref{tab:line_width_FWHM}. Here the height of the line profile is defined between the zero-flux baseline and the maximum of the profile. The FWHM of the AVG profile of He\,\textsc{ii}$\,\lambda4685$ was not attempted to be calculated, as the blue wing is mostly overlapped by the Fe\,\textsc{ii} band between $4489 \, \AA$  and $4629 \, \AA$.\\
-The uncertainties are estimated based on the instrumental dispersion of the grating, the shape and noise of the line profiles (see Table \ref{tab:stis_gratings} for the gratings). H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are measured with the G750L grating with a dispersion of $4.97\,(\text{\AA}/\mathrm{pixel})$, while the G430L grating has been use for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$ with a dispersion of $2.73\,(\text{\AA}/\mathrm{pixel})$. By using Equation \ref{eqn:velocity_space} and the rest-frame central wavelengths of the emission lines, this corresponds to an equivalent dispersion of $222.9$ and $249.1\,(\mathrm{km\,s^{-1}\,/\,pixel})$ for H$\alpha$ and He\,\textsc{i}$\,\lambda5875$, and $169.2$, $189.4$ and $175.7\,(\mathrm{km\,s^{-1}\,/\,pixel})$ for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$, respectively. The uncertainties for the FWHM of the AVG line profile and the RMS profiles of H$\alpha$ and H$\beta$ are estimated based on these dispersion mainly as they show a good signal to noise ratio. For the RMS profiles of H$\gamma$, He\,\textsc{i}$\,\lambda5875$ and He\,\textsc{ii}$\,\lambda4685$ the uncertainties are higher estimated, as they are more noisy than the other profiles.
+The uncertainties are estimated based on the instrumental dispersion of the grating, the shape and noise of the line profiles (see Table \ref{tab:stis_gratings} for the gratings). H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are measured with the G750L grating with a dispersion of $4.97\,(\text{\AA}/\mathrm{pixel})$, while the G430L grating has been use for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$ with a dispersion of $2.73\,(\text{\AA}/\mathrm{pixel})$. By using Equation \ref{eqn:velocity_space} and the rest-frame central wavelengths of the emission lines, this corresponds to an equivalent dispersion of $222.9$ and $249.1\,(\mathrm{km\,s^{-1}\,/\,pixel})$ for H$\alpha$ and He\,\textsc{i}$\,\lambda5875$, and $169.2$, $189.4$,  $175.7$ and $200.7$ $\,(\mathrm{km\,s^{-1}\,/\,pixel})$ for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$, respectively. The uncertainties for the FWHM of the AVG line profile and the RMS profiles of H$\alpha$ and H$\beta$ are estimated based on these dispersion mainly as they show a good signal to noise ratio. For the RMS profiles of H$\gamma$, He\,\textsc{i}$\,\lambda5875$ and He\,\textsc{ii}$\,\lambda4685$ the uncertainties are higher estimated, as they are more noisy than the other profiles.
 
 \begin{table}[h!]
 	\centering
@@ -251,6 +251,7 @@ The uncertainties are estimated based on the instrumental dispersion of the grat
 		H$\alpha$  & $3038 \pm 250$ &  $3090 \pm 250$\\
 		H$\beta$ & $3526 \pm 200$&  $3387 \pm 200$ \\
 		H$\gamma$ & $4014 \pm 200$&  $3794 \pm 300$ \\
+		H$\delta$ & $3104 \pm 210$&  $4893 \pm 300$ \\
 		\hline
 		He\,\textsc{i}$\,\lambda5875$ & $3369 \pm 300$&  $4235 \pm 300$  \\
 		He\,\textsc{ii}$\,\lambda4685$&  -&  $5881 \pm 300$ \\
@@ -302,18 +303,36 @@ Other than in the AVG profile, He\,\textsc{i}$\,\lambda5875$  now shows a smalle
 		\hline
 		Name & $\tau_{\text{cent}}$ [d] & $\tau_{\text{peak}}$ [d] & $M_{\text{BH}} [10^7 M_\odot]$ \\
 		\hline
-		H$\alpha$ & $3.3 \ensuremath{_{-0.5}^{+1.1}}$ & $2.0 \ensuremath{_{0.5}^{+3.0}}$ & $1.1 \ensuremath{_{-0.3}^{+0.6}}$ \\
-		H$\beta$ & $2.7 \ensuremath{_{-0.5}^{+0.4}}$ & $2.0 \ensuremath{_{0.5}^{+1.0}}$ & $1.1 \ensuremath{_{-0.3}^{+0.3}}$ \\
-		H$\gamma$ & $2.3 \ensuremath{_{-0.3}^{+0.3}}$ & $2.0 \ensuremath{_{0.0}^{+0.5}}$ & $1.2 \ensuremath{_{-0.3}^{+0.4}}$ \\
-		He\,\textsc{i}\,5875 & $3.0 \ensuremath{_{-0.4}^{+0.1}}$ & $3.0 \ensuremath{_{-0.5}^{+0.1}}$ & $1.5 \ensuremath{_{-0.4}^{+0.3}}$ \\
-		He\,\textsc{ii}\,4685 & $1.0 \ensuremath{_{-0.4}^{+0.1}}$ & $1.0 \ensuremath{_{-0.5}^{+0.1}}$ & $1.1 \ensuremath{_{-0.5}^{+0.1}}$ \\
-		O\,\textsc{i}\,8446 & $4.7 \ensuremath{_{-1.3}^{+2.3}}$ & $6.0 \ensuremath{_{-3.0}^{+1.5}}$ & - \\
-		
+		H$\alpha$ & $3.5 \ensuremath{_{-0.9}^{+0.8}}$ & $2.0 \ensuremath{_{0.5}^{+3.0}}$ & $1.2 \ensuremath{_{-0.4}^{+0.5}}$ \\
+		H$\beta$ & $2.3 \ensuremath{_{-0.3}^{+1.0}}$ & $2.0 \ensuremath{_{0.0}^{+1.0}}$ & $0.9 \ensuremath{_{-0.2}^{+0.6}}$ \\
+		H$\gamma$ & $1.7 \ensuremath{_{-0.4}^{+0.2}}$ & $2.0 \ensuremath{_{-1.0}^{+0.0}}$ & $0.9 \ensuremath{_{-0.3}^{+0.3}}$ \\
+		He\,\textsc{i}\,5875 & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ & $3.0 \ensuremath{_{0.0}^{+1.5}}$ & $1.7 \ensuremath{_{-0.4}^{+0.7}}$ \\
+		He\,\textsc{ii}\,4685 & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ & $1.0 \ensuremath{_{-0.5}^{+0.0}}$ & $0.9 \ensuremath{_{-0.4}^{+0.2}}$ \\
+		O\,\textsc{i}\,8446 & $5.0 \ensuremath{_{-1.7}^{+2.0}}$ & $6.0 \ensuremath{_{-3.0}^{+1.5}}$ & - \\
 		\hline
 		\hline
 	\end{tabular}
 \end{table}
 
+
+\begin{table}[!htb]
+	\centering
+	\caption{Centroid and Peak Time Lag for UVW2.}
+	\label{tab:lags_UVW2_UV}
+	\begin{tabular}{l c c c}
+		\hline
+		\hline
+		Name & $\tau_{\text{cent}}$ [d] & $\tau_{\text{peak}}$ [d] & $M_{\text{BH}} [10^7 M_\odot]$ \\
+		\hline
+		Ly$\alpha$ & $1.0 \ensuremath{_{-0.2}^{+0.4}}$ & $1.0 \ensuremath{_{-0.5}^{+0.0}}$ & $0.6 \ensuremath{_{-0.1}^{+0.2}}$ \\
+		Si\,\textsc{iv}\,1393 & $1.2 \ensuremath{_{-0.4}^{+0.1}}$ & $2.0 \ensuremath{_{-1.0}^{+-0.5}}$ & $3.6 \ensuremath{_{-1.2}^{+0.3}}$ \\
+		N\,\textsc{v}\,1238 & $1.0 \ensuremath{_{-0.4}^{+0.2}}$ & $1.0 \ensuremath{_{-0.5}^{+0.0}}$ & $0.4 \ensuremath{_{-0.1}^{+0.1}}$ \\
+		C\,\textsc{iv}\,1548 & $0.8 \ensuremath{_{-0.0}^{+0.5}}$ & $1.0 \ensuremath{_{-0.5}^{+0.1}}$ & $1.5 \ensuremath{_{-0.0}^{+1.0}}$ \\
+		He\,\textsc{ii}\,1640 & $0.3 \ensuremath{_{-0.2}^{+0.6}}$ & $0.0 \ensuremath{_{0.0}^{+1.0}}$ & $0.4 \ensuremath{_{-0.3}^{+1.0}}$ \\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \begin{figure}[!ht]
 	\centering
@@ -321,6 +340,15 @@ Other than in the AVG profile, He\,\textsc{i}$\,\lambda5875$  now shows a smalle
 	\caption{Compared lightcurves and CCFs H$\alpha$, H$\beta$, H$\gamma$, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$  and  O\,\textsc{i}$\,\lambda 8446$ with UVW2 as reference lightcurve.}
 	\label{fig:ccfs_optical}
 \end{figure}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf}
+	\caption{Compared lightcurves and CCFs of UV lines with UVW2 as reference lightcurve.}
+	\label{fig:ccfs_UV}
+\end{figure}
+
+
 
 \begin{figure}[!ht]
 	\centering
