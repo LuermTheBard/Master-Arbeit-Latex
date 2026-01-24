@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {4.3}Lightcurves}{31}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Line Profiles}{32}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}FWHM}{36}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Balmer-Lines}{37}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Balmer-Lines}{36}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Helium-Lines}{38}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Time Lag and BH Masses}{39}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion}{44}{chapter.5}%
+\contentsline {section}{\numberline {4.5}Time Lag and BH Masses}{38}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion}{48}{chapter.5}%

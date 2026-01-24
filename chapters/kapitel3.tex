@@ -101,7 +101,7 @@ Here $\Delta^2$ is the mean square value of the uncertainties of the fluxes defi
 \begin{equation}
 	\Delta^2 = \frac{1}{N} \sum_{i=1}^{N}\Delta_i^2
 \end{equation}
-The results of these parameters can be found in Table \ref{tab:varstatistics}.
+The results of these parameters can be found in the Tables \ref{tab:varstatistics_cont}, \ref{tab:varstatistics_optical} and \ref{tab:varstatistics_UV}.
 
 
 
@@ -165,7 +165,6 @@ The results of these parameters can be found in Table \ref{tab:varstatistics}.
 		\multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)} & \multicolumn{1}{c}{(7)} \\ 
 		\hline
 		Ly$\alpha$  & $66.87$ & $94.88$ & $1.42$ & $82.21$ & $8.03$ & $0.1$ \\
-		NV$\,\lambda\lambda 1238,\,1242$ & $18.87$ & $32.7$ & $1.73$ & $24.23$ & $3.54$ & $0.15$ \\
 		SiIV$\,\lambda\lambda 1393,\,1402$  & $21.93$ & $35.5$ & $1.62$ & $27.92$ & $3.88$ & $0.14$ \\
 		CIV$\,\lambda\lambda 1548,\,1550$  & $115.31$ & $165.57$ & $1.44$ & $138.77$ & $12.12$ & $0.09$ \\
 		HeII$\,\lambda1640$  & $6.83$ & $21.29$ & $3.12$ & $13.29$ & $4.13$ & $0.31$ \\
@@ -269,10 +268,17 @@ The next step of the analysis is the extraction of line profiles of the broad em
 		H$\alpha$ & $6194-6216, 6861-6900$ & $6279-6301, 6742-6781$ \\
 		H$\beta$ & $4762-4774, 5085-5112$ & $4762-4774, 4967-4984$ \\
 		H$\gamma$ & $4197-4220, 4435-4450$ & $4197-4220, 4417-4429$ \\
+		H$\delta$ & $4026-4033, 4197-4221$ &$4006-4016, 4197-4211$  \\
+		\hline
 		OI$\,\lambda 8446$ & $7999-8025, 8775-8798$ & $8222-8238, 8748-8767$ \\
+		\hline
 		HeI$\,\lambda5875$ & $5679-5697, 6044-6057$ & $5736-5753, 6027-6045$ \\
 		HeII$\,\lambda4685$ & $4198-4225, 4762-4774$ & $4543-4554, 4766-4778$ \\
-		
+		\hline
+		Ly$\alpha$ & $1151-1161, 1270-1285$  &  $1151-1161, 1340-1355$\\
+		SiIV$\,\lambda\lambda 1393,\,1402 $ & $1350-1360, 1430-1440$ &  $1340-1355, 1430-1440$\\
+		CIV$\,\lambda\lambda 1548,\,1550$ & $1461-1468, 1679-1685$  &  $ 1461-1468, 1679-1685$\\
+		HeII$\,\lambda1640$  & $1461-1468, 1679-1685$ & $1461-1468, 1679-1685$\\
 		\hline
 		\hline
 	\end{tabular}
@@ -280,19 +286,56 @@ The next step of the analysis is the extraction of line profiles of the broad em
 Subsequently, the line profile is converted to velocity space using\\ 
 \begin{equation}
 	\label{eqn:velocity_space}
-	v_i =  c \cdot \frac{(\lambda_i - \lambda_\mathrm{central})}{\lambda_\mathrm{central}}.
+	v_i = c \cdot \frac{\lambda_i^2 - \lambda_\mathrm{central}^2}{\lambda_i^2 + \lambda_\mathrm{central}^2}.
 \end{equation}\\
 Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the central wavelength of the emission line in rest-frame and $c$ the speed of light. Finally, the flux is getting normalized to the maximum of each line profile. Figure \ref{fig:line_profiles} shows an overview of the extracted and normalized line profiles of H$\alpha$, H$\beta$, H$\gamma$, O\,\textsc{i}$\,\lambda8446$, He\,\textsc{i}$\,\lambda5875$, and He\,\textsc{ii}$\,\lambda4685$ in both the AVG and RMS spectra.
 The Balmer lines and the helium lines show well-defined profiles in both AVG and RMS, making them suitable for further kinematic analysis. The O\,\textsc{i}$\,\lambda8446$ profile is blended with the Ca\,\textsc{ii} $\lambda8498$\, $\lambda8542$\, $\lambda8662$ triplet in the AVG spectrum. Moreover, the RMS profile of O\,\textsc{i}$\,\lambda8446$ shows low signal-to-noise, which is why its kinematics will not be further investigated. 
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.95\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
-	\caption{A plot of the AVG and RMS line profiles of the broad emission lines H$\alpha$, H$\beta$, H$\gamma$, O\,\textsc{i}$\,\lambda 8446$, He\,\textsc{i}$\,\lambda5875$ and  He\,\textsc{ii}$\,\lambda4685$.}
+	\caption{A plot of the AVG and RMS line profiles of the broad emission lines H$\alpha$, H$\beta$, H$\gamma$, O\,\textsc{i}$\,\lambda 8446$, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$, He\,\textsc{ii}\,1640 and O\,\textsc{i}$\,\lambda8446$.}
 	\label{fig:line_profiles}
 \end{figure}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.95\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_UV.pdf}
+	\caption{A plot of the AVG and RMS line profiles of the broad emission lines Ly$\alpha$, SiIV$\,\lambda\lambda 1393,\,1402$ and CIV$\,\lambda\lambda 1548,\,1550$.}
+	\label{fig:line_profiles_UV}
+\end{figure}
+
+
 \subsection{FWHM}
 After selecting the suitable broad emission lines, the FWHM of the normalized AVG and RMS profiles are calculated, which are listed in Table \ref{tab:line_width_FWHM}. Here the height of the line profile is defined between the zero-flux baseline and the maximum of the profile. The FWHM of the AVG profile of He\,\textsc{ii}$\,\lambda4685$ was not attempted to be calculated, as the blue wing is mostly overlapped by the Fe\,\textsc{ii} band between $4489 \, \AA$  and $4629 \, \AA$.\\
-The uncertainties are estimated based on the instrumental dispersion of the grating, the shape and noise of the line profiles (see Table \ref{tab:stis_gratings} for the gratings). H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are measured with the G750L grating with a dispersion of $4.97\,(\text{\AA}/\mathrm{pixel})$, while the G430L grating has been use for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$ with a dispersion of $2.73\,(\text{\AA}/\mathrm{pixel})$. By using Equation \ref{eqn:velocity_space} and the rest-frame central wavelengths of the emission lines, this corresponds to an equivalent dispersion of $222.9$ and $249.1\,(\mathrm{km\,s^{-1}\,/\,pixel})$ for H$\alpha$ and He\,\textsc{i}$\,\lambda5875$, and $169.2$, $189.4$,  $175.7$ and $200.7$ $\,(\mathrm{km\,s^{-1}\,/\,pixel})$ for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$, respectively. The uncertainties for the FWHM of the AVG line profile and the RMS profiles of H$\alpha$ and H$\beta$ are estimated based on these dispersion mainly as they show a good signal to noise ratio. For the RMS profiles of H$\gamma$, He\,\textsc{i}$\,\lambda5875$ and He\,\textsc{ii}$\,\lambda4685$ the uncertainties are higher estimated, as they are more noisy than the other profiles.
+The uncertainties are estimated based on the instrumental dispersion of the grating, the shape and noise of the line profiles (see Table \ref{tab:stis_gratings} for the gratings). H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are measured with the G750L grating with a dispersion of $4.97\,(\text{\AA}/\mathrm{pixel})$, while the G430L grating has been use for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$ with a dispersion of $2.73\,(\text{\AA}/\mathrm{pixel})$. By using Equation \ref{eqn:velocity_space} and the rest-frame central wavelengths of the emission lines, this corresponds to an equivalent dispersion listed in Table \ref{tab:grating_dispersion}. Taking the dispersion of the grating, the shape and the noise within the profiles, the uncertainties get estimated accordingly.
+\begin{table}[h!]
+	\centering
+	\small
+	\caption{Dispersion of grating in velocity space.}
+	\label{tab:grating_dispersion}
+	\begin{tabular}{lc}
+		\hline
+		\hline
+		\textbf{Line} & \textbf{Dispersion [$\frac{\mathrm{km}}{\mathrm{s}}/\mathrm{pixel}$]}   \\
+		\hline
+		H$\alpha$  & $222.9$\\
+		H$\beta$ & $169.3$ \\
+		H$\gamma$ & $189.6$ \\
+		H$\delta$ & $200.6$ \\
+		\hline
+		He\,\textsc{i}$\,\lambda5875$ & $249.0$  \\
+		He\,\textsc{ii}$\,\lambda4685$& $175.6$ \\
+		
+		\hline
+		Ly$\alpha$ & $144.0$\\
+		SiIV$\,\lambda\lambda 1393,\,1402$ & $125.6$\\
+		CIV$\,\lambda\lambda 1548,\,1550$ & $113.1$\\
+		HeII$\,\lambda1640$  & $106.7$\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 
 \begin{table}[h!]
 	\centering
@@ -304,14 +347,19 @@ The uncertainties are estimated based on the instrumental dispersion of the grat
 		\hline
 		\textbf{Line} & \textbf{FWHM AVG[km/s]} & \textbf{FWHM RMS[km/s]}   \\
 		\hline
-		H$\alpha$  & $3038 \pm 250$ &  $3090 \pm 250$\\
-		H$\beta$ & $3526 \pm 200$&  $3387 \pm 200$ \\
-		H$\gamma$ & $4014 \pm 200$&  $3794 \pm 300$ \\
-		H$\delta$ & $3104 \pm 210$&  $4893 \pm 300$ \\
+		H$\alpha$  & $2974 \pm 250$ &  $3111 \pm 250$\\
+		H$\beta$ & $3439 \pm 200$&  $3437 \pm 200$ \\
+		H$\gamma$ & $4067 \pm 200$&  $3852 \pm 300$ \\
+		H$\delta$ & $3398 \pm 210$&  $5905 \pm 300$ \\
 		\hline
-		He\,\textsc{i}$\,\lambda5875$ & $3369 \pm 300$&  $4235 \pm 300$  \\
-		He\,\textsc{ii}$\,\lambda4685$&  -&  $5881 \pm 300$ \\
+		He\,\textsc{i}$\,\lambda5875$ & $3477 \pm 300$&  $3952 \pm 300$  \\
+		He\,\textsc{ii}$\,\lambda4685$&  -&  $5971 \pm 300$ \\
 		
+		\hline
+		Ly$\alpha$ & $3819 \pm 150$  &  $4566\pm 150$\\
+		SiIV$\,\lambda\lambda 1393,\,1402 $ & $5330\pm 150$ &  $10005 \pm 300$\\
+		CIV$\,\lambda\lambda 1548,\,1550$ & $ 5413\pm 200$  &  $ 8428 \pm 300$\\
+		HeII$\,\lambda1640$  & $2847 \pm 200$ & $7459 \pm 200$\\
 		\hline
 		\hline
 	\end{tabular}
@@ -324,10 +372,18 @@ The RMS profiles of the Balmer lines show an asymmetric double-peaked shape. Aga
 Taking the strong similarities of the RMS profiles, it can be assumed that H$\alpha$, H$\beta$ and H$\gamma$ emerge under similar kinematic properties.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Balmer.pdf}
-	\caption{Comparison of the normalized AVG and RMS line profiles of the Balmer lines H$\alpha$ vs H$\beta$ and H$\alpha$ vs H$\gamma$ in velocity space.}
-	\label{fig:AVG_RMS_Balmer}
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/AVG_overlay_Balmer.pdf}
+	\caption{Comparison of the normalized AVG line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$ in velocity space.}
+	\label{fig:AVG_Balmer}
 \end{figure}
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf}
+	\caption{Comparison of the normalized  RMS line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$ in velocity space.}
+	\label{fig:RMS_Balmer}
+\end{figure}
+
 
 \subsection{Helium-Lines}
 
@@ -354,18 +410,19 @@ Other than in the AVG profile, He\,\textsc{i}$\,\lambda5875$  now shows a smalle
 	\small
 	\caption{Centroid and Peak Time Lag for UVW2.}
 	\label{tab:lags_UVW2}
-	\begin{tabular}{l c c c}
+	\begin{tabular}{l c  c}
 		\hline
 		\hline
-		Name & $\tau_{\text{cent}}$ [d] & $\tau_{\text{peak}}$ [d] & $M_{\text{BH}} [10^7 M_\odot]$ \\
+		Name & $\tau_{\text{cent}}$ [d] &  $M_{\text{BH}} [10^7 M_\odot]$ \\
 		\hline
-		H$\alpha$ & $3.2 \ensuremath{_{-0.6}^{+1.0}}$ & $2.0 \ensuremath{_{-0.5}^{+3.0}}$ & $1.1 \ensuremath{_{-0.4}^{+0.6}}$ \\
-		H$\beta$ & $2.3 \ensuremath{_{-0.3}^{+1.0}}$ & $2.0 \ensuremath{_{-0.1}^{+1.0}}$ & $0.9 \ensuremath{_{-0.2}^{+0.6}}$ \\
-		H$\gamma$ & $1.7 \ensuremath{_{-0.4}^{+0.2}}$ & $2.0 \ensuremath{_{-1.0}^{+0.1}}$ & $0.9 \ensuremath{_{-0.3}^{+0.3}}$ \\
-		H$\delta$ & $1.7 \ensuremath{_{-0.4}^{+0.4}}$ & $2.0 \ensuremath{_{-1.0}^{+0.1}}$ & $1.5 \ensuremath{_{-0.4}^{+0.6}}$ \\
-		He\,\textsc{i}\,5875 & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ & $3.0 \ensuremath{_{-0.1}^{+1.5}}$ & $1.7 \ensuremath{_{-0.4}^{+0.7}}$ \\
-		He\,\textsc{ii}\,4685 & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ & $1.0 \ensuremath{_{-0.5}^{+0.0}}$ & $0.9 \ensuremath{_{-0.4}^{+0.2}}$ \\
-		O\,\textsc{i}\,8446 & $5.0 \ensuremath{_{-1.7}^{+2.1}}$ & $6.0 \ensuremath{_{-3.0}^{+1.5}}$ & - \\
+		H$\alpha$ & $3.2 \ensuremath{_{-0.6}^{+1.0}}$ &  $1.1 \ensuremath{_{-0.4}^{+0.6}}$ \\
+		H$\beta$ & $2.3 \ensuremath{_{-0.3}^{+1.0}}$ & $0.9 \ensuremath{_{-0.2}^{+0.6}}$ \\
+		H$\gamma$ & $1.7 \ensuremath{_{-0.4}^{+0.2}}$ &  $0.9 \ensuremath{_{-0.3}^{+0.3}}$ \\
+		H$\delta$ & $1.7 \ensuremath{_{-0.4}^{+0.4}}$ & $1.5 \ensuremath{_{-0.4}^{+0.6}}$ \\
+		He\,\textsc{i}\,5875 & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ & $1.8 \ensuremath{_{-0.5}^{+0.7}}$ \\
+		He\,\textsc{ii}\,4685 & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ &  $0.9 \ensuremath{_{-0.4}^{+0.2}}$ \\
+		O\,\textsc{i}\,8446 & $5.0 \ensuremath{_{-1.7}^{+2.1}}$  & -\\
+		
 		
 		\hline
 		\hline
@@ -377,16 +434,16 @@ Other than in the AVG profile, He\,\textsc{i}$\,\lambda5875$  now shows a smalle
 	\centering
 	\caption{Centroid and Peak Time Lag for UVW2.}
 	\label{tab:lags_UVW2_UV}
-	\begin{tabular}{l c c c}
+	\begin{tabular}{l c c}
 		\hline
 		\hline
-		Name & $\tau_{\text{cent}}$ [d] & $\tau_{\text{peak}}$ [d] & $M_{\text{BH}} [10^7 M_\odot]$ \\
+		Name & $\tau_{\text{cent}}$ [d] &  $M_{\text{BH}} [10^7 M_\odot]$ \\
 		\hline
-		Ly$\alpha$ & $1.0 \ensuremath{_{-0.2}^{+0.4}}$ & $1.0 \ensuremath{_{-0.5}^{+0.1}}$ & $0.6 \ensuremath{_{-0.1}^{+0.2}}$ \\
-		Si\,\textsc{iv}\,1393 & $1.2 \ensuremath{_{-0.4}^{+0.1}}$ & $2.0 \ensuremath{_{-1.0}^{+0.5}}$ & $3.6 \ensuremath{_{-1.2}^{+0.3}}$ \\
-		N\,\textsc{v}\,1238 & $1.0 \ensuremath{_{-0.4}^{+0.2}}$ & $1.0 \ensuremath{_{-0.5}^{+0.1}}$ & $0.4 \ensuremath{_{-0.1}^{+0.1}}$ \\
-		C\,\textsc{iv}\,1548 & $0.8 \ensuremath{_{-0.0}^{+0.5}}$ & $1.0 \ensuremath{_{-0.5}^{+0.1}}$ & $1.5 \ensuremath{_{-0.0}^{+1.0}}$ \\
-		He\,\textsc{ii}\,1640 & $0.3 \ensuremath{_{-0.2}^{+0.6}}$ & - & $0.4 \ensuremath{_{-0.3}^{+1.0}}$ \\
+		Ly$\alpha$ & $1.0 \ensuremath{_{-0.2}^{+0.4}}$ &  $0.7 \ensuremath{_{-0.2}^{+0.3}}$ \\
+		Si\,\textsc{iv}\,1393 & $1.2 \ensuremath{_{-0.4}^{+0.1}}$ &  $4.4 \ensuremath{_{-1.7}^{+0.8}}$ \\
+		C\,\textsc{iv}\,1548 & $0.8 \ensuremath{_{-0.0}^{+0.5}}$ &  $1.9 \ensuremath{_{-0.2}^{+1.7}}$ \\
+		He\,\textsc{ii}\,1640 & $0.3 \ensuremath{_{-0.2}^{+0.6}}$ &  $0.5 \ensuremath{_{-0.3}^{+1.2}}$ \\
+		
 		\hline
 		\hline
 	\end{tabular}
