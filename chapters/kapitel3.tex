@@ -21,14 +21,14 @@ Apart from the broad emission lines, the AVG spectrum shows strong forbidden [O\
 	\label{fig:UV_uncalibrated_AVG_RMS}
 \end{figure}\\
 The campaign also included an UV spectrum between $1000$ \AA and $1700$ \AA, which is shown in Figure \ref{fig:UV_uncalibrated_AVG_RMS}. The most prominent broad lines in the UV spectrum are the Ly$\alpha$ line, which is blended with the N\,V $\lambda\lambda 1238,1242$ duplet, the Si\,IV$\lambda\lambda 1393,1402$ duplet, which is blended with a partly forbidden O\,IV] line, and the  C\,IV$\lambda\lambda 1548,1550$ duplet. They all show strong variation in the RMS spectrum. Apart of the strong lines, a weaker variable Helium II line can be identified at $1640$ \AA.  \\
-The Bowen fluorescence of O\,I $\lambda 8446$, which is investigated in this analysis, is typical driven by the emission of the Ly$\beta$ line \parencite{grandi1980}, which lies outside the spectral range of the HST Campaign. However, as can be seen in figure \ref{fig:UV_uncalibrated_AVG_RMS}, Ly$\alpha$  still lies in the spectral range of the campaign, as the bluest broad line of the taken spectra. As Ly$\alpha$ and Ly$\beta$ are assumed to originate in the same physical region, Ly$_\alpha$ can be used to examine the corelation of O\,I $\lambda 8446$ and Ly$\alpha$ for Bowen fluorescence.
+The Bowen fluorescence of O\,I $\lambda 8446$, which is investigated in this analysis, is typical driven by the emission of the Ly$\beta$ line \parencite{grandi1980}, which lies outside the spectral range of the HST Campaign. However, as can be seen in figure \ref{fig:UV_uncalibrated_AVG_RMS}, Ly$\alpha$  still lies in the spectral range of the campaign, as the bluest broad line of the taken spectra. As Ly$\alpha$ and Ly$\beta$ are assumed to originate in the same physical region, Ly$_\alpha$ can be used to examine the correlation of O\,I $\lambda 8446$ and Ly$\alpha$ for Bowen fluorescence.
 
 
 \section{Emission Line and Continua Measurement}
 
-After identifying the emission lines, the next step of the analysis is to calculate the fluxes of those lines. This is done with the help of a python-based tool called GECHO created by M. Probst. It enables to import full campaigns, determine the AVG and RMS spectra, extracting lightcurves and do further measurments, like e.g. ICCF methode to measure lags and line-wifth measurments \parencite{gaskell_peterson1986, peterson2004}, which will be further discussed in Section \ref{sec:time_lag_bh_mass}\\
-With help of GECHO the flux density gets integrated over the extent of each emission line for every observed spectrum of the campaign. Here it is important to define the integration limits so that all of the emission line flux is measured in this way. To ensure this, a parallel view of the AVG- and RMS-spectrum was used to define those integration limits, and to ensured, that no component of any other line is contributing to the line flux of the measured line. But before the line flux can be calculated, the surrounding continuum has to be subtracted, which can be done by interpolating a linear underlying continuum between sections on the blue and red side with no line contribution. The chosen integration limits and pseudo-continua can be found in Table \ref{tab:emission_lines}. With the fluxes of each line now derived from all observed spectra, it is possible to extract the lightcurves of the measured emission line, which will be further covered in the next section.\\
-Besides the emission line lightcurves, continua lightcurves from different wavelength ranges are required for the further analysis. The extraction process is similar to the emission line lightcurves, except that they get calculated by the mean flux density of a sufficiently large region without line emission or absorption. Therefore, no pseudo-continuum subtraction is necessary. The chosen integration limits for the continua can be found in Table \ref{tab:continua}.\\
+After identifying the emission lines, the next step of the analysis is to measure the fluxes of those lines. This is done with the help of a python-based tool called GECHO created by M. Probst. It enables to import full campaigns, determine the AVG and RMS spectra, extracting lightcurves and do further measurements, naming here line-width measurements and lags measurement using the ICCF methode \parencite{gaskell_peterson1986, peterson2004}, which will be further discussed in Section \ref{sec:line_profiles} and \ref{sec:time_lag_bh_mass}.\\
+With help of GECHO the flux density gets integrated over the extent of each emission line for every observed spectrum of the campaign. Here it is important to define the integration limits so that all of the emission line flux is measured in this way. To ensure this, a parallel view of the AVG- and RMS-spectrum was used to define those integration limits, and to ensured, that no component of any other line is contributing to the line flux of the measured line. Additionally, the integration boundaries get selected, making sure they span a similar area in velocity space for every emission line. To accounting the surrounding continuum a linear underlying continuum gets interpolated and subtracted first. For this interpolation, sections on the blue and red side of the emission line with no line contribution gets selected. The chosen integration limits and pseudo-continua are listed in Table \ref{tab:emission_lines}. \\
+To measure the delay between the ionizing continuum and the emission lines it is necessary to extract lightcurves of selected continua in the AVG spectrum. Continua lightcurves are getting extracted by measuring the mean flux density of a sufficiently large region without line emission or absorption. The chosen integration limits for the continua can be found in Table \ref{tab:continua}.\\
 
 
 
@@ -89,7 +89,7 @@ Besides the emission line lightcurves, continua lightcurves from different wavel
 
 \subsection{Variability Statistics}
 
-To quantify the variability of the emission lines and continua variability statistics, defined by  \cite{rodriguez1997steps} gets adopted. This definition includes the extreme of the emission line flux densities as well as the extreme of the integrated continuum fluxes, $F_\mathrm{min}$ and $F_\mathrm{max}$, the maximum-to-minimum flux ratio $R_\mathrm{max}$, the mean flux $\langle F \rangle$, the standard deviation $\sigma_F$, and finally the fractional variability, which is defined as: 
+To quantify the variability of the emission lines and continua variability statistics the definition by \cite{rodriguez1997steps} gets adopted. This definition includes the extreme of the emission line flux densities as well as the extreme of the integrated continuum fluxes, $F_\mathrm{min}$ and $F_\mathrm{max}$, the maximum-to-minimum flux ratio $R_\mathrm{max}$, the mean flux $\langle F \rangle$, the standard deviation $\sigma_F$, and finally the fractional variability, which is defined as: 
 \begin{equation}
 	F_\mathrm{var}=\frac{\sqrt{\sigma_F^2-\Delta^2}}{\left<F\right>}
 \end{equation}
@@ -97,13 +97,13 @@ Here $\Delta^2$ is the mean square value of the uncertainties of the fluxes defi
 \begin{equation}
 	\Delta^2 = \frac{1}{N} \sum_{i=1}^{N}\Delta_i^2
 \end{equation}
-The results of these parameters can be found in the Tables \ref{tab:varstatistics_cont}, \ref{tab:varstatistics_optical} and \ref{tab:varstatistics_UV}.
+The results of these parameters can be found in the Tables \ref{tab:varstatistics}.
 
 
 
 \begin{table}[!htb] 
 	\centering 
-	\caption{Variability statistics of the measured continua with minimum flux(2) and maximum flux density or integrated flux (3), peak-to-peak ratio (4), mean (5), standard deviation (6) and fractional variation (7).} 
+	\caption{Variability statistics of the measured continua and emission lines with minimum flux(2) and maximum flux density or integrated flux (3), peak-to-peak ratio (4), mean (5), standard deviation (6) and fractional variation (7).} 
 	\begin{tabular}{lrrrrrr} 
 		\hline 
 		\hline 
@@ -119,22 +119,6 @@ The results of these parameters can be found in the Tables \ref{tab:varstatistic
 		Cont. 8015  & $1.18$ & $1.69$ & $1.43$ & $1.48$ & $0.15$ & $0.1$ \\
 		Cont. 8900  & $1.14$ & $1.52$ & $1.33$ & $1.38$ & $0.11$ & $0.08$ \\
 		\hline 
-		\hline 
-		\label{tab:varstatistics_cont} 
-	\end{tabular} 
-	
-\end{table}
-
-
-\begin{table}[!htb] 
-	\centering 
-	\caption{Variability statistics of the measured optical to near-infrared emission lines with minimum flux(2) and maximum flux density or integrated flux (3), peak-to-peak ratio (4), mean (5), standard deviation (6) and fractional variation (7).} 
-	\begin{tabular}{lrrrrrr} 
-		\hline 
-		\hline 
-		Continuum/Line &  \multicolumn{1}{c}{$F_{\text{min}}$} &  \multicolumn{1}{c}{$F_{\text{max}}$} &  \multicolumn{1}{c}{$R_{\text{max}}$} &  \multicolumn{1}{c}{$\langle F \rangle$} &  \multicolumn{1}{c}{$\sigma_F$} &  \multicolumn{1}{c}{$F_{\text{var}}$} \\ 
-		\multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)} & \multicolumn{1}{c}{(7)} \\ 
-		\hline
 		H$\alpha$  & $130.83$ & $149.85$ & $1.15$ & $141.35$ & $4.83$ & $0.03$ \\
 		H$\beta$  & $38.29$ & $45.4$ & $1.19$ & $42.32$ & $1.94$ & $0.05$ \\
 		H$\gamma$  & $18.82$ & $24.38$ & $1.3$ & $21.91$ & $1.29$ & $0.06$ \\
@@ -143,30 +127,13 @@ The results of these parameters can be found in the Tables \ref{tab:varstatistic
 		HeI$\,\lambda5875$   & $8.53$ & $13.82$ & $1.62$ & $11.58$ & $1.01$ & $0.09$ \\
 		OI$\,\lambda 8446$ & $7.47$ & $9.13$ & $1.22$ & $8.32$ & $0.37$ & $0.04$ \\
 		\hline 
-		\hline 
-		\label{tab:varstatistics_optical} 
-	\end{tabular} 
-	
-\end{table}
-
-
-
-\begin{table}[!htb] 
-	\centering 
-	\caption{Variability statistics of the measured UV emission lines with minimum flux(2) and maximum flux density or integrated flux (3), peak-to-peak ratio (4), mean (5), standard deviation (6) and fractional variation (7).} 
-	\begin{tabular}{lrrrrrr} 
-		\hline 
-		\hline 
-		Continuum/Line &  \multicolumn{1}{c}{$F_{\text{min}}$} &  \multicolumn{1}{c}{$F_{\text{max}}$} &  \multicolumn{1}{c}{$R_{\text{max}}$} &  \multicolumn{1}{c}{$\langle F \rangle$} &  \multicolumn{1}{c}{$\sigma_F$} &  \multicolumn{1}{c}{$F_{\text{var}}$} \\ 
-		\multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)} & \multicolumn{1}{c}{(7)} \\ 
-		\hline
 		Ly$\alpha$  & $66.87$ & $94.88$ & $1.42$ & $82.21$ & $8.03$ & $0.1$ \\
 		SiIV$\,\lambda\lambda 1393,\,1402$  & $21.93$ & $35.5$ & $1.62$ & $27.92$ & $3.88$ & $0.14$ \\
 		CIV$\,\lambda\lambda 1548,\,1550$  & $115.31$ & $165.57$ & $1.44$ & $138.77$ & $12.12$ & $0.09$ \\
 		HeII$\,\lambda1640$  & $6.83$ & $21.29$ & $3.12$ & $13.29$ & $4.13$ & $0.31$ \\
 		\hline 
 		\hline 
-		\label{tab:varstatistics_UV} 
+		\label{tab:varstatistics} 
 	\end{tabular} 
 	
 \end{table}
@@ -205,6 +172,7 @@ where $\sigma_{\mathrm{noise}}$ corresponds to $\sigma_\mathrm{noise}^{\mathrm{c
 
 
 \section{Lightcurves}
+\label{sec:lightcurves}
 
 The variability of the lightcurves can be seen in the visualization of the lightcurves in Figure \ref{fig:continua_lightcurves} and \ref{fig:emission_line_lightcurves}. In addition to the measured lightcurves of the HST campaign, the UVOT UVW2 lightcurve taken with SWIFT by \cite{mchardy2018x} is displayed for comparison which shows a higher sample-size that the lightcurves of the HST campaign. Its central wavelength is located at about 1930\,\AA\, \parencite{mchardy2018x} and was used as a reference lightcurve in \cite{cackett2018accretion} as well, which makes is interesting as a reference lightcurve for this analysis too. \\
 Looking at the  continuum lightcurves in Figure \ref{fig:continua_lightcurves} they show a broadly similar overall shape. All lightcurves begin at the highest flux level in most cases, except for UVW2, whose peaks have comparable heights throughout, and the 1150 continuum, which reaches its highest flux at the second maximum. The initial maximum is followed by a pronounced flux minimum, with a decrease of about $25$--$46\%$ relative to the overall maximum flux of each curve. Subsequently, the light curves rise again toward another peak, which is more distinct in the UV and blue continua and is followed by another drop in flux. While all continua except Cont. 4010 exhibit an additional another local maximum, the flux then decline steadily toward a global minimum near the end of the campaign.
@@ -249,6 +217,7 @@ Looking now at the emission-line lightcurves in Figure \ref{fig:emission_line_li
 
 
 \section{Line Profiles}
+\label{sec:line_profiles}
 
 The next step of the analysis is the extraction of line profiles of the broad emission lines from both, the AVG and RMS spectrum. By investigation their shape and line width it allows conclusions about the kinematics of the region their originated from. Following the same procedure as for the lightcurve extraction, an underlying linear continuum is interpolated using a chosen blue and red pseudo-continuum for each line in both the AVG and RMS spectra. The selected boundaries of the pseudo-continua are listed in Table \ref{tab:line_profiles_pseudo}. By subtracting this interpolated continuum, a new zero-flux baseline for each line profile gets defined, which allows a better comparison between the line profiles.
 \begin{table}[h!]
