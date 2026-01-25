@@ -61,8 +61,6 @@ To measure the delay between the ionizing continuum and the emission lines it is
 		\hline
 	\end{tabular}
 \end{table}
-
-
 \begin{table}[h!]
 	\centering
 	\small
@@ -89,57 +87,55 @@ To measure the delay between the ionizing continuum and the emission lines it is
 
 \subsection{Variability Statistics}
 
-To quantify the variability of the emission lines and continua variability statistics the definition by \cite{rodriguez1997steps} gets adopted. This definition includes the extreme of the emission line flux densities as well as the extreme of the integrated continuum fluxes, $F_\mathrm{min}$ and $F_\mathrm{max}$, the maximum-to-minimum flux ratio $R_\mathrm{max}$, the mean flux $\langle F \rangle$, the standard deviation $\sigma_F$, and finally the fractional variability, which is defined as: 
+To quantify the variability of the emission lines and continua variability statistics the definition by \cite{rodriguez1997steps} are adopted. They name the  maximum-to-minimum flux ratio $R_\mathrm{max}$ and the fractional variability	$F_\mathrm{var}$ as two common measures of variability. $R_\mathrm{max}$ is defined as the ratio of the the extreme of the integrated fluxes, $F_\mathrm{min}$ and $F_\mathrm{max}$, and  $F_\mathrm{var}$ as: 
 \begin{equation}
 	F_\mathrm{var}=\frac{\sqrt{\sigma_F^2-\Delta^2}}{\left<F\right>}
 \end{equation}
-Here $\Delta^2$ is the mean square value of the uncertainties of the fluxes defined as:
+Here, $\sigma_F^2$ denotes the standard deviation, $\left<F\right>$ the mean flux and $\Delta^2$ the mean square value of the flux uncertainties, which is defined by:
 \begin{equation}
 	\Delta^2 = \frac{1}{N} \sum_{i=1}^{N}\Delta_i^2
 \end{equation}
-The results of these parameters can be found in the Tables \ref{tab:varstatistics}.
-
-
+The results for all parameters can be found in the Tables \ref{tab:varstatistics}.\\
+First, considering $R_\mathrm{max}$ and $F_\mathrm{var}$ of the continuum lightcurves, all measured continua show similar variability, except for the UV continuum around $1150$ \AA, which shows significantly higher variability with $R_\mathrm{max} = 2.58$ and $F_\mathrm{var} = 0.28$ than the optical and NIR continua. These continua show a fairly uniform variation between $R_\mathrm{max} \simeq 1.33-1.59$ and $F_\mathrm{var} \simeq 0.08-0.14$. \\
+The lightcurves of the Balmer emission lines exhibit lower variability, which increases towards the higher-order Balmer lines, with values between $R_\mathrm{max} \simeq 1.15-1.52$ and $F_\mathrm{var} \simeq 0.03-0.1$. The helium lightcurves show a similar variability to H$\delta$ with values  between $R_\mathrm{max} \simeq 1.48-1.62$ and $F_\mathrm{var} \simeq 0.09-0.11$ and the OI$\,\lambda 8446$ a similar variability to the lower-order balmer lines with $R_\mathrm{max} \simeq 1.22$ and $F_\mathrm{var} \simeq 0.04$.\\
+The variability of the emission line lightcurves in the UV region is on a similar level as that of the helium light curves in the optical region, with $R_\mathrm{max} \simeq 1.42-1.62$ and $F_\mathrm{var} \simeq 0.14$, with the exception of the HeII$,\lambda1640$ lightcurve, which shows significant higher variability with $R_\mathrm{max} \simeq 3.12$ and $F_\mathrm{var} \simeq 0.31$.
 
 \begin{table}[!htb] 
-	\centering 
-	\caption{Variability statistics of the measured continua and emission lines with minimum flux(2) and maximum flux density or integrated flux (3), peak-to-peak ratio (4), mean (5), standard deviation (6) and fractional variation (7).} 
-	\begin{tabular}{lrrrrrr} 
-		\hline 
-		\hline 
-		Continuum/Line &  \multicolumn{1}{c}{$F_{\text{min}}$} &  \multicolumn{1}{c}{$F_{\text{max}}$} &  \multicolumn{1}{c}{$R_{\text{max}}$} &  \multicolumn{1}{c}{$\langle F \rangle$} &  \multicolumn{1}{c}{$\sigma_F$} &  \multicolumn{1}{c}{$F_{\text{var}}$} \\ 
-		\multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)} & \multicolumn{1}{c}{(7)} \\ 
-		\hline
-		Cont. 1150  & $0.52$ & $1.35$ & $2.58$ & $0.86$ & $0.25$ & $0.28$ \\
-		Cont. 4010  & $2.68$ & $4.21$ & $1.57$ & $3.49$ & $0.47$ & $0.14$ \\
-		Cont. 4440  & $2.42$ & $3.73$ & $1.54$ & $3.14$ & $0.39$ & $0.12$ \\
-		Cont. 5600  & $1.36$ & $2.15$ & $1.59$ & $1.82$ & $0.25$ & $0.14$ \\
-		Cont. 6110  & $1.49$ & $2.27$ & $1.53$ & $1.9$ & $0.23$ & $0.12$ \\
-		Cont. 6880  & $1.33$ & $2.01$ & $1.5$ & $1.72$ & $0.2$ & $0.11$ \\
-		Cont. 8015  & $1.18$ & $1.69$ & $1.43$ & $1.48$ & $0.15$ & $0.1$ \\
-		Cont. 8900  & $1.14$ & $1.52$ & $1.33$ & $1.38$ & $0.11$ & $0.08$ \\
-		\hline 
-		H$\alpha$  & $130.83$ & $149.85$ & $1.15$ & $141.35$ & $4.83$ & $0.03$ \\
-		H$\beta$  & $38.29$ & $45.4$ & $1.19$ & $42.32$ & $1.94$ & $0.05$ \\
-		H$\gamma$  & $18.82$ & $24.38$ & $1.3$ & $21.91$ & $1.29$ & $0.06$ \\
-		H$\delta$  & $7.17$ & $10.92$ & $1.52$ & $9.13$ & $0.94$ & $0.1$ \\
-		HeII$\,\lambda4685$  & $11.93$ & $17.7$ & $1.48$ & $14.82$ & $1.6$ & $0.11$ \\
-		HeI$\,\lambda5875$   & $8.53$ & $13.82$ & $1.62$ & $11.58$ & $1.01$ & $0.09$ \\
-		OI$\,\lambda 8446$ & $7.47$ & $9.13$ & $1.22$ & $8.32$ & $0.37$ & $0.04$ \\
-		\hline 
-		Ly$\alpha$  & $66.87$ & $94.88$ & $1.42$ & $82.21$ & $8.03$ & $0.1$ \\
-		SiIV$\,\lambda\lambda 1393,\,1402$  & $21.93$ & $35.5$ & $1.62$ & $27.92$ & $3.88$ & $0.14$ \\
-		CIV$\,\lambda\lambda 1548,\,1550$  & $115.31$ & $165.57$ & $1.44$ & $138.77$ & $12.12$ & $0.09$ \\
-		HeII$\,\lambda1640$  & $6.83$ & $21.29$ & $3.12$ & $13.29$ & $4.13$ & $0.31$ \\
-		\hline 
-		\hline 
-		\label{tab:varstatistics} 
-	\end{tabular} 
-	
+\centering 
+\caption{Variability statistics of the measured continua and emission lines with minimum flux(2) and maximum flux density or integrated flux (3), peak-to-peak ratio (4), mean (5), standard deviation (6) and fractional variation (7).} 
+\begin{tabular}{lrrrrrr} 
+	\hline 
+	\hline 
+	Continuum/Line &  \multicolumn{1}{c}{$F_{\text{min}}$} &  \multicolumn{1}{c}{$F_{\text{max}}$} &  \multicolumn{1}{c}{$R_{\text{max}}$} &  \multicolumn{1}{c}{$\langle F \rangle$} &  \multicolumn{1}{c}{$\sigma_F$} &  \multicolumn{1}{c}{$F_{\text{var}}$} \\ 
+	\multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)} & \multicolumn{1}{c}{(7)} \\ 
+	\hline
+	Cont. 1150  & $0.52$ & $1.35$ & $2.58$ & $0.86$ & $0.25$ & $0.28$ \\
+	Cont. 4010  & $2.68$ & $4.21$ & $1.57$ & $3.49$ & $0.47$ & $0.14$ \\
+	Cont. 4440  & $2.42$ & $3.73$ & $1.54$ & $3.14$ & $0.39$ & $0.12$ \\
+	Cont. 5600  & $1.36$ & $2.15$ & $1.59$ & $1.82$ & $0.25$ & $0.14$ \\
+	Cont. 6110  & $1.49$ & $2.27$ & $1.53$ & $1.9$ & $0.23$ & $0.12$ \\
+	Cont. 6880  & $1.33$ & $2.01$ & $1.5$ & $1.72$ & $0.2$ & $0.11$ \\
+	Cont. 8015  & $1.18$ & $1.69$ & $1.43$ & $1.48$ & $0.15$ & $0.1$ \\
+	Cont. 8900  & $1.14$ & $1.52$ & $1.33$ & $1.38$ & $0.11$ & $0.08$ \\
+	\hline 
+	H$\alpha$  & $130.83$ & $149.85$ & $1.15$ & $141.35$ & $4.83$ & $0.03$ \\
+	H$\beta$  & $38.29$ & $45.4$ & $1.19$ & $42.32$ & $1.94$ & $0.05$ \\
+	H$\gamma$  & $18.82$ & $24.38$ & $1.3$ & $21.91$ & $1.29$ & $0.06$ \\
+	H$\delta$  & $7.17$ & $10.92$ & $1.52$ & $9.13$ & $0.94$ & $0.1$ \\
+	HeII$\,\lambda4685$  & $11.93$ & $17.7$ & $1.48$ & $14.82$ & $1.6$ & $0.11$ \\
+	HeI$\,\lambda5875$   & $8.53$ & $13.82$ & $1.62$ & $11.58$ & $1.01$ & $0.09$ \\
+	OI$\,\lambda 8446$ & $7.47$ & $9.13$ & $1.22$ & $8.32$ & $0.37$ & $0.04$ \\
+	\hline 
+	Ly$\alpha$  & $66.87$ & $94.88$ & $1.42$ & $82.21$ & $8.03$ & $0.1$ \\
+	SiIV$\,\lambda\lambda 1393,\,1402$  & $21.93$ & $35.5$ & $1.62$ & $27.92$ & $3.88$ & $0.14$ \\
+	CIV$\,\lambda\lambda 1548,\,1550$  & $115.31$ & $165.57$ & $1.44$ & $138.77$ & $12.12$ & $0.09$ \\
+	HeII$\,\lambda1640$  & $6.83$ & $21.29$ & $3.12$ & $13.29$ & $4.13$ & $0.31$ \\
+	\hline 
+	\hline 
+	\label{tab:varstatistics} 
+\end{tabular} 
+
 \end{table}
-
-
-
 
 
 \subsection{Uncertainties Estimation}
@@ -162,10 +158,6 @@ This yields the total light-curve uncertainty:
 	\sigma_i = \sqrt{\left(\sigma_i^\mathrm{cal.}\right)^2 + \left(\sigma_{\mathrm{noise}}\right)^2} ,
 \end{equation}
 where $\sigma_{\mathrm{noise}}$ corresponds to $\sigma_\mathrm{noise}^{\mathrm{cont}}$ for continuum light curves and to $\sigma_\mathrm{noise}^{\mathrm{lines}}$ for emission-line light curves.
-
-
-
-
 
 
 
