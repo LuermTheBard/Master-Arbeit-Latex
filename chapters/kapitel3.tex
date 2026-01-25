@@ -166,53 +166,47 @@ where $\sigma_{\mathrm{noise}}$ corresponds to $\sigma_\mathrm{noise}^{\mathrm{c
 \section{Lightcurves}
 \label{sec:lightcurves}
 
-The variability of the lightcurves can be seen in the visualization of the lightcurves in Figure \ref{fig:continua_lightcurves} and \ref{fig:emission_line_lightcurves}. In addition to the measured lightcurves of the HST campaign, the UVOT UVW2 lightcurve taken with SWIFT by \cite{mchardy2018x} is displayed for comparison which shows a higher sample-size that the lightcurves of the HST campaign. Its central wavelength is located at about 1930\,\AA\, \parencite{mchardy2018x} and was used as a reference lightcurve in \cite{cackett2018accretion} as well, which makes is interesting as a reference lightcurve for this analysis too. \\
-Looking at the  continuum lightcurves in Figure \ref{fig:continua_lightcurves} they show a broadly similar overall shape. All lightcurves begin at the highest flux level in most cases, except for UVW2, whose peaks have comparable heights throughout, and the 1150 continuum, which reaches its highest flux at the second maximum. The initial maximum is followed by a pronounced flux minimum, with a decrease of about $25$--$46\%$ relative to the overall maximum flux of each curve. Subsequently, the light curves rise again toward another peak, which is more distinct in the UV and blue continua and is followed by another drop in flux. While all continua except Cont. 4010 exhibit an additional another local maximum, the flux then decline steadily toward a global minimum near the end of the campaign.
+The variability of the lightcurves can be seen in the visualization of the lightcurves in Figure \ref{fig:continua_lightcurves1} and \ref{fig:emission_line_lightcurves}. In addition to the measured lightcurves of the HST campaign, the UVOT UVW2 lightcurve taken with SWIFT by \cite{mchardy2018x} is displayed for comparison which shows a higher sample-size that the lightcurves of the HST campaign. Its central wavelength is located at about 1930\,\AA\, \parencite{mchardy2018x} and was used as a reference lightcurve in \cite{cackett2018accretion} as well, which makes is interesting as a reference lightcurve for this analysis too. \\
+Looking at the  continuum lightcurves in Figure \ref{fig:continua_lightcurves1} they show a broadly similar overall shape. All lightcurves begin at the highest flux level in most cases, except for UVW2, whose peaks have comparable heights throughout, and the 1150 continuum, which reaches its highest flux at the second maximum. The initial maximum is followed by a pronounced flux minimum, with a decrease of about $25$--$46\%$ relative to the overall maximum flux of each curve. Subsequently, the light curves rise again toward another peak, which is more distinct in the UV and blue continua and is followed by another drop in flux. While all continua except Cont. 4010 exhibit an additional another local maximum, the flux then decline steadily toward a global minimum near the end of the campaign. \\
+For the RM analysis the real distance between the SMBH and the BLR is of most interests. Assuming that the continuum radiation originate from the accretion disk it is common to use the bluest available continuum band, which is
+expected to originate closest to the SMBH, which would be the continuum around 1150 \AA. But because the higher sample rate, the UVW2 continuum was selected as the main reference lightcurve for the further analysis. \\
+Looking now at the emission-line lightcurves in Figure \ref{fig:emission_line_lightcurves} correlation between them and the UVW2 continuum can already be spotted. The three major features of the UVW2 lightcurve, the first strong minimum, the two maxima in the center and the strong drop at the end, can be also identified in the emission line lightcurves with respective shifts in time, which will be further investigated in Section \ref{sec:time_lag_bh_mass}.
+\newpage
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Continua.pdf}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Continua_1.pdf}
 	\caption{Comparison of the continua lightcurves. The first panel shows the UVW2 continuum lightcurve obtained from \cite{mchardy2018x}, while the other panels show the measured continua defined in Table \ref{tab:continua} }
-	\label{fig:continua_lightcurves}
+	\label{fig:continua_lightcurves1}
 \end{figure}
+\clearpage
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Continua_2.pdf}
+	\caption{Comparison of the continua lightcurves. }
+	\label{fig:continua_lightcurves2}
+\end{figure}
+\clearpage
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf}
 	\caption{Comparison of the emission-line lightcurves to the UVW2 reference lightcurve in the first panel. The UVW2 lightcurve was obtained from \cite{mchardy2018x}}
 	\label{fig:emission_line_lightcurves}
 \end{figure}
+\clearpage
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/NGC4593_UV_Lines_UVW2.pdf}
 	\caption{Comparison of the emission-line lightcurves to the UVW2 reference lightcurve in the first panel. The UVW2 lightcurve was obtained from \cite{mchardy2018x}}
 	\label{fig:UV_emission_line_lightcurves}
 \end{figure}
-\\
-For the RM analysis the real distance between the SMBH and the BLR is of most interests. Assuming that the continuum radiation originate from the accretion disk it is common to use the bluest available continuum band, which is
-expected to originate closest to the SMBH, which would be the continuum around 1150 \AA. But because the higher sample rate, the UVW2 continuum was selected as the main reference lightcurve for the further analysis. \\
-Looking now at the emission-line lightcurves in Figure \ref{fig:emission_line_lightcurves} correlation between them and the UVW2 continuum can already be spotted. The three major features of the UVW2 lightcurve, the first strong minimum, the two maxima in the center and the strong drop at the end, can be also identified in the emission line lightcurves with respective shifts in time, which will be further investigated in Section \ref{sec:time_lag_bh_mass}.
-
-
-
-
-
-%\begin{figure}[!ht]
-%	\centering
-%	\includegraphics[width=1\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Lines_Cont1150_not_optical_calibrated.pdf}
-%	\caption{AVG RMS Spektrum}
-%	\label{fig:emission_line_lightcurves_hst}
-%\end{figure}
-
-
-
-
-
+\clearpage
 
 
 \section{Line Profiles}
 \label{sec:line_profiles}
 
 The next step of the analysis is the extraction of line profiles of the broad emission lines from both, the AVG and RMS spectrum. By investigation their shape and line width it allows conclusions about the kinematics of the region their originated from. Following the same procedure as for the lightcurve extraction, an underlying linear continuum is interpolated using a chosen blue and red pseudo-continuum for each line in both the AVG and RMS spectra. The selected boundaries of the pseudo-continua are listed in Table \ref{tab:line_profiles_pseudo}. By subtracting this interpolated continuum, a new zero-flux baseline for each line profile gets defined, which allows a better comparison between the line profiles.
-\begin{table}[h!]
+\begin{table}[!ht]
 	\centering
 	\small
 	\caption{Boundaries of the blue and red pseudo-continua used for the interpolation of underlying continua for line profile extraction.}
@@ -249,14 +243,20 @@ Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the 
 The Balmer lines and the helium lines show well-defined profiles in both AVG and RMS, making them suitable for further kinematic analysis. The O\,\textsc{i}$\,\lambda8446$ profile is blended with the Ca\,\textsc{ii} $\lambda8498$\, $\lambda8542$\, $\lambda8662$ triplet in the AVG spectrum. Moreover, the RMS profile of O\,\textsc{i}$\,\lambda8446$ shows low signal-to-noise, which is why its kinematics will not be further investigated. 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.95\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
-	\caption{A plot of the AVG and RMS line profiles of the broad emission lines H$\alpha$, H$\beta$, H$\gamma$, O\,\textsc{i}$\,\lambda 8446$, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$, He\,\textsc{ii}\,1640 and O\,\textsc{i}$\,\lambda8446$.}
-	\label{fig:line_profiles}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_Balmer.pdf}
+	\caption{A plot of the AVG and RMS line profiles of the broad emission lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$.}
+	\label{fig:line_profiles_balmer}
+\end{figure}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_He_O.pdf}
+	\caption{A plot of the AVG and RMS line profiles of the broad emission lines He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$, He\,\textsc{ii}\,1640 and O\,\textsc{i}$\,\lambda8446$.}
+	\label{fig:line_profiles_he_o}
 \end{figure}
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.95\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_UV.pdf}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_UV.pdf}
 	\caption{A plot of the AVG and RMS line profiles of the broad emission lines Ly$\alpha$, SiIV$\,\lambda\lambda 1393,\,1402$ and CIV$\,\lambda\lambda 1548,\,1550$.}
 	\label{fig:line_profiles_UV}
 \end{figure}
@@ -265,7 +265,7 @@ The Balmer lines and the helium lines show well-defined profiles in both AVG and
 \subsection{FWHM}
 After selecting the suitable broad emission lines, the FWHM of the normalized AVG and RMS profiles are calculated, which are listed in Table \ref{tab:line_width_FWHM}. Here the height of the line profile is defined between the zero-flux baseline and the maximum of the profile. The FWHM of the AVG profile of He\,\textsc{ii}$\,\lambda4685$ was not attempted to be calculated, as the blue wing is mostly overlapped by the Fe\,\textsc{ii} band between $4489 \, \AA$  and $4629 \, \AA$.\\
 The uncertainties are estimated based on the instrumental dispersion of the grating, the shape and noise of the line profiles (see Table \ref{tab:stis_gratings} for the gratings). H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are measured with the G750L grating with a dispersion of $4.97\,(\text{\AA}/\mathrm{pixel})$, while the G430L grating has been use for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$ with a dispersion of $2.73\,(\text{\AA}/\mathrm{pixel})$. By using Equation \ref{eqn:velocity_space} and the rest-frame central wavelengths of the emission lines, this corresponds to an equivalent dispersion listed in Table \ref{tab:grating_dispersion}. Taking the dispersion of the grating, the shape and the noise within the profiles, the uncertainties get estimated accordingly.
-\begin{table}[h!]
+\begin{table}[!ht]
 	\centering
 	\small
 	\caption{Dispersion of grating in velocity space.}
@@ -294,7 +294,7 @@ The uncertainties are estimated based on the instrumental dispersion of the grat
 \end{table}
 
 
-\begin{table}[h!]
+\begin{table}[!ht]
 	\centering
 	\small
 	\caption{Measured FWHM and of the AVG and RMS line profiles.}
@@ -329,14 +329,14 @@ The RMS profiles of the Balmer lines show an asymmetric double-peaked shape. Aga
 Taking the strong similarities of the RMS profiles, it can be assumed that H$\alpha$, H$\beta$ and H$\gamma$ emerge under similar kinematic properties.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/AVG_overlay_Balmer.pdf}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/AVG_overlay_Balmer.pdf}
 	\caption{Comparison of the normalized AVG line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$ in velocity space.}
 	\label{fig:AVG_Balmer}
 \end{figure}
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf}
 	\caption{Comparison of the normalized  RMS line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$ in velocity space.}
 	\label{fig:RMS_Balmer}
 \end{figure}
@@ -351,7 +351,7 @@ Other than in the AVG profile, He\,\textsc{i}$\,\lambda5875$  now shows a smalle
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Helium.pdf}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Helium.pdf}
 	\caption{Comparison of the AVG and RMS line profiles of the Helium lines HeI$\,\lambda5875$ vs HeII$\,\lambda$4685.}
 	\label{fig:AVG_RMS_Helium}
 \end{figure}
@@ -362,7 +362,7 @@ Other than in the AVG profile, He\,\textsc{i}$\,\lambda5875$  now shows a smalle
 \section{Time Lag and BH Masses}
 \label{sec:time_lag_bh_mass}
 
-\begin{table}[!htb]
+\begin{table}[!ht]
 	\centering
 	\small
 	\caption{Centroid and Peak Time Lag for UVW2.}
@@ -387,7 +387,7 @@ Other than in the AVG profile, He\,\textsc{i}$\,\lambda5875$  now shows a smalle
 \end{table}
 
 
-\begin{table}[!htb]
+\begin{table}[!ht]
 	\centering
 	\caption{Centroid and Peak Time Lag for UVW2.}
 	\label{tab:lags_UVW2_UV}
