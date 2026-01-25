@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  25 JAN 2026 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  25 JAN 2026 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1107,22 +1107,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [29]
 
 [30]
-<pictures/Chapter4/lightcurves/NGC4593_Continua.pdf, id=913, 559.85161pt x 753.
-6898pt>
+<pictures/Chapter4/lightcurves/NGC4593_Continua.pdf, id=913, 559.85161pt x 976.
+28142pt>
 File: pictures/Chapter4/lightcurves/NGC4593_Continua.pdf Graphic file (type pdf
 )
 <use pictures/Chapter4/lightcurves/NGC4593_Continua.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/NGC4593_Continua.pdf  us
 ed on input line 173.
-(pdftex.def)             Requested size: 426.79135pt x 574.55826pt.
-<pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf, id=918, 558.84785pt x 75
-3.6898pt>
+(pdftex.def)             Requested size: 384.1096pt x 669.82132pt.
+
+
+LaTeX Warning: Float too large for page by 48.99098pt on input line 176.
+
+<pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf, id=918, 558.84785pt x 79
+8.20811pt>
 File: pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf Graphic file (type p
 df)
 <use pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf  
 used on input line 179.
-(pdftex.def)             Requested size: 426.79135pt x 575.59329pt.
+(pdftex.def)             Requested size: 384.1096pt x 548.62059pt.
 <pictures/Chapter4/lightcurves/NGC4593_UV_Lines_UVW2.pdf, id=921, 558.84785pt x
  586.7461pt>
 File: pictures/Chapter4/lightcurves/NGC4593_UV_Lines_UVW2.pdf Graphic file (typ
@@ -1130,7 +1134,7 @@ e pdf)
 <use pictures/Chapter4/lightcurves/NGC4593_UV_Lines_UVW2.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/NGC4593_UV_Lines_UVW2.pd
 f  used on input line 185.
-(pdftex.def)             Requested size: 426.79135pt x 448.0983pt.
+(pdftex.def)             Requested size: 384.1096pt x 403.27951pt.
 
 
 [31]
@@ -1148,34 +1152,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--244
 
 
 [32]
-
-LaTeX Warning: Text page 33 contains only floats.
-
-
-
-[33 <./pictures/Chapter4/lightcurves/NGC4593_Continua.pdf>]
-
-LaTeX Warning: Text page 34 contains only floats.
-
-
-
-[34 <./pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1093, 553.076
-3pt x 859.83691pt>
+<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=940, 553.0763
+pt x 859.83691pt>
 File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
  (type pdf)
 <use pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/Normalized_Line_Profil
 es.pdf  used on input line 252.
 (pdftex.def)             Requested size: 405.45047pt x 630.3391pt.
-
-
-[35 <./pictures/Chapter4/lightcurves/NGC4593_UV_Lines_UVW2.pdf>]
-<pictures/Chapter4/line_profiles/Normalized_Line_Profiles_UV.pdf, id=1170, 553.
-0763pt x 525.9495pt>
+<pictures/Chapter4/line_profiles/Normalized_Line_Profiles_UV.pdf, id=941, 553.0
+763pt x 525.9495pt>
 File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles_UV.pdf Graphic f
 ile (type pdf)
 <use pictures/Chapter4/line_profiles/Normalized_Line_Profiles_UV.pdf>
@@ -1190,17 +1176,14 @@ LaTeX Warning: Command \r invalid in math mode on input line 266.
 LaTeX Warning: Command \r invalid in math mode on input line 266.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[33]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:AVG_RMS_Balmer' on page 36 undefined on input lin
+LaTeX Warning: Reference `fig:AVG_RMS_Balmer' on page 34 undefined on input lin
 e 327.
 
-<pictures/Chapter4/line_profiles/AVG_overlay_Balmer.pdf, id=1175, 536.71138pt x
- 748.5411pt>
+<pictures/Chapter4/line_profiles/AVG_overlay_Balmer.pdf, id=951, 536.71138pt x 
+748.5411pt>
 File: pictures/Chapter4/line_profiles/AVG_overlay_Balmer.pdf Graphic file (type
  pdf)
 <use pictures/Chapter4/line_profiles/AVG_overlay_Balmer.pdf>
@@ -1209,11 +1192,9 @@ Package pdftex.def Info: pictures/Chapter4/line_profiles/AVG_overlay_Balmer.pdf
 (pdftex.def)             Requested size: 426.79135pt x 595.25867pt.
 
 
-[36]
-
-[37]
-<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1184, 536.71138pt x
- 748.5411pt>
+[34]
+<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=956, 536.71138pt x 
+748.5411pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
  pdf)
 <use pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>
@@ -1227,19 +1208,19 @@ LaTeX Warning: Command \r invalid in math mode on input line 348.
 
 LaTeX Warning: Command \r invalid in math mode on input line 348.
 
-<pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Helium.pdf, id=1187, 536.7
-1138pt x 748.5411pt>
+
+
+[35]
+<pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Helium.pdf, id=964, 536.71
+138pt x 748.5411pt>
 File: pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Helium.pdf Graphic fi
 le (type pdf)
 <use pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_Helium.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/AVG_and_RMS_overlay_He
 lium.pdf  used on input line 354.
 (pdftex.def)             Requested size: 426.79135pt x 595.25867pt.
-
-
-[38]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_refere
-nce_lightcurves_optical.pdf, id=1192, 398.17383pt x 726.76395pt>
+nce_lightcurves_optical.pdf, id=965, 398.17383pt x 726.76395pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_r
 eference_lightcurves_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
@@ -1252,7 +1233,7 @@ les/UVW2_ccfs_and_reference_lightcurves_optical.pdf  used on input line 411.
 LaTeX Warning: Float too large for page by 65.78178pt on input line 414.
 
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_refere
-nce_lightcurves_not_optical.pdf, id=1193, 458.88063pt x 504.17233pt>
+nce_lightcurves_not_optical.pdf, id=966, 458.88063pt x 504.17233pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_r
 eference_lightcurves_not_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
@@ -1262,7 +1243,7 @@ les/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf  used on input line 418
 .
 (pdftex.def)             Requested size: 384.1096pt x 422.02481pt.
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_referenc
-e_lightcurves_paper HAlpha.pdf, id=1194, 398.17383pt x 504.17233pt>
+e_lightcurves_paper HAlpha.pdf, id=967, 398.17383pt x 504.17233pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_ref
 erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
@@ -1273,7 +1254,13 @@ les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 427.
 (pdftex.def)             Requested size: 384.1096pt x 486.37709pt.
 ) (chapters/kapitel4.tex
 
-[39]
+[36]
+
+[37 <./pictures/Chapter4/lightcurves/NGC4593_Continua.pdf>]
+
+[38 <./pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf>]
+
+[39 <./pictures/Chapter4/lightcurves/NGC4593_UV_Lines_UVW2.pdf>]
 
 [40 <./pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>]
 
@@ -1353,9 +1340,9 @@ b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
 :/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (54 pages, 3293852 bytes).
+Output written on main.pdf (54 pages, 3296898 bytes).
 PDF statistics:
- 1951 PDF objects out of 2073 (max. 8388607)
+ 1954 PDF objects out of 2073 (max. 8388607)
  180 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 
