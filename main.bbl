@@ -1641,6 +1641,64 @@
       \verb http://dx.doi.org/10.1051/0004-6361/202554800
       \endverb
     \endentry
+    \entry{ochmann2026first}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=820d6733dd0c3ce6a58f8e169fac4963}{%
+           family={Ochmann},
+           familyi={O\bibinitperiod},
+           given={Martin\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0abdbe244884605d73631dcd4aaca091}{%
+           family={Cackett},
+           familyi={C\bibinitperiod},
+           given={Edward\bibnamedelima M},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9cc2f91b295d7be24230893e150a5d3b}{%
+           family={Diehl},
+           familyi={D\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b280757d1dfa5a202db66fb59c20508d}{%
+           family={Horne},
+           familyi={H\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=668f4bbba480a35de56fdf250a6dcdf1}{%
+           family={Probst},
+           familyi={P\bibinitperiod},
+           given={Malte\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=acbc1f9092e2847f7392f770ee913bb4}{%
+           family={Kollatschny},
+           familyi={K\bibinitperiod},
+           given={Wolfram},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{3a41ed69bce8f4ef92200f401014cdea}
+      \strng{fullhash}{e6a5db2ad7b2f15bdd394d5169febc61}
+      \strng{fullhashraw}{e6a5db2ad7b2f15bdd394d5169febc61}
+      \strng{bibnamehash}{542fe5adf46b30473b0f8e15ebbc50fa}
+      \strng{authorbibnamehash}{542fe5adf46b30473b0f8e15ebbc50fa}
+      \strng{authornamehash}{3a41ed69bce8f4ef92200f401014cdea}
+      \strng{authorfullhash}{e6a5db2ad7b2f15bdd394d5169febc61}
+      \strng{authorfullhashraw}{e6a5db2ad7b2f15bdd394d5169febc61}
+      \field{extraname}{3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomy and Astrophysics}
+      \field{title}{First reverberation mapping of a Bowen fluorescence line}
+      \field{volume}{705}
+      \field{year}{2026}
+      \field{pages}{L11}
+      \range{pages}{1}
+    \endentry
     \entry{onken2004}{article}{}{}
       \name{author}{7}{}{%
         {{hash=c34481958cc29b50a8dfc6e15a67a4c7}{%

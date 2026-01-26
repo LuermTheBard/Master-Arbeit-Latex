@@ -162,35 +162,35 @@ where $\sigma_{\mathrm{noise}}$ corresponds to $\sigma_\mathrm{noise}^{\mathrm{c
 
 
 
-
-\section{Lightcurves}
-\label{sec:lightcurves}
-
-The extracted lightcurves of the continua and emission line are shown in Figure \ref{fig:continua_lightcurves}, \ref{fig:emission_line_lightcurves} and \ref{fig:UV_emission_line_lightcurves}. In addition to the measured lightcurves of the HST campaign, the UVOT UVW2 lightcurve taken with SWIFT by \cite{mchardy2018x}, which was also used in  in \cite{cackett2018accretion}, gets included in this analysis, as it shows a higher sample-size that the lightcurves of the HST campaign. The spectra were taken during nearly every orbit for $6.4 \mathrm{d}$ between the 13 and the 18 of July in 2016 \parencite{mchardy2018x}. The central wavelength of the UVW2 ligthcurve is located at about 1930\,\AA\ \parencite{mchardy2018x}. \\
-If compared together, all the measured continua lightcurves she an roughly similar shape, starting at a high flux level, followed by a significant decrease of about $50-80\%$ relative to the maximum and minimum flux of each curve after about $5$ days. Between the 5th and 10th day of the campaign, the light curves rise again toward a higher flux level, which happens quicker for lower wavelength and slower for higher wavelengths. Subsequently the UV continua show another dip in flux level between the 10th and 15th day, before it increases for a few day followed by a continuous decrease of flux towards about $40 - 50\%$ of flux after day 18 for a few days and drops to a flux minimum the end of the campaign. The continua in  between 4010 \AA and 6110 \AA show a decrease of flux between 10th and 15th day as well, only that it overall stays at the same level with a small increase towards day 15, before decreasing as well. The red and NIR continua show a roughly constant flux level between the 8th and 15th day, before decreasing in the same way as the other lightcurves, with a more pronounced flux plateau between day 15 and 18. \\
-For the RM analysis the real distance between the SMBH and the BLR is of most interests. Assuming that the continuum radiation originate from the accretion disk it is common to use the bluest available continuum band, which is
-expected to originate closest to the SMBH, which would be the continuum around 1150 \AA. But because the higher sample rate, the UVW2 continuum was selected as the main reference lightcurve for the further analysis. \\
-Looking now at the emission-line lightcurves in Figure \ref{fig:emission_line_lightcurves} correlation between them and the UVW2 continuum can already be spotted. The three major features of the UVW2 lightcurve, the first strong minimum, the two maxima in the center and the strong drop at the end, can be also identified in the emission line lightcurves with respective shifts in time, which will be further investigated in Section \ref{sec:time_lag_bh_mass}.
-\newpage
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Continua.pdf}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/Continua.pdf}
 	\caption{Comparison of the continua lightcurves. The first panel shows the UVW2 continuum lightcurve obtained from \cite{mchardy2018x}, while the other panels show the measured continua defined in Table \ref{tab:continua} }
 	\label{fig:continua_lightcurves}
 \end{figure}
+\clearpage
+\section{Lightcurves}
+\label{sec:lightcurves}
+The extracted lightcurves of the continua and emission lines are shown in Figures \ref{fig:continua_lightcurves}, \ref{fig:emission_line_lightcurves}, and \ref{fig:UV_emission_line_lightcurves}. In addition to the measured lightcurves of the HST campaign, the UVOT UVW2 lightcurve taken with \textit{Swift} by \cite{mchardy2018x}, which was also used in \cite{cackett2018accretion}, is included in this analysis, as it has a higher sampling rate than the light curves of the HST campaign. The spectra were taken during nearly every orbit for $6.4\,\mathrm{d}$ between July 13 and July 18, 2016 \parencite{mchardy2018x}. The central wavelength of the UVW2 lightcurve is located at about $1930\,\AA$ \parencite{mchardy2018x}. \\
+When compared, all measured continuum lightcurves show a roughly similar shape (see Figure \ref{fig:continua_lightcurves}). The lightcurves start at a high flux level, followed by a significant decrease of about $50$--$80\%$ relative to the maximum-to-minimum range of each curve approximately between the 1st and 6th day, with the minimum at around the 4th day. A central region follows, with again high flux with variation depending on the wavelength range of the continua. For the UV continua, this plateau ranges from the 6th to the 9th day and is followed by another smaller decrease in flux between the 9th and 13th day, before it increases again with peak at around the 13th day. Subsequently, the flux decreases, with small interim variation, towards a minimum at the end of the campaign. The continua between $4010\,\AA$ and $6110\,\AA$ also show a plateau-like shape between the 6th and 14th day, except for a small increase in flux between the 7th and 10th day, before decreasing again. The red and NIR continua show a roughly constant plateau between the 8th and 14th day, before decreasing in the same way as the other light curves, with another small, more pronounced flux plateau between the 15th and 17th day. \\
+One goal of this reverberation mapping analysis is to estimate the physical distance between the SMBH and the region from which the emission lines originate. Assuming that the continuum radiation originates from the accretion disk, it is common to use the bluest available continuum as reference for the time lag estimation, which is expected to originate closest to the SMBH \parencite{ochmann2026first}. In this case, this would be the continuum around $1150\,\AA$. Nevertheless, the UVW2 continuum was selected as the main reference lightcurve for the subsequent analysis due to its higher sampling rate. To accommodate this, the delay between the UV continuum lightcurve around $1150\,\AA$ and the UVW2 lightcurve has to be taken into account.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/NGC4593_Lines_UVW2.pdf}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf}
 	\caption{Comparison of the emission-line lightcurves to the UVW2 reference lightcurve in the first panel. The UVW2 lightcurve was obtained from \cite{mchardy2018x}}
 	\label{fig:emission_line_lightcurves}
 \end{figure}
 \begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/NGC4593_UV_Lines_UVW2.pdf}
-	\caption{Comparison of the emission-line lightcurves to the UVW2 reference lightcurve in the first panel. The UVW2 lightcurve was obtained from \cite{mchardy2018x}}
-	\label{fig:UV_emission_line_lightcurves}
+\centering
+\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/He_and_UV_lines.pdf}
+\caption{Comparison of the emission-line lightcurves to the UVW2 reference lightcurve in the first panel. The UVW2 lightcurve was obtained from \cite{mchardy2018x}}
+\label{fig:UV_emission_line_lightcurves}
 \end{figure}
-\clearpage
+\\
+Figures \ref{fig:emission_line_lightcurves} and \ref{fig:UV_emission_line_lightcurves} show the lightcurves of the measured broad emission lines in the optical-to-NIR range and in the UV range. Overall, the light curves show a similar shape to the UVW2 lightcurve: a high or increasing flux in the first few days, a pronounced minimum, a plateau-like central part that is fluctuating in some cases, and a decrease towards the end of the campaign. The main exceptions are the OI$\,\lambda 8446$ and HeII$\,\lambda1640$ lightcurves, which are much more scattered than the others. Nevertheless, it is possible to notice a pronounced minimum similar to that in the UVW2 light curve in these curves. By comparing these features, a shift of a few days between the light curves is already apparent. The flux minima of the Balmer lines, OI$,\lambda 8446$, and HeI$,\lambda5875$ occur between days 6 and 7, whereas the minima of the HeII light curves and the UV emission lines Ly$\alpha$, SiIV$,\lambda\lambda 1393,\,1402$, and CIV$,\lambda\lambda 1548,\,1550$ occur between days 4 and 5. This provides a first estimate of a time lag of about $2$--$3$ days for the first group of emission lines and about $0$--$1$ days for the second group. A more detailed investigation of the time lags is presented in Section \ref{sec:time_lag_bh_mass}. 
+
+
+
 
 
 \section{Line Profiles}

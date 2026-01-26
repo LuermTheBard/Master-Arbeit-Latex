@@ -24,7 +24,7 @@
 \contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{28}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Variability Statistics}{29}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Uncertainties Estimation}{31}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Lightcurves}{31}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Lightcurves}{33}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Line Profiles}{36}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}FWHM}{37}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Balmer-Lines}{39}{subsection.4.4.2}%
