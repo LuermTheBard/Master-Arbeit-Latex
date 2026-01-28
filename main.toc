@@ -26,10 +26,10 @@
 \contentsline {subsection}{\numberline {4.2.2}Uncertainties Estimation}{31}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Lightcurves}{33}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Line Profiles}{36}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}FWHM}{40}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Balmer-Lines}{41}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Helium-Lines}{44}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Time Lag}{47}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{50}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Black Hole Mass}{52}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Discussion}{53}{chapter.5}%
+\contentsline {subsection}{\numberline {4.4.1}FWHM}{38}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Balmer-Lines}{39}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Helium-Lines}{41}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Time Lag}{43}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{46}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Black Hole Mass}{48}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Discussion}{49}{chapter.5}%

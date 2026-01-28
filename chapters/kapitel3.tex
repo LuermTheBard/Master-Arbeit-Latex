@@ -212,7 +212,7 @@ The next step of the analysis is the extraction of line profiles of the broad em
 		H$\gamma$ & $4197-4220, 4435-4450$ & $4197-4220, 4417-4429$ \\
 		H$\delta$ & $4026-4033, 4197-4221$ &$4006-4016, 4197-4211$  \\
 		\hline
-		OI$\,\lambda 8446$ & $7999-8025, 8775-8798$ & $8222-8238, 8748-8767$ \\
+		O\,\textsc{i}$\,\lambda 8446$ & $7999-8025, 8775-8798$ & $8222-8238, 8748-8767$ \\
 		\hline
 		He\,\textsc{i}$\,\lambda5875$ & $5679-5697, 6044-6057$ & $5736-5753, 6027-6045$ \\
 		He\,\textsc{ii}$\,\lambda1640$  & $1461-1468, 1679-1685$ & $1461-1468, 1679-1685$\\
@@ -232,27 +232,26 @@ Subsequently, the line profile is converted to velocity space using\\
 	\label{eqn:velocity_space}
 	v_i = c \cdot \frac{\lambda_i^2 - \lambda_\mathrm{central}^2}{\lambda_i^2 + \lambda_\mathrm{central}^2}.
 \end{equation}\\
-Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the central wavelength of the emission line in rest-frame and $c$ the speed of light. Finally, the flux is getting normalized to the maximum of each line profile. Figure \ref{fig:line_profiles} shows an overview of the extracted and normalized line profiles of H$\alpha$, H$\beta$, H$\gamma$, O\,\textsc{i}$\,\lambda8446$, He\,\textsc{i}$\,\lambda5875$, and He\,\textsc{ii}$\,\lambda4685$ in both the AVG and RMS spectra.
-The Balmer lines and the helium lines show well-defined profiles in both AVG and RMS, making them suitable for further kinematic analysis. The O\,\textsc{i}$\,\lambda8446$ profile is blended with the Ca\,\textsc{ii} $\lambda8498$\, $\lambda8542$\, $\lambda8662$ triplet in the AVG spectrum. Moreover, the RMS profile of O\,\textsc{i}$\,\lambda8446$ shows low signal-to-noise, which is why its kinematics will not be further investigated. 
+Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the central wavelength of the emission line in rest-frame and $c$ the speed of light. Finally, the flux is getting normalized to the maximum of each line profile. Figure \ref{fig:line_profiles} shows an overview of the extracted and normalized line profiles. 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_Balmer.pdf}
-	\caption{A plot of the AVG and RMS line profiles of the broad emission lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$.}
-	\label{fig:line_profiles_balmer}
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
+	\caption{A plot of the AVG and RMS line profiles.}
+	\label{fig:line_profiles}
 \end{figure}
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_He_O.pdf}
-	\caption{A plot of the AVG and RMS line profiles of the broad emission lines He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$, He\,\textsc{ii}\,1640 and O\,\textsc{i}$\,\lambda8446$.}
-	\label{fig:line_profiles_he_o}
-\end{figure}
+%\begin{figure}[!ht]
+%	\centering
+%	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_He_O.pdf}
+%	\caption{A plot of the AVG and RMS line profiles of the broad emission lines He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$, He\,\textsc{ii}\,1640 and O\,\textsc{i}$\,\lambda8446$.}
+%	\label{fig:line_profiles_he_o}
+%\end{figure}
 
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_UV.pdf}
-	\caption{A plot of the AVG and RMS line profiles of the broad emission lines Ly$\alpha$, SiIV$\,\lambda\lambda 1393,\,1402$ and CIV$\,\lambda\lambda 1548,\,1550$.}
-	\label{fig:line_profiles_UV}
-\end{figure}
+%\begin{figure}[!ht]
+%	\centering
+%	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles_UV.pdf}
+%	\caption{A plot of the AVG and RMS line profiles of the broad emission lines Ly$\alpha$, SiIV$\,\lambda\lambda 1393,\,1402$ and CIV$\,\lambda\lambda 1548,\,1550$.}
+%	\label{fig:line_profiles_UV}
+%\end{figure}
 \clearpage
 
 \subsection{FWHM}
@@ -317,43 +316,32 @@ The uncertainties are estimated based on the instrumental dispersion of the grat
 
 \subsection{Balmer-Lines}
 
-A comparison of the Balmer-line profiles H$\alpha$, H$\beta$, and H$\gamma$ is shown in Figure \ref{fig:AVG_RMS_Balmer}. With the exception of the AVG profile of H$\gamma$, which is affected by the narrow [O\,\textsc{iii}] $\lambda4363$ line overlapping the H$\gamma$ profile, the lines exhibit a similar asymmetric shape their AVG profiles. All three lines show a steep blue wing, that broads to a very broad flank at about $\approx -2500\,\mathrm{km\,s^{-1}}$. H$\alpha$ and H$\beta$ exhibit nearly identical gradients, while H$\gamma$ is blended with  Fe II\,\textsc{ii} emission up to $\approx -2000\,\mathrm{km\,s^{-1}}$ before matching the slope of the other profiles, which could be explained underlying components of other broad and narrow emission lines. The red wings of H$\alpha$ and H$\beta$ follow a similar pattern, showing a bump at around $\approx 1000\,\mathrm{km\,s^{-1}}$ and $\approx 2500\,\mathrm{km\,s^{-1}}$, respectively, resulting in the asymmetric profile and therefore velocity distribution. Looking at the line widths of the AVG profiles, the FWHM differs significantly from each other as the profiles consists of broad and narrow components and in case of H$\gamma$ is overlapped by the [O\,\textsc{iii}] $\lambda4363$ emission line. These narrow components are hard to isolate in the profiles, no attempt was made to decompose the AVG profiles. Instead, the RMS line widths are adopted for the subsequent analysis as they show no narrow components of the timescale of the campaign. \\
+A comparison of the Balmer-line profiles H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$ are shown in Figure \ref{fig:AVG_RMS_Helium} With the exception of the AVG profile of H$\gamma$, which is affected by the narrow [O\,\textsc{iii}] $\lambda4363$ line overlapping the H$\gamma$ profile, the lines exhibit a similar asymmetric shape their AVG profiles. All three lines show a steep blue wing, that broads to a very broad flank at about $\approx -2500\,\mathrm{km\,s^{-1}}$. H$\alpha$ and H$\beta$ exhibit nearly identical gradients, while H$\gamma$ and H$\delta$ shows a more broad flank up to $\approx -2500\,\mathrm{km\,s^{-1}}$ before matching the slope of the other profiles, which could be explained underlying components of other broad and narrow emission lines. The red wings of H$\alpha$ and H$\beta$ follow a similar pattern, showing a bump at around $\approx 1000\,\mathrm{km\,s^{-1}}$ and $\approx 2500\,\mathrm{km\,s^{-1}}$, respectively, resulting in the asymmetric profile and therefore velocity distribution. Looking at the line widths of the AVG profiles, the FWHM differs significantly from each other as the profiles consists of broad and narrow components and in case of H$\gamma$ is overlapped by the [O\,\textsc{iii}] $\lambda4363$ emission line. These narrow components are hard to isolate in the profiles, no attempt was made to decompose the AVG profiles. \\
 The RMS profiles of the Balmer lines show an asymmetric double-peaked shape. Again, the profiles of H$\alpha$ and H$\beta$ show a very similar shape, while the blue wing of H$\gamma$ is more extended and becomes noisy towards increasing negative velocities, resulting in a higher line width compared to H$\alpha$ and H$\beta$. Since [O III] $\lambda4363$ vanish in the RMS profiles, the red wing of H$\gamma$ becomes clearly visible and follows a similar shape of H$\alpha$ and H$\beta$. For all three profiles, the double-peaked structure is red-shifted, with the blue peak located at $\approx 200\,\mathrm{km\,s^{-1}}$ and the red peak at $\approx 2000\,\mathrm{km\,s^{-1}}$, showing that most of the flux variation within the red wing of the emission lines. \\
 Taking the strong similarities of the RMS profiles, it can be assumed that H$\alpha$, H$\beta$ and H$\gamma$ emerge under similar kinematic properties.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/AVG_overlay_Balmer.pdf}
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/AVG_RMS_overlay_Balmer.pdf}
 	\caption{Comparison of the normalized AVG line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$ in velocity space.}
-	\label{fig:AVG_Balmer}
+	\label{fig:AVG_RMS_Balmer}
 \end{figure}
 
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf}
-	\caption{Comparison of the normalized  RMS line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$ in velocity space.}
-	\label{fig:RMS_Balmer}
-\end{figure}
 \clearpage
 
 \subsection{Helium-Lines}
 
 
-Figure \ref{fig:AVG_RMS_Helium} shows a comparison of the AVG and RMS line profile of He\,\textsc{i}$\,\lambda5875$  and He\,\textsc{ii}$\,\lambda4685$. The blue wing of the He\,\textsc{ii}$\,\lambda4685$ AVG profile is partly overlapped by the Fe\,\textsc{ii} band between $4489 \, \AA$  and $4629 \, \AA$ at velocities above about $-1000\,\mathrm{km\,s^{-1}}$. While the visible part of its blue wing follows the same shape as the He\,\textsc{i}$\,\lambda5875$  blue wing shape, the red wing of He\,\textsc{i}$\,\lambda5875$  is much broader. Still, both red wings show a similar shape and an additional smaller peak at around $1000\,\mathrm{km\,s^{-1}}$. Since more than half of He\,\textsc{i}$\,\lambda5875$  blue wing is overlapped by the Fe\,\textsc{ii} band, a calculation of its FWHM was not attempted. Still, looking at the the line widths at 0.6 height of the line with $\approx 2500 \,\mathrm{km\,s^{-1}}$ for He\,\textsc{i}$\,\lambda5875$  and $\approx 1600 \,\mathrm{km\,s^{-1}}$ for He\,\textsc{ii}$\,\lambda4685$ with using the uncertainties from Table \ref{tab:line_width_FWHM}, it can be assumed that He\,\textsc{i}$\,\lambda5875$  show a much broader FWHM in the AVG than He\,\textsc{ii}$\,\lambda4685$. For the same reasons as for the balmer lines, a decomposition of the narrow and broad components was not attempted, which is why the FWHM of the RMS profiles will be used for the subsequent analysis.\\
+Figure \ref{fig:AVG_Helium} shows a comparison of the AVG and RMS line profile of He\,\textsc{i}$\,\lambda5875$  and He\,\textsc{ii}$\,\lambda4685$. The blue wing of the He\,\textsc{ii}$\,\lambda4685$ AVG profile is partly overlapped by the Fe\,\textsc{ii} band between $4489 \, \AA$  and $4629 \, \AA$ at velocities above about $-1000\,\mathrm{km\,s^{-1}}$. While the visible part of its blue wing follows the same shape as the He\,\textsc{i}$\,\lambda5875$  blue wing shape, the red wing of He\,\textsc{i}$\,\lambda5875$  is much broader. Still, both red wings show a similar shape and an additional smaller peak at around $1000\,\mathrm{km\,s^{-1}}$. Since more than half of He\,\textsc{i}$\,\lambda5875$  blue wing is overlapped by the Fe\,\textsc{ii} band, a calculation of its FWHM was not attempted. Still, looking at the the line widths at 0.6 height of the line with $\approx 2500 \,\mathrm{km\,s^{-1}}$ for He\,\textsc{i}$\,\lambda5875$  and $\approx 1600 \,\mathrm{km\,s^{-1}}$ for He\,\textsc{ii}$\,\lambda4685$ with using the uncertainties from Table \ref{tab:line_width_FWHM}, it can be assumed that He\,\textsc{i}$\,\lambda5875$  show a much broader FWHM in the AVG than He\,\textsc{ii}$\,\lambda4685$. For the same reasons as for the balmer lines, a decomposition of the narrow and broad components was not attempted, which is why the FWHM of the RMS profiles will be used for the subsequent analysis.\\
 Other than in the AVG profile, He\,\textsc{i}$\,\lambda5875$  now shows a smaller line width than He\,\textsc{ii}$\,\lambda4685$ and higher noise. Looking at the He\,\textsc{i}$\,\lambda5875$  profile, its maximum is red-shifted to $\approx 2000\,\mathrm{km\,s^{-1}}$, while the maximum of the He\,\textsc{ii}$\,\lambda4685$ profile is located around $0 \,\mathrm{km\,s^{-1}}$. Following that it He\,\textsc{i}$\,\lambda5875$  shows more variation in its red wing than He\,\textsc{ii}$\,\lambda4685$ does. The blue wing of He\,\textsc{i}$\,\lambda5875$ extend up to about $\approx -5000\,\mathrm{km\,s^{-1}}$ and its red wing about $\approx 4000\,\mathrm{km\,s^{-1}}$ while He\,\textsc{ii}$\,\lambda4685$ blue wing extend up to about $\approx -9000\,\mathrm{km\,s^{-1}}$ its red wing about $\approx 5000\,\mathrm{km\,s^{-1}}$. Going from the maxima, it shows that both profiles show a much more extended blue wing and a very steep red wing. 
  
 
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/AVG_overlay_Helium.pdf}
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/AVG_RMS_overlay_Helium.pdf}
 	\caption{Comparison of the AVG and RMS line profiles of the Helium lines HeI$\,\lambda5875$ vs HeII$\,\lambda$4685.}
-	\label{fig:AVG_Helium}
+	\label{fig:AVG_RMS_Helium}
 \end{figure}
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf}
-	\caption{Comparison of the AVG and RMS line profiles of the Helium lines HeI$\,\lambda5875$ vs HeII$\,\lambda$4685.}
-	\label{fig:RMS_Helium}
-\end{figure}
+
 \clearpage
 
 
@@ -423,24 +411,32 @@ Therefore the time lags between the UVW2 and emission lines lightcurves, the CCF
 \clearpage
 \section{Black Hole Mass}
 
+Having obtained the time lags as well as the line widths of the selected broad emission lines, the mass of the SMBH can now be estimated using the virial theorem following the method of \cite{peterson2004}. Taking equation \ref{eqn:charc_radius}, \ref{eqn:M_vir} and \ref{eqn:M_BH} the SMBH mass can be estimated for each of the selected emission lines: 
+\begin{equation}
+	M_{\mathrm{BH}} = f \cdot \frac{c \cdot \tau_{\mathrm{centroid}}\,\Delta V^2}{G}\,.
+\end{equation}
+As describes in Section \ref{subsec:BHM}, the line width used to describe the velocity dispersion $\Delta V^2$ of the broad emission line. For this analysis, the line width gets measured using the FWHM of the RMS line profile, to only measure the broad line component of the emission line. Following \cite{probst2025emissionlinecontinuumreverberationmapping} a scale factor of $f =1.8$ is adopted, which accounts the ratio of the FWHM and line dispersion $\mathrm{FWHM}/\sigma_\mathrm{line} \approx 2$ estimated by \cite{peterson2004}. The resulting SMBH mass results, as well as the corresponding time lag and FWHM values of the broad emission lines are listed in Table \ref{tab:BH_mass}. 
+
+
+
 \begin{table}[!ht]
 	\centering
 	\small
-	\caption{Centroid and Peak Time Lag for UVW2.}
+	\caption{Estimated time lags, FWHM and SMBH masses.}
 	\label{tab:BH_mass}
 	\begin{tabular}{l c c c}
 		\hline
 		\hline
-		Name & $\tau_{\text{cent}}$ [d] & \textbf{FWHM RMS[km/s]} & $M_{\text{BH}} [10^7 M_\odot]$ \\
+		Name & $\tau_{\text{cent}}$ [d] & FWHM (rms)[km/s] & $M_{\text{BH}} [10^7 M_\odot]$ \\
 		\hline
 		Ly$\alpha$ & $1.0 \ensuremath{_{-0.2}^{+0.4}}$ & $4566 \pm 150$ &$0.7 \ensuremath{_{-0.2}^{+0.3}}$ \\
 		H$\alpha$ & $3.2 \ensuremath{_{-0.6}^{+1.0}}$ & $3111 \pm 250$ &$1.1 \ensuremath{_{-0.4}^{+0.6}}$ \\
 		H$\beta$ & $2.3 \ensuremath{_{-0.3}^{+1.0}}$ & $3437 \pm 200$&$0.9 \ensuremath{_{-0.2}^{+0.6}}$ \\
 		H$\gamma$ & $1.7 \ensuremath{_{-0.4}^{+0.2}}$ & $3852 \pm 300$ &$0.9 \ensuremath{_{-0.3}^{+0.3}}$ \\
 		H$\delta$ & $1.7 \ensuremath{_{-0.4}^{+0.4}}$ & $5905 \pm 300$ &$1.5 \ensuremath{_{-0.4}^{+0.6}}$ \\
-		He\,\textsc{i}$\,\lambda5875$ & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ & $ 3952 \pm 300$&$1.8 \ensuremath{_{-0.5}^{+0.7}}$ \\
+		He\,\textsc{i}$\,\lambda5876$ & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ & $ 3952 \pm 300$&$1.8 \ensuremath{_{-0.5}^{+0.7}}$ \\
 		He\,\textsc{ii}$\,\lambda1640$ & $0.3 \ensuremath{_{-0.2}^{+0.6}}$ & $7459 \pm 200$ &$0.5 \ensuremath{_{-0.3}^{+1.2}}$ \\
-		He\,\textsc{ii}$\,\lambda4685$ & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ & $5972 \pm 300$ &$0.9 \ensuremath{_{-0.4}^{+0.2}}$ \\
+		He\,\textsc{ii}$\,\lambda4686$ & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ & $5972 \pm 300$ &$0.9 \ensuremath{_{-0.4}^{+0.2}}$ \\
 		Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$  & $1.2 \ensuremath{_{-0.4}^{+0.1}}$ & $10005 \pm 300$ &$4.4 \ensuremath{_{-1.7}^{+0.8}}$ \\
 		C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $0.8 \ensuremath{_{-0.0}^{+0.5}}$ & $8428 \pm 300$ &$1.9 \ensuremath{_{-0.2}^{+1.7}}$ \\
 		

@@ -2552,6 +2552,9 @@
     <bcf:citekey order="165" intorder="1">grandi1980</bcf:citekey>
     <bcf:citekey order="166" intorder="1">cackett2018accretion</bcf:citekey>
     <bcf:citekey order="167" intorder="1">ochmann2026first</bcf:citekey>
+    <bcf:citekey order="168" intorder="1">peterson2004</bcf:citekey>
+    <bcf:citekey order="169" intorder="1">probst2025emissionlinecontinuumreverberationmapping</bcf:citekey>
+    <bcf:citekey order="170" intorder="1">peterson2004</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
