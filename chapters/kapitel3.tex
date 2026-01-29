@@ -419,16 +419,24 @@ Therefore, the time lags between the UVW2 and emission-line lightcurves, as well
 
 Having obtained the time lags as well as the line widths of the selected broad emission lines, the mass of the SMBH can now be estimated using the virial theorem following the method of \cite{peterson2004}. Taking equation \ref{eqn:charc_radius}, \ref{eqn:M_vir} and \ref{eqn:M_BH} the SMBH mass can be estimated for each of the selected emission lines: 
 \begin{equation}
+	\label{eqn:BHM}
 	M_{\mathrm{BH}} = f \cdot \frac{c \cdot \tau_{\mathrm{centroid}}\,\Delta V^2}{G}\,.
 \end{equation}
-As describes in Section \ref{subsec:BHM}, the line width used to describe the velocity dispersion $\Delta V^2$ of the broad emission line. For this analysis, the line width gets measured using the FWHM of the RMS line profile, to only measure the broad line component of the emission line. Using this measure a average scale factor of $f =1.8$ gets assumed \cite{probst2025emissionlinecontinuumreverberationmapping}. The resulting SMBH mass results, as well as the corresponding time lag and FWHM values of the broad emission lines are listed in Table \ref{tab:BH_mass}. 
+The parameters are defined like described in section \ref{subsec:BHM}. The velocity dispersion $\Delta V^2$ is parameterized by the line width of the emission line profile, which is measured using the FWHM of the RMS line profile. Following \cite{probst2025emissionlinecontinuumreverberationmapping} a scale factor of $f=1.8$ gets assumed, that accounts the relation $\mathrm{FWHM}/\sigma_{\mathrm{line}} \approx 2$ \parencite{peterson2004}. The resulting SMBH mass results, as well as the corresponding time lag and FWHM values of the broad emission lines are listed in Table \ref{tab:BH_mass}. \\
+To estimate a mean value of the BH mass, the inverse-variance weighted mean is calculated. Since the uncertainties are asymmetric a symmetrized 1$\sigma$ uncertainty for the weights gets adopter, $\sigma_i=(\sigma_i^-+\sigma_i^+)/2$.
+The weighted mean is then given by
+\begin{equation}
+	\bar{M}_{\mathrm{BH}}=\frac{\sum_i w_i M_{\mathrm{BH},i}}{\sum_i w_i}\,,\qquad
+	w_i=\frac{1}{\sigma_i^2}\,,
+\end{equation}
+with an uncertainty
+\begin{equation}
+	\sigma_{\bar{M}}=\left(\sum_i w_i\right)^{-1/2}\,.
+\end{equation}
+This yields the weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (0.975 \pm 0.131)\times 10^{7}\,M_\odot$.\\
+It has to be noted, that the scale factor of $f=1.8$ does not account the low-inclination $i \sim 11^\circ$ of the elliptic accretion disk, modeled in \cite{ochmann2024transient}. Adopting the scaling relation $f \sim \sin^{-2}(i)$ introduced by \cite{krolik2001systematic}, a value of $f \sim 27.5$ would be needed to account for the low inclination. \cite{krolik2001systematic} used the line dispersion to parameterize the velocity dispersion, which is why the relation $\sigma_{\mathrm{line}} \approx \mathrm{FWHM}/2$ \parencite{peterson2004} has to be accounted again. Due to the square relation of the velocity dispersion to the black hole mass seen in Equation \ref{eqn:BHM}, the scale factor finally gets corrected to a value $f \sim 6.8$. Subsequently the found BH mass has to be multiplied by a additional factor of $3.77$. \\
+Subsequently, the weighted-mean SMBH mass yields $\bar{M}_{\mathrm{BH,corr}} \approx (3.68 \pm 0.49)\times 10^{7}\,M_\odot$.
 
-
-
-But because NGC\,4593 shows a low-inclination $i \sim 11^\circ$ of the elliptic accretion disk, modelled in \cite{ochmann2024transient}, has to be taken into account. Using the scaling relation $f \sim \sin^{-2}(i)$, following \parencite{krolik_2001, Kollatschny_2003}, a value of 
-
-
-\textbf{1.8 ist die untere grenze. Bei niedriger inclination kann der f faktor größer sein. inclination bei 11 durch das model. dadurch muss der f faktor um 5 höher sein etwa. Berechnen.}
 
 
 \begin{table}[!ht]
