@@ -255,11 +255,40 @@ Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the 
 \clearpage
 
 \subsection{FWHM}
-After selecting the suitable broad emission lines, the FWHM of the normalized AVG and RMS profiles are calculated, which are listed in Table \ref{tab:line_width_FWHM}. Here the height of the line profile is defined between the zero-flux baseline and the maximum of the profile. The FWHM of the AVG profile of He\,\textsc{ii}$\,\lambda4685$ was not attempted to be calculated, as the blue wing is mostly overlapped by the Fe\,\textsc{ii} band between $4489 \, \AA$  and $4629 \, \AA$.\\
-The uncertainties are estimated based on the instrumental dispersion of the grating, the shape and noise of the line profiles (see Table \ref{tab:stis_gratings} for the gratings). H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are measured with the G750L grating with a dispersion of $4.97\,(\text{\AA}/\mathrm{pixel})$, while the G430L grating has been use for H$\beta$, H$\gamma$, and He\,\textsc{ii}$\,\lambda4685$ with a dispersion of $2.73\,(\text{\AA}/\mathrm{pixel})$. By using Equation \ref{eqn:velocity_space} and the rest-frame central wavelengths of the emission lines, this corresponds to an equivalent dispersion listed in Table \ref{tab:grating_dispersion}. Taking the dispersion of the grating, the shape and the noise within the profiles, the uncertainties get estimated accordingly.
 
+By defining the height of the line profile between its maximum and the zero-flux baseline, the FWHM of each line profile in the AVG and RMS spectrum is measured. This is done by linear interpolation of the two intersections of the line profile at height $0.5$, again performed with GECHO. If no data-point is found at the exact height $0.5$, the two neighboring are taken to linear interpolate the velocity at height $0.5$. With that the FWHM of the Balmer line profiles, the Ly$\alpha$ line profile, the He\,\textsc{i}$\,\lambda5875$ line profile and the line profile of the duplet C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ in both AVG and RMS gets measured, as well as from the RMS line profile of 	He\,\textsc{ii}$\,\lambda4685$ and the AVG line profile of 	 He\,\textsc{ii}$\,\lambda1640$. The FWHM of the AVG line profile of He\,\textsc{ii}$\,\lambda4685$ has to be estimated by doubling the line width of its red flank, as the left flank is blended by the Fe\,\textsc{ii} band between $4489 \, \AA$  and $4629 \, \AA$. Same follows for the line profiles of N\,\textsc{V}$\,\lambda\lambda 1238,\,1242$ duplet in AVG and RMS, as it is blended with the Ly$\alpha$ line profile. The FWHM of the RMS Line profile of He\,\textsc{ii}$\,\lambda1640$ has to be estimated by double the width of its blue flank as it is blended with the duplet O\,\textsc{III}]$\,\lambda\lambda 1660,\,1666$. Finally, the FWHM of O\,\textsc{i}$\,\lambda 8446$ and Si\,\textsc{IV}$\,\lambda\lambda 1393,\,1402$ are not taken into account for the further analysis, due to a very noisy RMS profile in case of the O\,\textsc{i} line and in case of the Si\,\textsc{IV} a overlapping profiles of the duplet and an additional half forbidden O\,\textsc{IV}], which made is difficult estimate the FWHM of its RMS profile. The resulting FWHM are listed in in Table \ref{tab:line_width_FWHM}.
+\begin{table}[!ht]
+	\centering
+	\small
+	\caption{Measured FWHM and of the AVG and RMS line profiles.}
+	\label{tab:line_width_FWHM}
+	\begin{tabular}{lcc}
+		\hline
+		\hline
+		\textbf{Line} & \textbf{FWHM AVG[km/s]} & \textbf{FWHM RMS[km/s]}   \\
+		\hline
+		Ly$\alpha$ & $3819 \pm 350$  &  $4566\pm 350$\\
+		\hline
+		H$\alpha$  & $2974 \pm 250$ &  $3111 \pm 250$\\
+		H$\beta$ & $3439 \pm 200$&  $3437 \pm 200$ \\
+		H$\gamma$ & $4067 \pm 200$&  $3852 \pm 300$ \\
+		H$\delta$ & $3398 \pm 250$&  $5905 \pm 400$ \\
+		\hline
+		He\,\textsc{i}$\,\lambda5875$ & $3477 \pm 300$&  $3952 \pm 400$  \\
+		He\,\textsc{ii}$\,\lambda1640$  & $2847 \pm 500$ & $7996 \pm 1000$\\
+		He\,\textsc{ii}$\,\lambda4685$&  $1839 \pm 600$&  $5971 \pm 400$ \\
+		
+		\hline
+		N\,\textsc{V}$\,\lambda\lambda 1238,\,1242$ &  $2251 \pm 800$&  $2525 \pm 1000$\\
+		CIV$\,\lambda\lambda 1548,\,1550$ & $ 5413\pm 500$  &  $ 8428 \pm 500$\\
+		
+		\hline
+		\hline
+	\end{tabular}
+\end{table}\\
+The uncertainties are estimated based on the instrumental dispersion of the grating, the shape of the line profiles (see. Figure \ref{fig:line_profiles}) and the measure method (see Table \ref{tab:stis_gratings} for the gratings). H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are measured with the G750L grating with a dispersion of $4.97\,(\text{\AA}/\mathrm{pixel})$, H$\beta$, H$\gamma$, H$\delta$ and He\,\textsc{ii}$\,\lambda4685$ with the G430L grating with a dispersion of $2.73\,(\text{\AA}/\mathrm{pixel})$ and the UV emission lines with the G430L grating with a dispersion of $0.6\,(\text{\AA}/\mathrm{pixel})$
+By using Equation \ref{eqn:velocity_space} together with the rest-frame central wavelengths of the emission lines, this corresponds to an equivalent dispersion per pixel in velocity space listed in Table \ref{tab:grating_dispersion}. This dispersion is used as the minimal estimate for the uncertainty estimation. The uncertainties of the RMS profiles of H$\gamma$, H$\delta$, He\,\textsc{i}$\,\lambda5875$ and He\,\textsc{ii}$\,\lambda4685$  are scaled higher, due to their shape and noise. Higher uncertainties are estimated for the profiles of Ly$\alpha$ as well, as it is blended with absorption in its blue flank as well with the N\,\textsc{V}$\,\lambda\lambda 1238,\,1242$ duplet in its red flank, and for the CIV$\,\lambda\lambda 1548,\,1550$ duplet line profiles as it shows a very asymmetrical shape. Finally, the uncertainties for the AVG and RMS line profiles of He\,\textsc{ii}$\,\lambda1640$, N\,\textsc{V}$\,\lambda\lambda 1238,\,1242$ and the AVG profile of He\,\textsc{ii}$\,\lambda4685$ are selected significantly higher, due to their estimation based on the width of only one flank.
 
-\textbf{N kann ich die rechte flake nehmen und mit 2 multipliieren, da die linke flanke mit lyalpha überlagert ist. Lyalpha höhere fehler annehmen. Si raus nehmen, da eine abschetzung wegen der duplet überlagerung schwierig ist. HeII rechte seite abschätzen und mal 2, nur wenn es mit der anderen He II linie übereinstimmt einigermaßen. CIV sieht gut aus.}
 
 
 \begin{table}[!ht]
@@ -272,52 +301,27 @@ The uncertainties are estimated based on the instrumental dispersion of the grat
 		\hline
 		\textbf{Line} & \textbf{Dispersion [$\frac{\mathrm{km}}{\mathrm{s}}/\mathrm{pixel}$]}   \\
 		\hline
+		Ly$\alpha$ & $144.0$\\
+		\hline
 		H$\alpha$  & $222.9$\\
 		H$\beta$ & $169.3$ \\
 		H$\gamma$ & $189.6$ \\
 		H$\delta$ & $200.6$ \\
 		\hline
 		He\,\textsc{i}$\,\lambda5875$ & $249.0$  \\
+		He\,\textsc{ii}$\,\lambda1640$  & $106.7$\\
 		He\,\textsc{ii}$\,\lambda4685$& $175.6$ \\
-		
 		\hline
-		Ly$\alpha$ & $144.0$\\
-		SiIV$\,\lambda\lambda 1393,\,1402$ & $125.6$\\
-		CIV$\,\lambda\lambda 1548,\,1550$ & $113.1$\\
-		HeII$\,\lambda1640$  & $106.7$\\
+		N\,\textsc{V}$\,\lambda\lambda 1238,\,1242$ &  $141.3$\\
+		C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $113.1$\\
+		
 		\hline
 		\hline
 	\end{tabular}
 \end{table}
 
 
-\begin{table}[!ht]
-	\centering
-	\small
-	\caption{Measured FWHM and of the AVG and RMS line profiles.}
-	\label{tab:line_width_FWHM}
-	\begin{tabular}{lcc}
-		\hline
-		\hline
-		\textbf{Line} & \textbf{FWHM AVG[km/s]} & \textbf{FWHM RMS[km/s]}   \\
-		\hline
-		H$\alpha$  & $2974 \pm 250$ &  $3111 \pm 250$\\
-		H$\beta$ & $3439 \pm 200$&  $3437 \pm 200$ \\
-		H$\gamma$ & $4067 \pm 200$&  $3852 \pm 300$ \\
-		H$\delta$ & $3398 \pm 210$&  $5905 \pm 300$ \\
-		\hline
-		He\,\textsc{i}$\,\lambda5875$ & $3477 \pm 300$&  $3952 \pm 300$  \\
-		He\,\textsc{ii}$\,\lambda4685$&  -&  $5971 \pm 300$ \\
-		
-		\hline
-		Ly$\alpha$ & $3819 \pm 150$  &  $4566\pm 150$\\
-		SiIV$\,\lambda\lambda 1393,\,1402 $ & $5330\pm 150$ &  $10005 \pm 300$\\
-		CIV$\,\lambda\lambda 1548,\,1550$ & $ 5413\pm 200$  &  $ 8428 \pm 300$\\
-		HeII$\,\lambda1640$  & $2847 \pm 200$ & $7459 \pm 200$\\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
+
 
 \subsection{Balmer-Lines}
 
