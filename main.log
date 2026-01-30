@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  30 JAN 2026 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  30 JAN 2026 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1184,10 +1184,10 @@ es.pdf  used on input line 238.
 
 [37 <./pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 259.
+LaTeX Warning: Command \r invalid in math mode on input line 262.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 259.
+LaTeX Warning: Command \r invalid in math mode on input line 262.
 
 
 
@@ -1200,11 +1200,11 @@ File: pictures/Chapter4/line_profiles/AVG_RMS_overlay_Balmer.pdf Graphic file (
 type pdf)
 <use pictures/Chapter4/line_profiles/AVG_RMS_overlay_Balmer.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/AVG_RMS_overlay_Balmer
-.pdf  used on input line 333.
+.pdf  used on input line 341.
 (pdftex.def)             Requested size: 426.79135pt x 653.6384pt.
 
 
-LaTeX Warning: Float too large for page by 18.30806pt on input line 336.
+LaTeX Warning: Float too large for page by 18.30806pt on input line 344.
 
 
 
@@ -1214,14 +1214,14 @@ LaTeX Warning: Float too large for page by 18.30806pt on input line 336.
 
 [41 <./pictures/Chapter4/line_profiles/AVG_RMS_overlay_Balmer.pdf>]
 
-LaTeX Warning: Reference `fig:AVG_Helium' on page 42 undefined on input line 34
-3.
+LaTeX Warning: Reference `fig:AVG_Helium' on page 42 undefined on input line 35
+1.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 343.
+LaTeX Warning: Command \r invalid in math mode on input line 351.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 343.
+LaTeX Warning: Command \r invalid in math mode on input line 351.
 
 <pictures/Chapter4/line_profiles/AVG_RMS_overlay_Helium.pdf, id=1319, 666.65285
 pt x 593.42332pt>
@@ -1229,7 +1229,7 @@ File: pictures/Chapter4/line_profiles/AVG_RMS_overlay_Helium.pdf Graphic file (
 type pdf)
 <use pictures/Chapter4/line_profiles/AVG_RMS_overlay_Helium.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/AVG_RMS_overlay_Helium
-.pdf  used on input line 349.
+.pdf  used on input line 357.
 (pdftex.def)             Requested size: 426.79135pt x 379.9164pt.
 
 
@@ -1245,7 +1245,7 @@ eference_lightcurves_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
 ference_lightcurves_optical.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_and_reference_lightcurves_optical.pdf  used on input line 369.
+les/UVW2_ccfs_and_reference_lightcurves_optical.pdf  used on input line 377.
 (pdftex.def)             Requested size: 384.1096pt x 626.9807pt.
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_refere
 nce_lightcurves_not_optical.pdf, id=1375, 458.88063pt x 615.46814pt>
@@ -1254,7 +1254,7 @@ eference_lightcurves_not_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
 ference_lightcurves_not_optical.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf  used on input line 376
+les/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf  used on input line 384
 .
 (pdftex.def)             Requested size: 426.79135pt x 572.4264pt.
 
@@ -1270,33 +1270,33 @@ reference_lightcurves_optical.pdf>]
 reference_lightcurves_not_optical.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 409.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 409.
+(hyperref)                removed on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 409.
+(hyperref)                removing `math shift' on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 409.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 409.
+(hyperref)                removed on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 409.
+(hyperref)                removing `\lambda' on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 409.
+(hyperref)                removing `math shift' on input line 417.
 
 
 
@@ -1310,7 +1310,7 @@ erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
 rence_lightcurves_paper HAlpha.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 417.
+les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 425.
 
 (pdftex.def)             Requested size: 426.79135pt x 510.31888pt.
 
@@ -1384,7 +1384,7 @@ C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (57 pages, 3325661 bytes).
+Output written on main.pdf (57 pages, 3325713 bytes).
 PDF statistics:
  1886 PDF objects out of 2073 (max. 8388607)
  188 named destinations out of 1000 (max. 500000)
