@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  31 JAN 2026 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  31 JAN 2026 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1218,23 +1218,24 @@ Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf
 [39
 
 ]
-
-[40]
-<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1271, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1267, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf Graphic file (type
  pdf)
 <use pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf
-  used on input line 340.
+  used on input line 334.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
-<pictures/Chapter4/line_profiles/UV_Lines.pdf, id=1272, 706.97952pt x 549.20006
-pt>
+
+
+[40]
+<pictures/Chapter4/line_profiles/UV_Lines.pdf, id=1272, 518.7884pt x 549.20006p
+t>
 File: pictures/Chapter4/line_profiles/UV_Lines.pdf Graphic file (type pdf)
 <use pictures/Chapter4/line_profiles/UV_Lines.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/UV_Lines.pdf  used on 
-input line 350.
-(pdftex.def)             Requested size: 384.1096pt x 298.38208pt.
+input line 347.
+(pdftex.def)             Requested size: 298.75264pt x 316.26523pt.
 
 
 [41 <./pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>]
@@ -1249,7 +1250,7 @@ eference_lightcurves_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
 ference_lightcurves_optical.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_and_reference_lightcurves_optical.pdf  used on input line 374.
+les/UVW2_ccfs_and_reference_lightcurves_optical.pdf  used on input line 371.
 (pdftex.def)             Requested size: 384.1096pt x 626.9807pt.
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_refere
 nce_lightcurves_not_optical.pdf, id=1431, 458.88063pt x 615.46814pt>
@@ -1258,7 +1259,7 @@ eference_lightcurves_not_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
 ference_lightcurves_not_optical.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf  used on input line 381
+les/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf  used on input line 378
 .
 (pdftex.def)             Requested size: 426.79135pt x 572.4264pt.
 
@@ -1274,33 +1275,33 @@ reference_lightcurves_optical.pdf>]
 reference_lightcurves_not_optical.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 415.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 415.
+(hyperref)                removed on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 415.
+(hyperref)                removing `math shift' on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 415.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 415.
+(hyperref)                removed on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 415.
+(hyperref)                removing `\lambda' on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 415.
+(hyperref)                removing `math shift' on input line 412.
 
 
 
@@ -1314,7 +1315,7 @@ erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
 rence_lightcurves_paper HAlpha.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 423.
+les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 420.
 
 (pdftex.def)             Requested size: 426.79135pt x 510.31888pt.
 
@@ -1358,10 +1359,6 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D1F082CD2C742109C0979DE42D60792C;5167.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1389,7 +1386,7 @@ C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (57 pages, 3327664 bytes).
+Output written on main.pdf (57 pages, 3335990 bytes).
 PDF statistics:
  1942 PDF objects out of 2073 (max. 8388607)
  190 named destinations out of 1000 (max. 500000)
