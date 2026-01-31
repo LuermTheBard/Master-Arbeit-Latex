@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  31 JAN 2026 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  31 JAN 2026 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,7 +813,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 ...numberline {4.5}Time Lag}{45}{section.4.5}
+l.33 ...numberline {4.5}Time Lag}{44}{section.4.5}
                                                   % [1
 
 {C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
@@ -1214,15 +1214,18 @@ Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf
   used on input line 322.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 318--326
+
+ []
+
+
 
 [39
 
 ]
 
 [40]
-
-[41 <./pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>]
-<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1325, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1271, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf Graphic file (type
  pdf)
@@ -1232,112 +1235,108 @@ Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
 
 
-[42
-
- <./pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf>]
-<pictures/Chapter4/line_profiles/UV_Lines.pdf, id=1377, 518.7884pt x 549.20006p
+[41 <./pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>]
+<pictures/Chapter4/line_profiles/UV_Lines.pdf, id=1327, 518.7884pt x 549.20006p
 t>
 File: pictures/Chapter4/line_profiles/UV_Lines.pdf Graphic file (type pdf)
 <use pictures/Chapter4/line_profiles/UV_Lines.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/UV_Lines.pdf  used on 
-input line 349.
+input line 347.
 (pdftex.def)             Requested size: 298.75264pt x 316.26523pt.
 
 
-[43
+[42 <./pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf>]
 
-]
-
-[44 <./pictures/Chapter4/line_profiles/UV_Lines.pdf>]
+[43 <./pictures/Chapter4/line_profiles/UV_Lines.pdf>]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_refere
-nce_lightcurves_optical.pdf, id=1435, 458.88063pt x 749.02307pt>
+nce_lightcurves_optical.pdf, id=1431, 458.88063pt x 749.02307pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_r
 eference_lightcurves_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
 ference_lightcurves_optical.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_and_reference_lightcurves_optical.pdf  used on input line 373.
+les/UVW2_ccfs_and_reference_lightcurves_optical.pdf  used on input line 371.
 (pdftex.def)             Requested size: 384.1096pt x 626.9807pt.
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_refere
-nce_lightcurves_not_optical.pdf, id=1436, 458.88063pt x 615.46814pt>
+nce_lightcurves_not_optical.pdf, id=1432, 458.88063pt x 615.46814pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_r
 eference_lightcurves_not_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
 ference_lightcurves_not_optical.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf  used on input line 380
+les/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf  used on input line 378
 .
 (pdftex.def)             Requested size: 426.79135pt x 572.4264pt.
 
 
-[45
+[44
 
 ]
 
-[46 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_
+[45 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_
 reference_lightcurves_optical.pdf>]
 
-[47 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_
+[46 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_
 reference_lightcurves_not_optical.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 414.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 414.
+(hyperref)                removed on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 414.
+(hyperref)                removing `math shift' on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 414.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 414.
+(hyperref)                removed on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 414.
+(hyperref)                removing `\lambda' on input line 412.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 414.
+(hyperref)                removing `math shift' on input line 412.
 
 
 
-[48
+[47
 
 ]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_referenc
-e_lightcurves_paper HAlpha.pdf, id=1670, 458.88063pt x 548.69064pt>
+e_lightcurves_paper HAlpha.pdf, id=1666, 458.88063pt x 548.69064pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_ref
 erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
 rence_lightcurves_paper HAlpha.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 422.
+les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 420.
 
 (pdftex.def)             Requested size: 426.79135pt x 510.31888pt.
 
 
-[49 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_re
-ference_lightcurves_paper HAlpha.pdf>]) (chapters/kapitel4.tex
+[48 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_re
+ference_lightcurves_paper HAlpha.pdf>]
 
-[50
+[49
 
-]
+]) (chapters/kapitel4.tex
 
-[51]
+[50]
 Chapter 5.
 )
 
-[52
+[51
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
@@ -1346,15 +1345,15 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[53
+[52
 
 ]
 
-[54]
+[53]
 
-[55] (chapters/anhang.tex)
+[54] (chapters/anhang.tex)
 
-[56] (main.aux)
+[55] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
@@ -1370,13 +1369,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20995 strings out of 468225
- 379208 string characters out of 5432973
- 1217989 words of memory out of 5000000
- 49066 multiletter control sequences out of 15000+600000
+ 20993 strings out of 468225
+ 379189 string characters out of 5432973
+ 1217984 words of memory out of 5000000
+ 49065 multiletter control sequences out of 15000+600000
  716466 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,13n,77p,2216b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,14n,77p,2216b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
@@ -1392,9 +1391,9 @@ C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
 /Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (58 pages, 3338236 bytes).
+Output written on main.pdf (57 pages, 3338091 bytes).
 PDF statistics:
- 1947 PDF objects out of 2073 (max. 8388607)
- 191 named destinations out of 1000 (max. 500000)
+ 1943 PDF objects out of 2073 (max. 8388607)
+ 190 named destinations out of 1000 (max. 500000)
  349 words of extra memory for PDF output out of 10000 (max. 10000000)
 
