@@ -28,8 +28,8 @@
 \contentsline {section}{\numberline {4.4}Line Profiles}{36}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}FWHM}{37}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Balmer Line-Profiles}{40}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Helium Line-Profiles}{42}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}UV Line Profiles}{42}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.3}Helium Line-Profiles}{41}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}UV Line Profiles}{43}{subsection.4.4.4}%
 \contentsline {section}{\numberline {4.5}Time Lag}{45}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{48}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Black Hole Mass}{50}{section.4.7}%

@@ -2548,17 +2548,19 @@
     <bcf:citekey order="161" intorder="1">mchardy2018x</bcf:citekey>
     <bcf:citekey order="162" intorder="1">mchardy2018x</bcf:citekey>
     <bcf:citekey order="163" intorder="1">mchardy2018x</bcf:citekey>
-    <bcf:citekey order="164" intorder="1">ochmann2026first</bcf:citekey>
-    <bcf:citekey order="165" intorder="1">ochmann2026first</bcf:citekey>
-    <bcf:citekey order="166" intorder="1">grandi1980</bcf:citekey>
-    <bcf:citekey order="167" intorder="1">cackett2018accretion</bcf:citekey>
-    <bcf:citekey order="168" intorder="1">ochmann2026first</bcf:citekey>
-    <bcf:citekey order="169" intorder="1">peterson2004</bcf:citekey>
-    <bcf:citekey order="170" intorder="1">probst2025emissionlinecontinuumreverberationmapping</bcf:citekey>
-    <bcf:citekey order="171" intorder="1">ochmann2024transient</bcf:citekey>
-    <bcf:citekey order="172" intorder="1">krolik2001systematic</bcf:citekey>
-    <bcf:citekey order="173" intorder="1">krolik2001systematic</bcf:citekey>
-    <bcf:citekey order="174" intorder="1">peterson2004</bcf:citekey>
+    <bcf:citekey order="164" intorder="1">Ochmann_2025</bcf:citekey>
+    <bcf:citekey order="165" intorder="1">peterson1997introduction</bcf:citekey>
+    <bcf:citekey order="166" intorder="1">ochmann2026first</bcf:citekey>
+    <bcf:citekey order="167" intorder="1">ochmann2026first</bcf:citekey>
+    <bcf:citekey order="168" intorder="1">grandi1980</bcf:citekey>
+    <bcf:citekey order="169" intorder="1">cackett2018accretion</bcf:citekey>
+    <bcf:citekey order="170" intorder="1">ochmann2026first</bcf:citekey>
+    <bcf:citekey order="171" intorder="1">peterson2004</bcf:citekey>
+    <bcf:citekey order="172" intorder="1">probst2025emissionlinecontinuumreverberationmapping</bcf:citekey>
+    <bcf:citekey order="173" intorder="1">ochmann2024transient</bcf:citekey>
+    <bcf:citekey order="174" intorder="1">krolik2001systematic</bcf:citekey>
+    <bcf:citekey order="175" intorder="1">krolik2001systematic</bcf:citekey>
+    <bcf:citekey order="176" intorder="1">peterson2004</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
