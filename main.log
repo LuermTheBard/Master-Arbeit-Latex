@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  2 FEB 2026 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  2 FEB 2026 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -872,7 +872,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 5.
 
 [7]
 Chapter 2.
-<pictures/Chapter2/AGN_standard_paradigm.png, id=349, 1444.64719pt x 627.84563p
+<pictures/Chapter2/AGN_standard_paradigm.png, id=352, 1444.64719pt x 627.84563p
 t>
 File: pictures/Chapter2/AGN_standard_paradigm.png Graphic file (type png)
 <use pictures/Chapter2/AGN_standard_paradigm.png>
@@ -898,7 +898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
 
 [10]
-<pictures/Chapter2/Syefert1vsSeyfer2.jpg, id=409, 341.02406pt x 253.69781pt>
+<pictures/Chapter2/Syefert1vsSeyfer2.jpg, id=412, 341.02406pt x 253.69781pt>
 File: pictures/Chapter2/Syefert1vsSeyfer2.jpg Graphic file (type jpg)
 <use pictures/Chapter2/Syefert1vsSeyfer2.jpg>
 Package pdftex.def Info: pictures/Chapter2/Syefert1vsSeyfer2.jpg  used on input
@@ -916,7 +916,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--75
 [12 <./pictures/Chapter2/Syefert1vsSeyfer2.jpg>]
 
 [13]
-<pictures/Chapter2/AGN_unified_model_3.png, id=464, 853.1875pt x 744.7825pt>
+<pictures/Chapter2/AGN_unified_model_3.png, id=467, 853.1875pt x 744.7825pt>
 File: pictures/Chapter2/AGN_unified_model_3.png Graphic file (type png)
 <use pictures/Chapter2/AGN_unified_model_3.png>
 Package pdftex.def Info: pictures/Chapter2/AGN_unified_model_3.png  used on inp
@@ -927,7 +927,7 @@ ut line 111.
 [14]
 
 [15 <./pictures/Chapter2/AGN_unified_model_3.png>]
-<pictures/Chapter2/iso-delay_surface.jpg, id=491, 1134.48843pt x 602.25pt>
+<pictures/Chapter2/iso-delay_surface.jpg, id=494, 1134.48843pt x 602.25pt>
 File: pictures/Chapter2/iso-delay_surface.jpg Graphic file (type jpg)
 <use pictures/Chapter2/iso-delay_surface.jpg>
 Package pdftex.def Info: pictures/Chapter2/iso-delay_surface.jpg  used on input
@@ -967,7 +967,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 [19]
-<pictures/Chapter2/OITriplet.jpg, id=570, 637.63219pt x 638.385pt>
+<pictures/Chapter2/OITriplet.jpg, id=573, 637.63219pt x 638.385pt>
 File: pictures/Chapter2/OITriplet.jpg Graphic file (type jpg)
 <use pictures/Chapter2/OITriplet.jpg>
 Package pdftex.def Info: pictures/Chapter2/OITriplet.jpg  used on input line 22
@@ -982,7 +982,7 @@ Overfull \hbox (1.23686pt too wide) in paragraph at lines 1--1
 |[]\T1/lmr/bx/n/24.88 Campaign and Data Prepa-ra-tion| 
  []
 
-<pictures/Chapter3/NGC4593.PNG, id=583, 835.62187pt x 599.23875pt>
+<pictures/Chapter3/NGC4593.PNG, id=586, 835.62187pt x 599.23875pt>
 File: pictures/Chapter3/NGC4593.PNG Graphic file (type png)
 <use pictures/Chapter3/NGC4593.PNG>
 Package pdftex.def Info: pictures/Chapter3/NGC4593.PNG  used on input line 12.
@@ -1014,13 +1014,13 @@ LaTeX Warning: Command \r invalid in math mode on input line 63.
 
 
 [23]
-<pictures/Chapter3/comparison_spectra.pdf, id=640, 722.7pt x 433.62pt>
+<pictures/Chapter3/comparison_spectra.pdf, id=643, 722.7pt x 433.62pt>
 File: pictures/Chapter3/comparison_spectra.pdf Graphic file (type pdf)
 <use pictures/Chapter3/comparison_spectra.pdf>
 Package pdftex.def Info: pictures/Chapter3/comparison_spectra.pdf  used on inpu
 t line 68.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<pictures/Chapter3/comparison_avg_rms.pdf, id=641, 722.7pt x 433.62pt>
+<pictures/Chapter3/comparison_avg_rms.pdf, id=644, 722.7pt x 433.62pt>
 File: pictures/Chapter3/comparison_avg_rms.pdf Graphic file (type pdf)
 <use pictures/Chapter3/comparison_avg_rms.pdf>
 Package pdftex.def Info: pictures/Chapter3/comparison_avg_rms.pdf  used on inpu
@@ -1058,36 +1058,45 @@ LaTeX Warning: Command \r invalid in math mode on input line 6.
 
 LaTeX Warning: Command \r invalid in math mode on input line 6.
 
-<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=753, 578.16pt x 361.35pt>
+
+LaTeX Warning: Command \r invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 8.
+
+<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=755, 794.97pt x 505.89pt>
 File: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf Graphic file (type pdf)
 <use pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf>
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf  used 
 on input line 12.
-(pdftex.def)             Requested size: 426.79135pt x 266.74419pt.
-<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=754, 578.16pt x
- 361.35pt>
+(pdftex.def)             Requested size: 426.79135pt x 271.60179pt.
+<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=756, 794.97pt x
+ 505.89pt>
 File: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf Graphic file (
 type pdf)
 <use pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf>
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS
-.pdf  used on input line 19.
-(pdftex.def)             Requested size: 426.79135pt x 266.74419pt.
+.pdf  used on input line 18.
+(pdftex.def)             Requested size: 426.79135pt x 271.60179pt.
+<pictures/Chapter4/gecho_example/gecho_example_line.jpg, id=767, 663.98062pt x 
+392.96812pt>
+File: pictures/Chapter4/gecho_example/gecho_example_line.jpg Graphic file (type
+ jpg)
+<use pictures/Chapter4/gecho_example/gecho_example_line.jpg>
+Package pdftex.def Info: pictures/Chapter4/gecho_example/gecho_example_line.jpg
+  used on input line 32.
+(pdftex.def)             Requested size: 405.45047pt x 239.96204pt.
 
-Overfull \hbox (23.9764pt too wide) in paragraph at lines 6--24
-\T1/lmr/m/n/12 dou-blet, the C\T1/lmr/m/sc/12 iv$\OML/lmm/m/it/12 ^^U^^U\OT1/lm
-r/m/n/12 1548\OML/lmm/m/it/12 ; \OT1/lmr/m/n/12 1550$ \T1/lmr/m/n/12 dou-blet a
-nd the He\T1/lmr/m/sc/12 ii$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 1640$ \T1/lmr/
-m/n/12 line. Ly$\OML/lmm/m/it/12 $ \T1/lmr/m/n/12 and C\T1/lmr/m/sc/12 iv$\OML
-/lmm/m/it/12 ^^U^^U\OT1/lmr/m/n/12 1548\OML/lmm/m/it/12 ; \OT1/lmr/m/n/12 1550$
-
- []
+LaTeX Warning: Command \r invalid in math mode on input line 45.
 
 
-Overfull \hbox (12.31952pt too wide) in paragraph at lines 6--24
-\T1/lmr/m/n/12 weaker but still no-tice-able. Like in the AVG spec-trum, the va
-ri-a-tion of N\T1/lmr/m/sc/12 v$\OML/lmm/m/it/12 ^^U^^U\OT1/lmr/m/n/12 1238\OML
-/lmm/m/it/12 ; \OT1/lmr/m/n/12 1242$
- []
+LaTeX Warning: Command \r invalid in math mode on input line 45.
 
 
 
@@ -1097,116 +1106,91 @@ ri-a-tion of N\T1/lmr/m/sc/12 v$\OML/lmm/m/it/12 ^^U^^U\OT1/lmr/m/n/12 1238\OML
 
 [27 <./pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf> <./pictures/Chapter4/av
 g_rms_spec/UV_uncalibrated_AVG_RMS.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
- []
-
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-[28]
 
-LaTeX Warning: Command \r invalid in math mode on input line 43.
+[28 <./pictures/Chapter4/gecho_example/gecho_example_line.jpg>]
 
-
-LaTeX Warning: Command \r invalid in math mode on input line 43.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 73.
+LaTeX Warning: Command \r invalid in math mode on input line 77.
 
 
 
 [29]
 
 [30]
-<pictures/Chapter4/lightcurves/Continua.pdf, id=928, 439.8031pt x 702.27654pt>
+<pictures/Chapter4/lightcurves/Continua.pdf, id=936, 439.8031pt x 702.27654pt>
 File: pictures/Chapter4/lightcurves/Continua.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lightcurves/Continua.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/Continua.pdf  used on in
-put line 169.
-(pdftex.def)             Requested size: 426.79135pt x 681.5289pt.
+put line 177.
+(pdftex.def)             Requested size: 384.1096pt x 613.3653pt.
+<pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf, id=941, 439.8031pt
+ x 577.78421pt>
+File: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf Graphic file (
+type pdf)
+<use pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf>
+Package pdftex.def Info: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines
+.pdf  used on input line 184.
+(pdftex.def)             Requested size: 384.1096pt x 504.63423pt.
+<pictures/Chapter4/lightcurves/He_and_UV_lines.pdf, id=944, 439.8031pt x 577.78
+421pt>
+File: pictures/Chapter4/lightcurves/He_and_UV_lines.pdf Graphic file (type pdf)
 
-
-LaTeX Warning: Float too large for page by 60.69856pt on input line 172.
-
+<use pictures/Chapter4/lightcurves/He_and_UV_lines.pdf>
+Package pdftex.def Info: pictures/Chapter4/lightcurves/He_and_UV_lines.pdf  use
+d on input line 191.
+(pdftex.def)             Requested size: 384.1096pt x 504.63423pt.
 
 
 [31]
 
 [32 <./pictures/Chapter4/lightcurves/Continua.pdf>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 176.
+[33 <./pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf>]
+
+[34 <./pictures/Chapter4/lightcurves/He_and_UV_lines.pdf>]
+
+LaTeX Warning: Command \r invalid in math mode on input line 198.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 177.
+LaTeX Warning: Command \r invalid in math mode on input line 200.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 177.
+LaTeX Warning: Command \r invalid in math mode on input line 200.
 
-
-LaTeX Warning: Command \r invalid in math mode on input line 178.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 178.
-
-<pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf, id=1028, 439.8031p
-t x 577.78421pt>
-File: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf Graphic file (
-type pdf)
-<use pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf>
-Package pdftex.def Info: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines
-.pdf  used on input line 181.
-(pdftex.def)             Requested size: 426.79135pt x 560.7145pt.
-
-
-[33
-
-]
-
-[34 <./pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf>]
-<pictures/Chapter4/lightcurves/He_and_UV_lines.pdf, id=1113, 439.8031pt x 577.7
-8421pt>
-File: pictures/Chapter4/lightcurves/He_and_UV_lines.pdf Graphic file (type pdf)
-
-<use pictures/Chapter4/lightcurves/He_and_UV_lines.pdf>
-Package pdftex.def Info: pictures/Chapter4/lightcurves/He_and_UV_lines.pdf  use
-d on input line 188.
-(pdftex.def)             Requested size: 426.79135pt x 560.7145pt.
 
 
 [35
 
- <./pictures/Chapter4/lightcurves/He_and_UV_lines.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+]
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 213.
+LaTeX Warning: Command \r invalid in math mode on input line 223.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 213.
+LaTeX Warning: Command \r invalid in math mode on input line 223.
 
 
-
-[36
-
-]
-
-LaTeX Warning: Command \r invalid in math mode on input line 239.
+LaTeX Warning: Command \r invalid in math mode on input line 249.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 239.
+LaTeX Warning: Command \r invalid in math mode on input line 249.
 
-<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1208, 673.608
+<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1212, 673.608
 2pt x 1001.89934pt>
 File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
  (type pdf)
 <use pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/Normalized_Line_Profil
-es.pdf  used on input line 247.
+es.pdf  used on input line 257.
 (pdftex.def)             Requested size: 426.79135pt x 634.79254pt.
 
-Overfull \hbox (31.55144pt too wide) in paragraph at lines 238--251
+Overfull \hbox (31.55144pt too wide) in paragraph at lines 248--261
 \T1/lmr/m/n/12 The line pro-files of Ly$\OML/lmm/m/it/12 $\T1/lmr/m/n/12 , the
  Balmer lines, He\T1/lmr/m/sc/12 i$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 5875$\T
 1/lmr/m/n/12 , C\T1/lmr/m/sc/12 iv$ \OML/lmm/m/it/12 ^^U^^U\OT1/lmr/m/n/12 1548
@@ -1217,21 +1201,23 @@ Overfull \hbox (31.55144pt too wide) in paragraph at lines 238--251
 
 
 
+[36]
+
 [37]
 
 [38]
 
 [39 <./pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>]
-<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1279, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1288, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
  pdf)
 <use pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf
-  used on input line 295.
+  used on input line 305.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
 
-Overfull \hbox (10.37712pt too wide) in paragraph at lines 301--306
+Overfull \hbox (10.37712pt too wide) in paragraph at lines 311--316
 \T1/lmr/m/n/12 The RMS pro-files, as well as a com-par-i-son of the He\T1/lmr/m
 /sc/12 i$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 5875$\T1/lmr/m/n/12 , He\T1/lmr/m
 /sc/12 ii$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 4685$ \T1/lmr/m/n/12 and He\T1/l
@@ -1245,23 +1231,23 @@ mr/m/sc/12 ii$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 1640$
 ]
 
 [41 <./pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>]
-<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1336, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1345, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf Graphic file (type
  pdf)
 <use pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf
-  used on input line 310.
+  used on input line 320.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
 
 
 [42 <./pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf>]
-<pictures/Chapter4/line_profiles/UV_Lines.pdf, id=1386, 518.7884pt x 549.20006p
+<pictures/Chapter4/line_profiles/UV_Lines.pdf, id=1395, 518.7884pt x 549.20006p
 t>
 File: pictures/Chapter4/line_profiles/UV_Lines.pdf Graphic file (type pdf)
 <use pictures/Chapter4/line_profiles/UV_Lines.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/UV_Lines.pdf  used on 
-input line 324.
+input line 334.
 (pdftex.def)             Requested size: 298.75264pt x 316.26523pt.
 
 
@@ -1269,22 +1255,22 @@ input line 324.
 
 [44 <./pictures/Chapter4/line_profiles/UV_Lines.pdf>]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_refere
-nce_lightcurves_optical.pdf, id=1442, 458.88063pt x 749.02307pt>
+nce_lightcurves_optical.pdf, id=1451, 458.88063pt x 749.02307pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_r
 eference_lightcurves_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
 ference_lightcurves_optical.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_and_reference_lightcurves_optical.pdf  used on input line 348.
+les/UVW2_ccfs_and_reference_lightcurves_optical.pdf  used on input line 358.
 (pdftex.def)             Requested size: 384.1096pt x 626.9807pt.
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_refere
-nce_lightcurves_not_optical.pdf, id=1443, 458.88063pt x 615.46814pt>
+nce_lightcurves_not_optical.pdf, id=1452, 458.88063pt x 615.46814pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_r
 eference_lightcurves_not_optical.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_and_re
 ference_lightcurves_not_optical.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf  used on input line 355
+les/UVW2_ccfs_and_reference_lightcurves_not_optical.pdf  used on input line 365
 .
 (pdftex.def)             Requested size: 426.79135pt x 572.4264pt.
 
@@ -1300,50 +1286,49 @@ reference_lightcurves_optical.pdf>]
 reference_lightcurves_not_optical.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 390.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 390.
+(hyperref)                removed on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 390.
+(hyperref)                removing `math shift' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 390.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 390.
+(hyperref)                removed on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 390.
+(hyperref)                removing `\lambda' on input line 373.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 390.
+(hyperref)                removing `math shift' on input line 373.
 
-
-
-[48
-
-]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_referenc
-e_lightcurves_paper HAlpha.pdf, id=1677, 458.88063pt x 548.69064pt>
+e_lightcurves_paper HAlpha.pdf, id=1681, 458.88063pt x 548.69064pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_ref
 erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
 rence_lightcurves_paper HAlpha.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 398.
+les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 381.
 
 (pdftex.def)             Requested size: 426.79135pt x 510.31888pt.
 
+
+[48
+
+]
 
 [49 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_re
 ference_lightcurves_paper HAlpha.pdf>]
@@ -1403,10 +1388,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21006 strings out of 468225
- 379331 string characters out of 5432973
- 1217959 words of memory out of 5000000
- 49075 multiletter control sequences out of 15000+600000
+ 21022 strings out of 468225
+ 380155 string characters out of 5432973
+ 1219225 words of memory out of 5000000
+ 49091 multiletter control sequences out of 15000+600000
  716466 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,14n,77p,2314b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1416,18 +1401,19 @@ b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
 fb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.p
 fb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.p
 fb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.p
-fb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pf
-b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
-><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-<C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><
-C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
-/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:
-/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
-/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/
-Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (59 pages, 3341390 bytes).
+fb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pf
+b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb
+><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb>
+<C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><
+C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C
+:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/
+Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
+Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
+Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
+sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (59 pages, 3423766 bytes).
 PDF statistics:
- 1960 PDF objects out of 2073 (max. 8388607)
+ 1973 PDF objects out of 2073 (max. 8388607)
  193 named destinations out of 1000 (max. 500000)
- 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 362 words of extra memory for PDF output out of 10000 (max. 10000000)
 
