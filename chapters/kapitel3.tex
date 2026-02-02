@@ -254,35 +254,6 @@ The uncertainties are estimated based on the instrumental dispersion of the grat
 \begin{table}[!ht]
 	\centering
 	\small
-	\caption{Dispersion of grating in velocity space.}
-	\label{tab:grating_dispersion}
-	\begin{tabular}{lc}
-		\hline
-		\hline
-		\textbf{Line} & \textbf{Dispersion} [$\frac{\mathrm{km}}{\mathrm{s}}/\mathrm{pixel}$]  \\
-		\hline
-		\hline
-		Ly$\alpha$ & $144.0$\\
-		\hline
-		H$\alpha$  & $222.9$\\
-		H$\beta$ & $169.3$ \\
-		H$\gamma$ & $189.6$ \\
-		H$\delta$ & $200.6$ \\
-		\hline
-		He\,\textsc{i}$\,\lambda5875$ & $249.0$  \\
-		He\,\textsc{ii}$\,\lambda1640$  & $106.7$\\
-		He\,\textsc{ii}$\,\lambda4685$& $175.6$ \\
-		\hline
-		N\,\textsc{v}$\,\lambda\lambda 1242$ &  $141.3$\\
-		C\,\textsc{iv}$\,\lambda\lambda 1548$ & $113.1$\\
-		
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-\begin{table}[!ht]
-	\centering
-	\small
 	\caption{Measured FWHM and of the AVG and RMS line profiles.}
 	\label{tab:line_width_FWHM}
 	\begin{tabular}{lcc}
@@ -333,13 +304,14 @@ A similar shape can be noticed for the RMS profile of He\,\textsc{ii}$\,\lambda4
 The RMS profile of the UV Helium line He\,\textsc{ii}$\,\lambda1640$ is even more noisy, compared to the RMS profiles of the other Helium lines due to its lower signal to noise ratio. Like the He\,\textsc{ii}$\,\lambda4685$ RMS profile its maximum is located somewhere around $0\,\mathrm{km\,s^{-1}}$ and also exhibits a more extended blue flank and a steep slope in its red flank. At around $2000\,\mathrm{km\,s^{-1}}$ its RMS profile is blended with the RMS profile of semi-forbidden doublet O\,\textsc{iii}]$\,\lambda\lambda 1660,\,1666$. Still, its contribution to the RMS profile of He\,\textsc{ii}$\,\lambda1640$ stays below the half height of the profile and does not influence the FWHM measurement with a value of about $6900 \pm 600\,\mathrm{km\,s^{-1}}$.\\
 Comparing the RMS profiles of the He lines, all three show a similar shape with a extended blue flank and a narrow red flank, with He\,\textsc{i}$\,\lambda5875$ exhibiting a narrower FWHM and a shift towards positive velocities, than the He\,\textsc{ii} RMS profiles, who shows FWHM in the same order of magnitude. 
 
+
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf}
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf}
 	\caption{Comparison of the AVG and RMS line profiles of the Helium lines HeI$\,\lambda5875$ vs HeII$\,\lambda$4685.}
 	\label{fig:RMS_Helium}
 \end{figure}
-\clearpage
+
 \subsection{UV Line Profiles}
 
 Figure \ref{fig:RMS_UV} shows the RMS profiles of the Ly$\alpha$ line, the N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ doublet, the  Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ doublet and the 	C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doublet. Starting with  Ly$\alpha$, its RMS profile is blended with line absorption in its blue flank, as well as with the N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ doublet in his red flank. Still, its central part is good distinguishable. Similar to the Balmer lines, the most parts, as well as the highest flux is shifted towards positive velocities. It shows a steep blue flank and a slightly broader red flank, which a small broadening at about half height, resulting in a FWHM of about $\sim 4500 \pm 350 \mathrm{km\,s^{-1}}$. \\
@@ -419,7 +391,7 @@ Finally, the RMS profile of the C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doubl
 
 Emission lines in the optical range, like the Balmer and helium lines, are commonly used in many reverberation-mapping campaigns, as they are easily accessible for nearby AGN \parencite{ochmann2026first}. Other lines, such as the low-ionization line O\,\textsc{i}$\,\lambda 8446$, have not been of major interest in such campaigns, mostly because of observational limitations \parencite{ochmann2026first}. This is why the variability of the O\,\textsc{i}$\,\lambda 8446$ line in this campaign is of particular interest, as the line can be enhanced by Bowen fluorescence, pumped by Ly$\beta$ emission \parencite{grandi1980}. The time delay between the ionizing continuum and O\,\textsc{i}$\,\lambda 8446$ should be consistent with a time delay in which continuum
 variations drive Ly$\beta$ variations, which in turn drive part of the O\,\textsc{i}$\,\lambda 8446$ response. Unfortunately, Ly$\beta$ lies outside the spectral range of the \cite{cackett2018accretion} campaign. However, because the Ly$\alpha$ and Ly$\beta$ lines are expected to originate under similar physical conditions \parencite{ochmann2026first}, Ly$\alpha$ can be used as a proxy for Ly$\beta$. H$\alpha$ is used to investigate the location of the O\,\textsc{i}$\,\lambda 8446$ emitting region relative to the Balmer-line emitting region.\\
-Therefore, the time lags between the UVW2 and emission-line lightcurves, as well as the CCFs and time lags between O\,\textsc{i}$,\lambda 8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O,\textsc{i}$\,\lambda 8446$ and H$\alpha$, are calculated and shown in Figure \ref{fig:ccfs_Bowen}. All lightcurve show a strong correlation between $\approx 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and UVW2 lightcurves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are calculated as before. O\,\textsc{i}$,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.4}^{+1.8}}$ days and behind UVW2 by $5.0 \ensuremath{_{-1.7}^{+2.1}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{{-0.5}^{+0.5}}$ days and behind UVW2 by $3.3 \ensuremath{_{-0.7}^{+1.0}}$ days. A difference in the response time of about $0.5$--$1$ days between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ is noticeable, but are not significant within the uncertainties. Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ lightcurves, they also show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+2.0}}$ days. With the Ly$\alpha$ light curve lagging behind the UVW2 light curve by $1.1 \ensuremath{_{-0.2}^{+0.4}}$ days, the total lag along the Bowen-fluorescence path from UVW2 to Ly$\alpha$ and from Ly$\alpha$ to O\,\textsc{i}$\,\lambda 8446$ sums to $\approx 3.6$ days, which lies within the uncertainties of the time lag between the H$\alpha$ and UVW2 light curves.
+Therefore, the time lags between the UVW2 and emission-line lightcurves, as well as the CCFs and time lags between O\,\textsc{i}$,\lambda 8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$, are calculated and shown in Figure \ref{fig:ccfs_Bowen}. All lightcurve show a strong correlation between $\sim 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and UVW2 lightcurves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are calculated as before. O\,\textsc{i}$\,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.4}^{+1.8}}$ days and behind UVW2 by $5.0 \ensuremath{_{-1.7}^{+2.1}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{_{-0.5}^{+0.5}}$ days and behind UVW2 by $3.3 \ensuremath{_{-0.7}^{+1.0}}$ days. A difference in the response time of about $0.5$--$1$ days between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ is noticeable, but are not significant within the uncertainties. Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ lightcurves, they also show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+2.0}}$ days. With the Ly$\alpha$ light curve lagging behind the UVW2 light curve by $1.1 \ensuremath{_{-0.2}^{+0.4}}$ days, the total lag along the Bowen-fluorescence path from UVW2 to Ly$\alpha$ and from Ly$\alpha$ to O\,\textsc{i}$\,\lambda 8446$ sums to $\sim 3.6$ days, which lies within the uncertainties of the time lag between the H$\alpha$ and UVW2 light curves.
 
 \begin{figure}[!ht]
 	\centering
@@ -436,7 +408,7 @@ The final step of the RM analysis it now the estimation of mass of the SMBH. To 
 	M_{\mathrm{BH}} = 1.8 \cdot \frac{c \cdot \tau_{\mathrm{centroid}}\,\mathrm{FWHM}^2}{G}\,.
 \end{equation}
 As discussed in Section \ref{sec:line_profiles},  O\,\textsc{i}$\,\lambda8446$, and Si\,\textsc{iv}$\,\lambda\lambda 1238,\,1242$ are not included, due to not measurable or significant FWHM values.
-The resulting SMBH mass results, as well as the corresponding time lag and FWHM values of the broad emission lines are listed in Table \ref{tab:BH_mass}. To obtain a final estimation for the SMBH mass, a inverse-variance weighted mean is calculated. Since the uncertainties are asymmetric a symmetric 1$\sigma$ uncertainty for the weights gets adopter, $\sigma_i=(\sigma_i^-+\sigma_i^+)/2$.
+The resulting SMBH mass results, as well as the corresponding time lag and FWHM values of the broad emission lines are listed in Table \ref{tab:BH_mass}. To obtain a final estimation for the SMBH mass, a inverse-variance weighted mean is calculated. Since the uncertainties are asymmetric the higher gets adopter, $\sigma_i=\mathrm{max}(\sigma_i^-,\sigma_i^+)$.
 The weighted mean is then given by
 \begin{equation}
 	\bar{M}_{\mathrm{BH}}=\frac{\sum_i w_i M_{\mathrm{BH},i}}{\sum_i w_i}\,,\qquad
@@ -446,7 +418,7 @@ with an uncertainty
 \begin{equation}
 	\sigma_{\bar{M}}=\left(\sum_i w_i\right)^{-1/2}\,.
 \end{equation}
-This yields the weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (0.9 \pm 0.1)\times 10^{7}\,M_\odot$.
+This yields the weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (0.89 \pm 0.16)\times 10^{7}\,M_\odot$.
 \begin{table}[!ht]
 	\centering
 	\small
@@ -475,7 +447,7 @@ This yields the weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (0.9 \p
 	\end{tabular}
 \end{table}\\
 It has to be noted, that the scale factor of $f=1.8$ does not account the low-inclination $i \sim 11^\circ$ of the elliptic accretion disk, modeled in \cite{ochmann2024transient}. Adopting the scaling relation $f \sim \sin^{-2}(i)$ introduced by \cite{krolik2001systematic}, a value of $f \sim 27.5$ would be needed to account for the low inclination. \cite{krolik2001systematic} used the line dispersion to parameterize the velocity dispersion, which is why the relation $\sigma_{\mathrm{line}} \approx \mathrm{FWHM}/2$ \parencite{peterson2004} has to be accounted again. Due to the square relation of the velocity dispersion to the black hole mass seen in Equation \ref{eqn:BHM}, the scale factor finally gets corrected to a value $f \sim 6.8$. Subsequently the found BH mass has to be multiplied by a additional factor of $3.77$. \\
-Subsequently, the weighted-mean SMBH mass yields $\bar{M}_{\mathrm{BH,corr}} \approx (3.6 \pm 0.5)\times 10^{7}\,M_\odot$.
+Subsequently, the weighted-mean SMBH mass yields $\bar{M}_{\mathrm{BH,corr}} \approx (3.35 \pm 0.62)\times 10^{7}\,M_\odot$.
 
 
 
