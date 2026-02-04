@@ -7,13 +7,13 @@ To begin the RM analysis, the emission lines in the AVG spectrum are identified.
 In the optical–NIR range (see Figure \ref{fig:AVG_RMS_SPECTRUM}), several prominent broad emission lines are identified: Balmer lines from H$\alpha$ -- H$\epsilon$; He\,\textsc{i}$\,\lambda 4471$, He\,\textsc{i}$\,\lambda 5016$, He\,\textsc{i}$\,\lambda 5876$ and He\,\textsc{i}$\,\lambda 7065$;  the He\,\textsc{ii} line He\,\textsc{ii}$\,\lambda 4686$; and the low-ionization lines O\textsc{i}$\,\lambda8446$ and the Ca\,\textsc{ii}$\,\lambda8498\,\lambda8542\,\lambda8662$ triplet. 
 All of these lines show variability in the RMS spectrum. For the subsequent analysis, the Balmer lines H$\alpha$ -- H$\delta$, He\,\textsc{ii}$\,\lambda 4686$ and He\,\textsc{i}$\,\lambda 5876$ are selected for the subsequent analysis, as they show the most pronounced variation in the RMS spectrum. Because the low-ionization line O\textsc{i}$\,\lambda8446$ has rarely been included in RM studies and shows small but noticeable variability, it is included as well. Two prominent Fe\,\textsc{ii} emission line bands are also present in the optical spectrum as well, one between $\sim 4489\,\AA$ -- $4629\,\AA$, blending with He\,\textsc{i}$\,\lambda 4471$ and He\,\textsc{ii}$\,\lambda 4686$, and another between $\sim 5169\,\AA$ -- $5336\,\AA$. The AVG spectrum also shows several narrow forbidden emission lines, with [O\,\textsc{iii}] $\lambda4363$, $\lambda4959$, and $\lambda5007$ being the most prominent. As they are assumed to be constant over the timescale of the campaign, they show no significant variability in the RMS spectrum.\\
 In the UV spectrum (Figure \ref{fig:UV_uncalibrated_AVG_RMS}), five broad emission lines are identified, which will also be included in the subsequent analysis: Ly$\alpha$, which overlaps with the N\,\textsc{v} $\lambda\lambda1238,\,1242$ doublet; Si\,\textsc{iv} $\lambda\lambda1393,\,1402$; C\,\textsc{iv} $\lambda\lambda1548,\,1550$; and He\,\textsc{ii}$\,\lambda1640$. Ly$\alpha$ and C\,\textsc{iv} $\lambda\lambda1548,\,1550$ show strong variability, whereas N\,\textsc{v} $\lambda\lambda1238,\,1242$ and He\,\textsc{ii}$\,\lambda1640$ vary more weakly but remain detectable. In the RMS spectrum, the variation of N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ is overlapping with Ly$\alpha$ emission, but is still distinguishable. Similarly, the He\,\textsc{ii}$,\lambda1640$ variability overlaps with the semi-forbidden O\,\textsc{iii}] $\lambda\lambda1660,\,1666$ doublet. 
-\begin{figure}[!htbp]
+\begin{figure}[htbp]
  	\centering
  	\includegraphics[width=1\textwidth]{pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf}
  	\caption{Optical-to-NIR AVG and RMS spectrum with identified emission lines.}
  	\label{fig:AVG_RMS_SPECTRUM}
 \end{figure}
-\begin{figure}[!htbp]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf}
 	\caption{UV spectrum AVG and RMS spectrum with identified emission lines}
@@ -33,8 +33,10 @@ The extraction of the light curves with GECHO follows the same principle as in p
 	\caption{Screenshot of the GECHO graphical user interface (GUI). Shown is an example of the selection of the integration boundaries for H$\beta$ and corresponding blue and red pseudo-continuum used to measure the integrated line flux.}
 	
 	\label{fig:gecho_example_line}
-\end{figure}
-\begin{table}[h!]
+\end{figure}\\
+In addition to the emission line light curves, continuum light curves are also extracted to serve as a proxy for the variable ionizing continuum. The continuum windows are adopted from \parencite{cackett2018accretion}, and their light curves are extracted with GECHO. The wavelength range for the continua are listed in Table \ref{tab:continua}.
+
+\begin{table}[htbp]
 	\centering
 	\small
 	\caption{Integration Limits and Pseudo-Continua range of the measured emission lines}
@@ -63,10 +65,9 @@ The extraction of the light curves with GECHO follows the same principle as in p
 		\hline
 		\hline
 	\end{tabular}
-\end{table}\\
-In addition to the emission line light curves, continuum light curves are also extracted to serve as a proxy for the variable ionizing continuum. The continuum windows are adopted from \parencite{cackett2018accretion}, and their light curves are extracted with GECHO. The wavelength range for the continua are listed in Table \ref{tab:continua}.
+\end{table}
 
-\begin{table}[h!]
+\begin{table}[htbp]
 	\centering
 	\small
 	\caption{Wavelength range of the measured continua}
@@ -95,7 +96,6 @@ In addition to the emission line light curves, continuum light curves are also e
 
 
 \subsection{Variability Statistics}
-
 To quantify the variability of the emission lines and continua variability statistics the definition by \cite{rodriguez1997steps} are adopted. They name the  maximum-to-minimum flux ratio $R_\mathrm{max}$ and the fractional variability	$F_\mathrm{var}$ as two common measures of variability. $R_\mathrm{max}$ is defined as the ratio of the the extreme of the integrated fluxes, $F_\mathrm{min}$ and $F_\mathrm{max}$, and  $F_\mathrm{var}$ as: 
 \begin{equation}
 	F_\mathrm{var}=\frac{\sqrt{\sigma_F^2-\Delta^2}}{\left<F\right>}
@@ -105,7 +105,33 @@ Here, $\sigma_F^2$ denotes the standard deviation, $\left<F\right>$ the mean flu
 	\Delta^2 = \frac{1}{N} \sum_{i=1}^{N}\Delta_i^2
 \end{equation}
 The results for all parameters can be found in the Tables \ref{tab:varstatistics}.\\
-\begin{table}[!htb] 
+First, considering $R_\mathrm{max}$ and $F_\mathrm{var}$ of the continuum lightcurves, all measured continua show similar variability, except for the UV continuum around $1150$ \AA, which shows significantly higher variability with $R_\mathrm{max} = 2.58$ and $F_\mathrm{var} = 0.28$ than the optical and NIR continua. These continua show a fairly uniform variation between $R_\mathrm{max} \simeq 1.33-1.59$ and $F_\mathrm{var} \simeq 0.08-0.14$. \\
+The lightcurves of the Balmer emission lines exhibit lower variability, which increases towards the higher-order Balmer lines, with values between $R_\mathrm{max} \simeq 1.15-1.52$ and $F_\mathrm{var} \simeq 0.03-0.1$. The helium lightcurves show a similar variability to H$\delta$ with values  between $R_\mathrm{max} \simeq 1.48-1.62$ and $F_\mathrm{var} \simeq 0.09-0.11$ and the OI$\,\lambda 8446$ a similar variability to the Balmer lines with $R_\mathrm{max} \simeq 1.22$ and $F_\mathrm{var} \simeq 0.04$.\\
+The variability of the emission line lightcurves in the UV region is on a similar level as that of the helium light curves in the optical region, with $R_\mathrm{max} \simeq 1.42-1.62$ and $F_\mathrm{var} \simeq 0.14$, with the exception of the He\,\textsc{ii}$,\lambda1640$ lightcurve, which shows significant higher variability with $R_\mathrm{max} \simeq 3.12$ and $F_\mathrm{var} \simeq 0.31$.
+
+
+\subsection{Uncertainties Estimation}
+The uncertainties of the continuum and emission-line light curves are estimated based on the spectral noise and a systematic uncertainty introduced by the intercalibration.\\
+For the continuum light curves, the per-epoch noise is estimated as 
+\begin{equation}
+	\sigma_i^{\mathrm{cont}} = \frac{\sigma_{f_i}}{\sqrt{N}}, 
+\end{equation} 
+where $\sigma_{f_i}$ denotes the standard deviation of the flux density within the selected continuum window in epoch $i$, and $N$ is the number of pixels within that window. For the emission-line light curves, the noise is estimated from the scatter in the interpolated pseudo-continuum, $\sigma_{i}^{\mathrm{noise}}$ , as
+\begin{equation}
+	\sigma_{i}^{\mathrm{line}} = \frac{\sigma_{i}^{\mathrm{p.cont.}} \, \Delta\lambda}{\sqrt{N}},
+\end{equation}
+where $\Delta\lambda$ denotes the integration range of the emission line and $N$ is the number of pixels across the integration window.\\
+As each epoch has been scaled to the flux of the narrow [O,\textsc{iii}] $\lambda5007$ line after the intercalibration, the systematic uncertainty introduced by the intercalibration is estimated from its fractional variability, $F_{\mathrm{var}}^{\mathrm{[O\,\textsc{iii}]}\,\lambda5007}$. The total uncertainty of the measured flux at epoch $i$, $f_i$, is then
+\begin{equation}
+	\sigma_i = \sqrt{\left(\sigma_i^{\mathrm{cal.}}\right)^2 + \left(\sigma_{\mathrm{noise},i}\right)^2},
+\end{equation}
+with
+\begin{equation}
+	\sigma_i^{\mathrm{cal.}} = F_{\mathrm{var}}^{\mathrm{[O\,\textsc{iii}]}\,\lambda5007} \, f_i.
+\end{equation}
+Here, $\sigma_{\mathrm{noise},i}$ corresponds to $\sigma_i^{\mathrm{cont}}$ for continuum light curves or to $\sigma_{i}^{\mathrm{line}}$ for emission-line light curves.
+
+\begin{table}[htbp] 
 	\centering 
 	\caption{Variability statistics of the measured continua and emission lines with minimum flux $F_{\text{min}}$ and maximum flux density or integrated flux $F_{\text{max}}$, peak-to-peak ratio $R_{\text{max}}$, mean $\langle F \rangle$, standard deviation $\sigma_F$ and fractional variation $F_{\text{var}}$.} 
 	\begin{tabular}{lrrrrrr} 
@@ -139,39 +165,11 @@ The results for all parameters can be found in the Tables \ref{tab:varstatistics
 		\hline 
 		\label{tab:varstatistics} 
 	\end{tabular} 
-	
 \end{table}
-First, considering $R_\mathrm{max}$ and $F_\mathrm{var}$ of the continuum lightcurves, all measured continua show similar variability, except for the UV continuum around $1150$ \AA, which shows significantly higher variability with $R_\mathrm{max} = 2.58$ and $F_\mathrm{var} = 0.28$ than the optical and NIR continua. These continua show a fairly uniform variation between $R_\mathrm{max} \simeq 1.33-1.59$ and $F_\mathrm{var} \simeq 0.08-0.14$. \\
-The lightcurves of the Balmer emission lines exhibit lower variability, which increases towards the higher-order Balmer lines, with values between $R_\mathrm{max} \simeq 1.15-1.52$ and $F_\mathrm{var} \simeq 0.03-0.1$. The helium lightcurves show a similar variability to H$\delta$ with values  between $R_\mathrm{max} \simeq 1.48-1.62$ and $F_\mathrm{var} \simeq 0.09-0.11$ and the OI$\,\lambda 8446$ a similar variability to the Balmer lines with $R_\mathrm{max} \simeq 1.22$ and $F_\mathrm{var} \simeq 0.04$.\\
-The variability of the emission line lightcurves in the UV region is on a similar level as that of the helium light curves in the optical region, with $R_\mathrm{max} \simeq 1.42-1.62$ and $F_\mathrm{var} \simeq 0.14$, with the exception of the He\,\textsc{ii}$,\lambda1640$ lightcurve, which shows significant higher variability with $R_\mathrm{max} \simeq 3.12$ and $F_\mathrm{var} \simeq 0.31$.
-
-
-\subsection{Uncertainties Estimation}
-The uncertainties of the continuum and emission-line light curves are estimated based on the spectral noise and a systematic uncertainty introduced by the intercalibration.\\
-For the continuum light curves, the per-epoch noise is estimated as 
-\begin{equation}
-	\sigma_i^{\mathrm{cont}} = \frac{\sigma_{f_i}}{\sqrt{N}}, 
-\end{equation} 
-where $\sigma_{f_i}$ denotes the standard deviation of the flux density within the selected continuum window in epoch $i$, and $N$ is the number of pixels within that window. For the emission-line light curves, the noise is estimated from the scatter in the interpolated pseudo-continuum, $\sigma_{i}^{\mathrm{noise}}$ , as
-\begin{equation}
-	\sigma_{i}^{\mathrm{line}} = \frac{\sigma_{i}^{\mathrm{p.cont.}} \, \Delta\lambda}{\sqrt{N}},
-\end{equation}
-where $\Delta\lambda$ denotes the integration range of the emission line and $N$ is the number of pixels across the integration window.\\
-As each epoch has been scaled to the flux of the narrow [O,\textsc{iii}] $\lambda5007$ line after the intercalibration, the systematic uncertainty introduced by the intercalibration is estimated from its fractional variability, $F_{\mathrm{var}}^{\mathrm{[O\,\textsc{iii}]}\,\lambda5007}$. The total uncertainty of the measured flux at epoch $i$, $f_i$, is then
-\begin{equation}
-	\sigma_i = \sqrt{\left(\sigma_i^{\mathrm{cal.}}\right)^2 + \left(\sigma_{\mathrm{noise},i}\right)^2},
-\end{equation}
-with
-\begin{equation}
-	\sigma_i^{\mathrm{cal.}} = F_{\mathrm{var}}^{\mathrm{[O\,\textsc{iii}]}\,\lambda5007} \, f_i.
-\end{equation}
-Here, $\sigma_{\mathrm{noise},i}$ corresponds to $\sigma_i^{\mathrm{cont}}$ for continuum light curves or to $\sigma_{i}^{\mathrm{line}}$ for emission-line light curves.
 
 
 
-
-
-\begin{figure}[!ht]
+\begin{figure}[htbp]
 
 	\centering
 	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/Continua.pdf}
@@ -179,14 +177,14 @@ Here, $\sigma_{\mathrm{noise},i}$ corresponds to $\sigma_i^{\mathrm{cont}}$ for 
 	\label{fig:continua_lightcurves}
 \end{figure}
 
-\begin{figure}[!ht]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf}
 	\caption{Comparison of the Balmer-line, Ly$\alpha$, and O,\textsc{i}$,\lambda8446$ light curves with the UVW2 reference light curve in the first panel. The UVW2 light curve is adopted from \cite{mchardy2018x}.}
 	\label{fig:emission_line_lightcurves}
 \end{figure}
 
-\begin{figure}[!ht]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lightcurves/He_and_UV_lines.pdf}
 	\caption{Comparison of the Helium and UV light curves with the UVW2 reference light curve in the first panel. The UVW2 light curve is adopted from \cite{mchardy2018x}.}
@@ -212,7 +210,13 @@ By analyzing the shape and line width of the emission line profiles it is possib
 \end{equation}\\
 Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the central wavelength of the emission line in rest-frame and $c$ the speed of light. Finally, the flux is getting normalized to the maximum of each line profile. Figure \ref{fig:line_profiles} shows an overview of the extracted and normalized line profiles. For the doublet the rest-frame wavelength of the second line gets used as the central wavelength of the emission line.
 
-\begin{table}[!ht]
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
+	\caption{Normalized line profiles in the AVG and RMS spectra}
+	\label{fig:line_profiles}
+\end{figure}
+\begin{table}[htbp]
 	\centering
 	\small
 	\caption{Boundaries of the blue and red pseudo-continua used for the interpolation of underlying continua for line profile extraction.}
@@ -252,16 +256,11 @@ This is done for the AVG profile of He\,\textsc{ii}$\,\lambda4685$, using its re
 The FWHM measurements for O\,\textsc{i}$\,\lambda 8446$ is excluded from the subsequent analysis. Its AVG profile is blended with the Ca\,\textsc{ii} $\lambda8498$, $\lambda8542$, $\lambda8662$ triplet, which makes it difficult to decompose. Although it was shown in \cite{Ochmann_2025}, that  O\,\textsc{i}$\,\lambda 8446$ in NGC4593 shows a similar shape that the as the Ca lines, it was not attempted in this work. In addition to that, the RMS profile shows very strong noise. While variability is noticeable, a clear profile is not distinguishable from the surrounding spectrum. The resulting FWHM values are listed in Table \ref{tab:line_width_FWHM}.\\
 It has to be noted, that the line profiles of the AVG spectrum can also includes narrow components of the respective emission line \parencite{peterson1997introduction}, as well in some cases a overlapping profile of a close narrow emission line (e.g. the [O\,\textsc{iii}] $\lambda4363$ next to H$\gamma$). The narrow components are hard to isolate in the profiles, which is why no attempt was made to decompose the AVG profiles. Having no narrow components in the RMS profiles, their FWHM will be used in subsequent analysis to describe the velocity dispersion of their emitting region.\\
 The uncertainties are estimated based on the instrumental dispersion of the gratings (see Table \ref{tab:stis_gratings}), the shape of the line profiles (see Figure \ref{fig:line_profiles}). H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are measured with the G750L grating with a dispersion of $4.97\,(\text{\AA}/\mathrm{pixel})$; H$\beta$, H$\gamma$, H$\delta$, and He\,\textsc{ii}$\,\lambda4685$ are measured with the G430L grating with a dispersion of $2.73\,(\text{\AA}/\mathrm{pixel})$; and the UV emission lines are measured with the G140L grating with a dispersion of $0.6\,(\text{\AA}/\mathrm{pixel})$. By using Equation \ref{eqn:velocity_space}, this transforms to an equivalent dispersion per pixel in velocity space, listed in Table \ref{tab:grating_dispersion}. This dispersion is used as a minimum estimate for the uncertainty estimation.\\ The FWHM uncertainties of the RMS profiles of H$\gamma$, He\,\textsc{i}$\,\lambda5875$, and the He\,\textsc{ii} lines are scaled up due to their profile shape and noise. The RMS profile of H$\delta$ it is much more scattered and extended at his blue flank at half height, which is why its uncertainty is estimated significantly higher. Same is done for the FWHM of Ly$\alpha$, as it is blended with absorption in its blue flank and with the N\,\textsc{iv}$\,\lambda\lambda 1238,\,1242$ doublet in its red flank. The FWHM uncertainties for the profiles of the three doublets are estimated higher as well, due to their shape and superposition of their broad components. Finally, the uncertainties for the AVG and RMS profiles of N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ and for the AVG profile of He\,\textsc{ii}$\,\lambda4685$ are set significantly higher, since they are estimated based on the width of only one profile flank.\\
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
-	\caption{Normalized line profiles in the AVG and RMS spectra}
-	\label{fig:line_profiles}
-\end{figure}
-\clearpage
 
 
-\begin{table}[!ht]
+
+
+\begin{table}[htbp]
 	\centering
 	\small
 	\caption{Measured FWHM and of the AVG and RMS line profiles.}
@@ -294,40 +293,33 @@ The uncertainties are estimated based on the instrumental dispersion of the grat
 \end{table}
 
 
-
 \subsection{Balmer Line-Profiles}
-
-Looking at the comparison of the Balmenr RMS profiles in Figure \ref{fig:RMS_Balmer}, they all show a overall similar shape. The center of the profiles is shifted to positive velocities, with the peaks located between $\sim 0$--$500\,\mathrm{km\,s^{-1}}$ and between $\sim 1500$--$2000\,\mathrm{km\,s^{-1}}$. Both peaks show different values of flux, with higher values in the more blue peak, giving the profiles an asymmetric double-peak shape. The profile of H$\delta$ shows an additional peak at about $1000\,\mathrm{km\,s^{-1}}$ with a nearly similar flux than the blue peak of its profile. \\
-Looking in more detail into the shape of RMS profiles, the profiles of H$\alpha$ and H$\beta$ show the most similarity to each other, with both of their flanks following a similar shape. The same applies to the red flanks of H$\gamma$ and H$\delta$ with steep slope and a small peak at about $\sim 3000 \,\mathrm{km\,s^{-1}}$. Only the blue flank of H$\gamma$ and H$\delta$ is more extended and noisy as for H$\alpha$ and H$\beta$. This leads to a slightly higher FWHM value for H$\gamma$ with $\sim 3900 \pm 400\,\mathrm{km\,s^{-1}}$ compared to the values of H$\alpha$ and H$\beta$ with $\sim 3100 \pm 250\,\mathrm{km\,s^{-1}}$ and $\sim 3400 \pm 200\,\mathrm{km\,s^{-1}}$ and a much higher value of $\sim 5900 \pm 1000 \,\mathrm{km\,s^{-1}}$ for H$\delta$. Taking the similarities of the RMS profile shapes, it can be assumed that all four Balmer lines emerge under similar kinematic properties. \\
-Looking at Figure \ref{fig:line_profiles} it can be seen, that most of the RMS profile is located within the red flank of the AVG profiles, suggesting that a largely part of the measured variation originates at positive velocities of the emitting region. 
-\begin{figure}[!ht]
+Looking at the comparison of the Balmenr RMS profiles in Figure \ref{fig:RMS_Balmer}, they all show a overall similar shape. The center of the profiles is shifted to positive velocities, with the peaks located between $\sim 0$--$500\,\mathrm{km\,s^{-1}}$ and between $\sim 1500$--$2000\,\mathrm{km\,s^{-1}}$. Both peaks show different values of flux, with higher values in the more blue peak, giving the profiles an asymmetric double-peak shape. The profile of H$\delta$ shows an additional peak at about $1000\,\mathrm{km\,s^{-1}}$ with a nearly similar flux than the blue peak of its profile. 
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf}
 	\caption{Comparison of the normalized RMS line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$.}
 	\label{fig:RMS_Balmer}
-\end{figure}
+\end{figure}\\
+Looking in more detail into the shape of RMS profiles, the profiles of H$\alpha$ and H$\beta$ show the most similarity to each other, with both of their flanks following a similar shape. The same applies to the red flanks of H$\gamma$ and H$\delta$ with steep slope and a small peak at about $\sim 3000 \,\mathrm{km\,s^{-1}}$. Only the blue flank of H$\gamma$ and H$\delta$ is more extended and noisy as for H$\alpha$ and H$\beta$. This leads to a slightly higher FWHM value for H$\gamma$ with $\sim 3900 \pm 400\,\mathrm{km\,s^{-1}}$ compared to the values of H$\alpha$ and H$\beta$ with $\sim 3100 \pm 250\,\mathrm{km\,s^{-1}}$ and $\sim 3400 \pm 200\,\mathrm{km\,s^{-1}}$ and a much higher value of $\sim 5900 \pm 1000 \,\mathrm{km\,s^{-1}}$ for H$\delta$. Taking the similarities of the RMS profile shapes, it can be assumed that all four Balmer lines emerge under similar kinematic properties. \\
+Looking at Figure \ref{fig:line_profiles} it can be seen, that most of the RMS profile is located within the red flank of the AVG profiles, suggesting that a largely part of the measured variation originates at positive velocities of the emitting region. 
 
 \subsection{Helium Line-Profiles}
 The RMS profiles, as well as a comparison of the He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$ and He\,\textsc{ii}$\,\lambda1640$  is shown in Figure \ref{fig:RMS_Helium}. Their RMS profiles are more noisy than the Balmer RMS profiles, due to lower signal to noise ratio, but are still clearly distinguishable from the surrounding continuum. \\
-First looking at the RMS profile of He\,\textsc{i}$\,\lambda5875$, shift to positive velocities is noticeable similar to the Balmer RMS profiles, with its maximum located at about $1500\,\mathrm{km\,s^{-1}}$. Going from the maximum, the profile shows a more extended blue flank and a steeper and narrower red flank, with a FWHM of about $4000 \pm 400$. \\
+First looking at the RMS profile of He\,\textsc{i}$\,\lambda5875$, shift to positive velocities is noticeable similar to the Balmer RMS profiles, with its maximum located at about $1500\,\mathrm{km\,s^{-1}}$. Going from the maximum, the profile shows a more extended blue flank and a steeper and narrower red flank, with a FWHM of about $4000 \pm 400$. 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf}
+	\caption{Comparison of the normalized RMS line profiles of the Helium lines}
+	\label{fig:RMS_Helium}
+\end{figure}\\
 A similar shape can be noticed for the RMS profile of He\,\textsc{ii}$\,\lambda4685$. While its profile is not shifted, like for He\,\textsc{i}$\,\lambda5875$, it also shows a more extended blue flank and narrow red flank, with a FWHM of about $6000 \pm 400 \,\mathrm{km\,s^{-1}}$.\\
 The RMS profile of the UV Helium line He\,\textsc{ii}$\,\lambda1640$ is even more noisy, compared to the RMS profiles of the other Helium lines due to its lower signal to noise ratio. Like the He\,\textsc{ii}$\,\lambda4685$ RMS profile its maximum is located somewhere around $0\,\mathrm{km\,s^{-1}}$ and also exhibits a more extended blue flank and a steep slope in its red flank. At around $2000\,\mathrm{km\,s^{-1}}$ its RMS profile is blended with the RMS profile of semi-forbidden doublet O\,\textsc{iii}]$\,\lambda\lambda 1660,\,1666$. Still, its contribution to the RMS profile of He\,\textsc{ii}$\,\lambda1640$ stays below the half height of the profile and does not influence the FWHM measurement with a value of about $6900 \pm 600\,\mathrm{km\,s^{-1}}$.\\
 Comparing the RMS profiles of the He lines, all three show a similar shape with a extended blue flank and a narrow red flank, with He\,\textsc{i}$\,\lambda5875$ exhibiting a narrower FWHM and a shift towards positive velocities, than the He\,\textsc{ii} RMS profiles, who shows FWHM in the same order of magnitude. 
 
 
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf}
-	\caption{Comparison of the normalized RMS line profiles of the Helium lines}
-	\label{fig:RMS_Helium}
-\end{figure}
 
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[width=0.7\textwidth]{pictures/Chapter4/line_profiles/UV_Lines.pdf}
-	\caption{Comparison of the normalized RMS line profiles of the UV lines}
-	\label{fig:RMS_UV}
-\end{figure}
+
 
 \subsection{UV Line Profiles}
 
@@ -336,35 +328,40 @@ The RMS profile of the neighboring N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ d
 Finally, the RMS profile of the C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doublet shows a very asymmetric profile with a broad plateau like blue wing, with flux staying below half height of the maximum until about $-3000\mathrm{km\,s^{-1}}$. The center of the RMS profile is shows a double-peak-like shape with a narrower blue peak and a broader red peak. They are located at about $\sim -1500\mathrm{km\,s^{-1}}$ and $250\mathrm{km\,s^{-1}}$, with higher flux in the red peak. Between the peaks the flux drops below half of the maximum which is why the left flank of the blue peak and the right flank of the red peak has been used to measure the FWHM. 
 
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{pictures/Chapter4/line_profiles/UV_Lines.pdf}
+	\caption{Comparison of the normalized RMS line profiles of the UV lines}
+	\label{fig:RMS_UV}
+\end{figure}
 
 
 
-\clearpage
 
-\begin{figure}[!ht]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_O.pdf}
 	\caption{Compared lightcurves and CCFs H$\alpha$, H$\beta$, H$\gamma$, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$  and  O\,\textsc{i}$\,\lambda 8446$ with UVW2 as reference lightcurve.}
 	\label{fig:ccfs_optical}
 \end{figure}
 
-\begin{figure}[!ht]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.pdf}
 	\caption{Compared lightcurves and CCFs of UV lines with UVW2 as reference lightcurve.}
 	\label{fig:ccfs_UV}
 \end{figure}
-\clearpage
+
 
 \section{Time Lag}
 \label{sec:time_lag_bh_mass}
-To estimate the time lag of the measured emission lines to the ionizing continuum, the time lag between the light curve of the emission line and the UVW2 light curve is estimated. This is done, by calculating their cross-correlation-function (CCF) and estimating their centroid of its top $20\%$, as described in section \ref{subsec:rm_ccf}. The CCF is calculated with the help of GECHO, by applying the interpolated cross-correlation function (ICCF) methode, introduced by \cite{gaskell_peterson1986}. The light curves of the emission line and the reference spectrum are getting normalized by subtracting their mean value from each data point. To acquire a higher sample size and to be able to derive correlation between two light curves with different sample size, flux values between each data points are linear interpolated for both light curves.
-The normalized light curves and the resulting CCFs are displayed in Figure \ref{fig:ccfs_optical} and \ref{fig:ccfs_UV}. The top panel of each figure shows the   UVW2 light curve together with the corresponding auto-correlation function and the bottom panel a comparison of the UVW2 and UV continuum around $1150\,\AA$ together with the corresponding CCF. As mentioned in Section \ref{sec:lightcurves}, the most blue continuum is commonly used as a reference. Because the central wavelength of the UVW2 continuum is located at $\sim 1930\,\AA$, the time lag between the both named continua has to be added time lag estimation. The calculated time lags between each light curve are listed in Table \ref{tab:lags_UVW2}. The uncertainties of the centroids are estimated by applying the flux randomization/random subset selection (FR/RSS) methode by \cite{Peterson_1998b}  with 10000 iterations and a bin size of $0.5$ days (see Section \ref{subsec:rm_ccf}). The resulting centroid distribution is displayed by the gray histogram in the above named figures.\\
-Overall, the CCFs of all measured emission lines show strong correlations with a pronounced maxima between $\sim 0.7$ -- $0.9$, except the CCF of O\,\textsc{i}\,8446 which shows two maxima of around $\sim 0.6$. The Helium\,\textsc{ii} lags the least behind the UVW2 light curve with an average lag of $\sim 0.5$ days within their uncertainties. He\,\textsc{ii}\,4685 shows here a higher correlation with $\sim 0.8$ than He\,\textsc{ii}\,1640 with $\sim 0.7$. The correlation of the other UV lines Ly$\alpha$, N\,\textsc{v}\,1238, Si\,\textsc{iv}\,1393 and C\,\textsc{iv}\,1548 all peaks at above $\sim 0.8$, with Ly$\alpha$ even showing a maximum of $\sim 0.9$, and show similar lags of $\sim 1$ day within their uncertainties. The Balmer lines lags at higher values, with H$\alpha$ and H$\beta$ lagging behind the UVW2 light curve with $3.2 \ensuremath{_{-0.6}^{+1.0}}$ and $2.3 \ensuremath{_{-0.3}^{+1.0}}$ days and H$\gamma$ and H$\delta$ with $1.7 \ensuremath{_{-0.4}^{+0.2}}$ and $1.7 \ensuremath{_{-0.4}^{+0.4}}$ days respectively. H$\beta$ shows the highest correlation of the Balmer lines with over $\sim 0.85$, while H$\alpha$ shows the lowest with about $\sim 0.8$. Compared to H$\gamma$ and H$\delta$, they show also a broader peak and therefore centroid distribution in higher uncertainties. He\,\textsc{i}\,5875 and O\,\textsc{i}\,8446 show the lowest correlation with the UVW2 light curve with $\sim 0.7$ and $\sim 0.6$ respectively. He\,\textsc{i}\,5875 shows also a similar lag of $3.3 \ensuremath{_{-0.4}^{+0.7}}$ days compared to H$\alpha$ and H$\beta$ within uncertainties, while O\,\textsc{i}\,8446 lags the longest with $5.0 \ensuremath{_{-1.7}^{+2.1}}$ days behind the UVW2 light curve, with high uncertainties due to the lower correlation of their CCF.
+The time lag of the measured emission lines relative to the ionizing continuum is determined from the lag between the emission-line light curve and the UVW2 light curve. In section \ref{sec:lightcurves} it has already been discussed, that it is common to use the most blue continuum as a reference as a proxy for the ionized continuum. By using the Swift UVW2 light curve with an effective wavelength of $\sim 1930,\AA$, the lag between the two continua must be therefore added to the emission-line lag estimate. The time lag between two lightcurves is measured, by determining the cross-correlation function (CCF) of these curves and measuring the centroid of the CCF for values above 80\% of the peak, as described in Section \ref{subsec:rm_ccf}. This calculation is done with GECHO, which applies the interpolated cross-correlation function (ICCF) method introduced by \cite{gaskell_peterson1986}. The emission-line and reference light curves are normalized by subtracting the respective mean value from each data point. To increase the effective sampling and to measure the correlation between two unevenly sampled light curves, flux values between data points are linearly interpolated for both light curves.
+The normalized light curves and the resulting CCFs are presented in Figures \ref{fig:ccfs_optical} and \ref{fig:ccfs_UV}. Additionally, the top panel of each figure displays the UVW2 light curve together with its auto-correlation function, while the bottom panel compares both lightcurves of the UVW2 and the UV continuum around $1150,\AA$ and shows the corresponding CCF. The resulting time lags between the UVW2 continuum and each light curve are listed in Table \ref{tab:lags_UVW2}. The centroid uncertainties are estimated using the flux randomization/random subset selection (FR/RSS) method described by \cite{Peterson_1998b}, with 10000 iterations and a lag bin size of $0.5$ days (see Section \ref{subsec:rm_ccf}). The resulting centroid distribution is displayed by the gray histogram in the above named figures.\\
+Overall, the CCFs of all measured emission lines show strong correlations with pronounced peak values between $\sim 0.7$ and $\sim 0.9$, except for the CCF of O\,\textsc{i}\,8446, which exhibits two local maxima at values of around $\sim 0.6$. The two He,\textsc{ii} lines shows the shortest lag relative to the UVW2 light curve, with an average lag of approximately $\sim 0.5$ days within the uncertainties. He,\textsc{ii},4685 shows a higher peak correlation of approximately $\sim 0.8$ compared to He,\textsc{ii},1640, which reaches values of around $\sim 0.7$. The CCFs of the other UV emission lines Ly$\alpha$, N\,\textsc{v}\,1238, Si\,\textsc{iv}\,1393 and C\,\textsc{iv}\,1548 peak at values above $\sim 0.8$, with Ly$\alpha$ reaching a maximum of approximately $\sim 0.9$. All of these lines show similar lags of about $\sim 1$ day within their uncertainties. The Balmer lines exhibit larger lags. H$\alpha$ and H$\beta$ lag behind the UVW2 light curve by $3.2 \ensuremath{_{-0.6}^{+1.0}}$ and $2.3 \ensuremath{_{-0.3}^{+1.0}}$ days, respectively, while H$\gamma$ and H$\delta$ show shorter lags of $1.7 \ensuremath{_{-0.4}^{+0.2}}$ and $1.7 \ensuremath{_{-0.4}^{+0.4}}$ days. Among the Balmer lines, H$\beta$ shows the highest peak correlation, exceeding $\sim 0.85$, whereas H$\alpha$ exhibits the lowest correlation, with values of around $\sim 0.8$. Compared to H$\gamma$ and H$\delta$, the CCFs of H$\alpha$ and H$\beta$ exhibit broader peaks and wider centroid distributions with larger uncertainties and slightly higher time lag values. He\,\textsc{i}\,5875 and O\,\textsc{i}\,8446 show the lowest correlations with the UVW2 light curve, with peak values of approximately $\sim 0.7$ and $\sim 0.6$, respectively. He\,\textsc{i}\,5875 shows a lag of $3.3 \ensuremath{_{-0.4}^{+0.7}}$ days, which is of the same order as the lags measured for H$\alpha$ and H$\beta$ within the uncertainties. while O\,\textsc{i}\,8446 exhibits the longest lag of $5.0 \ensuremath{_{-1.7}^{+2.1}}$ days relative to UVW2, with large uncertainties caused by the comparatively low CCF peak correlation.
 
 
 
-\begin{table}[!htb]
+\begin{table}[htbp]
 	\centering
 	\caption{Centroid and Peak Time Lag for UVW2.}
 	\label{tab:lags_UVW2}
@@ -385,13 +382,11 @@ Overall, the CCFs of all measured emission lines show strong correlations with a
 
 \section{Bowen Fluorescence of O\,\textsc{I}$\,\lambda 8446$}
 
-Emission lines in the optical range, like the Balmer and helium lines, are commonly used in many reverberation-mapping campaigns, as they are easily accessible for nearby AGN \parencite{ochmann2026first}. Other lines, such as the low-ionization line O\,\textsc{i}$\,\lambda 8446$, have not been of major interest in such campaigns, mostly because of observational limitations \parencite{ochmann2026first}. This is why the variability of the O\,\textsc{i}$\,\lambda 8446$ line in this campaign is of particular interest, as the line can be enhanced by Bowen fluorescence, pumped by Ly$\beta$ emission \parencite{grandi1980}. The time delay between the ionizing continuum and O\,\textsc{i}$\,\lambda 8446$ should be consistent with a time delay in which continuum
-variations drive Ly$\beta$ variations, which in turn drive part of the O\,\textsc{i}$\,\lambda 8446$ response. Unfortunately, Ly$\beta$ lies outside the spectral range of the \cite{cackett2018accretion} campaign. However, because the Ly$\alpha$ and Ly$\beta$ lines are expected to originate under similar physical conditions \parencite{ochmann2026first}, Ly$\alpha$ can be used as a proxy for Ly$\beta$. H$\alpha$ is used to investigate the location of the O\,\textsc{i}$\,\lambda 8446$ emitting region relative to the Balmer-line emitting region.\\
+Emission lines in the optical range, like the Balmer and helium lines, are commonly used in many reverberation-mapping campaigns, as they are easily accessible for nearby AGN \parencite{ochmann2026first}. Other lines, such as the low-ionization line O\,\textsc{i}$\,\lambda 8446$, have not been of major interest in such campaigns, mostly because of observational limitations \parencite{ochmann2026first}. This is why the variability of the O\,\textsc{i}$\,\lambda 8446$ line in this campaign is of particular interest, as the line can be enhanced by Bowen fluorescence, pumped by Ly$\beta$ emission \parencite{grandi1980}. The time delay between the ionizing continuum and O\,\textsc{i}$\,\lambda 8446$ should be consistent with a time delay in which continuum variations drive Ly$\beta$ variations, which in turn drive part of the O\,\textsc{i}$\,\lambda 8446$ response. Unfortunately, Ly$\beta$ lies outside the spectral range of the \cite{cackett2018accretion} campaign. However, because the Ly$\alpha$ and Ly$\beta$ lines are expected to originate under similar physical conditions \parencite{ochmann2026first}, Ly$\alpha$ can be used as a proxy for Ly$\beta$. H$\alpha$ is used to investigate the location of the O\,\textsc{i}$\,\lambda 8446$ emitting region relative to the Balmer-line emitting region.\\
 Therefore, the time lags between the UVW2 and emission-line lightcurves, as well as the CCFs and time lags between O\,\textsc{i}$,\lambda 8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$, are calculated and shown in Figure \ref{fig:ccfs_Bowen}. All lightcurve show a strong correlation between $\sim 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and UVW2 lightcurves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are calculated as before. O\,\textsc{i}$\,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.4}^{+1.8}}$ days and behind UVW2 by $5.0 \ensuremath{_{-1.7}^{+2.1}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{_{-0.5}^{+0.5}}$ days and behind UVW2 by $3.2 \ensuremath{_{-0.7}^{+1.0}}$ days. A difference in the response time of about $0.5$--$1$ days between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ is noticeable, but are not significant within the uncertainties. Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ lightcurves, they also show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+2.0}}$ days. With the Ly$\alpha$ light curve lagging behind the UVW2 light curve by $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days, the total lag along the Bowen-fluorescence path from UVW2 to Ly$\alpha$ and from Ly$\alpha$ to O\,\textsc{i}$\,\lambda 8446$ sums to $\sim 3.5$ days, which lies within the uncertainties of the time lag between the H$\alpha$ and UVW2 light curves.
-
-\begin{figure}[!ht]
+\begin{figure}[htbp]
 	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf}
+	\includegraphics[width=0.98\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf}
 	\caption{Compared lightcurves and CCFs for Bowen Fluorescence.}
 	\label{fig:ccfs_Bowen}
 \end{figure}
@@ -414,8 +409,11 @@ with an uncertainty
 \begin{equation}
 	\sigma_{\bar{M}}=\left(\sum_i w_i\right)^{-1/2}\,.
 \end{equation}
-This yields the weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (0.89 \pm 0.16)\times 10^{7}\,M_\odot$.
-\begin{table}[!ht]
+This yields the weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (0.89 \pm 0.16)\times 10^{7}\,M_\odot$.\\
+It has to be noted, that the scale factor of $f=1.8$ does not account the low-inclination $i \sim 11^\circ$ of the elliptic accretion disk, modeled in \cite{ochmann2024transient}. Adopting the scaling relation $f \sim \sin^{-2}(i)$ introduced by \cite{krolik2001systematic}, a value of $f \sim 27.5$ would be needed to account for the low inclination. \cite{krolik2001systematic} used the line dispersion to parameterize the velocity dispersion, which is why the relation $\sigma_{\mathrm{line}} \approx \mathrm{FWHM}/2$ \parencite{peterson2004} has to be accounted again. Due to the square relation of the velocity dispersion to the black hole mass seen in Equation \ref{eqn:BHM}, the scale factor finally gets corrected to a value $f \sim 6.8$. Subsequently the found BH mass has to be multiplied by a additional factor of $3.77$. \\
+Subsequently, the weighted-mean SMBH mass yields $\bar{M}_{\mathrm{BH,corr}} \approx (3.35 \pm 0.62)\times 10^{7}\,M_\odot$.
+
+\begin{table}[htp]
 	\centering
 	\small
 	\caption{Estimated time lags, FWHM and SMBH masses.}
@@ -441,11 +439,7 @@ This yields the weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (0.89 \
 		\hline
 		\hline
 	\end{tabular}
-\end{table}\\
-It has to be noted, that the scale factor of $f=1.8$ does not account the low-inclination $i \sim 11^\circ$ of the elliptic accretion disk, modeled in \cite{ochmann2024transient}. Adopting the scaling relation $f \sim \sin^{-2}(i)$ introduced by \cite{krolik2001systematic}, a value of $f \sim 27.5$ would be needed to account for the low inclination. \cite{krolik2001systematic} used the line dispersion to parameterize the velocity dispersion, which is why the relation $\sigma_{\mathrm{line}} \approx \mathrm{FWHM}/2$ \parencite{peterson2004} has to be accounted again. Due to the square relation of the velocity dispersion to the black hole mass seen in Equation \ref{eqn:BHM}, the scale factor finally gets corrected to a value $f \sim 6.8$. Subsequently the found BH mass has to be multiplied by a additional factor of $3.77$. \\
-Subsequently, the weighted-mean SMBH mass yields $\bar{M}_{\mathrm{BH,corr}} \approx (3.35 \pm 0.62)\times 10^{7}\,M_\odot$.
-
-
+\end{table}
 
 
 
