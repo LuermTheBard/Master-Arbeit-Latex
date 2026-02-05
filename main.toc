@@ -34,4 +34,9 @@
 \contentsline {section}{\numberline {4.6}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{47}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Black Hole Mass}{49}{section.4.7}%
 \contentsline {chapter}{\numberline {5}Discussion}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Emission Lines and Continua}{51}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Line Profiles}{51}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Time Lags}{51}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{51}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Black Hole Mass}{51}{section.5.5}%
 \contentsline {chapter}{\numberline {A}Additional Tables}{56}{appendix.A}%
