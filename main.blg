@@ -1,19 +1,19 @@
-[0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'main.blg'
-[95] biber-MSWIN64:340> INFO - === 
-[126] Biber.pm:420> INFO - Reading 'main.bcf'
-[243] Biber.pm:994> INFO - Found 50 citekeys in bib section 0
-[255] Biber.pm:4463> INFO - Processing section 0
-[266] Biber.pm:4654> INFO - Looking for bibtex file 'literatur.bib' for section 0
-[303] bibtex.pm:1713> INFO - LaTeX decoding ...
-[383] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur.bib'
-[733] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[733] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[733] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[734] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[783] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[822] bbl.pm:779> INFO - Output to main.bbl
-[822] Biber.pm:131> WARN - Duplicate entry key: 'mchardy2017ngc4593' in file 'literatur.bib', skipping ...
-[823] Biber.pm:131> WARN - legacy month field 'aug' in entry 'Bowen_1947' is not an integer - this will probably not sort properly.
-[823] Biber.pm:131> WARN - legacy month field 'jun' in entry 'Peterson_1998b' is not an integer - this will probably not sort properly.
-[823] Biber.pm:133> INFO - WARNINGS: 3
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[116] biber-MSWIN64:340> INFO - === 
+[155] Biber.pm:418> INFO - Reading 'main.bcf'
+[311] Biber.pm:972> INFO - Found 49 citekeys in bib section 0
+[326] Biber.pm:4383> INFO - Processing section 0
+[341] Biber.pm:4574> INFO - Looking for bibtex file 'literatur.bib' for section 0
+[429] bibtex.pm:1713> INFO - LaTeX decoding ...
+[560] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
+[1033] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1033] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1034] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1034] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[1099] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1144] bbl.pm:757> INFO - Output to main.bbl
+[1145] Biber.pm:130> WARN - Duplicate entry key: 'mchardy2017ngc4593' in file 'literatur.bib', skipping ...
+[1145] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Bowen_1947' is not an integer - this will probably not sort properly.
+[1145] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Peterson_1998b' is not an integer - this will probably not sort properly.
+[1145] Biber.pm:132> INFO - WARNINGS: 3
