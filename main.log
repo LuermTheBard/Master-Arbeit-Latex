@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2025.4.4)  7 FEB 2026 19:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2025.4.4)  8 FEB 2026 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1241,11 +1241,6 @@ cfs_and_reference_lightcurves_paper HAlpha.pdf>]) (chapters/kapitel4.tex
 ] [51]
 Chapter 5.
 
-Overfull \hbox (4.43648pt too wide) in paragraph at lines 3--3
-|[]\T1/lmr/bx/sc/17.28 Reverberation Map-ping UV-NIR Broad Emis-
- []
-
-
 LaTeX Warning: Command \r invalid in math mode on input line 5.
 
 
@@ -1256,66 +1251,70 @@ LaTeX Warning: Command \r invalid in math mode on input line 5.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 10.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 23.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 12.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 23.
+(hyperref)                removed on input line 12.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 12.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 23.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 12.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 23.
+(hyperref)                removed on input line 12.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 23.
+(hyperref)                removing `\lambda' on input line 12.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `math shift' on input line 12.
 
 ) [52
 
-]
+] [53]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 71.
- (C:\Users\Lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[53
 
-] [54] [55] (chapters/anhang.tex [56]
+(C:\Users\Lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [54
+
+]
+[55] [56] (chapters/anhang.tex [57]
 Appendix A.
-) [57
+) [58
 
 ] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B35B6236DB15034CF0525B521D6C9B7D;6031.
+(rerunfilecheck)             Checksum: F1EC35F6A0B455DB51C2F5C263D2A39E;5879.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20749 strings out of 478582
- 375431 string characters out of 2844345
- 1079967 words of memory out of 3000000
- 38441 multiletter control sequences out of 15000+600000
+ 20759 strings out of 478582
+ 375546 string characters out of 2844345
+ 1080012 words of memory out of 3000000
+ 38450 multiletter control sequences out of 15000+600000
  558900 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,13n,77p,2375b,1829s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1340,9 +1339,9 @@ kas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Lu
 kas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lu
 kas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Luk
 as/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (59 pages, 3463115 bytes).
+Output written on main.pdf (60 pages, 3466799 bytes).
 PDF statistics:
- 2001 PDF objects out of 2073 (max. 8388607)
- 196 named destinations out of 1000 (max. 500000)
+ 2014 PDF objects out of 2073 (max. 8388607)
+ 197 named destinations out of 1000 (max. 500000)
  386 words of extra memory for PDF output out of 10000 (max. 10000000)
 
