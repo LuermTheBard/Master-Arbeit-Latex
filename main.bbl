@@ -1151,6 +1151,67 @@
       \field{pages}{72}
       \range{pages}{1}
     \endentry
+    \entry{landt2008near}{article}{}
+      \name{author}{7}{}{%
+        {{hash=9c0ec85bbabe57997504643d8f765b67}{%
+           family={Landt},
+           familyi={L\bibinitperiod},
+           given={Hermine},
+           giveni={H\bibinitperiod}}}%
+        {{hash=80de319b4b1fc634f7890ad1d5eae16b}{%
+           family={Bentz},
+           familyi={B\bibinitperiod},
+           given={Misty\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9857ce15375bf4af93fc53a6b1155515}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Martin\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ca0c8f79ad4d695f0468cf018b59230c}{%
+           family={Elvis},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d9235e6cf41f9306904f873b2af9a74f}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Bradley\bibnamedelima M},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9917d103ca4e4026b8dabe7f46e0ca39}{%
+           family={Korista},
+           familyi={K\bibinitperiod},
+           given={Kirk\bibnamedelima T},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8c18733dd21fd65e786b6dfb52708596}{%
+           family={Karovska},
+           familyi={K\bibinitperiod},
+           given={Margarita},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{85f1a716159b83547c7968ee25a9839c}
+      \strng{fullhash}{c2c0df319d2a40bc5599c133abf3a629}
+      \strng{bibnamehash}{c3b4ccf78aadb2ea9fe20239da257af0}
+      \strng{authorbibnamehash}{c3b4ccf78aadb2ea9fe20239da257af0}
+      \strng{authornamehash}{85f1a716159b83547c7968ee25a9839c}
+      \strng{authorfullhash}{c2c0df319d2a40bc5599c133abf3a629}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal Supplement Series}
+      \field{number}{2}
+      \field{title}{The near-infrared broad emission line region of active galactic nuclei. I. The observations}
+      \field{volume}{174}
+      \field{year}{2008}
+      \field{pages}{282}
+      \range{pages}{1}
+    \endentry
     \entry{mchardy2017ngc4593}{article}{}
       \name{author}{11}{}{%
         {{hash=7a47a269066f0c20a224ee9c326bf259}{%
