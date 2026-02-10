@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  10 FEB 2026 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  10 FEB 2026 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1359,20 +1359,15 @@ LaTeX Warning: Command \r invalid in math mode on input line 4.
 LaTeX Warning: Command \r invalid in math mode on input line 4.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 8.
+LaTeX Warning: Command \r invalid in math mode on input line 7.
 
 
 
 [52
 
 ]
-Overfull \hbox (10.38936pt too wide) in paragraph at lines 22--23
-\T1/lmr/m/n/12 tions, with cen-troid lags of or-der $\OMS/lmsy/m/n/12 ^^X \OT1/
-lmr/m/n/12 1$ \T1/lmr/m/n/12 day for Ly$\OML/lmm/m/it/12 $\T1/lmr/m/n/12 , N\T
-1/lmr/m/sc/12 v$ \OML/lmm/m/it/12 ^^U^^U\OT1/lmr/m/n/12 1238\OML/lmm/m/it/12 ; 
- \OT1/lmr/m/n/12 1242$\T1/lmr/m/n/12 , Si\T1/lmr/m/sc/12 iv$ \OML/lmm/m/it/12 ^
-^U^^U\OT1/lmr/m/n/12 1393\OML/lmm/m/it/12 ;  \OT1/lmr/m/n/12 1402$
- []
+
+LaTeX Warning: Command \r invalid in math mode on input line 20.
 
 
 
@@ -1410,28 +1405,30 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Warning: Command \r invalid in math mode on input line 43.
 
-)
 
-[54]
+
+[54])
+
+[55]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 71.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[55
+[56
 
 ]
 
-[56]
+[57]
 
-[57] (chapters/anhang.tex
+[58] (chapters/anhang.tex
 
-[58]
+[59]
 Appendix A.
 )
 
-[59
+[60
 
 ] (main.aux)
  ***********
@@ -1449,8 +1446,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21070 strings out of 468225
- 380416 string characters out of 5432973
+ 21071 strings out of 468225
+ 380423 string characters out of 5432973
  1216596 words of memory out of 5000000
  49129 multiletter control sequences out of 15000+600000
  716466 words of font info for 95 fonts, out of 8000000 for 9000
@@ -1472,9 +1469,9 @@ Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
 sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (61 pages, 3471319 bytes).
+Output written on main.pdf (62 pages, 3473122 bytes).
 PDF statistics:
- 2050 PDF objects out of 2073 (max. 8388607)
- 203 named destinations out of 1000 (max. 500000)
+ 2054 PDF objects out of 2073 (max. 8388607)
+ 204 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 

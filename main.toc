@@ -38,6 +38,6 @@
 \contentsline {section}{\numberline {5.2}Balmer Lines}{52}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Helium Lines}{53}{section.5.3}%
 \contentsline {section}{\numberline {5.4}UV Lines}{53}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Black Hole Mass}{53}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Black Hole Mass}{54}{section.5.5}%
 \contentsline {section}{\numberline {5.6}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{54}{section.5.6}%
-\contentsline {chapter}{\numberline {A}Additional Tables}{59}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Additional Tables}{60}{appendix.A}%
