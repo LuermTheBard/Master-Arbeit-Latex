@@ -34,9 +34,10 @@
 \contentsline {section}{\numberline {4.6}Black Hole Mass}{48}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{49}{section.4.7}%
 \contentsline {chapter}{\numberline {5}Discussion}{52}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Light Curves}{52}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Line Profiles}{52}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Time Lag}{52}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Black Hole Mass}{52}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{53}{section.5.5}%
-\contentsline {chapter}{\numberline {A}Additional Tables}{58}{appendix.A}%
+\contentsline {section}{\numberline {5.1}Continua}{52}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Balmer Lines}{52}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Helium Lines}{53}{section.5.3}%
+\contentsline {section}{\numberline {5.4}UV Lines}{53}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Black Hole Mass}{53}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{54}{section.5.6}%
+\contentsline {chapter}{\numberline {A}Additional Tables}{59}{appendix.A}%

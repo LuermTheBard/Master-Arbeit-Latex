@@ -2649,6 +2649,170 @@
       \verb 10.1086/133630
       \endverb
     \endentry
+    \entry{Williams_2018}{article}{}{}
+      \name{author}{25}{}{%
+        {{hash=ca18cee47f7cc3515c9925b29d853ba2}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Peter\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=20d597c839013fa1b62f424831fe5006}{%
+           family={Pancoast},
+           familyi={P\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a89ede3f86ded3103def44a0325f57c2}{%
+           family={Treu},
+           familyi={T\bibinitperiod},
+           given={Tommaso},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2534596843e09bf24f5e99bb319b3726}{%
+           family={Brewer},
+           familyi={B\bibinitperiod},
+           given={Brendon\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b4e85885e74033682f92adfc2edc6bf9}{%
+           family={Barth},
+           familyi={B\bibinitperiod},
+           given={Aaron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ee3c60196eaabdb237c57e088fd93520}{%
+           family={Bennert},
+           familyi={B\bibinitperiod},
+           given={Vardha\bibnamedelima N.},
+           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ad968a1907498c867567790960f46cff}{%
+           family={Buehler},
+           familyi={B\bibinitperiod},
+           given={Tabitha},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1df59f3bf0e1076b5fe8fc3f0f49658c}{%
+           family={Canalizo},
+           familyi={C\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod}}}%
+        {{hash=aaa987742ebbb7fa1d38e9b3273430de}{%
+           family={Cenko},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi Bradley},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=4f8bd8da9ffc4a4fa413f3284c847dce}{%
+           family={Clubb},
+           familyi={C\bibinitperiod},
+           given={Kelsey\bibnamedelima I.},
+           giveni={K\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=a0e7e9fd829c9d0c9da20cd1db744041}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=84f028fc010e8033d8f0260e08773371}{%
+           family={Filippenko},
+           familyi={F\bibinitperiod},
+           given={Alexei\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=4872ba2a724a91c06ef6352911d939f7}{%
+           family={Gates},
+           familyi={G\bibinitperiod},
+           given={Elinor},
+           giveni={E\bibinitperiod}}}%
+        {{hash=07970b8e1e614e1e5d21b4ab9d99054a}{%
+           family={Hoenig},
+           familyi={H\bibinitperiod},
+           given={Sebastian\bibnamedelima F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=32883a2309475139a568e5e4c1d5f046}{%
+           family={Joner},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=30ffce6d3678fbd1dd1f2d45b867ae1f}{%
+           family={Kandrashoff},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8e7a27ffc6db819bcb8c45e8d74ed9f5}{%
+           family={Laney},
+           familyi={L\bibinitperiod},
+           given={Clifton\bibnamedelima David},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=493ea29838a3be937993c9585c941666}{%
+           family={Lazarova},
+           familyi={L\bibinitperiod},
+           given={Mariana\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5435508ca0129b59d669d40f3c9783c5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Weidong},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9bc76f42fd8b12f20ca17fd67d79c292}{%
+           family={Malkan},
+           familyi={M\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f1561860069b4ab7bf858f2aebb293d2}{%
+           family={Rex},
+           familyi={R\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e85072afe2307d56c9f8b266a24768bb}{%
+           family={Silverman},
+           familyi={S\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2ec7abc53e3ad7e027202bf1db7938db}{%
+           family={Tollerud},
+           familyi={T\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=24468302cc42cfa54779564e6c2b549d}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Jonelle\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=66f7d6c7826d341a3c23fd48a27fd661}{%
+           family={Woo},
+           familyi={W\bibinitperiod},
+           given={Jong-Hak},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Astronomical Society}%
+      }
+      \strng{namehash}{797c4554a57db29106729c701f2d345c}
+      \strng{fullhash}{6fad1fa03040c25c090df9960bfe259f}
+      \strng{fullhashraw}{6fad1fa03040c25c090df9960bfe259f}
+      \strng{bibnamehash}{d10e1ad6a20a1f5372bd865ab45ad46f}
+      \strng{authorbibnamehash}{d10e1ad6a20a1f5372bd865ab45ad46f}
+      \strng{authornamehash}{797c4554a57db29106729c701f2d345c}
+      \strng{authorfullhash}{6fad1fa03040c25c090df9960bfe259f}
+      \strng{authorfullhashraw}{6fad1fa03040c25c090df9960bfe259f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1538-4357}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{10}
+      \field{number}{2}
+      \field{title}{The Lick AGN Monitoring Project 2011: Dynamical Modeling of the Broad-line Region}
+      \field{volume}{866}
+      \field{year}{2018}
+      \field{pages}{75}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/1538-4357/aae086
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3847/1538-4357/aae086
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3847/1538-4357/aae086
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
