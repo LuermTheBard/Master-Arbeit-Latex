@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  10 FEB 2026 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  10 FEB 2026 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1367,6 +1367,14 @@ LaTeX Warning: Command \r invalid in math mode on input line 7.
 LaTeX Warning: Command \r invalid in math mode on input line 14.
 
 
+Overfull \hbox (11.48993pt too wide) in paragraph at lines 14--16
+\T1/lmr/m/n/12 In ad-di-tion to the Balmer lines, the he-lium lines He\T1/lmr/m
+/sc/12 ii$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 4686$\T1/lmr/m/n/12 , He\T1/lmr/
+m/sc/12 ii$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 1640$\T1/lmr/m/n/12 , and He\T1
+/lmr/m/sc/12 i$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 5876$
+ []
+
+
 LaTeX Warning: Command \r invalid in math mode on input line 21.
 
 
@@ -1377,11 +1385,6 @@ v$ \OML/lmm/m/it/12 ^^U^^U\OT1/lmr/m/n/12 1238\OML/lmm/m/it/12 ;  \OT1/lmr/m/n/
 12 1242$\T1/lmr/m/n/12 , $\OT1/lmr/m/n/12 10005 \OMS/lmsy/m/n/12 ^^F \OT1/lmr/m
 /n/12 1000 []$ \T1/lmr/m/n/12 for Si\T1/lmr/m/sc/12 iv$ \OML/lmm/m/it/12 ^^U^^U
 \OT1/lmr/m/n/12 1393\OML/lmm/m/it/12 ;  \OT1/lmr/m/n/12 1402$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
  []
 
 
@@ -1461,13 +1464,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21075 strings out of 468225
- 380471 string characters out of 5432973
- 1216616 words of memory out of 5000000
- 49133 multiletter control sequences out of 15000+600000
+ 21073 strings out of 468225
+ 380447 string characters out of 5432973
+ 1216606 words of memory out of 5000000
+ 49131 multiletter control sequences out of 15000+600000
  716466 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,13n,77p,2559b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,13n,77p,2560b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
@@ -1484,9 +1487,9 @@ Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
 sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (62 pages, 3475470 bytes).
+Output written on main.pdf (62 pages, 3474674 bytes).
 PDF statistics:
- 2057 PDF objects out of 2073 (max. 8388607)
+ 2055 PDF objects out of 2073 (max. 8388607)
  204 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 
