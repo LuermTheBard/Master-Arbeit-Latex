@@ -334,6 +334,42 @@
       \field{pages}{53}
       \range{pages}{1}
     \endentry
+    \entry{collin1988broad}{article}{}
+      \name{author}{2}{}{%
+        {{hash=78acc4b2d1c16ffb17f842a7dc290f8c}{%
+           family={Collin-Souffrin},
+           familyi={C\bibinithyphendelim S\bibinitperiod},
+           given={Suzy},
+           giveni={S\bibinitperiod}}}%
+        {{hash=889394abeb8761eb8ecc9019ef0aadb3}{%
+           family={Lasota},
+           familyi={L\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{604a9952ec9f6ed83235ba6b502d7d34}
+      \strng{fullhash}{604a9952ec9f6ed83235ba6b502d7d34}
+      \strng{bibnamehash}{604a9952ec9f6ed83235ba6b502d7d34}
+      \strng{authorbibnamehash}{604a9952ec9f6ed83235ba6b502d7d34}
+      \strng{authornamehash}{604a9952ec9f6ed83235ba6b502d7d34}
+      \strng{authorfullhash}{604a9952ec9f6ed83235ba6b502d7d34}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
+      \field{number}{631}
+      \field{title}{The broad-line region of active galactic nuclei revisited}
+      \field{volume}{100}
+      \field{year}{1988}
+      \field{pages}{1041}
+      \range{pages}{1}
+    \endentry
     \entry{denney2006ngc4593}{article}{}
       \name{author}{18}{}{%
         {{hash=2b60a583e268efb0b87b2ff711bc18d6}{%
@@ -2716,6 +2752,77 @@
       \verb{url}
       \verb http://dx.doi.org/10.3847/1538-4357/aae086
       \endverb
+    \endentry
+    \entry{xi2025supermassive}{article}{}
+      \name{author}{9}{}{%
+        {{hash=c0f5368580de5bb49eddf709fc7e0857}{%
+           family={Xi},
+           familyi={X\bibinitperiod},
+           given={Wen-Zhe},
+           giveni={W\bibinithyphendelim Z\bibinitperiod}}}%
+        {{hash=eb20c2dc190a160935a9cac09b12fb31}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Kai-Xing},
+           giveni={K\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=f5f269112f81f5c02bb3b9373e8c3d86}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Jin-Ming},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=ad61cde442329f27c248d3c71b260aa9}{%
+           family={Yue},
+           familyi={Y\bibinitperiod},
+           given={Zhang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=84da152a28627dad3b8cc1a00b8ae344}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Weimin},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d3945b8e6764532b23deebba43b764b5}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e22bb34b2a8a31a10aa67d38c48bb901}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Sha-Sha},
+           giveni={S\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=436a118837bf2b43845f26a46720f68a}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Hai-Cheng},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=f8d05081bc4337ddcc212bb3877e6d16}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jian-Guo},
+           giveni={J\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The American Astronomical Society}%
+      }
+      \strng{namehash}{03bd9ce2c1f6cb10ac115ebe55c28fbf}
+      \strng{fullhash}{7407a2926c194e5a4d26351514b79c1b}
+      \strng{bibnamehash}{0af1499cc2b252d631cbd76868b9c1eb}
+      \strng{authorbibnamehash}{0af1499cc2b252d631cbd76868b9c1eb}
+      \strng{authornamehash}{03bd9ce2c1f6cb10ac115ebe55c28fbf}
+      \strng{authorfullhash}{7407a2926c194e5a4d26351514b79c1b}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{number}{2}
+      \field{title}{Supermassive Black Hole and Broad-line Region in NGC 5548: 2023 Reverberation Mapping Results}
+      \field{volume}{995}
+      \field{year}{2025}
+      \field{pages}{157}
+      \range{pages}{1}
     \endentry
   \enddatalist
 \endrefsection
