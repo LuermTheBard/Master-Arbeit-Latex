@@ -533,6 +533,33 @@
       \verb http://dx.doi.org/10.1088/2041-8205/727/1/L24
       \endverb
     \endentry
+    \entry{gaskell1982redshift}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0204d0443d875dc3e5c7766e0cdeb0c5}{%
+           family={Gaskell},
+           familyi={G\bibinitperiod},
+           given={C\bibnamedelima Martin},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0204d0443d875dc3e5c7766e0cdeb0c5}
+      \strng{fullhash}{0204d0443d875dc3e5c7766e0cdeb0c5}
+      \strng{bibnamehash}{0204d0443d875dc3e5c7766e0cdeb0c5}
+      \strng{authorbibnamehash}{0204d0443d875dc3e5c7766e0cdeb0c5}
+      \strng{authornamehash}{0204d0443d875dc3e5c7766e0cdeb0c5}
+      \strng{authorfullhash}{0204d0443d875dc3e5c7766e0cdeb0c5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astrophysical Journal, Part 1, vol. 263, Dec. 1, 1982, p. 79-86.}
+      \field{title}{A redshift difference between high and low ionization emission-line regions in QSOs-Evidence for radial motions}
+      \field{volume}{263}
+      \field{year}{1982}
+      \field{pages}{79\bibrangedash 86}
+      \range{pages}{8}
+    \endentry
     \entry{gaskell_peterson1986}{article}{}
       \name{author}{2}{}{%
         {{hash=d10bd789752ce1e4c8595bd995bafec6}{%
