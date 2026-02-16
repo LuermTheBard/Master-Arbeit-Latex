@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  15 FEB 2026 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  16 FEB 2026 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1450,15 +1450,9 @@ LaTeX Warning: Command \r invalid in math mode on input line 29.
 
 
 
-[55]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-9.
- (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
+[55])
 
-[56{C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}
-]
+[56]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 71.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
@@ -1505,11 +1499,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21171 strings out of 468225
- 383088 string characters out of 5432973
- 1217323 words of memory out of 5000000
- 49215 multiletter control sequences out of 15000+600000
- 716841 words of font info for 96 fonts, out of 8000000 for 9000
+ 21129 strings out of 468225
+ 382056 string characters out of 5432973
+ 1217298 words of memory out of 5000000
+ 49178 multiletter control sequences out of 15000+600000
+ 716466 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,13n,77p,3318b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
@@ -1528,9 +1522,9 @@ Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
 sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (64 pages, 3784749 bytes).
+Output written on main.pdf (64 pages, 3783288 bytes).
 PDF statistics:
- 2115 PDF objects out of 2487 (max. 8388607)
+ 2107 PDF objects out of 2487 (max. 8388607)
  213 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 
