@@ -2310,6 +2310,83 @@
       \verb https://doi.org/10.1086/316177
       \endverb
     \endentry
+    \entry{peterson1991steps}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={BM},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4b3381e18b2984b7f92f3ae060a81a14}{%
+           family={Balonek},
+           familyi={B\bibinitperiod},
+           given={TJ},
+           giveni={T\bibinitperiod}}}%
+        {{hash=78152f1557fe4cacf2b27a920e9ee90d}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={ES},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2cc8348c58aff2723171ade92432da07}{%
+           family={Bechtold},
+           familyi={B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cf13c17a4a01a025bf50344ecd83c718}{%
+           family={Bertram},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e3757cf3835d9258c20eb7cc9d38dd08}{%
+           family={Bochkarev},
+           familyi={B\bibinitperiod},
+           given={NG},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c0b00f17ebfbcd7af1abdc6754c99a1f}{%
+           family={Bolte},
+           familyi={B\bibinitperiod},
+           given={MJ},
+           giveni={M\bibinitperiod}}}%
+        {{hash=15beee7839a9ed60648c0d5c322ad37f}{%
+           family={Bond},
+           familyi={B\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=acea8725546240a3bfdc174682f574b4}{%
+           family={Boroson},
+           familyi={B\bibinitperiod},
+           given={TA},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8c955cb4e52f1128ffe988917ad52474}{%
+           family={Carini},
+           familyi={C\bibinitperiod},
+           given={MT},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
+      \strng{fullhash}{cca2b7830420b478485bcc7b463558cc}
+      \strng{fullhashraw}{cca2b7830420b478485bcc7b463558cc}
+      \strng{bibnamehash}{588b611acba264df645383be241793c5}
+      \strng{authorbibnamehash}{588b611acba264df645383be241793c5}
+      \strng{authornamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
+      \strng{authorfullhash}{cca2b7830420b478485bcc7b463558cc}
+      \strng{authorfullhashraw}{cca2b7830420b478485bcc7b463558cc}
+      \field{extraname}{3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astrophysical Journal, Part 1 (ISSN 0004-637X), vol. 368, Feb. 10, 1991, p. 119-137. Research supported by NSERC, American Astronomical Society, and USIBSF.}
+      \field{title}{Steps toward determination of the size and structure of the broad-line region in active galactic nuclei. II-an intensive study of NGC 5548 at optical wavelengths}
+      \field{volume}{368}
+      \field{year}{1991}
+      \field{pages}{119\bibrangedash 137}
+      \range{pages}{19}
+    \endentry
     \entry{probst2025emissionlinecontinuumreverberationmapping}{misc}{}{}
       \name{author}{9}{}{%
         {{hash=73f86a540a442d77508ad91e3565a05c}{%

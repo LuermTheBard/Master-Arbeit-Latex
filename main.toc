@@ -22,22 +22,22 @@
 \contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{26}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Line Identification}{26}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{28}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Variability Statistics}{29}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Uncertainties Estimation}{30}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Lightcurves}{36}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Line Profiles}{37}{section.4.4}%
+\contentsline {section}{\numberline {4.3}Lightcurves}{33}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Variability Statistics}{35}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Uncertainties Estimation}{35}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Line Profiles}{36}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}FWHM}{37}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Balmer Line-Profiles}{41}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Balmer Line-Profiles}{40}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Helium Line-Profiles}{42}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}UV Line Profiles}{43}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.4}UV Line Profiles}{44}{subsection.4.4.4}%
 \contentsline {section}{\numberline {4.5}Time Lag}{44}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Black Hole Mass}{48}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{49}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Discussion}{52}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Structure of the BLR}{53}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Time Lags}{53}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Line Profiles}{53}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Black Hole Mass}{54}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{55}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Summary}{56}{section.5.4}%
-\contentsline {chapter}{\numberline {A}Additional Tables}{62}{appendix.A}%
+\contentsline {section}{\numberline {4.6}Black Hole Mass}{49}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{50}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Discussion}{53}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Structure of the BLR}{54}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Time Lags}{54}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Line Profiles}{54}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Black Hole Mass}{56}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{56}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Summary}{57}{section.5.4}%
+\contentsline {chapter}{\numberline {A}Additional Tables}{63}{appendix.A}%
