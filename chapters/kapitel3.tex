@@ -212,11 +212,53 @@ for the emission line light curves.
 
 
 
+\section{Time Lag}
+\label{sec:time_lag_bh_mass}
+The time lag of the measured emission lines relative to the ionizing continuum is determined from the lag between the emission-line light curve and the UVW2 light curve. The time lag between two lightcurves is measured, by determining the cross-correlation function (CCF) of these curves and measuring the centroid of the CCF for values above 80\% of the peak, as described in Section \ref{subsec:rm_ccf}. This calculation is done with GECHO, which applies the interpolated cross-correlation function (ICCF) method introduced by \cite{gaskell_peterson1986}. The emission-line and reference light curves are normalized by subtracting the respective mean value from each data point. To increase the effective sampling and to measure the correlation between two unevenly sampled light curves, flux values between data points are linearly interpolated for both light curves.\\
+The normalized light curves and the resulting CCFs are presented in Figures \ref{fig:ccfs_optical} and \ref{fig:ccfs_UV}. Additionally, the top panel of each figure displays the UVW2 light curve together with its auto-correlation function, while the bottom panel compares both lightcurves of the UVW2 and the UV continuum around $1150\,\AA$ and shows the corresponding CCF. The resulting time lags between the UVW2 continuum and each light curve are listed in Table \ref{tab:lags_UVW2}. The centroid uncertainties are estimated using the flux randomization/random subset selection (FR/RSS) method described by \cite{Peterson_1998b}, with 10000 iterations and a lag bin size of $0.5$ days (see Section \ref{subsec:rm_ccf}). The resulting centroid distribution is displayed by the gray histogram in the above named figures.\\
+Overall, the CCFs of all measured emission lines show strong correlations with pronounced peak values between $\sim 0.7$ and $\sim 0.9$, except for the CCF of O\,\textsc{i}\,8446, which exhibits two local maxima at values of around $\sim 0.6$. \\
+H$\alpha$ and H$\beta$ lag behind the UVW2 light curve by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ and $2.3 \ensuremath{_{-0.3}^{+1.0}}$ days, respectively, while H$\gamma$ and H$\delta$ show shorter lags of $1.7 \ensuremath{_{-0.4}^{+0.2}}$ and $1.7 \ensuremath{_{-0.4}^{+0.4}}$ days. Therefore the lower order Balmer lines H$\alpha$ and H$\beta$ show higher time lags, that the higher ordered Balmer lines H$\gamma$ and H$\delta$. He\,\textsc{i}\,5875 shows a lag of $3.3 \ensuremath{_{-0.4}^{+0.7}}$ days, which is of the same order as the lags measured for H$\alpha$ and H$\beta$ within the uncertainties.  Opposing to that, the two higher ionized He\,\textsc{ii}\,1640 and He\,\textsc{ii}\,4685 helium lines, shows much shorter lags, with a with $0.3 \ensuremath{_{-0.2}^{+0.6}}$days and $0.7 \ensuremath{_{-0.3}^{+0.1}}$ days, respectively. 
+The high ionized UV emission lines N\,\textsc{v}\,1238, Si\,\textsc{iv}\,1393 and C\,\textsc{iv}\,1548 also show short time lags of about $\sim 1$ compared to the lower ionized Balmer and He\,\textsc{i} lines. Therefore a tendency becomes apparent, that the higher ionized emission lines typical show shorter time lags than the lower ionized emission lines. \\
+While the low-ionized O\,\textsc{i}\,8446 line exhibits and lag of $4.7 \ensuremath{_{-1.4}^{+2.4}}$, which is slightly longer then the lag of H$\alpha$ it should not be compared directly to UVW2, which is further discussed in section \ref{sec:BF_Analysis}.
 
+\begin{table}[htbp]
+	\centering
+	\caption{Centroid and Peak Time Lag for UVW2.}
+	\label{tab:lags_UVW2}
+	\begin{tabular}{l c | l c}
+		\hline\hline
+		Line & $\tau_{\text{cent}}$ [d] & Line & $\tau_{\text{cent}}$ [d] \\
+		\hline\hline
+		H$\alpha$             & $3.3 \ensuremath{_{-0.6}^{+1.1}}$ & He\,\textsc{i}\,5875   & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ \\
+		H$\beta$              & $2.3 \ensuremath{_{-0.3}^{+1.0}}$ & He\,\textsc{ii}\,1640  & $0.3 \ensuremath{_{-0.2}^{+0.6}}$ \\
+		H$\gamma$             & $1.7 \ensuremath{_{-0.4}^{+0.2}}$ & He\,\textsc{ii}\,4685  & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ \\
+		H$\delta$             & $1.7 \ensuremath{_{-0.4}^{+0.4}}$ & N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$    & $1.0 \ensuremath{_{-0.4}^{+0.2}}$ \\ 
+		Ly$\alpha$            & $1.0 \ensuremath{_{-0.2}^{+0.4}}$ &  Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$  & $1.2 \ensuremath{_{-0.4}^{+0.1}}$ \\
+		O\,\textsc{i}\,8446   & $4.7 \ensuremath{_{-1.4}^{+2.4}}$ &  C\textsc{iv}$\,\lambda\lambda 1548,\,1550$   & $0.8 \ensuremath{_{-0.1}^{+0.5}}$ \\
+		\hline\hline
+	\end{tabular}
+\end{table}
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_O.pdf}
+	\caption{Comparison of normalized lightcurves and CCFs of H$\alpha$, H$\beta$, H$\gamma$, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$  and  O\,\textsc{i}$\,\lambda 8446$ with UVW2 as reference lightcurve.}
+	\label{fig:ccfs_optical}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.pdf}
+	\caption{Comparison of normalized lightcurves and CCFs of UV lines with UVW2 as reference lightcurve.}
+	\label{fig:ccfs_UV}
+\end{figure}
+
+\newpage
 
 \section{Line Profiles}
 \label{sec:line_profiles}
-By analyzing the shape and line width of the emission line profiles it is possible to draw conclusions about the kinematics of their emitting region. Equally to the lightcurve extraction, a correction of the underlying continuum is necessary to enable comparison between the extracted profiles. Following the same procedure done for the lightcurves, an underlying linear continuum is interpolated, using line-free wavelength widows on the blue and red side for each emission line in both the AVG and RMS spectra. The selected boundaries of the pseudo-continua are listed in Table \ref{tab:line_profiles_pseudo}. By subtracting this interpolated continuum, a new zero-flux baseline for each line profile gets defined. Subsequently, the line profile is converted to velocity space using the relativistic Doppler equation\\ 
+By analysing the shape and line width of the emission line profiles it is possible to draw conclusions about the kinematics of their emitting region. Equally to the lightcurve extraction, a correction of the underlying continuum is necessary to enable comparison between the extracted profiles. Following the same procedure done for the lightcurves, an underlying linear continuum is interpolated, using line-free wavelength widows on the blue and red side for each emission line in both the AVG and RMS spectra. The selected boundaries of the pseudo-continua are listed in Table \ref{tab:line_profiles_pseudo}. By subtracting this interpolated continuum, a new zero-flux baseline for each line profile gets defined. Subsequently, the line profile is converted to velocity space using the relativistic Doppler equation\\ 
 \begin{equation}
 	\label{eqn:velocity_space}
 	v_i = c \cdot \frac{\lambda_i^2 - \lambda_\mathrm{central}^2}{\lambda_i^2 + \lambda_\mathrm{central}^2}.
@@ -381,43 +423,6 @@ Finally, the RMS profile of the C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doubl
 
 
 
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_O.pdf}
-	\caption{Comparison of normalized lightcurves and CCFs of H$\alpha$, H$\beta$, H$\gamma$, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$  and  O\,\textsc{i}$\,\lambda 8446$ with UVW2 as reference lightcurve.}
-	\label{fig:ccfs_optical}
-\end{figure}
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.pdf}
-	\caption{Comparison of normalized lightcurves and CCFs of UV lines with UVW2 as reference lightcurve.}
-	\label{fig:ccfs_UV}
-\end{figure}
-
-
-\section{Time Lag}
-\label{sec:time_lag_bh_mass}
-The time lag of the measured emission lines relative to the ionizing continuum is determined from the lag between the emission-line light curve and the UVW2 light curve. In section \ref{sec:lightcurves} it has already been discussed that it is common to use the most blue continuum as a reference as a proxy for the ionized continuum. By using the Swift UVW2 light curve with an effective wavelength of $\sim 1930\,\AA$, the lag between the two continua must be therefore added to the emission-line lag estimate. The time lag between two lightcurves is measured, by determining the cross-correlation function (CCF) of these curves and measuring the centroid of the CCF for values above 80\% of the peak, as described in Section \ref{subsec:rm_ccf}. This calculation is done with GECHO, which applies the interpolated cross-correlation function (ICCF) method introduced by \cite{gaskell_peterson1986}. The emission-line and reference light curves are normalized by subtracting the respective mean value from each data point. To increase the effective sampling and to measure the correlation between two unevenly sampled light curves, flux values between data points are linearly interpolated for both light curves.\\
-The normalized light curves and the resulting CCFs are presented in Figures \ref{fig:ccfs_optical} and \ref{fig:ccfs_UV}. Additionally, the top panel of each figure displays the UVW2 light curve together with its auto-correlation function, while the bottom panel compares both lightcurves of the UVW2 and the UV continuum around $1150\,\AA$ and shows the corresponding CCF. The resulting time lags between the UVW2 continuum and each light curve are listed in Table \ref{tab:lags_UVW2}. The centroid uncertainties are estimated using the flux randomization/random subset selection (FR/RSS) method described by \cite{Peterson_1998b}, with 10000 iterations and a lag bin size of $0.5$ days (see Section \ref{subsec:rm_ccf}). The resulting centroid distribution is displayed by the gray histogram in the above named figures.
-\begin{table}[htbp]
-	\centering
-	\caption{Centroid and Peak Time Lag for UVW2.}
-	\label{tab:lags_UVW2}
-	\begin{tabular}{l c | l c}
-		\hline\hline
-		Line & $\tau_{\text{cent}}$ [d] & Line & $\tau_{\text{cent}}$ [d] \\
-		\hline\hline
-		H$\alpha$             & $3.3 \ensuremath{_{-0.6}^{+1.1}}$ & He\,\textsc{i}\,5875   & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ \\
-		H$\beta$              & $2.3 \ensuremath{_{-0.3}^{+1.0}}$ & He\,\textsc{ii}\,1640  & $0.3 \ensuremath{_{-0.2}^{+0.6}}$ \\
-		H$\gamma$             & $1.7 \ensuremath{_{-0.4}^{+0.2}}$ & He\,\textsc{ii}\,4685  & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ \\
-		H$\delta$             & $1.7 \ensuremath{_{-0.4}^{+0.4}}$ & N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$    & $1.0 \ensuremath{_{-0.4}^{+0.2}}$ \\ 
-		Ly$\alpha$            & $1.0 \ensuremath{_{-0.2}^{+0.4}}$ &  Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$  & $1.2 \ensuremath{_{-0.4}^{+0.1}}$ \\
-		O\,\textsc{i}\,8446   & $4.7 \ensuremath{_{-1.4}^{+2.4}}$ &  C\textsc{iv}$\,\lambda\lambda 1548,\,1550$   & $0.8 \ensuremath{_{-0.1}^{+0.5}}$ \\
-		\hline\hline
-	\end{tabular}
-\end{table}\\
-Overall, the CCFs of all measured emission lines show strong correlations with pronounced peak values between $\sim 0.7$ and $\sim 0.9$, except for the CCF of O\,\textsc{i}\,8446, which exhibits two local maxima at values of around $\sim 0.6$. The two He\,\textsc{ii} lines shows the shortest lag relative to the UVW2 light curve, with an average lag of approximately $\sim 0.5$ days within the uncertainties. He\,\textsc{ii}\,4685 shows a higher peak correlation of approximately $\sim 0.8$ compared to He\,\textsc{ii}\,1640, which reaches values of around $\sim 0.7$. The CCFs of the other UV emission lines Ly$\alpha$, N\,\textsc{v}\,1238, Si\,\textsc{iv}\,1393 and C\,\textsc{iv}\,1548 peak at values above $\sim 0.8$, with Ly$\alpha$ reaching a maximum of approximately $\sim 0.9$. All of these lines show similar lags of about $\sim 1$ day within their uncertainties. The Balmer lines exhibit larger lags. H$\alpha$ and H$\beta$ lag behind the UVW2 light curve by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ and $2.3 \ensuremath{_{-0.3}^{+1.0}}$ days, respectively, while H$\gamma$ and H$\delta$ show shorter lags of $1.7 \ensuremath{_{-0.4}^{+0.2}}$ and $1.7 \ensuremath{_{-0.4}^{+0.4}}$ days. Among the Balmer lines, H$\beta$ shows the highest peak correlation, exceeding $\sim 0.85$, whereas H$\alpha$ exhibits the lowest correlation, with values of around $\sim 0.8$. Compared to H$\gamma$ and H$\delta$, the CCFs of H$\alpha$ and H$\beta$ exhibit broader peaks and wider centroid distributions with larger uncertainties and slightly higher time lag values. He\,\textsc{i}\,5875 and O\,\textsc{i}\,8446 show the lowest correlations with the UVW2 light curve, with peak values of approximately $\sim 0.7$ and $\sim 0.6$, respectively. He\,\textsc{i}\,5875 shows a lag of $3.3 \ensuremath{_{-0.4}^{+0.7}}$ days, which is of the same order as the lags measured for H$\alpha$ and H$\beta$ within the uncertainties. while O\,\textsc{i}\,8446 exhibits the longest lag of $4.7 \ensuremath{_{-1.4}^{+2.4}}$ days relative to UVW2, with large uncertainties caused by the comparatively low CCF peak correlation.
 
 
 \section{Black Hole Mass}
@@ -504,9 +509,12 @@ It has to be noted, that the scale factor of $f=1.8$ does not account the low-in
 
 
 \section{Bowen Fluorescence of O\,\textsc{I}$\,\lambda 8446$}
+\label{sec:BF_Analysis}
 
-Emission lines in the optical range, like the Balmer and helium lines, are commonly used in many reverberation-mapping campaigns, as they are easily accessible for nearby AGN \parencite{peterson1991steps, kollatschny1997balmer}. Other lines, such as the low-ionization line O\,\textsc{i}$\,\lambda 8446$, have not been part of RM campaigns. This is why the variability of the O\,\textsc{i}$\,\lambda 8446$ line in this campaign is of particular interest, as the line can be enhanced by Bowen fluorescence, pumped by Ly$\beta$ emission \parencite{grandi1980}. Unfortunately, Ly$\beta$ lies outside the spectral range of the \cite{cackett2018accretion} campaign. However, because the Ly$\alpha$ and Ly$\beta$ lines are expected to originate under similar physical conditions \parencite{ochmann2026first}, Ly$\alpha$ can be used as a proxy for Ly$\beta$. H$\alpha$ is used to investigate the location of the O\,\textsc{i}$\,\lambda 8446$ emitting region relative to the Balmer-line emitting region.\\
-Therefore, the time lags between the UVW2 and emission-line lightcurves, as well as the CCFs and time lags between O\,\textsc{i}$\,\lambda 8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$, are calculated and shown in Figure \ref{fig:ccfs_Bowen}. All lightcurve show a strong correlation between $\sim 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and UVW2 lightcurves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are calculated as before. O\,\textsc{i}$\,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.3}^{+1.7}}$ days and behind UVW2 by $4.7 \ensuremath{_{-1.4}^{+2.4}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{_{-0.5}^{+0.5}}$ days and behind UVW2 by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ days. A difference in the response time of about $0.5$--$1$ days between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ is noticeable, but are not significant within the uncertainties. Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ lightcurves, they also show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+1.6}}$ days. With the Ly$\alpha$ light curve lagging behind the UVW2 light curve by $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days, the total lag along the Bowen-fluorescence path from UVW2 to Ly$\alpha$ and from Ly$\alpha$ to O\,\textsc{i}$\,\lambda 8446$ sums to $\sim 3.5$ days, which lies within the uncertainties of the time lag between the H$\alpha$ and UVW2 light curves.
+Emission lines in the optical range, like the Balmer and helium lines, are commonly used in many reverberation-mapping campaigns, as they are easily accessible for nearby AGN \parencite{peterson1991steps, kollatschny1997balmer}. This is not the case for the low-ionization line O\,\textsc{i}$\,\lambda 8446$, which makes the emission line of particular interest in this analysis, since it exhibits noticeable variability (see. Table \ref{tab:varstatistics}) and therefore can be monitored in a RM analysis for the first time. O\,\textsc{i}$\,\lambda 8446$ is also know as a Bowen fluorescence line, that can be pumped by Ly$\beta$ emission \parencite{grandi1980}. While Ly$\beta$ is not covered in the spectral range of the HST dataset, Ly$\alpha$ is and can be used as a proxy for Ly$\beta$ which are expected to originate under similar physical conditions. This enables to examine the Bowen fluorescence process of O\,\textsc{i}$\,\lambda 8446$ for the first time in a RM analysis. \\
+As described in Section \ref{sec:bowen_fluorescence}, Ly$\beta$ excites O\,\textsc{i} through a near-resonant transition at $\lambda\,1025\,\AA$. This is followed by decay via O\,\textsc{i}\,$\lambda\,11287$ and subsequently by O\,\textsc{i}\,$\lambda\,8446$, producing the observed O\,\textsc{i}\,$\lambda\,8446$ emission (see Figure \ref{fig:bowen_cascate}). This cascade is expected to occur with a photon ratio of 1:1 \parencite{grandi1980}. \cite{ochmann2026first} reported a photon ratio of $\sim 0.8$ between O\,\textsc{i}\,$\lambda\,8446$ and O\,\textsc{i}\,$\lambda\,11287$, which was taken from the near-infrared SpeX spectra obtained by \cite{landt2008near}. This result indicates that Ly$\beta$ pumping is the dominant excitation mechanism in O\,\textsc{i}\,$\lambda\,8446$ in NGC\,4593. \\
+To examine the Bowen fluorescence relation futher, the time lags between the UVW2 and emission-line lightcurves, as well as the CCFs and time lags between O\,\textsc{i}$\,\lambda 8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$, are calculated and shown in Figure \ref{fig:ccfs_Bowen}. All lightcurve show a strong correlation between $\sim 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and UVW2 lightcurves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are calculated as before. O\,\textsc{i}$\,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.3}^{+1.7}}$ days and behind UVW2 by $4.7 \ensuremath{_{-1.4}^{+2.4}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{_{-0.5}^{+0.5}}$ days and behind UVW2 by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ days. Therefore the direct relation of O\,\textsc{i}$\,\lambda 8446$ to UVW2 shows a slightly higher lag than H$\alpha$ to UVW2 within uncertainties. \\
+But since Bowen fluorescence is identified as the major excitation mechanism the lag of O\,\textsc{i}$\,\lambda 8446$ should be estimated following the Bowen fluorescence path. With the Ly$\alpha$ light curve lagging behind the UVW2 light curve by $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days, this suggests a lag along the Bowen-fluorescence path from UVW2 to Ly$\alpha$ and from Ly$\alpha$ to O\,\textsc{i}$\,\lambda 8446$ sums to $\sim 3.5$ days. Therefore, O\,\textsc{i}$\,\lambda 8446$ shows a lag much closer and consistent with the lag of H$\alpha$ within uncertainties.  Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ lightcurves, they also show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+1.6}}$ days, which is consistent with the lag found for the Bowen fluorescence path. 
 
 
 \begin{figure}[htbp]
