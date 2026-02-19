@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2025.4.4)  19 FEB 2026 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2025.4.4)  19 FEB 2026 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,7 +813,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 ...elium Line-Profiles}{47}{subsection.4.6.3}
+l.33 ....4}UV Line Profiles}{46}{subsection.4.5.4}
                                                   % [1
 
 ])
@@ -1148,83 +1148,40 @@ Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
 les/UVW2_ccfs_Helium_UV.pdf  used on input line 253.
 (pdftex.def)             Requested size: 426.79135pt x 634.53392pt.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 259.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 259.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 259.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 259.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 259.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 259.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 259.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 263.
-
-[37] [38 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs
-_Balmer_Ly_O.pdf>] [39 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_ta
-bles/UVW2_ccfs_Helium_UV.pdf>] [40]
-<pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_referenc
-e_lightcurves_paper HAlpha.pdf, id=1510, 458.88063pt x 548.69064pt>
-File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_ref
-erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
-<use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
-rence_lightcurves_paper HAlpha.pdf>
-Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 270.
-
-(pdftex.def)             Requested size: 418.2537pt x 500.113pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1513, 673.608
+[37] [38 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs
+_Balmer_Ly_O.pdf>] [39 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_ta
+bles/UVW2_ccfs_Helium_UV.pdf>]
+<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1494, 673.608
 2pt x 1001.89934pt>
 File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
  (type pdf)
 <use pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/Normalized_Line_Profil
-es.pdf  used on input line 287.
+es.pdf  used on input line 270.
 (pdftex.def)             Requested size: 426.79135pt x 634.79254pt.
 
-LaTeX Warning: Command \r invalid in math mode on input line 299.
+
+LaTeX Warning: Command \r invalid in math mode on input line 282.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 299.
+LaTeX Warning: Command \r invalid in math mode on input line 282.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 325.
+LaTeX Warning: Command \r invalid in math mode on input line 308.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 325.
+LaTeX Warning: Command \r invalid in math mode on input line 308.
 
 
-LaTeX Warning: Reference `tab:grating_dispersion' on page 41 undefined on input
- line 330.
+LaTeX Warning: Reference `tab:grating_dispersion' on page 40 undefined on input
+ line 313.
 
 
-Overfull \hbox (31.55144pt too wide) in paragraph at lines 324--331
+Overfull \hbox (31.55144pt too wide) in paragraph at lines 307--314
 \T1/lmr/m/n/12 The line pro-files of Ly$\OML/lmm/m/it/12 $\T1/lmr/m/n/12 , the
  Balmer lines, He\T1/lmr/m/sc/12 i$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 5875$\T
 1/lmr/m/n/12 , C\T1/lmr/m/sc/12 iv$ \OML/lmm/m/it/12 ^^U^^U\OT1/lmr/m/n/12 1548
@@ -1234,52 +1191,93 @@ Overfull \hbox (31.55144pt too wide) in paragraph at lines 324--331
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--331
+Underfull \hbox (badness 10000) in paragraph at lines 307--314
 
  []
 
-[41] [42 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_a
-nd_reference_lightcurves_paper HAlpha.pdf>] [43 <./pictures/Chapter4/line_profi
-les/Normalized_Line_Profiles.pdf>] [44]
-<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1689, 706.97952pt x
+[40] [41 <./pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>]
+[42]
+<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1572, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
  pdf)
 <use pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf
-  used on input line 371.
+  used on input line 354.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
- [45] [46 <./pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>]
-<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1746, 706.97952pt x
+ [43] [44 <./pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>]
+<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1629, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf Graphic file (type
  pdf)
 <use pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf
-  used on input line 383.
+  used on input line 366.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
 
-Overfull \hbox (10.37712pt too wide) in paragraph at lines 379--390
+Overfull \hbox (10.37712pt too wide) in paragraph at lines 362--373
 \T1/lmr/m/n/12 The RMS pro-files, as well as a com-par-i-son of the He\T1/lmr/m
 /sc/12 i$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 5875$\T1/lmr/m/n/12 , He\T1/lmr/m
 /sc/12 ii$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 4685$ \T1/lmr/m/n/12 and He\T1/l
 mr/m/sc/12 ii$ \OML/lmm/m/it/12 ^^U\OT1/lmr/m/n/12 1640$
  []
 
-[47 <./pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf>] [48]
-<pictures/Chapter4/line_profiles/UV_Lines.pdf, id=1801, 518.7884pt x 549.20006p
+[45 <./pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf>]
+<pictures/Chapter4/line_profiles/UV_Lines.pdf, id=1679, 518.7884pt x 549.20006p
 t>
 File: pictures/Chapter4/line_profiles/UV_Lines.pdf Graphic file (type pdf)
 <use pictures/Chapter4/line_profiles/UV_Lines.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/UV_Lines.pdf  used on 
-input line 404.
+input line 387.
 (pdftex.def)             Requested size: 298.75264pt x 316.26523pt.
- [49 <./pictures/Chapter4/line_profiles/UV_Lines.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 458--461
+ [46] [47 <./pictures/Chapter4/line_profiles/UV_Lines.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 441--444
 
  []
 
-) (chapters/kapitel4.tex [50]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.95871pt
+(hyperref)                removed on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.95871pt
+(hyperref)                removed on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 476.
+
+[48]
+<pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_referenc
+e_lightcurves_paper HAlpha.pdf, id=1763, 458.88063pt x 548.69064pt>
+File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_ref
+erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
+<use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
+rence_lightcurves_paper HAlpha.pdf>
+Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
+les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 486.
+
+(pdftex.def)             Requested size: 418.2537pt x 500.113pt.
+) (chapters/kapitel4.tex [49] [50 <./pictures/Chapter4/lighcurves_and_ccfs_and_
+time_lag_tables/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf>]
 Chapter 5.
 
 LaTeX Warning: Command \r invalid in math mode on input line 3.
@@ -1343,6 +1341,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 27.
 
+
+LaTeX Warning: Command \r invalid in math mode on input line 30.
+
 [54]) [55]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 71.
@@ -1362,16 +1363,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B46570EBDDAC2947522AA89402BEACE;6197.
+(rerunfilecheck)             Checksum: CA6BC559E891D846507AB5E8C2EACFA8;6197.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20851 strings out of 478582
- 377881 string characters out of 2844345
- 1081162 words of memory out of 3000000
- 38525 multiletter control sequences out of 15000+600000
+ 20849 strings out of 478582
+ 377857 string characters out of 2844345
+ 1084152 words of memory out of 3000000
+ 38523 multiletter control sequences out of 15000+600000
  558900 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,14n,77p,3313b,1829s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1396,9 +1397,9 @@ kas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Lu
 kas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lu
 kas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Luk
 as/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (63 pages, 3789898 bytes).
+Output written on main.pdf (63 pages, 3789177 bytes).
 PDF statistics:
- 2105 PDF objects out of 2487 (max. 8388607)
+ 2103 PDF objects out of 2487 (max. 8388607)
  214 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 
