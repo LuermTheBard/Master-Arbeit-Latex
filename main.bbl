@@ -2769,6 +2769,35 @@
       \field{pages}{337\bibrangedash 355}
       \range{pages}{19}
     \endentry
+    \entry{sher1968relativistic}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=29334e0f424691cb3f6abe27dc4a8949}{%
+           family={Sher},
+           familyi={S\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{29334e0f424691cb3f6abe27dc4a8949}
+      \strng{fullhash}{29334e0f424691cb3f6abe27dc4a8949}
+      \strng{fullhashraw}{29334e0f424691cb3f6abe27dc4a8949}
+      \strng{bibnamehash}{29334e0f424691cb3f6abe27dc4a8949}
+      \strng{authorbibnamehash}{29334e0f424691cb3f6abe27dc4a8949}
+      \strng{authornamehash}{29334e0f424691cb3f6abe27dc4a8949}
+      \strng{authorfullhash}{29334e0f424691cb3f6abe27dc4a8949}
+      \strng{authorfullhashraw}{29334e0f424691cb3f6abe27dc4a8949}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Astronomical Society of Canada}
+      \field{title}{The relativistic Doppler effect}
+      \field{volume}{62}
+      \field{year}{1968}
+      \field{pages}{105}
+      \range{pages}{1}
+    \endentry
     \entry{stisgratings}{online}{}{}
       \name{author}{1}{}{%
         {{hash=13367473fa9d2006147975ae28b6164b}{%
