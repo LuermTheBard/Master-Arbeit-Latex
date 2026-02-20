@@ -127,7 +127,7 @@ The light curves of the continuum emission, that will be used as proxy for the i
 \section{Lightcurves}
 \label{sec:lightcurves}
 
-Thanks to the covered wavelength range, it was possible to measure several continuum lightcurves in the UV-, optical- and NIR regime. In addition, the photometric UVOT UVW2 lightcurve is included in the subsequent analysis, which was taken with \textit{Swift} (PI: McHardy, I.M., Prop...) and published in \cite{mchardy2018x}. It  has also been used in \cite{cackett2018accretion} and exhibits a denser sampling than the HST lightcurves, with a cadence of 96 minutes for $6.4\,\mathrm{d}$ between July 13 and July 18, 2016 and a central wavelength of about $\sim 1930\,\AA$ \parencite{mchardy2018x}.\\ 
+Thanks to the covered wavelength range, it was possible to measure several continuum lightcurves in the UV-, optical- and NIR regime. In addition, the photometric UVOT UVW2 lightcurve is included in the subsequent analysis, which was taken with \textit{Swift} and published in \cite{mchardy2018x}. It  has also been used in \cite{cackett2018accretion} and exhibits a denser sampling than the HST lightcurves, with a cadence of 96 minutes for $6.4\,\mathrm{d}$ between July 13 and July 18, 2016 and a central wavelength of about $\sim 1930\,\AA$ \parencite{mchardy2018x}.\\ 
 All continuum lightcurves show a broadly similar shape (see Figure \ref{fig:continua_lightcurves}). The light curves start at high flux and then decrease by about $50$--$80\%$ relative to their maxima within the first 1–4 days, reaching a minimum between days 4 and 5. Afterwards, the flux increases again in all light curves. The UV continua show a plateau-like behavior from days 6 to 9, followed by a smaller decline between days 9 and 13, before rising again to a peak around day 13. A similar pattern is also noticeable in the other continuum light curves, but becomes less clear at higher wavelengths. While the optical continua also show higher flux levels between days 6 and 9 than between days 9 and 13, the near-IR continua exhibits a plateau over this interval. Towards the end of the campaign, the flux decreases again towards a minimum, with smaller short-term fluctuations, followed by a slight rise in the final days of the campaign in the UV and NIR bands. \\
 The estimation of the physical distance between the SMBH and the region from which the emission lines originate is the main goal of this RM analysis. Assuming that the continuum radiation originates from the accretion disk, it is common to use the bluest available continuum as reference for the time lag estimation, which is expected to originate closest to the SMBH \parencite{peterson1993}. While the bluest continuum is measured  around $1150\,\AA$ in the HST dataset, the UVW2 continuum was selected as the main reference lightcurve for the subsequent analysis due to its higher sampling rate. Therefore, the delay between the continuum light curve around $1150\,\AA$ and the UVW2 light curve has to be taken into account in the subsequent lag estimation (see. Section \ref{sec:time_lag_bh_mass}).\\
 Comparing the UVW2 light curve to the measured  broad emission line light curves, they exhibit a equally strong decrease in flux, followed by a central part with higher flux and another decrease (see. Figure \ref{fig:emission_line_lightcurves} and \ref{fig:UV_emission_line_lightcurves}). By comparing these features, a correlation of the emission line light curves to the UVW2 light curve is already apparent with a noticeable time lags which is further investigated in Section \ref{sec:time_lag_bh_mass}. 
@@ -215,31 +215,41 @@ for the emission line light curves.
 \section{Time Lag}
 \label{sec:time_lag_bh_mass}
 The time lag of the measured emission lines relative to the ionizing continuum is determined from the lag between the emission-line light curve and the UVW2 light curve. The time lag between two lightcurves is measured, by determining the cross-correlation function (CCF) of these curves and measuring the centroid of the CCF for values above 80\% of the peak, as described in Section \ref{subsec:rm_ccf}. This calculation is done with GECHO, which applies the interpolated cross-correlation function (ICCF) method introduced by \cite{gaskell_peterson1986}. The emission-line and reference light curves are normalized by subtracting the respective mean value from each data point. To increase the effective sampling and to measure the correlation between two unevenly sampled light curves, flux values between data points are linearly interpolated for both light curves.\\
-The normalized light curves and the resulting CCFs are presented in Figures \ref{fig:ccfs_optical} and \ref{fig:ccfs_UV}. Additionally, the top panel of each figure displays the UVW2 light curve together with its auto-correlation function, while the bottom panel compares both lightcurves of the UVW2 and the UV continuum around $1150\,\AA$ and shows the corresponding CCF. The resulting time lags between the UVW2 continuum and each light curve are listed in Table \ref{tab:lags_UVW2}. The centroid uncertainties are estimated using the flux randomization/random subset selection (FR/RSS) method described by \cite{Peterson_1998b}, with 10000 iterations and a lag bin size of $0.5$ days (see Section \ref{subsec:rm_ccf}). The resulting centroid distribution is displayed by the gray histogram in the above named figures.\\
+The normalized light curves and the resulting CCFs are presented in Figures \ref{fig:ccfs_optical} and \ref{fig:ccfs_UV}. Additionally, the top panel of each figure displays the UVW2 light curve together with its auto-correlation function, while the bottom panel compares both lightcurves of the UVW2 and the UV continuum around $1150\,\AA$ and shows the corresponding CCF and time lag which has to be added for the final estimation of the characteristic BLR radii for each emission line. The resulting time lags towards the UVW2 continuum and the corresponding characteristic BLR radii are listed in Table \ref{tab:lags_UVW2}. The centroid uncertainties are estimated using the flux randomization/random subset selection (FR/RSS) method described by \cite{Peterson_1998b}, with 10000 iterations and a lag bin size of $0.5$ days (see Section \ref{subsec:rm_ccf}). The resulting centroid distribution is displayed by the gray histogram in the above named figures.\\
 Overall, the CCFs of all measured emission lines show strong correlations with pronounced peak values between $\sim 0.7$ and $\sim 0.9$, except for the CCF of O\,\textsc{i}\,8446, which exhibits two local maxima at values of around $\sim 0.6$. \\
 H$\alpha$ and H$\beta$ lag behind the UVW2 light curve by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ and $2.3 \ensuremath{_{-0.3}^{+1.0}}$ days, respectively, while H$\gamma$ and H$\delta$ show shorter lags of $1.7 \ensuremath{_{-0.4}^{+0.2}}$ and $1.7 \ensuremath{_{-0.4}^{+0.4}}$ days. Therefore the lower order Balmer lines H$\alpha$ and H$\beta$ show higher time lags, that the higher ordered Balmer lines H$\gamma$ and H$\delta$. Ly$\alpha$ exhibits a even shorter time lag than the Balmer lines with $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days within uncertainties, which implies that the hydrogen emitting region is stratified.\\
 He\,\textsc{i}\,5875 shows a lag of $3.3 \ensuremath{_{-0.4}^{+0.7}}$ days, which is of the same order as the lags measured for H$\alpha$ and H$\beta$ within the uncertainties.  Opposing to that, the two higher ionized He\,\textsc{ii}\,1640 and He\,\textsc{ii}\,4685 helium lines, shows much shorter lags, with a with $0.3 \ensuremath{_{-0.2}^{+0.6}}$days and $0.7 \ensuremath{_{-0.3}^{+0.1}}$ days, respectively. 
 The high ionized UV emission lines N\,\textsc{v}\,1238, Si\,\textsc{iv}\,1393 and C\,\textsc{iv}\,1548 also show short time lags of about $\sim 1$ compared to the lower ionized Balmer and He\,\textsc{i} lines. Therefore a tendency becomes apparent, that the higher ionized emission lines typical show shorter time lags than the lower ionized emission lines. \\
-While the low-ionized O\,\textsc{i}\,8446 line exhibits and lag of $4.7 \ensuremath{_{-1.4}^{+2.4}}$, which is slightly longer then the lag of H$\alpha$ it should not be compared directly to UVW2, which is further discussed in section \ref{sec:BF_Analysis}.
+While the low-ionized O\,\textsc{i}\,8446 line exhibits and lag of $4.7 \ensuremath{_{-1.4}^{+2.4}}$, which is slightly longer then the lag of H$\alpha$ it should not be compared directly to UVW2, which is further discussed in section \ref{sec:BF_Analysis}.\\
+
+
 
 \begin{table}[htbp]
 	\centering
-	\caption{Centroid and Peak Time Lag for UVW2.}
+	\caption{Centroid between the emission lines and UVW2 light curve and the characteristic BLR radii with an included shift of 0.5 light days due to the delay between UVW2 and the UV continuum around 1150\,\AA.}
 	\label{tab:lags_UVW2}
-	\begin{tabular}{l c | l c}
+	\begin{tabular}{l c c}
 		\hline\hline
-		Line & $\tau_{\text{cent}}$ [d] & Line & $\tau_{\text{cent}}$ [d] \\
+		Line & $\tau_{\text{cent}}$ [d] & $R_{\mathrm{BLR}}$ [ld] \\
 		\hline\hline
-		H$\alpha$             & $3.3 \ensuremath{_{-0.6}^{+1.1}}$ & He\,\textsc{i}\,5875   & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ \\
-		H$\beta$              & $2.3 \ensuremath{_{-0.3}^{+1.0}}$ & He\,\textsc{ii}\,1640  & $0.3 \ensuremath{_{-0.2}^{+0.6}}$ \\
-		H$\gamma$             & $1.7 \ensuremath{_{-0.4}^{+0.2}}$ & He\,\textsc{ii}\,4685  & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ \\
-		H$\delta$             & $1.7 \ensuremath{_{-0.4}^{+0.4}}$ & N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$    & $1.0 \ensuremath{_{-0.4}^{+0.2}}$ \\ 
-		Ly$\alpha$            & $1.0 \ensuremath{_{-0.2}^{+0.4}}$ &  Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$  & $1.2 \ensuremath{_{-0.4}^{+0.1}}$ \\
-		O\,\textsc{i}\,8446   & $4.7 \ensuremath{_{-1.4}^{+2.4}}$ &  C\textsc{iv}$\,\lambda\lambda 1548,\,1550$   & $0.8 \ensuremath{_{-0.1}^{+0.5}}$ \\
+		H$\alpha$             & $3.3 \ensuremath{_{-0.6}^{+1.1}}$ & $3.8 \ensuremath{_{-0.6}^{+1.1}}$ \\
+		H$\beta$              & $2.3 \ensuremath{_{-0.3}^{+1.0}}$ & $2.8 \ensuremath{_{-0.3}^{+1.0}}$ \\
+		H$\gamma$             & $1.7 \ensuremath{_{-0.4}^{+0.2}}$ & $2.2 \ensuremath{_{-0.4}^{+0.2}}$ \\
+		H$\delta$             & $1.7 \ensuremath{_{-0.4}^{+0.4}}$ & $2.2 \ensuremath{_{-0.4}^{+0.4}}$ \\
+		Ly$\alpha$            & $1.0 \ensuremath{_{-0.2}^{+0.4}}$ & $1.5 \ensuremath{_{-0.2}^{+0.4}}$ \\
+		\hline
+		He\,\textsc{i}\,5875  & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ & $3.8 \ensuremath{_{-0.4}^{+0.7}}$ \\
+		He\,\textsc{ii}\,1640 & $0.3 \ensuremath{_{-0.2}^{+0.6}}$ & $0.8 \ensuremath{_{-0.2}^{+0.6}}$ \\
+		He\,\textsc{ii}\,4685 & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ & $1.2 \ensuremath{_{-0.3}^{+0.1}}$ \\
+		\hline
+		N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$    & $1.0 \ensuremath{_{-0.4}^{+0.2}}$ & $1.5 \ensuremath{_{-0.4}^{+0.2}}$ \\
+		Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$  & $1.2 \ensuremath{_{-0.4}^{+0.1}}$ & $1.7 \ensuremath{_{-0.4}^{+0.1}}$ \\
+		C\textsc{iv}$\,\lambda\lambda 1548,\,1550$     & $0.8 \ensuremath{_{-0.1}^{+0.5}}$ & $1.3 \ensuremath{_{-0.1}^{+0.5}}$ \\
+		\hline
+		O\,\textsc{i}\,8446   & $4.7 \ensuremath{_{-1.4}^{+2.4}}$ & $5.2 \ensuremath{_{-1.4}^{+2.4}}$ \\
 		\hline\hline
 	\end{tabular}
 \end{table}
-
 
 \begin{figure}[htbp]
 	\centering
@@ -406,29 +416,30 @@ The resulting SMBH mass results, as well as the corresponding time lag and FWHM 
 \begin{table}[htp]
 	\centering
 	\small
-	\caption{Estimated time lags, FWHM and SMBH masses.}
-	\label{tab:BH_mass}
+	\caption{Estimated characteristic BLR radii, FWHM and SMBH masses.}
+	\label{tab:fBH_mass}
 	\begin{tabular}{l c c c}
 		\hline
 		\hline
-		\textbf{Line} & $\tau_{\text{cent}}$ [d] & FWHM (rms)[km/s] & $M_{\text{BH}} [10^7 M_\odot]$ \\
+		\textbf{Line} & $R_{\mathrm{BLR}}$ [ld] & FWHM (rms)[km/s] & $M_{\text{BH}} [10^7 M_\odot]$ \\
 		\hline
 		\hline
-		Ly$\alpha$ & $1.0 \ensuremath{_{-0.2}^{+0.4}}$ & $4600 \pm 500$ &$0.7 \ensuremath{_{-0.2}^{+0.3}}$ \\
-		H$\alpha$ & $3.3 \ensuremath{_{-0.6}^{+1.1}}$ & $3100 \pm 250$ &$1.1 \ensuremath{_{-0.4}^{+0.6}}$ \\
-		H$\beta$ & $2.3 \ensuremath{_{-0.3}^{+1.0}}$ & $3400 \pm 200$&$0.9 \ensuremath{_{-0.2}^{+0.6}}$ \\
-		H$\gamma$ & $1.7 \ensuremath{_{-0.4}^{+0.2}}$ & $3900 \pm 300$ &$0.9 \ensuremath{_{-0.3}^{+0.3}}$ \\
-		H$\delta$ & $1.7 \ensuremath{_{-0.4}^{+0.4}}$ & $5900 \pm 1000$  & $1.5 \ensuremath{_{-0.5}^{+0.6}}$ \\
-		He\,\textsc{i}$\,\lambda5876$ & $3.3 \ensuremath{_{-0.4}^{+0.7}}$ & $ 4000 \pm 300$&$1.8 \ensuremath{_{-0.5}^{+0.7}}$ \\
-		He\,\textsc{ii}$\,\lambda1640$ & $0.3 \ensuremath{_{-0.2}^{+0.6}}$ & $6900 \pm 1000$ & $0.4 \ensuremath{_{-0.3}^{+1.2}}$ \\
-		He\,\textsc{ii}$\,\lambda4686$ & $0.7 \ensuremath{_{-0.3}^{+0.1}}$ & $6000 \pm 300$ &$0.9 \ensuremath{_{-0.4}^{+0.2}}$ \\
-		C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $0.8 \ensuremath{_{-0.1}^{+0.5}}$ & $8400 \pm 1000$ &$1.9 \ensuremath{_{-0.2}^{+1.7}}$ \\
-		
-		
+		Ly$\alpha$ & $1.5 \ensuremath{_{-0.2}^{+0.4}}$ & $4600 \pm 500$ &$1.2 \ensuremath{_{-0.2}^{+0.3}}$ \\
+		H$\alpha$ & $3.8 \ensuremath{_{-0.6}^{+1.1}}$ & $3100 \pm 250$ &$1.3 \ensuremath{_{-0.2}^{+0.4}}$ \\
+		H$\beta$ & $2.8 \ensuremath{_{-0.3}^{+1.0}}$ & $3400 \pm 200$&$1.2 \ensuremath{_{-0.2}^{+0.5}}$ \\
+		H$\gamma$ & $2.2 \ensuremath{_{-0.4}^{+0.2}}$ & $3900 \pm 300$ &$1.2 \ensuremath{_{-0.3}^{+0.2}}$ \\
+		H$\delta$ & $2.2 \ensuremath{_{-0.4}^{+0.4}}$ & $5900 \pm 1000$  & $1.9 \ensuremath{_{-0.4}^{+0.4}}$ \\
+		He\,\textsc{i}$\,\lambda5876$ & $3.8 \ensuremath{_{-0.4}^{+0.7}}$ & $ 4000 \pm 300$&$2.1 \ensuremath{_{-0.3}^{+0.4}}$ \\
+		He\,\textsc{ii}$\,\lambda1640$ & $0.8 \ensuremath{_{-0.2}^{+0.6}}$ & $6900 \pm 1000$ & $1.3 \ensuremath{_{-0.3}^{+1.0}}$ \\
+		He\,\textsc{ii}$\,\lambda4686$ & $1.2 \ensuremath{_{-0.3}^{+0.1}}$ & $6000 \pm 300$ &$1.6 \ensuremath{_{-0.4}^{+0.2}}$ \\
+		C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $1.3 \ensuremath{_{-0.1}^{+0.5}}$ & $8400 \pm 1000$ &$3.2 \ensuremath{_{-0.1}^{+1.3}}$ \\
 		\hline
 		\hline
 	\end{tabular}
 \end{table}\\
+
+
+
 To obtain a final estimation for the SMBH mass, a inverse-variance weighted mean is calculated. Since the uncertainties are asymmetric the higher gets adopted, $\sigma_i=\mathrm{max}(\sigma_i^-,\sigma_i^+)$.
 The weighted mean is then given by
 \begin{equation}
@@ -439,8 +450,8 @@ with an uncertainty
 \begin{equation}
 	\sigma_{\bar{M}}=\left(\sum_i w_i\right)^{-1/2}\,.
 \end{equation}
-This gives a weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (0.89 \pm 0.16)\times 10^{7}\,M_\odot$.\\\\
-It has to be noted, that the scale factor of $f=1.8$ does not account the low-inclination $i \sim 11^\circ$ of the elliptic accretion disk, modeled in \cite{Ochmann_2025}. Adopting the scaling relation $f \sim \sin^{-2}(i)$ introduced by \cite{krolik2001systematic}, a value of $f \sim 27.5$ would be needed to account for the low inclination. \cite{krolik2001systematic} used the line dispersion to parameterize the velocity dispersion, which is why the relation $\sigma_{\mathrm{line}} \approx \mathrm{FWHM}/2$ \parencite{peterson2004} has to be accounted again. Due to the square relation of the velocity dispersion to the black hole mass seen in Equation \ref{eqn:BHM}, the scale factor finally gets corrected to a value $f \sim 6.8$. Subsequently the found BH mass has to be multiplied by a additional factor of $3.77$. Subsequently, the weighted-mean SMBH mass can be estimated to be $\bar{M}_{\mathrm{BH}} \approx (3.35 \pm 0.62)\times 10^{7}\,M_\odot$.
+This gives a weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (1.40 \pm 0.12)\times 10^{7}\,M_\odot$.\\\\
+It has to be noted, that the scale factor of $f=1.8$ does not account the low-inclination $i \sim 11^\circ$ of the elliptic accretion disk, modeled in \cite{Ochmann_2025}. Adopting the scaling relation $f \sim \sin^{-2}(i)$ introduced by \cite{krolik2001systematic}, a value of $f \sim 27.5$ would be needed to account for the low inclination. \cite{krolik2001systematic} used the line dispersion to parameterize the velocity dispersion, which is why the relation $\sigma_{\mathrm{line}} \approx \mathrm{FWHM}/2$ \parencite{peterson2004} has to be accounted again. Due to the square relation of the velocity dispersion to the black hole mass seen in Equation \ref{eqn:BHM}, the scale factor finally gets corrected to a value $f \sim 6.8$. Subsequently the found BH mass has to be multiplied by a additional factor of $3.77$. Subsequently, the weighted-mean SMBH mass can be estimated to be $\bar{M}_{\mathrm{BH}} \approx (5.28 \pm 0.12)\times 10^{7}\,M_\odot$.
 
 
 
@@ -476,9 +487,8 @@ It has to be noted, that the scale factor of $f=1.8$ does not account the low-in
 \section{Bowen Fluorescence of O\,\textsc{I}$\,\lambda 8446$}
 \label{sec:BF_Analysis}
 
-Emission lines in the optical range, like the Balmer and helium lines, are commonly used in many reverberation-mapping campaigns, as they are easily accessible for nearby AGN \parencite{peterson1991steps, kollatschny1997balmer}. This is not the case for the low-ionization line O\,\textsc{i}$\,\lambda 8446$, which makes the emission line of particular interest in this analysis, since it exhibits noticeable variability (see. Table \ref{tab:varstatistics}) and therefore can be monitored in a RM analysis for the first time. O\,\textsc{i}$\,\lambda 8446$ is also know as a Bowen fluorescence line, that can be pumped by Ly$\beta$ emission \parencite{grandi1980}. While Ly$\beta$ is not covered in the spectral range of the HST dataset, Ly$\alpha$ is and can be used as a proxy for Ly$\beta$ which are expected to originate under similar physical conditions. This enables to examine the Bowen fluorescence process of O\,\textsc{i}$\,\lambda 8446$ for the first time in a RM analysis. \\
-To examine the Bowen fluorescence relation futher, the time lags between the UVW2 and emission-line lightcurves, as well as the CCFs and time lags between O\,\textsc{i}$\,\lambda 8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$, are calculated and shown in Figure \ref{fig:ccfs_Bowen}. All lightcurve show a strong correlation between $\sim 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and UVW2 lightcurves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are calculated as before. O\,\textsc{i}$\,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.3}^{+1.7}}$ days and behind UVW2 by $4.7 \ensuremath{_{-1.4}^{+2.4}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{_{-0.5}^{+0.5}}$ days and behind UVW2 by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ days. Therefore the direct relation of O\,\textsc{i}$\,\lambda 8446$ to UVW2 shows a slightly higher lag than H$\alpha$ to UVW2 within uncertainties. \\
-But since Bowen fluorescence is identified as the major excitation mechanism the lag of O\,\textsc{i}$\,\lambda 8446$ should be estimated following the Bowen fluorescence path. With the Ly$\alpha$ light curve lagging behind the UVW2 light curve by $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days, this suggests a lag along the Bowen-fluorescence path from UVW2 to Ly$\alpha$ and from Ly$\alpha$ to O\,\textsc{i}$\,\lambda 8446$ sums to $\sim 3.5$ days. Therefore, O\,\textsc{i}$\,\lambda 8446$ shows a lag much closer and consistent with the lag of H$\alpha$ within uncertainties.  Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ lightcurves, they also show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+1.6}}$ days, which is consistent with the lag found for the Bowen fluorescence path. 
+Emission lines in the optical range, like the Balmer and helium lines, are commonly used in many reverberation-mapping campaigns, as they are easily accessible for nearby AGN \parencite{peterson1991steps, kollatschny1997balmer}. This is not the case for the low-ionization line O\,\textsc{i}$\,\lambda 8446$, which makes the emission line of particular interest in this analysis, since it exhibits noticeable variability (see. Table \ref{tab:varstatistics}) and therefore can be monitored in a RM analysis for the first time. O\,\textsc{i}$\,\lambda 8446$ is also know as a Bowen fluorescence line, that can be pumped by Ly$\beta$ emission \parencite{grandi1980}. As described in Section \ref{sec:bowen_fluorescence}, Ly$\beta$ excites O\,\textsc{i} through a near-resonant transition at $\lambda\,1025\,\AA$. This is followed by decay via O\,\textsc{i}\,$\lambda\,11287$ and subsequently by O\,\textsc{i}\,$\lambda\,8446$, producing the observed O\,\textsc{i}\,$\lambda\,8446$ emission (see Figure \ref{fig:bowen_cascate}). This process was identified as the dominant excitation mechanism of O\,\textsc{i}$\,\lambda 8446$ in many other AGN (e.g. \cite{rudy1989detection, rodriguez2002oi, landt2008near}), showing that the variation in O\,\textsc{i}\,$\lambda\,8446$ is caused by L$\beta$ Bowen fluorescence. This also can be assumed for NGC\,4593, since it is possible to rule-out recombination as a significant excitation mechanism of O\,\textsc{i}$\,\lambda 8446$ through analyzing line ratios. If recombination would drive the O\,\textsc{i}$\,\lambda 8446$ emission, a relative strength between O\,\textsc{i}$\,\lambda 8446$ and the quintet line O\,\textsc{i}$\,\lambda 7774$ of $\lambda7774/\lambda8446 \approx 1.1-1.7$ should be detectable \cite{grandi1980, landt2008near}.  While O\,\textsc{i}$\,\lambda 7774$ is not detectable in the HST dataset, it is possible to determine a line ratio $\lambda7774/\lambda8446 = 0.2$ based on the Muse spectrum of NGC\,4593 presented by \cite{Ochmann_2025}, whic was taken in 2019. Therefore it can be assumed that the O\,\textsc{i}$\,\lambda 8446$ variation in NGC\,4593 is driven through Bowen fluorescence, which enables to examine the Bowen fluorescence relation of O\,\textsc{i}$\,\lambda 8446$ for the first time in a RM analysis. \\
+While Ly$\beta$ is not covered in the spectral range of the HST dataset, it is possible to use Ly$\alpha$ as a proxy for Ly$\beta$, since it is expected that both lines arise under similar physical conditions. Therefore, the time lags between the UVW2 and emission-line lightcurves, as well as the CCFs and time lags between O\,\textsc{i}$\,\lambda 8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$, are calculated and shown in Figure \ref{fig:ccfs_Bowen}. All lightcurve show a strong correlation between $\sim 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and UVW2 lightcurves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are calculated as before. O\,\textsc{i}$\,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.3}^{+1.7}}$ days and behind UVW2 by $4.7 \ensuremath{_{-1.4}^{+2.4}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{_{-0.5}^{+0.5}}$ days and behind UVW2 by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ days. Therefore the direct relation of O\,\textsc{i}$\,\lambda 8446$ to UVW2 shows a slightly higher lag than H$\alpha$ to UVW2 within uncertainties. Assuming Bowen fluorescence as the dominant excitation mechanism the lag of O\,\textsc{i}$\,\lambda 8446$ should be estimated following the Bowen fluorescence path. With the Ly$\alpha$ light curve lagging behind the UVW2 light curve by $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days, this suggests a lag along the Bowen-fluorescence path from UVW2 to Ly$\alpha$ and from Ly$\alpha$ to O\,\textsc{i}$\,\lambda 8446$ sums to $\sim 3.5$ days. Therefore, O\,\textsc{i}$\,\lambda 8446$ shows a lag much closer and consistent with the lag of H$\alpha$ within uncertainties.  Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ lightcurves, they also show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+1.6}}$ days, which is consistent with the lag found for the Bowen fluorescence path. 
 
 
 \begin{figure}[htbp]
