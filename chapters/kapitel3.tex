@@ -268,12 +268,16 @@ While the low-ionized O\,\textsc{i}\,8446 line exhibits and lag of $4.7 \ensurem
 
 \section{Line Profiles}
 \label{sec:line_profiles}
-By analysing the shape and line width of the emission line profiles it is possible to draw conclusions about the kinematics of their emitting region. Equally to the lightcurve extraction, a correction of the underlying continuum is necessary to enable comparison between the extracted profiles. Following the same procedure done for the lightcurves, an underlying linear continuum is interpolated, using line-free wavelength widows on the blue and red side for each emission line in both the AVG and RMS spectra. The selected boundaries of the pseudo-continua are listed in Table \ref{tab:line_profiles_pseudo}. By subtracting this interpolated continuum, a new zero-flux baseline for each line profile gets defined. Subsequently, the line profile is converted to velocity space using the relativistic Doppler equation \parencite{sher1968relativistic}\\ 
+The velocity dispersion of the BLR can be parameterized by the line widths of the broad emission line \parencite{peterson2004} and is common in reverberation mapping campaigns(e.g. \cite{kollatschny1997balmer, denney2006ngc4593}). Therefore the line profiles of the emission lines are extracted from the mean and rms spectrum. Equally to the lightcurve extraction, a correction of the underlying continuum is necessary to enable comparison between the extracted profiles. Following the same procedure done for the lightcurves, an underlying linear continuum is interpolated, using line-free wavelength widows on the blue and red side for each emission line in both the mean and rms spectra. The selected boundaries of the pseudo-continua are listed in Table \ref{tab:line_profiles_pseudo}. By subtracting this interpolated continuum, a new zero-flux baseline for each line profile is defined. The flux is normalized to the maximum of each line profile and subsequently, the line profile is converted to velocity space using the relativistic Doppler equation \parencite{sher1968relativistic}\\ 
 \begin{equation}
 	\label{eqn:velocity_space}
 	v_i = c \cdot \frac{\lambda_i^2 - \lambda_\mathrm{central}^2}{\lambda_i^2 + \lambda_\mathrm{central}^2}.
 \end{equation}\\
-Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the central wavelength of the emission line in rest-frame and $c$ the speed of light. Finally, the flux is getting normalized to the maximum of each line profile. Figure \ref{fig:line_profiles} shows an overview of the extracted and normalized line profiles. For the doublets N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $, Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ and C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ the rest-frame wavelength of the second line gets used as the central wavelength of the emission line.
+Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the central wavelength of the emission line in rest-frame and $c$ the speed of light. For the doublets N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $, Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ and C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ the rest-frame wavelength of the second line gets used as the central wavelength of the emission line. An overview of the comparison of the mean and rms profiles for each emission line is displayed in Figure \ref{fig:line_profiles}. \\
+Comparing the mean and rms line profiles, the maxima of the rms profiles of the Balmer lines, Ly$\alpha$ and He\,\textsc{i}$\,\lambda5875$ show a shift towards positive velocities compared to the mean profile. Therefore most parts of the rms profiles is located within the red wing of the mean profiles. This implies that most of the variability of these lines emerge from the receding region of their emitting region. Opposing to that, the maxima of the rms profiles of the higher ionized helium lines He\,\textsc{ii}$\,\lambda1640$ and 	He\,\textsc{ii}$\,\lambda4685$ as well as from the high ionized UV emission lines N\,\textsc{v}$\,\lambda\lambda 1283,\,1242$, Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ and C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ are found at the same location as for the mean profiles. With the exception for N\,\textsc{v}$\,\lambda\lambda 1283,\,1242$ which is blended with the Ly$\alpha$ profile, a more blue weighted rms profile can be seen for these emission lines.\\\\
+The mean line profiles includes narrow components in addition to \parencite{peterson1997introduction}. A decomposition from the broad component was not attempted, since it was not possible to isolate the narrow component. Therefore the rms line profiles are used in the subsequent analysis to examine the kinematics of the BLR, since their only include the variable broad component of the emission lines.\\
+
+
 
 \begin{figure}[htbp]
 	\centering
@@ -281,6 +285,7 @@ Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the 
 	\caption{Normalized line profiles in the AVG and RMS spectra}
 	\label{fig:line_profiles}
 \end{figure}
+
 \begin{table}[htbp]
 	\centering
 	\small
@@ -312,15 +317,15 @@ Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the 
 		\hline
 	\end{tabular}
 \end{table}
+\clearpage
 
-\subsection{Line widths}
-
-The widths of the emission line profiles in the mean and rms spectrum are measured by their Full Width Half Maximum (FWHM), were the height of the profiles is defined between their maximum and the zero-flux base line. This measure is conducted with GECHO for all emission lines with following exceptions. The mean profile of He\,\textsc{ii}$\,\lambda4685$ is partly blended with Fe\,\textsc{ii} emission in its blue wing, which is why the FWHM was estimated base on the width of the profiles red flank by doubling it. The same approach is used for the N\,\textsc{V}$\,\lambda\lambda 1238,\,1242$ profiles in both mean and rms spectra, since the blue wing is blended with the Ly$\alpha$ profile. \\
-The mean profile of the NIR emisson line O\,\textsc{i}$\,\lambda 8446$ is blended with the Ca\,\textsc{ii} $\lambda8498$, $\lambda8542$, $\lambda8662$ triplet. In a earlier study, \cite{Ochmann_2025} was already able to decompose the line profile  O\,\textsc{i}$\,\lambda 8446$ based on a Muse campaign in 2019, which is why this was not attempted in this analysis. In addition to that, the RMS profile shows very strong noise due to the low signal to noise ratio. The resulting FWHM values are listed in Table \ref{tab:line_width_FWHM}.\\
-It has to be noted, that the line profiles of the AVG spectrum can also includes narrow components of the respective emission line \parencite{peterson1997introduction}, as well in some cases a overlapping profile of a close narrow emission line (e.g. the [O\,\textsc{iii}] $\lambda4363$ next to H$\gamma$). The narrow components are hard to isolate in the profiles, which is why no attempt was made to decompose the AVG profiles. Having no narrow components in the RMS profiles, their FWHM will be used in subsequent analysis to describe the velocity dispersion of their emitting region.\\
-The uncertainties are estimated based on the instrumental dispersion of the gratings (see Table \ref{tab:stis_gratings}), the shape of the line profiles (see Figure \ref{fig:line_profiles}). H$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are measured with the G750L grating with a dispersion of $4.97\,(\text{\AA}/\mathrm{pixel})$; H$\beta$, H$\gamma$, H$\delta$, and He\,\textsc{ii}$\,\lambda4685$ are measured with the G430L grating with a dispersion of $2.73\,(\text{\AA}/\mathrm{pixel})$; and the UV emission lines are measured with the G140L grating with a dispersion of $0.6\,(\text{\AA}/\mathrm{pixel})$. By using Equation \ref{eqn:velocity_space}, this transforms to an equivalent dispersion per pixel in velocity space, listed in Table \ref{tab:grating_dispersion}. This dispersion is used as a minimum estimate for the uncertainty estimation.\\ The FWHM uncertainties of the RMS profiles of H$\gamma$, He\,\textsc{i}$\,\lambda5875$, and the He\,\textsc{ii} lines are scaled up due to their profile shape and noise. The RMS profile of H$\delta$ it is much more scattered and extended at his blue flank at half height, which is why its uncertainty is estimated significantly higher. Same is done for the FWHM of Ly$\alpha$, as it is blended with absorption in its blue flank and with the N\,\textsc{iv}$\,\lambda\lambda 1238,\,1242$ doublet in its red flank. The FWHM uncertainties for the profiles of the three doublets are estimated higher as well, due to their shape and superposition of their broad components. Finally, the uncertainties for the AVG and RMS profiles of N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ and for the AVG profile of He\,\textsc{ii}$\,\lambda4685$ are set significantly higher, since they are estimated based on the width of only one profile flank.\\
-
-
+\subsection{FWHM estimation}
+Equally to earlier RM studies (e.g. \cite{kollatschny1997balmer, denney2006ngc4593, probst2025emissionlinecontinuumreverberationmapping}), the line width of the line profiles is estimated by their Full Width Half Maximum (FWHM), which is conducted with gecho. For this the height of the profiles is defined between the profiles maxima and the zero-flux base line. The mean profile of He\,\textsc{ii}$\,\lambda4685$ is blended with Fe\,\textsc{ii} emission in the blue wing, which makes a measurement of its FWHM not possible. Instead, the FWHM is estimated based on the width of its red wing, which is consistent with the order of magnitude of the FWHM of He\,\textsc{ii}$\,\lambda1640$ within uncertainties. \\
+The FWHM of profiles of O\,\textsc{i}$\,\lambda 8446$, N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $, and Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ were not measured due to following reasons. \\
+The mean profile of the NIR emisson line O\,\textsc{i}$\,\lambda 8446$ is blended with the Ca\,\textsc{ii} $\lambda8498$, $\lambda8542$, $\lambda8662$ triplet. In a earlier study, \cite{Ochmann_2025} was already able to decompose the line profile O\,\textsc{i}$\,\lambda 8446$ based on a MUSE campaign in 2019, which is why this was not attempted in this analysis. While O\,\textsc{i}$\,\lambda 8446$ exhibits variation in the rms spectrum, its profile is to noisy for a FWHM measurement due to the low signal to noise ratio.\\
+The profiles of N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ is partly blended with the Ly$\alpha$ profile in both mean and rms and  in addition exhibits absorption in its blue wing in the rms spectrum. Therefore it is not possible to measure reliable FWHM for the N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ profiles.\\
+Finally, the profiles of Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ are blended with the semi-forbidden line doublet O\textsc{IV}]$\,\lambda\lambda\,1397,\,1400$ and the FWHM of the profiles would therefore include this components in addition to the Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ component. \\
+The resulting FWHM values are listed in Table \ref{tab:line_width_FWHM}. The uncertainties are estimated based on the instrumental dispersion of the gratings (see Table \ref{tab:stis_gratings}). The uncertainties are estimated primarily on the instrumental dispersion of the gratings (see Table \ref{tab:stis_gratings}) and selected higher accordingly the noise and shape of the profiles.\\ 
 
 
 \begin{table}[htbp]
@@ -334,18 +339,18 @@ The uncertainties are estimated based on the instrumental dispersion of the grat
 		\textbf{Line} & FWHM (avg)[km/s] & FWHM (rms)[km/s]   \\
 		\hline
 		\hline
-		H$\alpha$  & $3000 \pm 250$ &  $3100\pm 250$\\
-		H$\beta$ & $3400 \pm 200$&  $3400 \pm 200$ \\
-		H$\gamma$ & $4100 \pm 200$&  $3900 \pm 400$ \\
-		H$\delta$ & $3400 \pm 250$&  $5900 \pm 1000$ \\
+		H$\alpha$  & $3000 \pm 300$ &  $3100\pm 300$\\
+		H$\beta$ & $3400 \pm 300$&  $3400 \pm 300$ \\
+		H$\gamma$ & $4100 \pm 300$&  $3900 \pm 400$ \\
+		H$\delta$ & $3400 \pm 300$&  $5900 \pm 1000$ \\
 		Ly$\alpha$ & $3800 \pm 350$  &  $4600\pm 500$\\
 		\hline
-		He\,\textsc{i}$\,\lambda5875$ & $3500 \pm 300$&  $4000 \pm 400$  \\
+		He\,\textsc{i}$\,\lambda5876$ & $3500 \pm 300$&  $4000 \pm 400$  \\
 		He\,\textsc{ii}$\,\lambda1640$  & $2900 \pm 500$ & $6900 \pm 1000$\\
-		He\,\textsc{ii}$\,\lambda4685$&  $1800 \pm 600$&  $6000 \pm 400$ \\
+		He\,\textsc{ii}$\,\lambda4686$&  $1800 \pm 1000$&  $6000 \pm 400$ \\
 		
 		\hline
-		N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ &  $3200 \pm 800$&  $3400 \pm 1000$\\
+		%N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ &  $3200 \pm 1000$&  $3400 \pm 1000$\\
 		%Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ &  $5200 \pm 500$&  $10000 \pm 1500$\\
 		C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $ 5400\pm 500$  &  $ 8400 \pm 1000$\\
 		
@@ -354,48 +359,43 @@ The uncertainties are estimated based on the instrumental dispersion of the grat
 	\end{tabular}
 \end{table}
 
+\subsection{Comparison of the rms line profiles}
 
-\subsection{Balmer Line-Profiles}
-Looking at the comparison of the Balmer RMS profiles in Figure \ref{fig:RMS_Balmer}, they all show a overall similar shape. The centre of the profiles is shifted to positive velocities, with the peaks located between $\sim 0$--$500\,\mathrm{km\,s^{-1}}$ and between $\sim 1500$--$2000\,\mathrm{km\,s^{-1}}$. Both peaks show different values of flux, with higher values in the more blue peak, giving the profiles an asymmetric double-peak shape. The profile of H$\delta$ shows an additional peak at about $1000\,\mathrm{km\,s^{-1}}$ with a nearly similar flux than the blue peak of its profile. 
+
+The rms profiles of the Balmer line H$\alpha$ -- H$\delta$ show a asymmetric double peaked shape with higher flux in the blue peak (see. \ref{fig:RMS_Balmer}). They show strong similarities, with the double-peaks located around $\sim 500\,\mathrm{km\,s^{-1}}$ and $\sim 2000\,\mathrm{km\,s^{-1}}$ for every profile. While the profiles of H$\alpha$ and H$\beta$ exhibiting similar steep slope in both wings as well, the H$\gamma$ and H$\delta$ profiles show more extended blue wings. Therefore the FWHM shows a increasing tendency towards the higher ordered Balmer lines with $3100\pm 300\,\mathrm{km\,s^{-1}}$ and $3400 \pm 300\,\mathrm{km\,s^{-1}}$ for H$\alpha$ and H$\beta$ and $3900 \pm 400\,\mathrm{km\,s^{-1}}$ and $5900 \pm 1000\,\mathrm{km\,s^{-1}}$, respectively. \\
+%The rms profile of Ly$\alpha$ exhibits a similar shift towards positive velocities compared to the Balmer lines, with a comparable broad peak located between approximately $1000\,\mathrm{km\,s^{-1}}$ and $2000\,\mathrm{km\,s^{-1}}$. It shows absorption in both wings and a FWHM was found with $4600\pm 500\,\mathrm{km\,s^{-1}}$ and therefore shows similar velocities than the higher order Balmer lines.
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf}
 	\caption{Comparison of the normalized RMS line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$.}
 	\label{fig:RMS_Balmer}
 \end{figure}\\
-Looking in more detail into the shape of RMS profiles, the H$\alpha$ and H$\beta$ profiles show a strong similarity to each other, with both wings exhibiting a steep slope. The red wing of the H$\gamma$ and H$\delta$ profiles follows the same slope, which ends in a small peak at about $\sim 3000 \,\mathrm{km\,s^{-1}}$. The H$\gamma$ and H$\delta$ profiles show a more extended blue wing. The H$\delta$ profile is the most noisy of the Balmer RMS profiles. Still a close similarity to the H$\gamma$ profile is noticeable, showing the same broad blue wing. This also leads to higher FWHM value of  $\sim 3900 \pm 400\,\mathrm{km\,s^{-1}}$ for H$\gamma$ and $\sim 5900 \pm 1000 \,\mathrm{km\,s^{-1}}$ for H$\delta$ compared to the values of H$\alpha$ and H$\beta$ with $\sim 3100 \pm 250\,\mathrm{km\,s^{-1}}$ and $\sim 3400 \pm 200\,\mathrm{km\,s^{-1}}$. Taking the similarities of the RMS profile shapes, it can be assumed that all four Balmer lines emerge under similar kinematic properties. \\
-Looking at Figure \ref{fig:line_profiles} it can be seen, that most of the RMS profile is located within the red wing of the AVG profiles, suggesting that a largely part of the measured variation originates at positive velocities of the emitting region. 
+Comparing the rms profiles of the helium lines, differences in shape become apparent depending on the line ionization (see. Figure \ref{fig:RMS_Helium}). 
 
-\subsection{Helium Line-Profiles}
-The RMS profiles, as well as a comparison of the He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$ and He\,\textsc{ii}$\,\lambda1640$  is shown in Figure \ref{fig:RMS_Helium}. Their RMS profiles are more noisy than the Balmer RMS profiles, due to lower signal to noise ratio, but are still clearly distinguishable from the surrounding continuum. \\
-First looking at the RMS profile of He\,\textsc{i}$\,\lambda5875$, shift to positive velocities is noticeable similar to the Balmer RMS profiles, with its maximum located at about $1500\,\mathrm{km\,s^{-1}}$. Going from the maximum, the profile shows a more extended blue wing and a steeper and narrower red wing, with a FWHM of about $4000 \pm 400$. 
+\textbf{Compare helium lines}
+
+
+
+%\subsection{UV Line Profiles}
+
+%Figure \ref{fig:RMS_UV} shows the RMS profiles of the Ly$\alpha$ line, the N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ doublet, the  Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ doublet and the 	C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doublet. Starting with  Ly$\alpha$, its RMS profile is blended with line absorption in its blue flank, as well as with the N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ doublet in his red wing. Still, its central part is good distinguishable. Similar to the Balmer lines, the most parts, as well as the highest flux is shifted towards positive velocities. It shows a steep blue wing and a slightly broader red wing, which a small broadening at about half height, resulting in a FWHM of about $\sim 4600 \pm 350 \mathrm{km\,s^{-1}}$. \\
+%The RMS profile of the neighboring N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ doublet is blended with absorption as well as with the Ly$\alpha$ RMS profile. This makes its RMS profile difficult to distinguish. Still it was attempted to estimate its FWHM by taking the width of the red wing of the central peak, resulting in an FWHM of about $3400 \pm 1000 \mathrm{km\,s^{-1}}$.\\ The RMS profile Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ doublet shows a very broad and scattered profile and is blended with the semi-forbidden line doublet O\textsc{IV}]$\,\lambda\lambda\,1397,\,1400$. This leads to a very broad FWHM of about $\sim 10000 \pm 1000 \mathrm{km\,s^{-1}}$. Due to the noise profile and because of a possible interference with the O\textsc{IV}]$\,\lambda\lambda\,1397,\,1400$ doublet, the measured FWHM value will not taken into account for the subsequent analysis.\\
+%Finally, the RMS profile of the C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doublet shows a very asymmetric profile with a broad plateau like blue wing, with flux staying below half height of the maximum until about $-3000\mathrm{km\,s^{-1}}$. The centre of the RMS profile is shows a double-peak-like shape with a narrower blue peak and a broader red peak. They are located at about $\sim -1500\mathrm{km\,s^{-1}}$ and $250\mathrm{km\,s^{-1}}$, with higher flux in the red peak. Between the peaks the flux drops below half of the maximum, due to blending with absorption, which is why the left wing of the blue peak and the right wing of the red peak has been used to measure the FWHM with $\sim 8400 \pm 1000$. 
+
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf}
 	\caption{Comparison of the normalized RMS line profiles of the Helium lines}
 	\label{fig:RMS_Helium}
-\end{figure}\\
-A similar shape can be noticed for the RMS profile of He\,\textsc{ii}$\,\lambda4685$. While its profile is not shifted, like for He\,\textsc{i}$\,\lambda5875$, it also shows a more extended blue wing and narrow red wing, with a FWHM of about $6000 \pm 400 \,\mathrm{km\,s^{-1}}$.\\
-The RMS profile of the UV Helium line He\,\textsc{ii}$\,\lambda1640$ is even more noisy, compared to the RMS profiles of the other Helium lines due to its lower signal to noise ratio. Like the He\,\textsc{ii}$\,\lambda4685$ RMS profile its maximum is located somewhere around $0\,\mathrm{km\,s^{-1}}$ and also exhibits a more extended blue wing and a steep slope in its red wing. At around $2000\,\mathrm{km\,s^{-1}}$ its RMS profile is blended with the RMS profile of semi-forbidden doublet O\,\textsc{iii}]$\,\lambda\lambda 1660,\,1666$. Still, its contribution to the RMS profile of He\,\textsc{ii}$\,\lambda1640$ stays below the half height of the profile and does not influence the FWHM measurement with a value of about $6900 \pm 1000\,\mathrm{km\,s^{-1}}$.\\
-Comparing the RMS profiles of the He lines, all three show a similar shape with a extended blue wing and a narrow red wing, with He\,\textsc{i}$\,\lambda5875$ exhibiting a narrower FWHM and a shift towards positive velocities, than the He\,\textsc{ii} RMS profiles, who shows FWHM in the same order of magnitude. 
-
-
-
-
-
-\subsection{UV Line Profiles}
-
-Figure \ref{fig:RMS_UV} shows the RMS profiles of the Ly$\alpha$ line, the N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ doublet, the  Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ doublet and the 	C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doublet. Starting with  Ly$\alpha$, its RMS profile is blended with line absorption in its blue flank, as well as with the N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ doublet in his red wing. Still, its central part is good distinguishable. Similar to the Balmer lines, the most parts, as well as the highest flux is shifted towards positive velocities. It shows a steep blue wing and a slightly broader red wing, which a small broadening at about half height, resulting in a FWHM of about $\sim 4600 \pm 350 \mathrm{km\,s^{-1}}$. \\
-The RMS profile of the neighboring N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ doublet is blended with absorption as well as with the Ly$\alpha$ RMS profile. This makes its RMS profile difficult to distinguish. Still it was attempted to estimate its FWHM by taking the width of the red wing of the central peak, resulting in an FWHM of about $3400 \pm 1000 \mathrm{km\,s^{-1}}$.\\ The RMS profile Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ doublet shows a very broad and scattered profile and is blended with the semi-forbidden line doublet O\textsc{IV}]$\,\lambda\lambda\,1397,\,1400$. This leads to a very broad FWHM of about $\sim 10000 \pm 1000 \mathrm{km\,s^{-1}}$. Due to the noise profile and because of a possible interference with the O\textsc{IV}]$\,\lambda\lambda\,1397,\,1400$ doublet, the measured FWHM value will not taken into account for the subsequent analysis.\\
-Finally, the RMS profile of the C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doublet shows a very asymmetric profile with a broad plateau like blue wing, with flux staying below half height of the maximum until about $-3000\mathrm{km\,s^{-1}}$. The centre of the RMS profile is shows a double-peak-like shape with a narrower blue peak and a broader red peak. They are located at about $\sim -1500\mathrm{km\,s^{-1}}$ and $250\mathrm{km\,s^{-1}}$, with higher flux in the red peak. Between the peaks the flux drops below half of the maximum, due to blending with absorption, which is why the left wing of the blue peak and the right wing of the red peak has been used to measure the FWHM with $\sim 8400 \pm 1000$. 
-
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.7\textwidth]{pictures/Chapter4/line_profiles/UV_Lines.pdf}
-	\caption{Comparison of the normalized RMS line profiles of the UV lines}
-	\label{fig:RMS_UV}
 \end{figure}
+
+%\begin{figure}[htbp]
+%	\centering
+%	\includegraphics[width=0.75\textwidth]{pictures/Chapter4/line_profiles/UV_Lines.pdf}
+%	\caption{Comparison of the normalized RMS line profiles of the UV lines}
+%	\label{fig:RMS_UV}
+%\end{figure}
 
 
 
