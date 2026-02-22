@@ -1,39 +1,39 @@
-\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Scientific Background}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Active Galactic Nuclei}{8}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Geometric and Spectral Features of AGNs}{9}{subsection.2.1.1}%
-\contentsline {subsubsection}{Supermassive Black Hole and Accretion Disk}{9}{subsection.2.1.1}%
-\contentsline {subsubsection}{Broad-Line and Narrow-Line Region}{10}{subsection.2.1.1}%
-\contentsline {subsubsection}{Dusty Torus}{11}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Classification}{11}{subsection.2.1.2}%
-\contentsline {subsubsection}{Seyfert Galaxies}{12}{subsection.2.1.2}%
-\contentsline {subsubsection}{Additional AGN Classes}{13}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Unification Model}{14}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Variability}{15}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Reverberation Mapping}{16}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Principle of Reverberation Mapping}{16}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Lag Measurement}{18}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Black Hole Mass}{19}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Bowen Fluorescence of O\textsc {I}$\lambda $8446}{20}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Campaign and Data Preparation}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}NGC4593}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The 2016 HST Campaign}{22}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Intercalibration and Determination of AVG and RMS Spectra}{23}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Line Identification}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{28}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Lightcurves}{33}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Variability Statistics}{35}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Uncertainties Estimation}{35}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Time Lag}{36}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Line Profiles}{40}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}FWHM estimation}{42}{subsection.4.5.1}%
-\contentsline {section}{\numberline {4.6}Black Hole Mass}{46}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{47}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Discussion}{50}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Structure of the BLR}{51}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Time Lags}{51}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Line Profiles}{51}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Black Hole Mass}{53}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{53}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Summary}{54}{section.5.4}%
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Scientific Background}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Active Galactic Nuclei}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Geometric and Spectral Features of AGNs}{8}{subsection.2.1.1}%
+\contentsline {subsubsection}{Supermassive Black Hole and Accretion Disk}{8}{subsection.2.1.1}%
+\contentsline {subsubsection}{Broad-Line and Narrow-Line Region}{9}{subsection.2.1.1}%
+\contentsline {subsubsection}{Dusty Torus}{10}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Classification}{10}{subsection.2.1.2}%
+\contentsline {subsubsection}{Seyfert Galaxies}{11}{subsection.2.1.2}%
+\contentsline {subsubsection}{Additional AGN Classes}{12}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Unification Model}{13}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Variability}{14}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Reverberation Mapping}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Principle of Reverberation Mapping}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Lag Measurement}{17}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Black Hole Mass}{18}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Bowen Fluorescence of O\textsc {I}$\lambda $8446}{19}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Campaign and Data Preparation}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}NGC4593}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The 2016 HST Campaign}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Intercalibration and Determination of AVG and RMS Spectra}{22}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Line Identification}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Light Curves}{32}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Variability Statistics}{34}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Uncertainties Estimation}{34}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Time Lag}{35}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Line Profiles}{39}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}FWHM estimation}{41}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.6}Black Hole Mass}{45}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{46}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Discussion}{49}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Structure of the BLR}{50}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Time Lags}{50}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Line Profiles}{50}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Black Hole Mass}{52}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{52}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Summary}{53}{section.5.4}%
