@@ -263,7 +263,7 @@ While the low-ionized O\,\textsc{i}\,8446 line exhibits and lag of $4.7 \ensurem
 
 \section{Line Profiles}
 \label{sec:line_profiles}
-The velocity dispersion of the BLR can be parameterized by the line widths of the broad emission line \parencite{peterson2004} and is common in reverberation mapping campaigns(e.g. \cite{kollatschny1997balmer, denney2006ngc4593}). Therefore the line profiles of the emission lines are extracted from the mean and rms spectrum. Equally to the lightcurve extraction, a correction of the underlying continuum is necessary to enable comparison between the extracted profiles. Following the same procedure done for the lightcurves, an underlying linear continuum is interpolated, using line-free wavelength widows on the blue and red side for each emission line in both the mean and rms spectra. The selected boundaries of the pseudo-continua are listed in Table \ref{tab:line_profiles_pseudo}. By subtracting this interpolated continuum, a new zero-flux baseline for each line profile is defined. The flux is normalized to the maximum of each line profile and subsequently, the line profile is converted to velocity space using the relativistic Doppler equation \parencite{sher1968relativistic}\\ 
+The velocity dispersion of the BLR can be parameterized by the line widths of the broad emission line \parencite{peterson2004} and is common in reverberation mapping campaigns (e.g. \cite{kollatschny1997balmer, denney2006ngc4593}). Therefore the line profiles of the emission lines are extracted from the mean and rms spectrum. Equally to the lightcurve extraction, a correction of the underlying continuum is necessary to enable comparison between the extracted profiles. Following the same procedure done for the lightcurves, an underlying linear continuum is interpolated, using line-free wavelength widows on the blue and red side for each emission line in both the mean and rms spectra. The selected boundaries of the pseudo-continua are listed in Table \ref{tab:line_profiles_pseudo}. By subtracting this interpolated continuum, a new zero-flux baseline for each line profile is defined. The flux is normalized to the maximum of each line profile and subsequently, the line profile is converted to velocity space using the relativistic Doppler equation \parencite{sher1968relativistic}\\ 
 \begin{equation}
 	\label{eqn:velocity_space}
 	v_i = c \cdot \frac{\lambda_i^2 - \lambda_\mathrm{central}^2}{\lambda_i^2 + \lambda_\mathrm{central}^2}.
@@ -334,13 +334,13 @@ Comparing the mean and rms profiles, a tendency emerges between lower- and highe
 
 
 
-\subsection{FWHM estimation}
+\subsection{Full Width Half Maximum}
 Equally to earlier RM studies (e.g. \cite{kollatschny1997balmer, denney2006ngc4593, probst2025emissionlinecontinuumreverberationmapping}), the line width of the line profiles is estimated by their Full Width Half Maximum (FWHM), which is conducted with GECHO. For this the height of the profiles is defined between the profiles maxima and the zero-flux base line. The mean profile of He\,\textsc{ii}$\,\lambda4685$ is blended with Fe\,\textsc{ii} emission in the blue wing, which makes a measurement of its FWHM not possible. Instead, the FWHM is estimated based on the width of its red wing, which is consistent with the order of magnitude of the FWHM of He\,\textsc{ii}$\,\lambda1640$ within uncertainties. \\
 The FWHM of profiles of O\,\textsc{i}$\,\lambda 8446$, N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $, and Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ were not measured due to following reasons. \\
 The mean profile of the NIR emission line O\,\textsc{i}$\,\lambda 8446$  is blended with the Ca\,\textsc{ii} O\,\textsc{i}$\,\lambda 8446$$\lambda8498$, $\lambda8542$, $\lambda8662$ triplet. A decomposition of the O\,\textsc{i}$\,\lambda 8446$ line profile was already performed by \cite{Ochmann_2025} based on a MUSE campaign in 2019, and was therefore not attempted here. Although O\,\textsc{i}$\,\lambda 8446$ shows variability in the rms spectrum, its profile is too noisy for a reliable FWHM measurement due to the low signal-to-noise ratio.\\
-As mentioned in the previously section, the N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ is blended with the Ly$\alpha$ profile in both mean and rms and  exhibits absorption in its blue wing in the rms spectrum and made a reliable FWHM for the N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ profiles not possible.\\
-The profiles of Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ are blended with the semi-forbidden line doublet O\textsc{IV}]$\,\lambda\lambda\,1397,\,1400$ such that any FWHM measurement would include contributions from both components and cannot be attributed to Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ alone, and is therefore excluded in the FWHM measurment. \\
-The resulting FWHM values are listed in Table \ref{tab:line_width_FWHM}. The uncertainties are estimated primarily from the instrumental dispersion of the respective gratings (see Table \ref{tab:stis_gratings}), and are adjusted accordingly the noise and shape of the profiles.\\ 
+As mentioned in the previously section, the N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ is blended with the Ly$\alpha$ profile in both mean and rms and exhibits not resolved absorption in its blue wing in the rms spectrum, making it difficult to estimate the FWHM for the N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ profiles. Using the same approach as for the mean profile of He\,\textsc{ii}$\,\lambda4685$, the width of the rms profiles red wing was measured and doublet. \\
+The profiles of Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ are blended with the semi-forbidden line doublet O\textsc{IV}]$\,\lambda\lambda\,1397,\,1400$ such that any FWHM measurement would include contributions from both components and cannot be attributed to Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ alone, and is therefore excluded in the FWHM measurement. \\
+The resulting FWHM values are listed in Table \ref{tab:line_width_FWHM}. The uncertainties are estimated primarily from the instrumental dispersion of the respective gratings (see Table \ref{tab:stis_gratings}), and are adjusted accordingly the noise and shape of the profiles. For the found FWHM values of the mean profile of He\,\textsc{ii}$\,\lambda4685$ and both profiles of N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ much higher uncertainties are assumed due to the estimation based on the width of only one wing.\\
 The mean line profiles contain both broad and narrow components \parencite{peterson1997introduction}. Since the narrow component could not be isolated, no decomposition was attempted. Since the rms profiles only include the variable broad component of the emission lines, their FWHM are used in the subsequent estimation of the SMBH mass.\\
 Comparing the FWHM of the rms profiles (see Table \ref{tab:line_width_FWHM}), the higher-order Balmer lines H$\gamma$ and H$\delta$ show larger FWHM than H$\alpha$ and H$\beta$ consistent with their more extended blue wings visible in Figure \ref{fig:rms_Balmer}. The rms profile of Ly$\alpha$ shows a FWHM comparable to the higher order Balmer lines. The helium lines show a ionization dependence in their FWHM (see Figure \ref{fig:rms_Helium}). The rms line profiels of He\,\textsc{ii}$\,\lambda1640$ and He\,\textsc{ii}$\,\lambda4686$ exhibit significantly larger FWHM than the line He\,\textsc{i}$\,\lambda5876$ line. The high-ionization line C\textsc{iv}$\,\lambda\lambda 1548,\,1550$  shows the largest FWHM among all measured broad emission lines. Taken together, these results show a clear trend of increasing FWHM with increasing ionization in the rms line profiles.
 
@@ -363,11 +363,11 @@ Comparing the FWHM of the rms profiles (see Table \ref{tab:line_width_FWHM}), th
 		Ly$\alpha$ & $3800 \pm 350$  &  $4600\pm 500$\\
 		\hline
 		He\,\textsc{i}$\,\lambda5876$ & $3500 \pm 300$&  $4000 \pm 400$  \\
-		He\,\textsc{ii}$\,\lambda1640$  & $2900 \pm 500$ & $6900 \pm 1000$\\
+		He\,\textsc{ii}$\,\lambda1640$  & $2900 \pm 1000$ & $6900 \pm 1000$\\
 		He\,\textsc{ii}$\,\lambda4686$&  $1800 \pm 1000$&  $6000 \pm 400$ \\
 		
 		\hline
-		%N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ &  $3200 \pm 1000$&  $3400 \pm 1000$\\
+		N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ &  $3200 \pm 2000$&  $3400 \pm 2000$\\
 		%Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ &  $5200 \pm 500$&  $10000 \pm 1500$\\
 		C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $ 5400\pm 500$  &  $ 8400 \pm 1000$\\
 		
@@ -381,13 +381,24 @@ Comparing the FWHM of the rms profiles (see Table \ref{tab:line_width_FWHM}), th
 
 \section{Black Hole Mass}
 
-The mass of the SMBH can be estimated by deriving the virial mass for each measured emission line and adjusting it with a scale factor $f$ \parencite{peterson2004}. A scale factor of $f=1.8$ is assumed, since FWHM of the rms profiles is used to parameterize the velocity dispersion $\Delta V$, following \cite{probst2025emissionlinecontinuumreverberationmapping} (see Section \ref{subsec:BHM}). O\,\textsc{i}$\,\lambda8446$, N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ and Si\,\textsc{iv}$\,\lambda\lambda 1238,\,1242$ are excluded in the mass estimation, since they could not be measured reliably.\\
+The mass of the SMBH is estimated based on the assumption that the velocity of the BLR is virialized and dominated by the gravitational potential of the SMBH \parencite{peterson2004}. Based on this assumption, a virial mass for each measured emission line is determined with the found characteristic radii of the BLR and the line widths of the rms profiles, which only cover the virial component of the broad emission line. The virial mass is then  adjusting with a scale factor $f$ to account for unknown geometry, kinematic and inclination of the AGN \parencite{peterson2004}. Since the line widths of the rms are estimated with their FWHM, a scale factor of $f=1.8$ is assumed, following \cite{probst2025emissionlinecontinuumreverberationmapping} (see Section \ref{subsec:BHM}). N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ is excluded in the mass estimation, due to the blend with Ly$\alpha$ and unresolvable absorption in its rms profile, which makes the found FWHM not reliable for the mass estimation.\\
 Taking equation \ref{eqn:charc_radius}, \ref{eqn:M_vir} and \ref{eqn:M_BH} the SMBH mass can be estimated based on the time lag and FWHM of for each emission line using: 
 \begin{equation}
 	\label{eqn:BHM}
 	M_{\mathrm{BH}} = 1.8 \cdot \frac{c \cdot \tau_{\mathrm{centroid}}\,\mathrm{FWHM}^2}{G}\,.
 \end{equation}
-The resulting SMBH mass results, as well as the corresponding time lag and FWHM values of the broad emission lines are listed in Table \ref{tab:BH_mass}.
+The resulting SMBH mass results, as well as the corresponding time lag and FWHM values of the broad emission lines are listed in Table \ref{tab:BH_mass}.\\
+To obtain a final estimation for the SMBH mass, a inverse-variance weighted mean is calculated. Since the uncertainties are asymmetric the higher gets adopted, $\sigma_i=\mathrm{max}(\sigma_i^-,\sigma_i^+)$.
+The weighted mean is then given by
+\begin{equation}
+	\bar{M}_{\mathrm{BH}}=\frac{\sum_i w_i M_{\mathrm{BH},i}}{\sum_i w_i}\,,\qquad
+	w_i=\frac{1}{\sigma_i^2}\,,
+\end{equation}
+with an uncertainty
+\begin{equation}
+	\sigma_{\bar{M}}=\left(\sum_i w_i\right)^{-1/2}\,.
+\end{equation}
+This gives a weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (1.40 \pm 0.12)\times 10^{7}\,M_\odot$.
 \begin{table}[htp]
 	\centering
 	\small
@@ -412,20 +423,6 @@ The resulting SMBH mass results, as well as the corresponding time lag and FWHM 
 		\hline
 	\end{tabular}
 \end{table}\\
-
-
-
-To obtain a final estimation for the SMBH mass, a inverse-variance weighted mean is calculated. Since the uncertainties are asymmetric the higher gets adopted, $\sigma_i=\mathrm{max}(\sigma_i^-,\sigma_i^+)$.
-The weighted mean is then given by
-\begin{equation}
-	\bar{M}_{\mathrm{BH}}=\frac{\sum_i w_i M_{\mathrm{BH},i}}{\sum_i w_i}\,,\qquad
-	w_i=\frac{1}{\sigma_i^2}\,,
-\end{equation}
-with an uncertainty
-\begin{equation}
-	\sigma_{\bar{M}}=\left(\sum_i w_i\right)^{-1/2}\,.
-\end{equation}
-This gives a weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (1.40 \pm 0.12)\times 10^{7}\,M_\odot$.\\\\
 It has to be noted, that the scale factor of $f=1.8$ does not account the low-inclination $i \sim 11^\circ$ of the elliptic accretion disk, modeled in \cite{Ochmann_2025}. Adopting the scaling relation $f \sim \sin^{-2}(i)$ introduced by \cite{krolik2001systematic}, a value of $f \sim 27.5$ would be needed to account for the low inclination. \cite{krolik2001systematic} used the line dispersion to parameterize the velocity dispersion, which is why the relation $\sigma_{\mathrm{line}} \approx \mathrm{FWHM}/2$ \parencite{peterson2004} has to be accounted again. Due to the square relation of the velocity dispersion to the black hole mass seen in Equation \ref{eqn:BHM}, the scale factor finally gets corrected to a value $f \sim 6.8$. Subsequently the found BH mass has to be multiplied by a additional factor of $3.77$. Subsequently, the weighted-mean SMBH mass can be estimated to be $\bar{M}_{\mathrm{BH}} \approx (5.28 \pm 0.12)\times 10^{7}\,M_\odot$.
 
 
