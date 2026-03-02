@@ -225,12 +225,11 @@ for the emission line light curves.
 
 \section{Time Lag}
 \label{sec:time_lag_bh_mass}
-To measure the time lag between the continuum emission and the broad emission lines, the emission-line light curves are correlated with the photometric \textit{Swift} UVW2 light curve presented in \cite{mchardy2018x}. This is done by determining the cross-correlation function (CCF) and measuring its centroid of the to 20\% of the CCF peak, as described in Section \ref{subsec:rm_ccf}. This calculation is done with GECHO, which applies the interpolated cross-correlation function (ICCF) method introduced by \cite{gaskell_peterson1986}. For this procedure, the light curves are normalized by subtracting the respective mean value from each data point and, to increase the effective sampling and measure correlation between two unevenly sampled light curves, flux values between data points are linearly interpolated for both light curves.\\
-The normalized light curves and the resulting CCFs are presented in Figures \ref{fig:ccfs_optical} and \ref{fig:ccfs_UV}. Additionally, the top panel of each figure displays the UVW2 light curve together with its auto-correlation function, while the bottom panel compares both lightcurves of the UVW2 and the UV continuum around $1150\,\AA$ and shows the corresponding CCF and time lag which has to be added for the final estimation of the characteristic BLR radii for each emission line. The resulting time lags towards the UVW2 continuum and the corresponding characteristic BLR radii are listed in Table \ref{tab:lags_UVW2}. The centroid uncertainties are estimated using the flux randomization/random subset selection (FR/RSS) method described by \cite{Peterson_1998b}, with 10000 iterations and a lag bin size of $0.5$ days. The resulting centroid distribution is displayed by the gray histogram in the above named figures.\\
-Overall, the CCFs of all measured emission lines show strong correlations with pronounced peak values between $\sim 0.7$ and $\sim 0.9$, except for the CCF of O\,\textsc{i}\,8446, which exhibits two local maxima at values of around $\sim 0.6$. \\
-H$\alpha$ and H$\beta$ lag behind the UVW2 light curve by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ and $2.3 \ensuremath{_{-0.3}^{+1.0}}$ days, respectively, while H$\gamma$ and H$\delta$ show shorter lags of $1.7 \ensuremath{_{-0.4}^{+0.2}}$ and $1.7 \ensuremath{_{-0.4}^{+0.4}}$ days. Therefore the lower order Balmer lines H$\alpha$ and H$\beta$ show higher time lags, than the higher ordered Balmer lines H$\gamma$ and H$\delta$. Ly$\alpha$ exhibits an even shorter time lag than the Balmer lines with $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days within uncertainties, which implies that the hydrogen emitting region is stratified.\\
-He\,\textsc{i}\,5875 shows a lag of $3.3 \ensuremath{_{-0.4}^{+0.7}}$ days, which is of the same order as the lags measured for H$\alpha$ and H$\beta$ within the uncertainties. Opposing to that, the two higher ionized He\,\textsc{ii}\,1640 and He\,\textsc{ii}\,4685 helium lines show much shorter lags, with a with $0.3 \ensuremath{_{-0.2}^{+0.6}}$days and $0.7 \ensuremath{_{-0.3}^{+0.1}}$ days, respectively. 
-The high ionized UV emission lines N\,\textsc{v}\,1238, Si\,\textsc{iv}\,1393 and C\,\textsc{iv}\,1548 also show short time lags of about $\sim 1\,$day compared to the lower ionized Balmer and He\,\textsc{i} lines. Therefore a tendency becomes apparent, that the higher ionized emission lines typically show shorter time lags than the lower ionized emission lines. \\
+To measure the time lag between the continuum emission and the broad emission lines, the emission-line light curves are correlated with the photometric \textit{Swift} UVW2 light curve presented in \cite{mchardy2018x}. This is done by determining the cross-correlation function (CCF) and measuring its centroid of the top 20\% of the CCF peak, as described in Section \ref{subsec:rm_ccf}. This calculation is performed with GECHO, which applies the interpolated cross-correlation function (ICCF) method introduced by \cite{gaskell_peterson1986}. For this purpose, the light curves are normalized by subtracting the respective mean value from each data point. To increase the effective sampling and enable the correlation of two unevenly sampled light curves, flux values between data points are linearly interpolated for both light curves. The centroid uncertainties are estimated using the flux randomization/random subset selection (FR/RSS) method described by \cite{Peterson_1998b}, with $10.000$ iterations and a lag bin size of $0.5$\,days. The normalized light curves of the UVW2 continuum and the emission lines, together with the corresponding CCF and centroid distribution, are displayed in Figures \ref{fig:ccfs_optical} and \ref{fig:ccfs_UV}. In addition, the auto-correlation function of the UVW2 light curve and its CCF with the continuum light curve around $1150\,\AA$ are delivered and displayed in the top and bottom panels of the figures, respectively. \\
+Overall, the CCFs of all measured emission lines show strong correlations with peak maximum values between 0.7
+0.7 and 0.9, except for O\,\textsc{i}\,8446, whose CCF exhibits a maximum value of approximately $\sim 0.6$. Since the UVW2 light curve lags behind the light curve of the $1150\,\AA$ continuum by approximately $\sim 0.5$\,days, this offset is added to the measured emission-line time lags to estimate the characteristic BLR radii, which are listed in Table \ref{tab:lags_UVW2}.\\
+H$\alpha$ and H$\beta$ lag behind the UVW2 light curve by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ and $2.3 \ensuremath{_{-0.3}^{+1.0}}$ days, respectively, while H$\gamma$ and H$\delta$ show shorter lags of $1.7 \ensuremath{_{-0.4}^{+0.2}}$ and $1.7 \ensuremath{_{-0.4}^{+0.4}}$ days. Therefore the lower order Balmer lines H$\alpha$ and H$\beta$ show higher time lags, than the higher ordered Balmer lines H$\gamma$ and H$\delta$. Ly$\alpha$ exhibits an even shorter time lag than the Balmer lines with $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days within uncertainties, which implies that the hydrogen originate from different distances towards the SMBH.\\
+He\,\textsc{i}\,5875 shows a lag of $3.3 \ensuremath{_{-0.4}^{+0.7}}$ days, which is of the same order as the lags measured for H$\alpha$ and H$\beta$ within the uncertainties. Opposing to that, the two higher ionized He\,\textsc{ii}\,1640 and He\,\textsc{ii}\,4685 helium lines show much shorter lags, with a with $0.3 \ensuremath{_{-0.2}^{+0.6}}$days and $0.7 \ensuremath{_{-0.3}^{+0.1}}$ days, respectively. The high ionized UV emission lines N\,\textsc{v}\,1238, Si\,\textsc{iv}\,1393 and C\,\textsc{iv}\,1548 also show short time lags of about $\sim 1\,$day compared to the lower ionized Balmer and He\,\textsc{i} lines. Therefore a tendency becomes apparent, that the higher ionized emission lines typically show shorter time lags than the lower ionized emission lines. \\
 
 
 
@@ -264,15 +263,15 @@ The high ionized UV emission lines N\,\textsc{v}\,1238, Si\,\textsc{iv}\,1393 an
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_O.pdf}
-	\caption[Normalized light curves and CCFs of the Balmer lines, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$, Ly$\alpha$ and O\,\textsc{i}$\,\lambda 8446$]{Comparison of normalized lightcurves and CCFs of the Balmer lines, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$, Ly$\alpha$ and O\,\textsc{i}$\,\lambda 8446$ with UVW2 as reference lightcurve.}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_O.pdf}
+	\caption[Normalized light curves and CCFs of the Balmer lines, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$, Ly$\alpha$ and O\,\textsc{i}$\,\lambda 8446$]{The left column displays a comparison of normalized light curves of the Balmer lines,  He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda4685$, Ly$\alpha$ and O\,\textsc{i}$\,\lambda 8446$ with the photometric \textit{Swift} UVW2 lightcurve, obtained from \cite{mchardy2018x}. The right column displays the corresponding CCF and centroid distribution. The first and last row of the figure display the auto-correlation function of the UVW2 light curve and its CCF with the continuum light curve around $1150\,\AA$, respectively.}
 	\label{fig:ccfs_optical}
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.pdf}
-	\caption[Normalized light curves and CCFs of the Helium lines and high-ionized UV lines]{Comparison of normalized lightcurves and CCFs of the Helium lines and high-ionized UV lines with UVW2 as reference lightcurve.}
+	\includegraphics[width=0.9\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.pdf}
+	\caption[Normalized light curves and CCFs of the Helium lines and high-ionized UV lines]{The left column displays a comparison of normalized lightcurves of the Helium lines and high-ionized UV lines with the photometric \textit{Swift} UVW2 lightcurve, obtained from \cite{mchardy2018x}. The right column displays the corresponding CCF and centroid distribution. The first and last row of the figure display the auto-correlation function of the UVW2 light curve and its CCF with the continuum light curve around $1150\,\AA$, respectively.}
 	\label{fig:ccfs_UV}
 \end{figure}
 
@@ -286,49 +285,66 @@ The velocity dispersion of the BLR can be parameterized by the line widths of th
 \end{equation}\\
 Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the central wavelength of the emission line in rest-frame and $c$ the speed of light. For the doublets N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $, Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ and C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ the rest-frame wavelength of the second line gets used as the central wavelength of the emission line. An overview of the mean and rms profiles for each emission line is displayed in Figure \ref{fig:line_profiles} and described in the following.
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
+	\caption[Comparison of the normalized mean and rms line profiles]{This figure displays the line profiles of the measured broad emission-lines in the mean spectrum (black) and rms spectrum (red).}
+	\label{fig:line_profiles}
+\end{figure}
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=1\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf}
+	\caption{Comparison of the normalized rms line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$.}
+	\label{fig:rms_Balmer}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf}
+	\caption{Comparison of the normalized rms line profiles of the Helium lines, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda1640$ and He\,\textsc{ii}$\,\lambda4685$.}
+	\label{fig:rms_Helium}
+\end{figure}
+
+
 \subsubsection{Balmer lines}
-The mean profiles of the Balmer lines share an overall similar shape, characterized by a steep blue wing and an asymmetric broader red wing. The latter is not visible in the mean profile of H$\gamma$, where the red wing is blended with [O\,\textsc{iii}] $\lambda4363$ emission.\\
-The rms profiles of the Balmer lines share an overall similar asymmetric double-peaked shape, with the blue peak carrying higher flux (see Figure \ref{fig:rms_Balmer}). The two peaks are consistently located at approximately $500\,\mathrm{km\,s^{-1}}$ and $2000\,\mathrm{km\,s^{-1}}$ across all Balmer lines, resulting in a shift of the rms profiles towards positive velocities. While the profiles of H$\alpha$ and H$\beta$ show similarly steep slopes in both wings, those of H$\gamma$ and H$\delta$ display more extended blue wings, leading to a close resemblance between the rms profiles of  H$\alpha$ and H$\beta$, and between H$\gamma$ and H$\delta$.
+The mean profiles of the Balmer lines share an overall similar shape, characterized by a steep blue wing and an asymmetric broader red wing. The latter is not visible in the mean profile of H$\gamma$, since its red wing is blended with [O\,\textsc{iii}] $\lambda4363$ emission.\\
+The rms profiles of the Balmer lines share an overall similar asymmetric double-peaked shape, with the blue peak exhibiting higher flux (see Figure \ref{fig:rms_Balmer}). The two peaks are consistently located at approximately $500\,\mathrm{km\,s^{-1}}$ and $2000\,\mathrm{km\,s^{-1}}$ for all measured Balmer lines, resulting in a shift of the rms profiles towards positive velocities. While the profiles of H$\alpha$ and H$\beta$ show similarly steep slopes in both wings, those of H$\gamma$ and H$\delta$ display more extended blue wings, leading to a close resemblance between the rms profiles of  H$\alpha$ and H$\beta$, and between H$\gamma$ and H$\delta$.
 
 
 \subsubsection{Ly$\alpha$}
 
-The line profile of Ly$\alpha$ of both spectra exhibits absorption in the blue wing and is blended with N\,\textsc{v}$\,\lambda\lambda 1283,\,1242$ in the red wing. The rms profile showing a slightly broader line width than the mean profile and peak located at approximately $2000\,\mathrm{km\,s^{-1}}$ and therefore as wel shifted to positive velocities, like seen for the Balmer lines.
+The line profile of Ly$\alpha$ of both spectra exhibits absorption in the blue wing and is blended with N\,\textsc{v}$\,\lambda\lambda 1283,\,1242$ in the red wing. The rms profile showing a slightly broader line width than the mean profile and peak located at approximately $2000\,\mathrm{km\,s^{-1}}$ and therefore as well shifted to positive velocities, like seen for the Balmer lines.
 
 \subsubsection{O\,\textsc{I}$\,\lambda 8446$}
 The mean profile of the NIR emission line O\,\textsc{i}$\,\lambda 8446$ is blended with the Ca\,\textsc{ii} $\lambda8498$, $\lambda8542$, $\lambda8662$ triplet resulting in a asymmetric double-peak shape. In the rms spectrum, the profile is very noisy due to the low signal-to-noise ratio and exhibits therefore no pronounced shape. 
 
 
 \subsubsection{Helium Lines}
-Comparable to the Balmer lines, the mean profile of He\,\textsc{i}$\,\lambda5875$ shows an asymmetric shape with a broader red wing. Its rms profile is shifted towards positive velocities, with the peak located at approximately $\sim 1500\,\mathrm{km\,s^{-1}}$ and a line width comparable to that of the mean profile.  The rms profile exhibits an asymmetric shape with a broader blue wing, though it is located mostly within the red wing of the mean profile due to the velocity shift. In contrast to He\,\textsc{i}$\,\lambda5875$, the mean profile of the higher ionized  He\,\textsc{ii}$\,\lambda1640$ line exhibits a asymmetric shape with a broader blue wing. Its steeper red wing is blended with the semi-forbidden doublet O\,\textsc{iii}]$\lambda\lambda\,1660,1666$ in both the mean and rms spectra. The blue wing of the mean profile of He\,\textsc{ii}$\,\lambda4685$ is largely blended with Fe\,\textsc{ii} emission, which disappears in the rms spectrum and like the rms profile of He\,\textsc{ii}$\,\lambda1640$, it shows a asymmetric shape with a broader blue wing.\\
-The rms profiles of the He\,\textsc{ii}$\,\lambda1640$ and He\,\textsc{ii}$\,\lambda4685$ show no velocity shift relative to their mean profiles. While He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda1640$ and He\,\textsc{ii}$\,\lambda4685$ show overall comparable shapes when measured from their respective peaks, the He\,\textsc{ii} lines exhibit broader line widths than He\,\textsc{i}$\,\lambda5875$ (see Figure \ref{fig:rms_Helium}). 
+The mean profile of He\,\textsc{i}$\,\lambda5875$ shows an asymmetric shape with broader red and steep blue wing. Its rms profile is shifted towards positive velocities, with the peak located at approximately $\sim 1500\,\mathrm{km\,s^{-1}}$ and a line width comparable to that of the mean profile. The rms profile exhibits an asymmetric shape with a broader blue wing, though it is located mostly within the red wing of the mean profile due to the velocity shift. In contrast to He\,\textsc{i}$\,\lambda5875$, the mean profile of the higher ionized  He\,\textsc{ii}$\,\lambda1640$ line exhibits a asymmetric shape with a broader blue wing. Its steeper red wing is blended with the semi-forbidden doublet O\,\textsc{iii}]$\lambda\lambda\,1660,1666$ in both the mean and rms spectra. The rms profile of He\,\textsc{ii}$\,\lambda4685$ and He\,\textsc{ii}$\,\lambda1640$ show a asymmetric shape with a extended blue wing like seen in the mean profile of He\,\textsc{ii}$\,\lambda1640$. The blue wing of the mean profile of He\,\textsc{ii}$\,\lambda4685$ is largely blended with Fe\,\textsc{ii} emission.  \\
+While He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda1640$ and He\,\textsc{ii}$\,\lambda4685$ show overall comparable shapes when measured from their respective peaks, the He\,\textsc{ii} lines exhibit significant broader line widths and no velocity shift relative to their mean profiles in contrast to  He\,\textsc{i}$\,\lambda5875$ (see Figure \ref{fig:rms_Helium}). 
 
 
 
 \subsubsection{N\,\textsc{V}$\,\lambda\lambda 1283,\,1242$}
 
-The N\,\textsc{V}$\,\lambda\lambda 1283,\,1242$ doublet emission is strongly blended with Ly$\alpha$, such that only the red wing of its mean profile is distinguishable from the Ly$\alpha$ mean profile. In addition, the doublet exhibits unresolved variable absorption in the rms spectrum, which further distorts the shape of the rms profile.  
+The N\,\textsc{V}$\,\lambda\lambda 1283,\,1242$ doublet emission is strongly blended with Ly$\alpha$, such that only the red wing of its mean profile is distinguishable from the Ly$\alpha$ mean profile. In addition, the doublet exhibits unresolved variable absorption in the rms spectrum, which further distorts the shape of the rms profile. Comparing the peak locations of both profiles, the rms profile shows no significant velocity shift, like it is seen for the He\,\textsc{ii} lines.
 
 \subsubsection{Si\,\textsc{IV}$\,\lambda\lambda 1393,\,1402$}
 
-The mean profile of the Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ doublet shows a asymmetric shape with a more extended blue wing. It is blended with the semi-forbidden doublet O\textsc{iv}]$\,\lambda\lambda\,1397,\,1400$, which cannot be resolved from the line profile. Subsequently, the rms profile, which exhibits a very broad and blue weighted shape, as well includes the variable components of the O\textsc{iv}]$\,\lambda\lambda\,1397,\,1400$ doublet.
+The mean profile of the Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ doublet shows an asymmetric shape with a more extended blue wing. It is blended with the semi-forbidden doublet O\textsc{iv}]$\,\lambda\lambda\,1397,\,$ $1400$, which cannot be resolved from the line profile. Similar to the mean profile, the rms profile exhibits a very broad blue wing, which additionally includes the variable component of the O\textsc{iv}]$\,\lambda\lambda\,1397,\,1400$ doublet. The rms profile exhibits no significant velocity shift compared to its mean profile.
 
 
 \subsubsection{C\,\textsc{IV}$\,\lambda\lambda 1548,\,1550$}
 
-The mean profiles of C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doublet exhibits a asymmetric shape with broader blue wing, comparable to the mean profile of Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$. The rms profile shows an even more extended blue wing with a two peaked profile, due to absorption close center of the profile.  \\\\
-Comparing the mean and rms profiles, a tendency emerges between lower- and higher ionized emission lines. The rms profile peaks of the Balmer lines, Ly$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are shifted towards positive velocities relative to the corresponding mean profiles, with most of the rms emission located within the red wing of the mean profile. This indicates that the variability of these lines originates from the receding part of their emitting region. In contrast, the rms profile peaks of He\,\textsc{ii}$\,\lambda1640$ and He\,\textsc{ii}$\,\lambda4685$ as well as from the high ionized UV emission lines N\,\textsc{v}$\,\lambda\lambda 1283,\,1242$, Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ and C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ are found at the same location as for the mean profiles. With the exception of N\,\textsc{v}$\,\lambda\lambda 1283,\,1242$ which is blended with Ly$\alpha$ profile, these lines show a blue-weighted rms profile, while the lower ionized lines show a more red-weighted rms profile. 
+The mean profiles of the C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ doublet shows an asymmetric shape with a broader blue wing, comparable to that of  Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$. The rms profile shows an even more extended blue wing and a double-peaked structure, caused by absorption near the center of the profile. As seen for the other high-ionization lines, the rms profile shows no significant velocity shift relative to the mean profile.  \\\\
+Comparing the mean and rms profiles, a clear distinction between lower- and higher-ionization emission lines is noticeable. The rms profile peaks of the Balmer lines, Ly$\alpha$ and He\,\textsc{i}$\,\lambda5875$ are shifted towards positive velocities relative to the corresponding mean profiles, with most of the rms emission located within the red wing of the mean profile. This indicates that the variability of these lines originates from the receding part of their emitting region. In contrast, the rms profile peaks of He\,\textsc{ii}$\,\lambda1640$ and He\,\textsc{ii}$\,\lambda4685$, as well as those of the high-ionization UV lines N\,\textsc{v}$\,\lambda\lambda 1283,\,1242$, Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ and C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ show no velocity shift respective to their mean profiles. These higher-ionization lines show a blue-weighted rms profile, whereas the lower-ionization lines show a red-weighted rms profile. For N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$, however, this behavior cannot be confirmed due to blending with the Ly$\alpha$ profile.
 
  
 %The shape of the O\,\textsc{i}$\,\lambda 8446$ mean and rms profiles will not be further discussed, due to the blend with the Ca\,\textsc{ii}$\,\lambda8498$ $\lambda8542$\,$\lambda8662$ triplet and the low signal to noise ratio in the rms profile.
 
 
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
-	\caption{Comparison of the normalized mean and rms line profiles}
-	\label{fig:line_profiles}
-\end{figure}
 
 \begin{table}[htbp]
 	\centering
@@ -362,30 +378,15 @@ Comparing the mean and rms profiles, a tendency emerges between lower- and highe
 	\end{tabular}
 \end{table}
 
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=1\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf}
-	\caption{Comparison of the normalized rms line profiles of the Balmer lines H$\alpha$, H$\beta$, H$\gamma$ and H$\delta$.}
-	\label{fig:rms_Balmer}
-\end{figure}
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf}
-	\caption{Comparison of the normalized rms line profiles of the Helium lines, He\,\textsc{i}$\,\lambda5875$, He\,\textsc{ii}$\,\lambda1640$ and He\,\textsc{ii}$\,\lambda4685$.}
-	\label{fig:rms_Helium}
-\end{figure}
-
 
 
 \subsection{Full Width Half Maximum}
 Equally to earlier RM studies (e.g. \cite{kollatschny1997balmer, denney2006ngc4593, probst2025emissionlinecontinuumreverberationmapping}), the line width of the line profiles is estimated by their Full Width Half Maximum (FWHM), which is conducted with GECHO. For this the height of the profiles is defined between the profiles maxima and the zero-flux base line. The mean profile of He\,\textsc{ii}$\,\lambda4685$ is blended with Fe\,\textsc{ii} emission in the blue wing, which makes a measurement of its FWHM not possible. Instead, the FWHM is estimated based on the width of its red wing, which is consistent with the order of magnitude of the FWHM of He\,\textsc{ii}$\,\lambda1640$ within uncertainties. The same approach is used for N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $, since it is blended with the Ly$\alpha$ profile in both mean and rms and exhibits not resolved absorption in its blue wing in the rms spectrum.  \\
-The FWHM of profiles of O\,\textsc{i}$\,\lambda 8446$ and Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ were not measured. \\
-Since the mean profile of the NIR emission line O\,\textsc{i}$\,\lambda 8446$ is blended with the Ca\,\textsc{ii}\,$\lambda8498$, $\lambda8542$, $\lambda8662$ triplet and the rms profile shows a low signal-to-noise ratio, a FWHM measurement was not attempted.\\
-The profiles of Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ are blended with the semi-forbidden line doublet O\textsc{IV}]$\,\lambda\lambda\,1397,\,1400$ such that any FWHM measurement would include contributions from both components and cannot be attributed to Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ alone, and is therefore excluded in the FWHM measurement. \\
-The resulting FWHM values are listed in Table \ref{tab:line_width_FWHM}. The uncertainties are estimated primarily from the instrumental dispersion of the respective gratings (see Table \ref{tab:stis_gratings}), and are adjusted accordingly the noise and shape of the profiles. For the found FWHM values of the mean profile of He\,\textsc{ii}$\,\lambda4685$ and both profiles of N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ much higher uncertainties are assumed due to the estimation based on the width of only one wing.\\
-The mean line profiles contain both broad and narrow components \parencite{peterson1997introduction}. Since the narrow component could not be isolated, no decomposition was attempted. Since the rms profiles only include the variable broad component of the emission lines, their FWHM are used in the subsequent estimation of the SMBH mass.\\
-Comparing the FWHM of the rms profiles (see Table \ref{tab:line_width_FWHM}), the higher-order Balmer lines H$\gamma$ and H$\delta$ show larger FWHM than H$\alpha$ and H$\beta$ consistent with their more extended blue wings visible in Figure \ref{fig:rms_Balmer}. The rms profile of Ly$\alpha$ shows a FWHM comparable to the higher order Balmer lines. The helium lines show a ionization dependence in their FWHM (see Figure \ref{fig:rms_Helium}). The rms line profiels of He\,\textsc{ii}$\,\lambda1640$ and He\,\textsc{ii}$\,\lambda4686$ exhibit significantly larger FWHM than the line He\,\textsc{i}$\,\lambda5876$ line. The high-ionization line C\textsc{iv}$\,\lambda\lambda 1548,\,1550$  shows the largest FWHM among all measured broad emission lines. Taken together, these results show a clear trend of increasing FWHM with increasing ionization in the rms line profiles.
+The FWHM of profiles of O\,\textsc{i}$\,\lambda 8446$ and Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ were not measured.
+Since the mean profile of the NIR emission line O\,\textsc{i}$\,\lambda 8446$ is blended with the Ca\,\textsc{ii}\,$\lambda8498$, $\lambda8542$, $\lambda8662$ triplet and the rms profile shows a low signal-to-noise ratio, a FWHM measurement was not attempted. The profiles of Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ are blended with the semi-forbidden line doublet O\textsc{IV}]$\,\lambda\lambda\,1397,\,1400$ such that any FWHM measurement would include contributions from both components and cannot be attributed to Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ alone, and is therefore excluded in the FWHM measurement. \\
+The resulting FWHM values are listed in Table \ref{tab:line_width_FWHM}. The uncertainties are estimated primarily from the instrumental dispersion of the respective gratings (see Table \ref{tab:stis_gratings}), and are adjusted according to the noise and shape of the profiles. For the FWHM of the mean profile of He\,\textsc{ii}$\,\lambda4685$ and both profiles of  N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ significantly larger uncertainties are adopted, as these values are estimated from only one wing of the profile.\\
+The mean line profiles contain both broad and narrow components \parencite{peterson1997introduction}. Since the narrow component in the mean profiles can not be isolated, and the rms profiles contain only the variable broad component, the FWHM of the rms profiles are used in the subsequent SMBH mass estimation, and no decomposition of the mean profiles is attempted.\\
+Comparing the FWHM of the rms profiles (see Table \ref{tab:line_width_FWHM}), the higher-order Balmer lines H$\gamma$ and H$\delta$ show larger FWHM than H$\alpha$ and H$\beta$, consistent with their more extended blue wings visible in Figure \ref{fig:rms_Balmer}. The rms profile of Ly$\alpha$ exhibits FWHM comparable to the higher order Balmer lines. Among the helium lines, a clear ionization dependence is apparent (see Figure \ref{fig:rms_Helium}) with the rms profiles of He\,\textsc{ii}\,$\lambda1640$ and He\,\textsc{ii}\,$\lambda4686$ show significantly broader FWHM than that of He\,\textsc{i}\,$\lambda5876$. The high-ionization line C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ shows the largest FWHM among all measured broad emission lines. Taken together, these results show a clear trend of increasing FWHM with increasing ionization in the rms line profiles.
 
 
 \begin{table}[htbp]
@@ -420,37 +421,7 @@ Comparing the FWHM of the rms profiles (see Table \ref{tab:line_width_FWHM}), th
 \end{table}
 
 
-
-%\begin{table}[htbp]
-%	\centering
-%	\small
-%	\caption[Full Width Half Maxima]{Measured FWHM and of the mean and rms line profiles.}
-%	\label{tab:line_widthj_FWHM}
-%	\begin{tabular}{lc}
-%		\hline
-%		\hline
-%		\textbf{Line} &  FWHM (rms)[km/s]   \\
-%		\hline
-%		\hline
-%		H$\alpha$  &  $3100\pm 300$\\
-%		H$\beta$ &  $3400 \pm 300$ \\
-%		H$\gamma$ &  $3900 \pm 400$ \\
-%		H$\delta$ &  $5900 \pm 2000$ \\
-%		Ly$\alpha$   &  $4600\pm 500$\\
-%		\hline
-%		He\,\textsc{i}$\,\lambda5876$ &  $4000 \pm 400$  \\
-%		He\,\textsc{ii}$\,\lambda1640$  & $6900 \pm 1500$\\
-%		He\,\textsc{ii}$\,\lambda4686$&   $6000 \pm 400$ \\
-		
-%		\hline
-		%N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ &    $3400 \pm 2000$\\
-		%Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ &  $5200 \pm 500$&  $10000 \pm 1500$\\
-%		C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $ 8400 \pm 1000$\\
-		
-%		\hline
-%		\hline
-%	\end{tabular}
-%\end{table}
+\newpage
 
 
 \section{Black Hole Mass}
@@ -535,14 +506,14 @@ It has to be noted, that the scale factor of $f=1.8$ does not account the low-in
 \section{Variation and Bowen Fluorescence of O\,\textsc{I}$\,\lambda 8446$}
 \label{sec:BF_Analysis}
 
-Emission lines in the optical range, such as the Balmer and helium lines, are commonly used in reverberation-mapping campaigns because they are readily accessible in nearby AGN \parencite{peterson1991steps, kollatschny1997balmer}. This is not the case for the low-ionization line O\,\textsc{i}$\,\lambda 8446$, which is of particular interest in this analysis because it exhibits noticeable variability (see Table \ref{tab:varstatistics}) and can therefore be investigated with reverberation mapping for the first time. O\,\textsc{i}$\,\lambda 8446$ is also known as a Bowen fluorescence line that can be pumped by Ly$\beta$ emission \parencite{grandi1980}. As described in Section \ref{sec:bowen_fluorescence}, Ly$\beta$ excites O\,\textsc{i} via a near-resonant transition at $\lambda\,1025\,\AA$. This is followed by line transition through the O\,\textsc{i}\,$\lambda\,11287$ transition and subsequently the O\,\textsc{i}\,$\lambda\,8446$ transition, producing the observed O\,\textsc{i}\,$\lambda\,8446$ emission (see Figure \ref{fig:bowen_cascate}). This process has been identified as the dominant excitation mechanism of O\,\textsc{i}\,$\lambda 8446$ in many AGN, rather than recombination (e.g. \cite{rudy1989detection, rodriguez2002oi, landt2008near}). If recombination were a significant driver of the O,\textsc{i}\,$\lambda 8446$ emission, the quintet line O\,\textsc{i}\,$\lambda 7774$ would be expected to be comparatively strong, with an expected ratio of $\lambda7774/\lambda8446 \approx 1.1\text{--}1.7$ \cite{grandi1980, landt2008near}.  While O\,\textsc{i}\,$\lambda 7774$ is not detected in the HST dataset, a ratio of $\lambda7774/\lambda8446 = 0.2$ can be estimated from the MUSE spectrum of NGC\,4593 presented by \cite{Ochmann_2025}, which was obtained in 2019. Therefore recombination can be excluded as a significant excitation mechanism for O\,\textsc{i}$\,\lambda 8446$ in NGC\,4593, which indicated that its variability of O\,\textsc{i}$\,\lambda 8446$is majorly driven by L$\beta$ Bowen fluorescence. This allows the Bowen-fluorescence relation of O,\textsc{i},$\lambda 8446$ to be examined in a RM analysis for the first time. \\
-While Ly$\beta$ is not covered in the spectral range of the HST dataset, it is possible to use Ly$\alpha$ as a proxy for Ly$\beta$, since it is expected that both lines arise under similar physical conditions. Therefore, the time lags between the UVW2 and emission-line lightcurves, as well as the CCFs and time lags between O\,\textsc{i}$\,\lambda 8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$, are calculated and shown in Figure \ref{fig:ccfs_Bowen}. All lightcurve show a strong correlation between $\sim 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and UVW2 lightcurves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are calculated as before. O\,\textsc{i}$\,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.3}^{+1.7}}$ days and behind UVW2 by $4.7 \ensuremath{_{-1.4}^{+2.4}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{_{-0.5}^{+0.5}}$ days and behind UVW2 by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ days. Therefore the direct relation of O\,\textsc{i}$\,\lambda 8446$ to UVW2 shows a slightly higher lag than H$\alpha$ to UVW2 within uncertainties. Assuming Bowen fluorescence as the dominant excitation mechanism the lag of O\,\textsc{i}$\,\lambda 8446$ should be estimated following the Bowen fluorescence path. With the Ly$\alpha$ light curve lagging behind the UVW2 light curve by $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days, this suggests a lag along the Bowen-fluorescence path from UVW2 to Ly$\alpha$ and from Ly$\alpha$ to O\,\textsc{i}$\,\lambda 8446$ sums to $\sim 3.5$ days. Therefore, O\,\textsc{i}$\,\lambda 8446$ shows a lag much closer and consistent with the lag of H$\alpha$ within uncertainties.  Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ lightcurves, they also show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+1.6}}$ days, which is consistent with the lag found for the Bowen fluorescence path. 
+Emission lines in the optical range, such as the Balmer and helium lines, are commonly used in reverberation-mapping campaigns because they are readily accessible in nearby AGN \parencite{peterson1991steps, kollatschny1997balmer}. This is not the case for the low-ionization line O\,\textsc{i}$\,\lambda 8446$, which is of particular interest in this analysis because it exhibits noticeable variability (see Table \ref{tab:varstatistics}) and can therefore be investigated with reverberation mapping for the first time. O\,\textsc{i}$\,\lambda 8446$ is also known as a Bowen fluorescence line that can be pumped by Ly$\beta$ emission \parencite{grandi1980}. As described in Section \ref{sec:bowen_fluorescence}, Ly$\beta$ excites O\,\textsc{i} via a near-resonant transition at $\lambda\,1025\,\AA$. This is followed by line transition through the O\,\textsc{i}\,$\lambda\,11287$ transition and subsequently the O\,\textsc{i}\,$\lambda\,8446$ transition, producing the observed O\,\textsc{i}\,$\lambda\,8446$ emission (see Figure \ref{fig:bowen_cascate}). This process has been identified as the dominant excitation mechanism of O\,\textsc{i}\,$\lambda 8446$ in many AGN, rather than recombination (e.g. \cite{rudy1989detection, rodriguez2002oi, landt2008near}). If recombination were a significant driver of the O,\textsc{i}\,$\lambda 8446$ emission, the quintet line O\,\textsc{i}\,$\lambda 7774$ would be expected to be comparatively strong, with an expected ratio of $\lambda7774/\lambda8446 \approx 1.1\text{--}1.7$ \cite{grandi1980, landt2008near}.  While O\,\textsc{i}\,$\lambda 7774$ is not detected in the HST dataset, a ratio of $\lambda7774/\lambda8446 = 0.2$ can be estimated from the MUSE spectrum of NGC\,4593 presented by \cite{Ochmann_2025}, which was obtained in 2019. Therefore recombination can be excluded as a significant excitation mechanism for O\,\textsc{i}$\,\lambda 8446$ in NGC\,4593, which indicated that its variability of O\,\textsc{i}$\,\lambda 8446$is majorly driven by L$\beta$ Bowen fluorescence. This allows the Bowen-fluorescence relation of O\,\textsc{i}\,$\lambda 8446$ to be examined in a RM analysis for the first time. \\
+While Ly$\beta$ is not covered in the spectral range of the HST dataset, it is possible to use Ly$\alpha$ as a proxy for Ly$\beta$, since it is expected that both lines arise under similar physical conditions. Therefore, the time lags between the UVW2 and emission-line lightcurves, as well as the CCFs and time lags between O\,\textsc{i}$\,\lambda 8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$, are calculated and shown in Figure \ref{fig:ccfs_Bowen}. All lightcurve show a strong correlation between $\sim 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and UVW2 lightcurves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are derived as before. O\,\textsc{i}$\,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.3}^{+1.7}}$ days and behind UVW2 by $4.7 \ensuremath{_{-1.4}^{+2.4}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{_{-0.5}^{+0.5}}$ days and behind UVW2 by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ days. Therefore the direct relation of O\,\textsc{i}$\,\lambda 8446$ to UVW2 shows a slightly higher lag than H$\alpha$ to UVW2 within uncertainties. Assuming that the Bowen fluorescence is the dominant excitation mechanism the lag of O\,\textsc{i}$\,\lambda 8446$ has to be estimated by adding the time lag between the Ly$\alpha$ light curve and the \textit{Swift} UVW2 light curve and the time lag between the Ly$\alpha$ and O\,\textsc{i}$\,\lambda 8446$ light curve. With the Ly$\alpha$ light curve lagging behind the \textit{Swift} UVW2 light curve by $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days, this sums to a time lag of approximately $\sim 3.5$ days, which is consistent with the time lag between the H$\alpha$ and UVW2 light curve within uncertainties. Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ lightcurves, they show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+1.6}}$ days. This implies that O\,\textsc{i}\,$\lambda\,8446$ is emitted at approximately the same distance as H$\alpha$ within uncertainties.
 
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.98\textwidth]{pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf}
-	\caption[Comparison of normalized lightcurves and CCFs the Bowen fluorescence process]{Comparison of normalized lightcurves and CCFs of O\,\textsc{i} vs Ly$\alpha$, O\,\textsc{i} vs \textit{Swift} UVW2, H$\alpha$ vs Ly$\alpha$, H$\alpha$ vs \textit{Swift} UVW2, Ly$\alpha$ vs \textit{Swift} UVW2 and O\,\textsc{i} vs H$\alpha$.}
+	\caption[Comparison of normalized lightcurves and CCFs the Bowen fluorescence process]{The left column displays a comparison of normalized lightcurves of O\,\textsc{i} vs Ly$\alpha$, O\,\textsc{i} vs \textit{Swift} UVW2, H$\alpha$ vs Ly$\alpha$, H$\alpha$ vs \textit{Swift} UVW2, Ly$\alpha$ vs \textit{Swift} UVW2 and O\,\textsc{i} vs H$\alpha$ and their corresponding CCFs. The right column displays the corresponding CCF and centroid distribution.}
 	\label{fig:ccfs_Bowen}
 \end{figure}
 
