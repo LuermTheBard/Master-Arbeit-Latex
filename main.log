@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  3 MAR 2026 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  3 MAR 2026 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,22 +1232,10 @@ LaTeX Warning: Command \r invalid in math mode on input line 228.
 LaTeX Warning: Command \r invalid in math mode on input line 230.
 
 
-Overfull \hbox (3.63565pt too wide) in paragraph at lines 228--233
-\T1/lmr/m/n/12 and $\OT1/lmr/m/n/12 0\OML/lmm/m/it/12 :\OT1/lmr/m/n/12 7[]$ \T1
-/lmr/m/n/12 days, re-spec-tively. The high ion-ized UV emission-lines N\T1/lmr/
-m/sc/12 v\T1/lmr/m/n/12 1238, Si\T1/lmr/m/sc/12 iv\T1/lmr/m/n/12 1393
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--233
-
- []
-
-
 
 [31]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_
-O.pdf, id=1214, 458.88063pt x 682.24564pt>
+O.pdf, id=1215, 458.88063pt x 682.24564pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balme
 r_Ly_O.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer
@@ -1263,7 +1251,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 267.
 LaTeX Warning: Command \r invalid in math mode on input line 267.
 
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.
-pdf, id=1217, 458.88063pt x 682.24564pt>
+pdf, id=1218, 458.88063pt x 682.24564pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heliu
 m_UV.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium
@@ -1300,7 +1288,7 @@ h of the emission-
 
 
 [35]
-<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1453, 673.608
+<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1454, 673.608
 2pt x 1001.89934pt>
 File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
  (type pdf)
@@ -1308,7 +1296,7 @@ File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
 Package pdftex.def Info: pictures/Chapter4/line_profiles/Normalized_Line_Profil
 es.pdf  used on input line 290.
 (pdftex.def)             Requested size: 426.79135pt x 634.79254pt.
-<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1454, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1455, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
  pdf)
@@ -1316,7 +1304,7 @@ File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf
   used on input line 298.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
-<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1455, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1456, 706.97952pt x
  348.00038pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf Graphic file (type
  pdf)
@@ -1389,7 +1377,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 509.
 
 [43]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_referenc
-e_lightcurves_paper HAlpha.pdf, id=1678, 458.88063pt x 548.69064pt>
+e_lightcurves_paper HAlpha.pdf, id=1679, 458.88063pt x 548.69064pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_ref
 erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
@@ -1435,11 +1423,11 @@ m/m/it/12 ^^U^^U\OT1/lmr/m/n/12 1548\OML/lmm/m/it/12 ;  \OT1/lmr/m/n/12 1550$\T
  []
 
 
-Overfull \hbox (8.87503pt too wide) in paragraph at lines 17--22
+Overfull \hbox (18.0137pt too wide) in paragraph at lines 17--22
 \T1/lmr/m/n/12 line dou-blet C\T1/lmr/m/sc/12 iv$ \OML/lmm/m/it/12 ^^U^^U\OT1/l
 mr/m/n/12 1548\OML/lmm/m/it/12 ;  \OT1/lmr/m/n/12 1550$ \T1/lmr/m/n/12 ex-hibit
-s the broad-est rms pro-file with $\OT1/lmr/m/n/12 8400 \OMS/lmsy/m/n/12 ^^F \O
-T1/lmr/m/n/12 500 []$\T1/lmr/m/n/12 ,
+s the broad-est rms pro-file with $\OT1/lmr/m/n/12 (8400 \OMS/lmsy/m/n/12 ^^F \
+OT1/lmr/m/n/12 500) []$\T1/lmr/m/n/12 ,
  []
 
 
@@ -1540,9 +1528,9 @@ Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
 sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (63 pages, 3745363 bytes).
+Output written on main.pdf (63 pages, 3745576 bytes).
 PDF statistics:
- 2011 PDF objects out of 2073 (max. 8388607)
+ 2012 PDF objects out of 2073 (max. 8388607)
  212 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
