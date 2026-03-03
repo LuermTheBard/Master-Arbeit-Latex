@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  3 MAR 2026 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  3 MAR 2026 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -858,7 +858,13 @@ l.193 	\clearpage
 [3
 
 
-] (main.lot)
+] (main.lot
+Overfull \hbox (14.34756pt too wide) in paragraph at lines 6--6
+ [][] [][]\T1/lmr/m/n/12 Integration Lim-its and Pseudo-Continua range of the m
+ea-sured emission- 
+ []
+
+)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
@@ -1226,6 +1232,13 @@ LaTeX Warning: Command \r invalid in math mode on input line 228.
 LaTeX Warning: Command \r invalid in math mode on input line 230.
 
 
+Overfull \hbox (3.63565pt too wide) in paragraph at lines 228--233
+\T1/lmr/m/n/12 and $\OT1/lmr/m/n/12 0\OML/lmm/m/it/12 :\OT1/lmr/m/n/12 7[]$ \T1
+/lmr/m/n/12 days, re-spec-tively. The high ion-ized UV emission-lines N\T1/lmr/
+m/sc/12 v\T1/lmr/m/n/12 1238, Si\T1/lmr/m/sc/12 iv\T1/lmr/m/n/12 1393
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 228--233
 
  []
@@ -1278,6 +1291,13 @@ er_Ly_O.pdf>]
 
 [34 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heli
 um_UV.pdf>]
+Overfull \hbox (1.99826pt too wide) in paragraph at lines 285--287
+\T1/lmr/m/n/12 Here, $\OML/lmm/m/it/12 ^^U[]$ \T1/lmr/m/n/12 de-notes the wave-
+length val-ues, $\OML/lmm/m/it/12 ^^U[]$ \T1/lmr/m/n/12 the cen-tral wave-lengt
+h of the emission-
+ []
+
+
 
 [35]
 <pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1453, 673.608
@@ -1491,16 +1511,16 @@ L3 programming layer <2025-05-26>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9D43D8421D03420FC6E50B83B8594CB5;5886.
+(rerunfilecheck)             Checksum: FF4E91ED25984C348A954A30B7FBFD2C;5883.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21133 strings out of 468225
- 382300 string characters out of 5432973
- 1215693 words of memory out of 5000000
- 49188 multiletter control sequences out of 15000+600000
+ 21140 strings out of 468225
+ 382519 string characters out of 5432973
+ 1215781 words of memory out of 5000000
+ 49194 multiletter control sequences out of 15000+600000
  708818 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,14n,77p,3453b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1520,9 +1540,9 @@ Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
 sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (63 pages, 3744942 bytes).
+Output written on main.pdf (63 pages, 3745363 bytes).
 PDF statistics:
- 2008 PDF objects out of 2073 (max. 8388607)
- 211 named destinations out of 1000 (max. 500000)
+ 2011 PDF objects out of 2073 (max. 8388607)
+ 212 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1198,6 +1198,41 @@
       \verb https://arxiv.org/abs/0710.3326
       \endverb
     \endentry
+    \entry{korista2004optical}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9917d103ca4e4026b8dabe7f46e0ca39}{%
+           family={Korista},
+           familyi={K\bibinitperiod},
+           given={Kirk\bibnamedelima T},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=6032ef09f21cc4757d768be41e26ee47}{%
+           family={Goad},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a261b62dbb216afa281c7331860dc78f}
+      \strng{fullhash}{a261b62dbb216afa281c7331860dc78f}
+      \strng{fullhashraw}{a261b62dbb216afa281c7331860dc78f}
+      \strng{bibnamehash}{a261b62dbb216afa281c7331860dc78f}
+      \strng{authorbibnamehash}{a261b62dbb216afa281c7331860dc78f}
+      \strng{authornamehash}{a261b62dbb216afa281c7331860dc78f}
+      \strng{authorfullhash}{a261b62dbb216afa281c7331860dc78f}
+      \strng{authorfullhashraw}{a261b62dbb216afa281c7331860dc78f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{number}{2}
+      \field{title}{What the optical recombination lines can tell us about the broad-line regions of active galactic nuclei}
+      \field{volume}{606}
+      \field{year}{2004}
+      \field{pages}{749\bibrangedash 762}
+      \range{pages}{14}
+    \endentry
     \entry{krolik2001systematic}{article}{}{}
       \name{author}{1}{}{%
         {{hash=affe7cfa8fd342e7d88ec2abb10b2351}{%
