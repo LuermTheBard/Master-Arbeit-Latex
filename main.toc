@@ -1,47 +1,47 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Scientific Background}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Active Galactic Nuclei}{7}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Geometric and Spectral Features of AGNs}{8}{subsection.2.1.1}%
-\contentsline {subsubsection}{Supermassive Black Hole and Accretion Disk}{8}{subsection.2.1.1}%
-\contentsline {subsubsection}{Broad-Line and Narrow-Line Region}{9}{subsection.2.1.1}%
-\contentsline {subsubsection}{Dusty Torus}{10}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Classification}{10}{subsection.2.1.2}%
-\contentsline {subsubsection}{Seyfert Galaxies}{11}{subsection.2.1.2}%
-\contentsline {subsubsection}{Additional AGN Classes}{12}{figure.caption.5}%
-\contentsline {subsection}{\numberline {2.1.3}Unification Model}{13}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Variability}{14}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Reverberation Mapping}{15}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Principle of Reverberation Mapping}{15}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Lag Measurement}{17}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Black Hole Mass}{18}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Bowen Fluorescence of O\textsc {I}$\lambda $8446}{19}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Campaign and Data Preparation}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}NGC4593}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The 2016 HST Campaign}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Intercalibration and Determination of mean and rms Spectra}{22}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Line Identification}{25}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{27}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Light Curves}{32}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Variability Statistics}{33}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Uncertainty Estimation}{35}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Time Lag}{35}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Line Profiles}{39}{section.4.5}%
-\contentsline {subsubsection}{Balmer lines}{40}{figure.caption.27}%
-\contentsline {subsubsection}{Ly$\alpha $}{40}{figure.caption.27}%
-\contentsline {subsubsection}{O\,\textsc {I}$\,\lambda 8446$}{40}{figure.caption.27}%
-\contentsline {subsubsection}{Helium Lines}{40}{figure.caption.27}%
-\contentsline {subsubsection}{N\,\textsc {V}$\,\lambda \lambda 1283,\,1242$}{43}{figure.caption.27}%
-\contentsline {subsubsection}{Si\,\textsc {IV}$\,\lambda \lambda 1393,\,1402$}{43}{figure.caption.27}%
-\contentsline {subsubsection}{C\,\textsc {IV}$\,\lambda \lambda 1548,\,1550$}{43}{figure.caption.27}%
-\contentsline {subsection}{\numberline {4.5.1}Full Width Half Maximum}{44}{subsection.4.5.1}%
-\contentsline {section}{\numberline {4.6}Black Hole Mass}{46}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{47}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Discussion}{50}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Structure of the BLR}{50}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Time Lags}{50}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Line Profiles}{51}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Variability}{52}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Black Hole Mass}{52}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{53}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Summary}{54}{section.5.4}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Scientific Background}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Active Galactic Nuclei}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Geometric and Spectral Features of AGNs}{4}{subsection.2.1.1}%
+\contentsline {subsubsection}{Supermassive Black Hole and Accretion Disk}{4}{subsection.2.1.1}%
+\contentsline {subsubsection}{Broad-Line and Narrow-Line Region}{5}{subsection.2.1.1}%
+\contentsline {subsubsection}{Dusty Torus}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Classification}{6}{subsection.2.1.2}%
+\contentsline {subsubsection}{Seyfert Galaxies}{7}{subsection.2.1.2}%
+\contentsline {subsubsection}{Additional AGN Classes}{8}{figure.caption.5}%
+\contentsline {subsection}{\numberline {2.1.3}Unification Model}{9}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Variability}{10}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Reverberation Mapping}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Principle of Reverberation Mapping}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Lag Measurement}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Black Hole Mass}{14}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Bowen Fluorescence of O\textsc {I}$\lambda $8446}{15}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Campaign and Data Preparation}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}NGC4593}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The 2016 HST Campaign}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Intercalibration and Determination of mean and rms Spectra}{18}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Line Identification}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Light Curves}{28}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Variability Statistics}{29}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Uncertainty Estimation}{31}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Time Lag}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Line Profiles}{35}{section.4.5}%
+\contentsline {subsubsection}{Balmer lines}{36}{figure.caption.27}%
+\contentsline {subsubsection}{Ly$\alpha $}{36}{figure.caption.27}%
+\contentsline {subsubsection}{O\,\textsc {I}$\,\lambda 8446$}{36}{figure.caption.27}%
+\contentsline {subsubsection}{Helium Lines}{36}{figure.caption.27}%
+\contentsline {subsubsection}{N\,\textsc {V}$\,\lambda \lambda 1283,\,1242$}{39}{figure.caption.27}%
+\contentsline {subsubsection}{Si\,\textsc {IV}$\,\lambda \lambda 1393,\,1402$}{39}{figure.caption.27}%
+\contentsline {subsubsection}{C\,\textsc {IV}$\,\lambda \lambda 1548,\,1550$}{39}{figure.caption.27}%
+\contentsline {subsection}{\numberline {4.5.1}Full Width Half Maximum}{40}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.6}Black Hole Mass}{42}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{43}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Discussion}{46}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Structure of the BLR}{46}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Time Lags}{46}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Line Profiles}{47}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Variability}{48}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Black Hole Mass}{48}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{49}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Summary}{50}{section.5.4}%

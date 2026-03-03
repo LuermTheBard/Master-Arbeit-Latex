@@ -131,19 +131,51 @@ dashed=false
 {\normalfont\huge\bfseries}
 {\thechapter.}{0.5em}{}
 
-% Titelseite
-\title{\textbf{Reverberation Mapping Analysis of the 2016 HST Campaign on NGC 4593}}  
-\author{Lukas Diehl \\ George-August-Universität Göttingen}
-\date{\today}
-
 \begin{document}
 	
-	% Titelseite
-	\maketitle
+	% --- Titelblatt im Stil der PDF ---
+	\begin{titlepage}
+		\centering
+		\vspace*{1.5cm}
+		
+		{\Large Master’s Thesis\par}
+		\vspace{1.8cm}
+		
+		{\LARGE\bfseries Reverberation Mapping Analysis of the 2016 HST Campaign on NGC\,4593\par}
+		\vspace{2.0cm}
+		
+		{\normalsize prepared by\par}
+		\vspace{0.25cm}
+		{\Large Lukas Diehl\par}
+		\vspace{0.3cm}
+		{\normalsize from Frankfurt am Main\par}
+		\vspace{0.6cm}
+		{\normalsize at the Institute of Astro- and Geophysics\par}
+		
+		\vspace{8cm}
+		
+		\begin{flushleft}
+			\begin{minipage}{0.8\textwidth}
+				\normalsize
+				\begin{tabular}{@{} l @{\hspace{1em}} l @{}}
+					First Referee:  & Prof.\,Dr.\,Wolfram Kollatschny \\
+					\vspace{0.15cm}
+					Second Referee: & Prof.\,Dr.\,Stefan Dreizler \\
+					\vspace{0.15cm}
+					Thesis period:  & 10th September 2025 until 10th March 2026 \\
+				\end{tabular}
+			\end{minipage}
+		\end{flushleft}
+		
+		\vfill
+	\end{titlepage}
 	\thispagestyle{empty}
+	\cleardoublepage
+	
 	\clearpage
 	\null
 	\clearpage
+
 	%Abstract
 	\begin{abstract}
 	NGC 4593 is a nearby Seyfert I Galaxy exhibiting strong variability from the X-ray to the optical bands \parencite{mchardy2017ngc4593, cackett2018accretion} and prominent broad emission lines \parencite{kollatschny1997balmer, cackett2018accretion, Ochmann_2025}. In 2016, the galaxy was monitored with HST/STIS (PI: E. M. Cackett, Program ID 14121) from 12 July to 6 August, spanning wavelength ranges of approximately $1100\,\AA$--$1700\,\AA$ and $2900\,\AA$--$10000\,\AA$. \\
@@ -153,16 +185,28 @@ dashed=false
 	
 	
 	\end{abstract}
-	\newpage
+	\thispagestyle{empty}
+	\cleardoublepage
+		
+	\clearpage
+	\null
+	\clearpage
 	
+	\pagenumbering{roman}    % i, ii, iii, ...
+	\setcounter{page}{1}
 	% Inhaltsverzeichnis
 	\tableofcontents
+	\cleardoublepage
 	\newpage
 	
 	% Abbildungsverzeichnis, Tabellenverzeichnis
 	\listoffigures
 	\listoftables
-	\newpage
+	\cleardoublepage
+
+	
+	\pagenumbering{arabic}   % 1, 2, 3, ...
+	\setcounter{page}{1}
 	
 	\input{chapters/introduction.tex}
 	
