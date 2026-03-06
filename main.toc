@@ -22,7 +22,7 @@
 \contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Line Identification}{21}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Emission-Line and Continua Measurement}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Light Curves}{28}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Light Curves}{24}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Variability Statistics}{29}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Uncertainty Estimation}{31}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Time Lag}{31}{section.4.4}%
