@@ -9,16 +9,16 @@
 \contentsline {subsubsection}{Seyfert Galaxies}{7}{subsection.2.1.2}%
 \contentsline {subsubsection}{Additional AGN Classes}{8}{figure.caption.5}%
 \contentsline {subsection}{\numberline {2.1.3}Unification Model}{9}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Variability}{10}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.4}Variability}{9}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}Reverberation Mapping}{11}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Principle of Reverberation Mapping}{11}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Lag Measurement}{13}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Black Hole Mass}{14}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Bowen Fluorescence of O\textsc {I}$\lambda $8446}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Bowen Fluorescence of O\,\textsc {I}$\,\lambda $8446}{15}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Campaign and Data Preparation}{16}{chapter.3}%
 \contentsline {section}{\numberline {3.1}NGC4593}{16}{section.3.1}%
 \contentsline {section}{\numberline {3.2}The 2016 HST Campaign}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Intercalibration and Determination of mean and rms Spectra}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Intercalibration and Determination of mean and rms Spectra}{19}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Line Identification}{21}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Emission-Line and Continua Measurement}{23}{section.4.2}%
@@ -27,13 +27,13 @@
 \contentsline {subsection}{\numberline {4.3.2}Uncertainty Estimation}{31}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Time Lag}{31}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Line Profiles}{35}{section.4.5}%
-\contentsline {subsubsection}{Balmer lines}{36}{figure.caption.27}%
-\contentsline {subsubsection}{Ly$\alpha $}{36}{figure.caption.27}%
-\contentsline {subsubsection}{O\,\textsc {I}$\,\lambda 8446$}{36}{figure.caption.27}%
-\contentsline {subsubsection}{Helium Lines}{36}{figure.caption.27}%
-\contentsline {subsubsection}{N\,\textsc {V}$\,\lambda \lambda 1283,\,1242$}{39}{figure.caption.27}%
-\contentsline {subsubsection}{Si\,\textsc {IV}$\,\lambda \lambda 1393,\,1402$}{39}{figure.caption.27}%
-\contentsline {subsubsection}{C\,\textsc {IV}$\,\lambda \lambda 1548,\,1550$}{39}{figure.caption.27}%
+\contentsline {subsubsection}{Balmer lines}{36}{figure.caption.28}%
+\contentsline {subsubsection}{Ly$\alpha $}{36}{figure.caption.28}%
+\contentsline {subsubsection}{O\,\textsc {I}$\,\lambda 8446$}{36}{figure.caption.28}%
+\contentsline {subsubsection}{Helium Lines}{36}{figure.caption.28}%
+\contentsline {subsubsection}{N\,\textsc {V}$\,\lambda \lambda 1283,\,1242$}{39}{figure.caption.28}%
+\contentsline {subsubsection}{Si\,\textsc {IV}$\,\lambda \lambda 1393,\,1402$}{39}{figure.caption.28}%
+\contentsline {subsubsection}{C\,\textsc {IV}$\,\lambda \lambda 1548,\,1550$}{39}{figure.caption.28}%
 \contentsline {subsection}{\numberline {4.5.1}Full Width Half Maximum}{40}{subsection.4.5.1}%
 \contentsline {section}{\numberline {4.6}Black Hole Mass}{42}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{43}{section.4.7}%
