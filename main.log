@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  6 MAR 2026 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  6 MAR 2026 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1514,73 +1514,56 @@ Overfull \hbox (1.23686pt too wide) in paragraph at lines 1--1
 |[]\T1/lmr/bx/n/24.88 Campaign and Data Prepa-ra-tion| 
  []
 
-<pictures/Chapter3/NGC4593_Bearbeitet.PNG, id=607, 835.6821pt x 599.3592pt>
-File: pictures/Chapter3/NGC4593_Bearbeitet.PNG Graphic file (type png)
-<use pictures/Chapter3/NGC4593_Bearbeitet.PNG>
-Package pdftex.def Info: pictures/Chapter3/NGC4593_Bearbeitet.PNG  used on inpu
-t line 12.
-(pdftex.def)             Requested size: 277.41176pt x 198.95976pt.
+
+LaTeX Warning: Command \r invalid in math mode on input line 8.
 
 
-[16
-
- <./pictures/Chapter3/NGC4593_Bearbeitet.PNG (PNG copy)>]
-
-LaTeX Warning: Command \r invalid in math mode on input line 32.
+LaTeX Warning: Command \r invalid in math mode on input line 8.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 32.
+LaTeX Warning: Command \r invalid in math mode on input line 8.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 32.
+LaTeX Warning: Command \r invalid in math mode on input line 8.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 32.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 39.
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--50
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[17]
-<pictures/Chapter3/comparison_spectra.pdf, id=648, 722.7pt x 433.62pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 17.
+<pictures/Chapter3/comparison_spectra.pdf, id=613, 722.7pt x 433.62pt>
 File: pictures/Chapter3/comparison_spectra.pdf Graphic file (type pdf)
 <use pictures/Chapter3/comparison_spectra.pdf>
 Package pdftex.def Info: pictures/Chapter3/comparison_spectra.pdf  used on inpu
-t line 53.
+t line 30.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
 
-
-LaTeX Warning: Command \r invalid in math mode on input line 54.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 54.
+LaTeX Warning: Command \r invalid in math mode on input line 31.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 54.
+LaTeX Warning: Command \r invalid in math mode on input line 31.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 54.
+LaTeX Warning: Command \r invalid in math mode on input line 31.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 61.
+LaTeX Warning: Command \r invalid in math mode on input line 31.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
+[16
+
+]
+
+LaTeX Warning: Command \r invalid in math mode on input line 47.
+
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1588,26 +1571,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18 <./pictures/Chapter3/comparison_spectra.pdf>]
-<pictures/Chapter3/comparison_avg_rms.pdf, id=710, 722.7pt x 433.62pt>
+[17 <./pictures/Chapter3/comparison_spectra.pdf>]
+<pictures/Chapter3/comparison_avg_rms.pdf, id=682, 722.7pt x 433.62pt>
 File: pictures/Chapter3/comparison_avg_rms.pdf Graphic file (type pdf)
 <use pictures/Chapter3/comparison_avg_rms.pdf>
 Package pdftex.def Info: pictures/Chapter3/comparison_avg_rms.pdf  used on inpu
-t line 67.
+t line 51.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 68.
+LaTeX Warning: Command \r invalid in math mode on input line 52.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 68.
+LaTeX Warning: Command \r invalid in math mode on input line 52.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 68.
+LaTeX Warning: Command \r invalid in math mode on input line 52.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 68.
+LaTeX Warning: Command \r invalid in math mode on input line 52.
 
+<pictures/Chapter3/NGC4593_Bearbeitet.PNG, id=686, 835.6821pt x 599.3592pt>
+File: pictures/Chapter3/NGC4593_Bearbeitet.PNG Graphic file (type png)
+<use pictures/Chapter3/NGC4593_Bearbeitet.PNG>
+Package pdftex.def Info: pictures/Chapter3/NGC4593_Bearbeitet.PNG  used on inpu
+t line 64.
+(pdftex.def)             Requested size: 277.41176pt x 198.95976pt.
 ) (chapters/kapitel3.tex
 
 
@@ -1617,7 +1606,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19]
+[18 <./pictures/Chapter3/comparison_avg_rms.pdf>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1626,7 +1615,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20 <./pictures/Chapter3/comparison_avg_rms.pdf>]
+[19 <./pictures/Chapter3/NGC4593_Bearbeitet.PNG (PNG copy)>]
 Chapter 4.
 
 LaTeX Warning: Command \r invalid in math mode on input line 6.
@@ -1652,13 +1641,13 @@ LaTeX Warning: Command \r invalid in math mode on input line 8.
 
 LaTeX Warning: Command \r invalid in math mode on input line 8.
 
-<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=772, 722.7pt x 433.62pt>
+<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=767, 722.7pt x 433.62pt>
 File: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf Graphic file (type pdf)
 <use pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf>
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf  used 
 on input line 12.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=773, 722.7pt x 
+<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=768, 722.7pt x 
 433.62pt>
 File: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf Graphic file (
 type pdf)
@@ -1666,7 +1655,7 @@ type pdf)
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS
 .pdf  used on input line 18.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<pictures/Chapter4/gecho_example/gecho_example_line.jpg, id=784, 663.98062pt x 
+<pictures/Chapter4/gecho_example/gecho_example_line.jpg, id=779, 663.98062pt x 
 392.96812pt>
 File: pictures/Chapter4/gecho_example/gecho_example_line.jpg Graphic file (type
  jpg)
@@ -1679,7 +1668,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[21
+[20
 
 ]
 
@@ -1690,7 +1679,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22 <./pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf> <./pictures/Chapter4/av
+[21 <./pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf> <./pictures/Chapter4/av
 g_rms_spec/UV_uncalibrated_AVG_RMS.pdf>]
 
 
@@ -1700,7 +1689,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23 <./pictures/Chapter4/gecho_example/gecho_example_line.jpg>]
+[22 <./pictures/Chapter4/gecho_example/gecho_example_line.jpg>]
 
 LaTeX Warning: Command \r invalid in math mode on input line 47.
 
@@ -1722,14 +1711,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
-<pictures/Chapter4/lightcurves/Continua.pdf, id=947, 439.8031pt x 702.27654pt>
+[23]
+<pictures/Chapter4/lightcurves/Continua.pdf, id=942, 439.8031pt x 702.27654pt>
 File: pictures/Chapter4/lightcurves/Continua.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lightcurves/Continua.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/Continua.pdf  used on in
 put line 110.
 (pdftex.def)             Requested size: 384.1096pt x 613.3653pt.
-<pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf, id=950, 439.8031pt
+<pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf, id=945, 439.8031pt
  x 577.78421pt>
 File: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf Graphic file (
 type pdf)
@@ -1737,7 +1726,7 @@ type pdf)
 Package pdftex.def Info: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines
 .pdf  used on input line 117.
 (pdftex.def)             Requested size: 384.1096pt x 504.63423pt.
-<pictures/Chapter4/lightcurves/He_and_UV_lines.pdf, id=953, 439.8031pt x 577.78
+<pictures/Chapter4/lightcurves/He_and_UV_lines.pdf, id=948, 439.8031pt x 577.78
 421pt>
 File: pictures/Chapter4/lightcurves/He_and_UV_lines.pdf Graphic file (type pdf)
 
@@ -1754,7 +1743,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[24]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1763,7 +1752,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26 <./pictures/Chapter4/lightcurves/Continua.pdf>]
+[25 <./pictures/Chapter4/lightcurves/Continua.pdf>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1772,7 +1761,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27 <./pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf>]
+[26 <./pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1781,7 +1770,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28 <./pictures/Chapter4/lightcurves/He_and_UV_lines.pdf>]
+[27 <./pictures/Chapter4/lightcurves/He_and_UV_lines.pdf>]
 
 LaTeX Warning: Command \r invalid in math mode on input line 140.
 
@@ -1806,7 +1795,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29
+[28
 
 ]
 
@@ -1817,7 +1806,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30]
+[29]
 
 LaTeX Warning: Command \r invalid in math mode on input line 228.
 
@@ -1833,9 +1822,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31]
+[30]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_
-O.pdf, id=1223, 458.88063pt x 682.24564pt>
+O.pdf, id=1218, 458.88063pt x 682.24564pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balme
 r_Ly_O.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer
@@ -1851,7 +1840,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 267.
 LaTeX Warning: Command \r invalid in math mode on input line 267.
 
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.
-pdf, id=1226, 458.88063pt x 682.24564pt>
+pdf, id=1221, 458.88063pt x 682.24564pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heliu
 m_UV.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium
@@ -1882,7 +1871,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32]
+[31]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1891,7 +1880,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balm
+[32 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balm
 er_Ly_O.pdf>]
 
 
@@ -1901,7 +1890,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heli
+[33 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heli
 um_UV.pdf>]
 Overfull \hbox (1.99826pt too wide) in paragraph at lines 285--287
 \T1/lmr/m/n/12 Here, $\OML/lmm/m/it/12 ^^U[]$ \T1/lmr/m/n/12 de-notes the wave-
@@ -1918,8 +1907,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35]
-<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1462, 673.608
+[34]
+<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1456, 673.608
 2pt x 1001.89934pt>
 File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
  (type pdf)
@@ -1927,7 +1916,7 @@ File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
 Package pdftex.def Info: pictures/Chapter4/line_profiles/Normalized_Line_Profil
 es.pdf  used on input line 290.
 (pdftex.def)             Requested size: 426.79135pt x 634.79254pt.
-<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1463, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1457, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
  pdf)
@@ -1935,7 +1924,7 @@ File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf
   used on input line 298.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
-<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1464, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1458, 706.97952pt x
  348.00038pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf Graphic file (type
  pdf)
@@ -1952,7 +1941,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
+[35]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1961,7 +1950,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37 <./pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>]
+[36 <./pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1970,7 +1959,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf> <./pictures/Chap
+[37 <./pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf> <./pictures/Chap
 ter4/line_profiles/RMS_overlay_Helium.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 341--343
 
@@ -1985,14 +1974,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[38]
+
+LaTeX Warning: Command \r invalid in math mode on input line 357.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 357.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [39]
-
-LaTeX Warning: Command \r invalid in math mode on input line 357.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 357.
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2011,15 +2009,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[42]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\leavevmode@ifvmode' on input line 506.
@@ -2062,9 +2051,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43]
+[42]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_referenc
-e_lightcurves_paper HAlpha.pdf, id=1684, 458.88063pt x 548.69064pt>
+e_lightcurves_paper HAlpha.pdf, id=1679, 458.88063pt x 548.69064pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_ref
 erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
@@ -2082,7 +2071,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44]
+[43]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2091,7 +2080,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_re
+[44 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_re
 ference_lightcurves_paper HAlpha.pdf>]
 Chapter 5.
 
@@ -2119,7 +2108,7 @@ r/m/n/12 0\OML/lmm/m/it/12 :\OT1/lmr/m/n/12 3[] $\T1/lmr/m/n/12 days
 
 
 
-[46
+[45
 
 ]
 Overfull \hbox (6.4422pt too wide) in paragraph at lines 17--22
@@ -2148,7 +2137,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47]
+[46]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2157,7 +2146,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48]
+[47]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\leavevmode@ifvmode' on input line 41.
@@ -2200,7 +2189,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49])
+[48])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2209,16 +2198,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50]
+[49]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 61.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[51
+[50
 
 ]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2236,7 +2234,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53]
+[53] (chapters/anhang.tex)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2245,16 +2243,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54] (chapters/anhang.tex)
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[55] (main.aux)
+[54] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
@@ -2264,19 +2253,19 @@ L3 programming layer <2025-05-26>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FF4E91ED25984C348A954A30B7FBFD2C;5883.
+(rerunfilecheck)             Checksum: 1D1ECD5DCFBCF24949C3CBA88D01476D;5883.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32075 strings out of 468225
- 618755 string characters out of 5432973
- 1420917 words of memory out of 5000000
+ 32074 strings out of 468225
+ 618748 string characters out of 5432973
+ 1420968 words of memory out of 5000000
  59902 multiletter control sequences out of 15000+600000
  708818 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,91p,3445b,1859s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,91p,3445b,1855s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
@@ -2293,9 +2282,9 @@ Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
 sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (63 pages, 3837766 bytes).
+Output written on main.pdf (62 pages, 3836352 bytes).
 PDF statistics:
- 2020 PDF objects out of 2073 (max. 8388607)
- 215 named destinations out of 1000 (max. 500000)
+ 2015 PDF objects out of 2073 (max. 8388607)
+ 214 named destinations out of 1000 (max. 500000)
  398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
