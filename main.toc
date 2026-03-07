@@ -26,10 +26,10 @@
 \contentsline {subsection}{\numberline {4.3.1}Variability Statistics}{28}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Uncertainty Estimation}{30}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Time Lag}{30}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Line Profiles}{34}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Line Profiles}{32}{section.4.5}%
 \contentsline {subsubsection}{Balmer lines}{35}{figure.caption.28}%
 \contentsline {subsubsection}{Ly$\alpha $}{35}{figure.caption.28}%
-\contentsline {subsubsection}{O\,\textsc {I}$\,\lambda 8446$}{35}{figure.caption.28}%
+\contentsline {subsubsection}{O\,\textsc {I}$\,\lambda \,8446$}{35}{figure.caption.28}%
 \contentsline {subsubsection}{Helium Lines}{35}{figure.caption.28}%
 \contentsline {subsubsection}{N\,\textsc {V}$\,\lambda \lambda 1283,\,1242$}{38}{figure.caption.28}%
 \contentsline {subsubsection}{Si\,\textsc {IV}$\,\lambda \lambda 1393,\,1402$}{38}{figure.caption.28}%

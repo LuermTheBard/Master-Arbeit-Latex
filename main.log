@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  6 MAR 2026 21:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  7 MAR 2026 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1641,30 +1641,33 @@ LaTeX Warning: Command \r invalid in math mode on input line 8.
 
 LaTeX Warning: Command \r invalid in math mode on input line 8.
 
-<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=767, 722.7pt x 433.62pt>
+<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=769, 722.7pt x 433.62pt>
 File: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf Graphic file (type pdf)
 <use pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf>
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf  used 
-on input line 12.
+on input line 11.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=768, 722.7pt x 
+<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=770, 722.7pt x 
 433.62pt>
 File: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf Graphic file (
 type pdf)
 <use pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf>
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS
-.pdf  used on input line 18.
+.pdf  used on input line 17.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<pictures/Chapter4/gecho_example/gecho_example_line.jpg, id=779, 663.98062pt x 
+<pictures/Chapter4/gecho_example/gecho_example_line.jpg, id=781, 663.98062pt x 
 392.96812pt>
 File: pictures/Chapter4/gecho_example/gecho_example_line.jpg Graphic file (type
  jpg)
 <use pictures/Chapter4/gecho_example/gecho_example_line.jpg>
 Package pdftex.def Info: pictures/Chapter4/gecho_example/gecho_example_line.jpg
-  used on input line 32.
+  used on input line 31.
 (pdftex.def)             Requested size: 405.45047pt x 239.96204pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Command \r invalid in math mode on input line 45.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 45.
 
 
 
@@ -1691,16 +1694,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [22 <./pictures/Chapter4/gecho_example/gecho_example_line.jpg>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 47.
+LaTeX Warning: Command \r invalid in math mode on input line 80.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 47.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 79.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 100.
+LaTeX Warning: Command \r invalid in math mode on input line 101.
 
 
 
@@ -1712,27 +1709,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-<pictures/Chapter4/lightcurves/Continua.pdf, id=942, 439.8031pt x 702.27654pt>
+<pictures/Chapter4/lightcurves/Continua.pdf, id=945, 439.8031pt x 702.27654pt>
 File: pictures/Chapter4/lightcurves/Continua.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lightcurves/Continua.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/Continua.pdf  used on in
-put line 110.
+put line 111.
 (pdftex.def)             Requested size: 384.1096pt x 613.3653pt.
-<pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf, id=945, 439.8031pt
+<pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf, id=948, 439.8031pt
  x 577.78421pt>
 File: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf Graphic file (
 type pdf)
 <use pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines
-.pdf  used on input line 117.
+.pdf  used on input line 118.
 (pdftex.def)             Requested size: 384.1096pt x 504.63423pt.
-<pictures/Chapter4/lightcurves/He_and_UV_lines.pdf, id=948, 439.8031pt x 577.78
+<pictures/Chapter4/lightcurves/He_and_UV_lines.pdf, id=951, 439.8031pt x 577.78
 421pt>
 File: pictures/Chapter4/lightcurves/He_and_UV_lines.pdf Graphic file (type pdf)
 
 <use pictures/Chapter4/lightcurves/He_and_UV_lines.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/He_and_UV_lines.pdf  use
-d on input line 124.
+d on input line 125.
 (pdftex.def)             Requested size: 384.1096pt x 504.63423pt.
 
 
@@ -1772,16 +1769,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [27 <./pictures/Chapter4/lightcurves/He_and_UV_lines.pdf>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 140.
+LaTeX Warning: Command \r invalid in math mode on input line 141.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 140.
+LaTeX Warning: Command \r invalid in math mode on input line 141.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 142.
+LaTeX Warning: Command \r invalid in math mode on input line 143.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 142.
+LaTeX Warning: Command \r invalid in math mode on input line 143.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1808,10 +1805,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [29]
 
-LaTeX Warning: Command \r invalid in math mode on input line 228.
+LaTeX Warning: Command \r invalid in math mode on input line 229.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 230.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--234
+
+ []
 
 
 
@@ -1823,43 +1825,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30]
-<pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_
-O.pdf, id=1218, 458.88063pt x 682.24564pt>
-File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balme
-r_Ly_O.pdf Graphic file (type pdf)
-<use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer
-_Ly_O.pdf>
-Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_Balmer_Ly_O.pdf  used on input line 266.
-(pdftex.def)             Requested size: 384.1096pt x 571.08366pt.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 267.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 267.
-
-<pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.
-pdf, id=1221, 458.88063pt x 682.24564pt>
-File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heliu
-m_UV.pdf Graphic file (type pdf)
-<use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium
-_UV.pdf>
-Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/UVW2_ccfs_Helium_UV.pdf  used on input line 273.
-(pdftex.def)             Requested size: 384.1096pt x 571.08366pt.
-
-LaTeX Warning: Command \r invalid in math mode on input line 274.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 274.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1872,27 +1837,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
+<pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_
+O.pdf, id=1224, 458.88063pt x 682.24564pt>
+File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balme
+r_Ly_O.pdf Graphic file (type pdf)
+<use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer
+_Ly_O.pdf>
+Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
+les/UVW2_ccfs_Balmer_Ly_O.pdf  used on input line 267.
+(pdftex.def)             Requested size: 384.1096pt x 571.08366pt.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[32 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balm
-er_Ly_O.pdf>]
+LaTeX Warning: Command \r invalid in math mode on input line 268.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+LaTeX Warning: Command \r invalid in math mode on input line 268.
 
-[33 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heli
-um_UV.pdf>]
-Overfull \hbox (1.99826pt too wide) in paragraph at lines 285--287
+<pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.
+pdf, id=1227, 458.88063pt x 682.24564pt>
+File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heliu
+m_UV.pdf Graphic file (type pdf)
+<use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium
+_UV.pdf>
+Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
+les/UVW2_ccfs_Helium_UV.pdf  used on input line 274.
+(pdftex.def)             Requested size: 384.1096pt x 571.08366pt.
+
+LaTeX Warning: Command \r invalid in math mode on input line 275.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 275.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Overfull \hbox (1.99826pt too wide) in paragraph at lines 286--288
 \T1/lmr/m/n/12 Here, $\OML/lmm/m/it/12 ^^U[]$ \T1/lmr/m/n/12 de-notes the wave-
 length val-ues, $\OML/lmm/m/it/12 ^^U[]$ \T1/lmr/m/n/12 the cen-tral wave-lengt
 h of the emission-
@@ -1907,30 +1889,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34]
-<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1456, 673.608
+[32]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balm
+er_Ly_O.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heli
+um_UV.pdf>]
+<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1458, 673.608
 2pt x 1001.89934pt>
 File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
  (type pdf)
 <use pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/Normalized_Line_Profil
-es.pdf  used on input line 290.
+es.pdf  used on input line 291.
 (pdftex.def)             Requested size: 426.79135pt x 634.79254pt.
-<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1457, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1459, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
  pdf)
 <use pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf
-  used on input line 298.
+  used on input line 299.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
-<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1458, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1460, 706.97952pt x
  348.00038pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf Graphic file (type
  pdf)
 <use pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf>
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf
-  used on input line 305.
+  used on input line 306.
 (pdftex.def)             Requested size: 426.79135pt x 210.08154pt.
 
 
@@ -1961,7 +1963,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [37 <./pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf> <./pictures/Chap
 ter4/line_profiles/RMS_overlay_Helium.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 341--343
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
@@ -1976,10 +1978,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [38]
 
-LaTeX Warning: Command \r invalid in math mode on input line 357.
+LaTeX Warning: Command \r invalid in math mode on input line 358.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 357.
+LaTeX Warning: Command \r invalid in math mode on input line 358.
 
 
 
@@ -2011,36 +2013,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [41]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 506.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 503.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 506.
+(hyperref)                removed on input line 503.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
+(hyperref)                removing `math shift' on input line 503.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 506.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 503.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 506.
+(hyperref)                removed on input line 503.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 506.
+(hyperref)                removing `\lambda' on input line 503.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
+(hyperref)                removing `math shift' on input line 503.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 509.
+LaTeX Warning: Command \r invalid in math mode on input line 506.
 
 
 
@@ -2053,13 +2055,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_referenc
-e_lightcurves_paper HAlpha.pdf, id=1679, 458.88063pt x 548.69064pt>
+e_lightcurves_paper HAlpha.pdf, id=1684, 458.88063pt x 548.69064pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_ref
 erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
 rence_lightcurves_paper HAlpha.pdf>
 Package pdftex.def Info: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tab
-les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 515.
+les/OI_ccfs_and_reference_lightcurves_paper HAlpha.pdf  used on input line 512.
 
 (pdftex.def)             Requested size: 418.2537pt x 500.113pt.
 ) (chapters/kapitel4.tex
@@ -2259,13 +2261,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32074 strings out of 468225
- 618748 string characters out of 5432973
- 1420968 words of memory out of 5000000
- 59902 multiletter control sequences out of 15000+600000
+ 32077 strings out of 468225
+ 618784 string characters out of 5432973
+ 1421983 words of memory out of 5000000
+ 59905 multiletter control sequences out of 15000+600000
  708818 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,91p,3445b,1855s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,14n,91p,3445b,1855s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
@@ -2282,9 +2284,9 @@ Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
 sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (62 pages, 3836352 bytes).
+Output written on main.pdf (62 pages, 3837360 bytes).
 PDF statistics:
- 2015 PDF objects out of 2073 (max. 8388607)
+ 2017 PDF objects out of 2073 (max. 8388607)
  214 named destinations out of 1000 (max. 500000)
  398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
