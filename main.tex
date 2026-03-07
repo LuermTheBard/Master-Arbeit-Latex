@@ -159,6 +159,8 @@ dashed         = false,
 \usepackage{tikz}         % Logo-Positionierung auf Titelseite
 \usepackage{overpic}
 \usepackage{pdfpages}
+\usepackage{float}     % Präambel
+\usepackage{rotating}  % Präambel
 \titleformat{\chapter}[hang]
 {\normalfont\huge\bfseries}
 {\thechapter.}{0.5em}{}
@@ -263,7 +265,13 @@ dashed         = false,
 	% Anhang
 	\appendix
 	\input{chapters/anhang.tex}
+	% Danksagung - keine Nummerierung, nicht im ToC
+	\clearpage
+	\chapter*{Danksagung}  % * = keine Nummerierung
 	
-	%\includepdf[pages=-]{pictures/erklaerung.pdf}
+	...
+	
+	\clearpage
+	\includepdf[pages=-]{pictures/erklaerung.pdf}
 	
 \end{document}

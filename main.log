@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  7 MAR 2026 22:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  7 MAR 2026 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,34 +1040,50 @@ File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks43
 \c@AM@survey=\count485
 \AM@templatesizebox=\box70
+) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count486
+\float@exts=\toks44
+\float@box=\box71
+\@float@everytoks=\toks45
+\@floatcapt=\box72
+)
+(C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
+\c@r@tfl@t=\count487
+\rotFPtop=\skip96
+\rotFPbot=\skip97
+\rot@float@box=\box73
+\rot@mess@toks=\toks46
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 16
-6.
+8.
+
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1117,23 +1133,23 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 166.
-Package biblatex Info: Reference segment=0 on input line 166.
+Package biblatex Info: Reference section=0 on input line 168.
+Package biblatex Info: Reference segment=0 on input line 168.
 
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count486
+\scratchcounter=\count488
 \scratchdimen=\dimen305
-\scratchbox=\box71
-\nofMPsegments=\count487
-\nofMParguments=\count488
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count489
+\scratchbox=\box74
+\nofMPsegments=\count489
+\nofMParguments=\count490
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count491
 \MPscratchDim=\dimen306
-\MPnumerator=\count490
-\makeMPintoPDFobject=\count491
-\everyMPtoPDFconversion=\toks45
+\MPnumerator=\count492
+\makeMPintoPDFobject=\count493
+\everyMPtoPDFconversion=\toks48
 )
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1145,12 +1161,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 166.
+Package hyperref Info: Link coloring OFF on input line 168.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
@@ -1170,40 +1188,40 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 File: pictures/GOE_Logo_Quer_IPC_Farbe_RGB.png Graphic file (type png)
 <use pictures/GOE_Logo_Quer_IPC_Farbe_RGB.png>
 Package pdftex.def Info: pictures/GOE_Logo_Quer_IPC_Farbe_RGB.png  used on inpu
-t line 172.
+t line 174.
 (pdftex.def)             Requested size: 227.62204pt x 40.59198pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-98.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+00.
 
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-98.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+00.
 
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-198.
+200.
 
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-198.
+200.
 
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 198.
+(Font)              <12> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 198.
+(Font)              <8> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 198.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 19
-8.
+(Font)              <6> on input line 200.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 20
+0.
 
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
@@ -1219,16 +1237,16 @@ ogo_Quer_IPC_Farbe_RGB.png>]
 
 ]
 
-LaTeX Warning: Command \r invalid in math mode on input line 230.
+LaTeX Warning: Command \r invalid in math mode on input line 232.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 230.
+LaTeX Warning: Command \r invalid in math mode on input line 232.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 230.
+LaTeX Warning: Command \r invalid in math mode on input line 232.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 230.
+LaTeX Warning: Command \r invalid in math mode on input line 232.
 
 
 
@@ -1277,18 +1295,6 @@ Overfull \hbox (14.34756pt too wide) in paragraph at lines 6--6
 ea-sured emission- 
  []
 
-
-Overfull \hbox (7.76248pt too wide) in paragraph at lines 16--16
- [][] [][]\T1/lmr/m/n/12 Balmer emis-sion lines. In-te-grated line fluxes in un
-its of $\OT1/lmr/m/n/12 10[]$\T1/lmr/m/n/12 ergcm$[]$s$[]$.[] [][]  
- []
-
-
-Overfull \hbox (7.59714pt too wide) in paragraph at lines 17--17
- [][] [][]\T1/lmr/m/n/12 Helium emis-sion lines. In-te-grated line fluxes in un
-its of $\OT1/lmr/m/n/12 10[]$\T1/lmr/m/n/12 ergcm$[]$s$[]$.[] [][]  
- []
-
 )
 \tf@lot=\write8
 \openout8 = `main.lot'.
@@ -1321,7 +1327,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.253 	
+l.255 	
         [1
 
 
@@ -1342,7 +1348,7 @@ been already used, duplicate ignored
 l.1 \chapter
             {Scientific Background} [2]
 Chapter 2.
-<pictures/Chapter2/AGN_standard_paradigm.png, id=364, 1444.64719pt x 627.84563p
+<pictures/Chapter2/AGN_standard_paradigm.png, id=366, 1444.64719pt x 627.84563p
 t>
 File: pictures/Chapter2/AGN_standard_paradigm.png Graphic file (type png)
 <use pictures/Chapter2/AGN_standard_paradigm.png>
@@ -1375,7 +1381,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-<pictures/Chapter2/Syefert1vsSeyfer2_V2.jpg, id=445, 454.69875pt x 338.26375pt>
+<pictures/Chapter2/Syefert1vsSeyfer2_V2.jpg, id=447, 454.69875pt x 338.26375pt>
 
 File: pictures/Chapter2/Syefert1vsSeyfer2_V2.jpg Graphic file (type jpg)
 <use pictures/Chapter2/Syefert1vsSeyfer2_V2.jpg>
@@ -1427,7 +1433,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<pictures/Chapter2/AGN_unified_model_3.png, id=497, 853.1875pt x 744.7825pt>
+<pictures/Chapter2/AGN_unified_model_3.png, id=499, 853.1875pt x 744.7825pt>
 File: pictures/Chapter2/AGN_unified_model_3.png Graphic file (type png)
 <use pictures/Chapter2/AGN_unified_model_3.png>
 Package pdftex.def Info: pictures/Chapter2/AGN_unified_model_3.png  used on inp
@@ -1460,7 +1466,7 @@ Overfull \hbox (0.15666pt too wide) in paragraph at lines 109--112
 cur on such short timescales,
  []
 
-<pictures/Chapter2/iso-delay_surface.jpg, id=524, 1134.48843pt x 602.25pt>
+<pictures/Chapter2/iso-delay_surface.jpg, id=526, 1134.48843pt x 602.25pt>
 File: pictures/Chapter2/iso-delay_surface.jpg Graphic file (type jpg)
 <use pictures/Chapter2/iso-delay_surface.jpg>
 Package pdftex.def Info: pictures/Chapter2/iso-delay_surface.jpg  used on input
@@ -1553,7 +1559,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 190.
 
-<pictures/Chapter2/OITriplet.jpg, id=608, 637.63219pt x 638.385pt>
+<pictures/Chapter2/OITriplet.jpg, id=610, 637.63219pt x 638.385pt>
 File: pictures/Chapter2/OITriplet.jpg Graphic file (type jpg)
 <use pictures/Chapter2/OITriplet.jpg>
 Package pdftex.def Info: pictures/Chapter2/OITriplet.jpg  used on input line 20
@@ -1594,7 +1600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 17.
-<pictures/Chapter3/comparison_spectra.pdf, id=626, 722.7pt x 433.62pt>
+<pictures/Chapter3/comparison_spectra.pdf, id=628, 722.7pt x 433.62pt>
 File: pictures/Chapter3/comparison_spectra.pdf Graphic file (type pdf)
 <use pictures/Chapter3/comparison_spectra.pdf>
 Package pdftex.def Info: pictures/Chapter3/comparison_spectra.pdf  used on inpu
@@ -1633,7 +1639,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17 <./pictures/Chapter3/comparison_spectra.pdf>]
-<pictures/Chapter3/comparison_avg_rms.pdf, id=695, 722.7pt x 433.62pt>
+<pictures/Chapter3/comparison_avg_rms.pdf, id=697, 722.7pt x 433.62pt>
 File: pictures/Chapter3/comparison_avg_rms.pdf Graphic file (type pdf)
 <use pictures/Chapter3/comparison_avg_rms.pdf>
 Package pdftex.def Info: pictures/Chapter3/comparison_avg_rms.pdf  used on inpu
@@ -1652,7 +1658,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 52.
 
 LaTeX Warning: Command \r invalid in math mode on input line 52.
 
-<pictures/Chapter3/NGC4593_Bearbeitet.PNG, id=699, 835.6821pt x 599.3592pt>
+<pictures/Chapter3/NGC4593_Bearbeitet.PNG, id=701, 835.6821pt x 599.3592pt>
 File: pictures/Chapter3/NGC4593_Bearbeitet.PNG Graphic file (type png)
 <use pictures/Chapter3/NGC4593_Bearbeitet.PNG>
 Package pdftex.def Info: pictures/Chapter3/NGC4593_Bearbeitet.PNG  used on inpu
@@ -1702,13 +1708,13 @@ LaTeX Warning: Command \r invalid in math mode on input line 8.
 
 LaTeX Warning: Command \r invalid in math mode on input line 8.
 
-<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=782, 722.7pt x 433.62pt>
+<pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf, id=784, 722.7pt x 433.62pt>
 File: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf Graphic file (type pdf)
 <use pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf>
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/avg_rms_spec.pdf  used 
 on input line 11.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=783, 722.7pt x 
+<pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf, id=785, 722.7pt x 
 433.62pt>
 File: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS.pdf Graphic file (
 type pdf)
@@ -1716,14 +1722,14 @@ type pdf)
 Package pdftex.def Info: pictures/Chapter4/avg_rms_spec/UV_uncalibrated_AVG_RMS
 .pdf  used on input line 17.
 (pdftex.def)             Requested size: 426.79135pt x 256.07838pt.
-<pictures/Chapter4/gecho_example/gecho_example_line.jpg, id=794, 663.98062pt x 
+<pictures/Chapter4/gecho_example/gecho_example_line.jpg, id=800, 663.98062pt x 
 392.96812pt>
 File: pictures/Chapter4/gecho_example/gecho_example_line.jpg Graphic file (type
  jpg)
 <use pictures/Chapter4/gecho_example/gecho_example_line.jpg>
 Package pdftex.def Info: pictures/Chapter4/gecho_example/gecho_example_line.jpg
   used on input line 31.
-(pdftex.def)             Requested size: 405.45047pt x 239.96204pt.
+(pdftex.def)             Requested size: 384.1096pt x 227.32803pt.
 
 LaTeX Warning: Command \r invalid in math mode on input line 45.
 
@@ -1770,13 +1776,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-<pictures/Chapter4/lightcurves/Continua.pdf, id=958, 439.8031pt x 702.27654pt>
+<pictures/Chapter4/lightcurves/Continua.pdf, id=965, 439.8031pt x 702.27654pt>
 File: pictures/Chapter4/lightcurves/Continua.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lightcurves/Continua.pdf>
 Package pdftex.def Info: pictures/Chapter4/lightcurves/Continua.pdf  used on in
 put line 111.
 (pdftex.def)             Requested size: 384.1096pt x 613.3653pt.
-<pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf, id=961, 439.8031pt
+<pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf, id=968, 439.8031pt
  x 577.78421pt>
 File: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines.pdf Graphic file (
 type pdf)
@@ -1784,7 +1790,7 @@ type pdf)
 Package pdftex.def Info: pictures/Chapter4/lightcurves/Balmer_Lyman_and_O_lines
 .pdf  used on input line 118.
 (pdftex.def)             Requested size: 384.1096pt x 504.63423pt.
-<pictures/Chapter4/lightcurves/He_and_UV_lines.pdf, id=964, 439.8031pt x 577.78
+<pictures/Chapter4/lightcurves/He_and_UV_lines.pdf, id=971, 439.8031pt x 577.78
 421pt>
 File: pictures/Chapter4/lightcurves/He_and_UV_lines.pdf Graphic file (type pdf)
 
@@ -1899,7 +1905,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [31]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer_Ly_
-O.pdf, id=1237, 458.88063pt x 682.24564pt>
+O.pdf, id=1244, 458.88063pt x 682.24564pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balme
 r_Ly_O.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Balmer
@@ -1915,7 +1921,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 268.
 LaTeX Warning: Command \r invalid in math mode on input line 268.
 
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium_UV.
-pdf, id=1240, 458.88063pt x 682.24564pt>
+pdf, id=1247, 458.88063pt x 682.24564pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heliu
 m_UV.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Helium
@@ -1971,7 +1977,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [34 <./pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/UVW2_ccfs_Heli
 um_UV.pdf>]
-<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1471, 673.608
+<pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf, id=1478, 673.608
 2pt x 1001.89934pt>
 File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
  (type pdf)
@@ -1979,7 +1985,7 @@ File: pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf Graphic file
 Package pdftex.def Info: pictures/Chapter4/line_profiles/Normalized_Line_Profil
 es.pdf  used on input line 291.
 (pdftex.def)             Requested size: 426.79135pt x 634.79254pt.
-<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1472, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf, id=1479, 706.97952pt x
  549.20006pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
  pdf)
@@ -1987,7 +1993,7 @@ File: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf Graphic file (type
 Package pdftex.def Info: pictures/Chapter4/line_profiles/RMS_overlay_Balmer.pdf
   used on input line 299.
 (pdftex.def)             Requested size: 426.79135pt x 331.54218pt.
-<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1473, 706.97952pt x
+<pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf, id=1480, 706.97952pt x
  348.00038pt>
 File: pictures/Chapter4/line_profiles/RMS_overlay_Helium.pdf Graphic file (type
  pdf)
@@ -2116,7 +2122,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42]
 <pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_referenc
-e_lightcurves_paper HAlpha.pdf, id=1697, 458.88063pt x 548.69064pt>
+e_lightcurves_paper HAlpha.pdf, id=1704, 458.88063pt x 548.69064pt>
 File: pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_ref
 erence_lightcurves_paper HAlpha.pdf Graphic file (type pdf)
 <use pictures/Chapter4/lighcurves_and_ccfs_and_time_lag_tables/OI_ccfs_and_refe
@@ -2263,7 +2269,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [49]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-62.
+64.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -2309,19 +2315,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [54]
 Appendix A.
 
-Underfull \hbox (badness 3579) in paragraph at lines 7--7
-[]\T1/lmr/m/n/12 Table A.1: |Balmer emis-sion lines. In-te-grated line fluxes i
-n units of
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 8.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 8.
-
-Underfull \hbox (badness 3601) in paragraph at lines 46--46
-[]\T1/lmr/m/n/12 Table A.2: |He-lium emis-sion lines. In-te-grated line fluxes 
-in units of
+Overfull \hbox (3.89484pt too wide) in paragraph at lines 7--40
+ [][] 
  []
 
 
@@ -2348,6 +2343,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [57]
 
+LaTeX Warning: Command \r invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 159.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2356,42 +2361,57 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [58]
-<pictures/erklaerung.pdf, id=1920, 597.50731pt x 845.04607pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[59]
+
+[60
+
+
+]
+<pictures/erklaerung.pdf, id=1937, 597.50731pt x 845.04607pt>
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf>
-Package pdftex.def Info: pictures/erklaerung.pdf  used on input line 161.
+Package pdftex.def Info: pictures/erklaerung.pdf  used on input line 275.
 (pdftex.def)             Requested size: 597.50584pt x 845.044pt.
-<pictures/erklaerung.pdf, id=1922, page=1, 597.50731pt x 845.04607pt>
+<pictures/erklaerung.pdf, id=1939, page=1, 597.50731pt x 845.04607pt>
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 161
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
 .
 (pdftex.def)             Requested size: 597.50584pt x 845.044pt.
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 161
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
 .
 (pdftex.def)             Requested size: 597.53319pt x 845.08269pt.
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 161
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
 .
 (pdftex.def)             Requested size: 597.53319pt x 845.08269pt.
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 161
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
 .
 (pdftex.def)             Requested size: 597.53319pt x 845.08269pt.
 
 
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 161
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
 .
 (pdftex.def)             Requested size: 597.53319pt x 845.08269pt.
-[59
+[61
 
- <./pictures/erklaerung.pdf>]) (main.aux)
+
+ <./pictures/erklaerung.pdf>] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
@@ -2407,13 +2427,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32941 strings out of 468225
- 634372 string characters out of 5432973
- 1456559 words of memory out of 5000000
- 60726 multiletter control sequences out of 15000+600000
- 722223 words of font info for 97 fonts, out of 8000000 for 9000
+ 33065 strings out of 468225
+ 636610 string characters out of 5432973
+ 1451192 words of memory out of 5000000
+ 60847 multiletter control sequences out of 15000+600000
+ 708818 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,91p,3445b,1870s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,91p,3445b,1874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
@@ -2430,9 +2450,9 @@ Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
 sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (67 pages, 3850975 bytes).
+Output written on main.pdf (69 pages, 3854445 bytes).
 PDF statistics:
- 2062 PDF objects out of 2073 (max. 8388607)
- 224 named destinations out of 1000 (max. 500000)
+ 2078 PDF objects out of 2487 (max. 8388607)
+ 228 named destinations out of 1000 (max. 500000)
  421 words of extra memory for PDF output out of 10000 (max. 10000000)
 

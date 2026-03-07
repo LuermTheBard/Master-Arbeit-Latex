@@ -1,10 +1,9 @@
 \appendix
 
 \chapter{Additional Tables}
-\begin{table}[h]
+\begin{table*}[h]
 	\centering
-	\footnotesize
-	\caption{Balmer emission lines. Integrated line fluxes in units of $10^{-15}$\,erg\,cm$^{-2}$\,s$^{-1}$.}
+	\caption[Integrated line fluxes of the Balmer lines]{Integrated line fluxes of the Balmer lines in units of $10^{-15}$\,erg\,cm$^{-2}$\,s$^{-1}$.}
 	\begin{tabular}{lcccc}
 		\hline\hline
 		Mod. Julian Date & H$\alpha$ & H$\beta$ & H$\gamma$ & H$\delta$ \\
@@ -38,12 +37,12 @@
 		\hline
 	\end{tabular}
 	\label{tab:balmer}
-\end{table}
+\end{table*}
+\newpage
 
-\begin{table*}
+\begin{table*}[h]
 	\centering
-	\footnotesize
-	\caption{Helium emission lines. Integrated line fluxes in units of $10^{-15}$\,erg\,cm$^{-2}$\,s$^{-1}$.}
+	\caption[Integrated line fluxes of the helium lines]{Integrated line fluxes of the helium lines in units of $10^{-15}$\,erg\,cm$^{-2}$\,s$^{-1}$.}
 	\begin{tabular}{lccc}
 		\hline\hline
 		Mod. Julian Date & He\,\textsc{i}\,$\lambda\,5876$ & He\,\textsc{ii}\,$\lambda\,1640$ & He\,\textsc{ii}\,$\lambda\,4686$ \\
@@ -78,12 +77,10 @@
 	\end{tabular}
 	\label{tab:helium}
 \end{table*}
-
-
-\begin{table*}
+\newpage
+\begin{table*}[h]
 	\centering
-	\footnotesize
-	\caption{Ly$\alpha$ and OI lines. Integrated line fluxes in units of $10^{-15}$\,erg\,cm$^{-2}$\,s$^{-1}$.}
+	\caption[Integrated line fluxes of Ly$\alpha$ and O\,\textsc{i}\,$\lambda\,8446$]{Integrated line fluxes of Ly$\alpha$ and O\,\textsc{i}\,$\lambda\,8446$ in units of $10^{-15}$\,erg\,cm$^{-2}$\,s$^{-1}$.}
 	\begin{tabular}{lcc}
 		\hline\hline
 		Mod. Julian Date & Ly$\alpha$ & O\,\textsc{i}\,$\lambda\,8446$ \\
@@ -118,11 +115,10 @@
 	\end{tabular}
 	\label{tab:lyo}
 \end{table*}
-
-\begin{table*}
+\newpage
+\begin{table*}[h]
 	\centering
-	\footnotesize
-	\caption{UV emission lines. Integrated line fluxes in units of $10^{-15}$\,erg\,cm$^{-2}$\,s$^{-1}$.}
+	\caption[Integrated line fluxes of the high-ionized UV emission lines]{Integrated line fluxes of the high-ionized UV emission lines in units of $10^{-15}$\,erg\,cm$^{-2}$\,s$^{-1}$.}
 	\begin{tabular}{lccc}
 		\hline\hline
 		Mod. Julian Date & N\,\textsc{v}\,$\lambda\lambda 1238,\,1242$ & Si\,\textsc{iv}\,$\lambda\lambda 1393,\,1402$ & C\,\textsc{iv}\,$\lambda\lambda 1548,\,1550$ \\
@@ -157,5 +153,41 @@
 	\end{tabular}
 	\label{tab:uv}
 \end{table*}
-\newpage
-\includepdf[pages=-]{pictures/erklaerung.pdf}
+
+\begin{sidewaystable*}[h]
+	\centering
+	\caption[Continuum flux density]{Continuum flux density in units of $10^{-15}\mathrm{erg}\,\mathrm{cm}^{-2}\,\mathrm{s}^{-1}\,\mathrm{\AA}^{-1}$.}
+	\begin{tabular}{lcccccccc}
+		\hline\hline
+		Mod. Julian Date & Cont. 1150 & Cont. 4010 & Cont. 4440 & Cont. 5100 & Cont. 6110 & Cont. 6880 & Cont. 8015 & Cont. 8900 \\
+		\hline
+		57581.66 & $10.88 \pm 0.55$ & $3.98 \pm 0.06$ & $3.56 \pm 0.06$ & $2.63 \pm 0.05$ & $2.11 \pm 0.04$ & $1.92 \pm 0.03$ & $1.63 \pm 0.03$ & $1.48 \pm 0.03$ \\
+		57582.66 & $11.94 \pm 0.71$ & $4.21 \pm 0.06$ & $3.73 \pm 0.06$ & $2.77 \pm 0.04$ & $2.27 \pm 0.04$ & $2.01 \pm 0.03$ & $1.69 \pm 0.03$ & $1.51 \pm 0.03$ \\
+		57583.65 & $9.00 \pm 0.14$ & $3.70 \pm 0.05$ & $3.40 \pm 0.06$ & $2.49 \pm 0.05$ & $2.06 \pm 0.03$ & $1.85 \pm 0.03$ & $1.53 \pm 0.03$ & $1.42 \pm 0.02$ \\
+		57583.78 & $8.72 \pm 0.26$ & $3.74 \pm 0.06$ & $3.41 \pm 0.05$ & $2.57 \pm 0.04$ & $2.13 \pm 0.03$ & $1.89 \pm 0.03$ & $1.57 \pm 0.04$ & $1.44 \pm 0.03$ \\
+		57584.58 & $7.15 \pm 0.41$ & $3.73 \pm 0.05$ & $3.38 \pm 0.05$ & $2.42 \pm 0.04$ & $2.05 \pm 0.03$ & $1.88 \pm 0.03$ & $1.65 \pm 0.03$ & $1.51 \pm 0.03$ \\
+		57585.57 & $6.62 \pm 0.24$ & $3.41 \pm 0.05$ & $3.11 \pm 0.06$ & $2.26 \pm 0.04$ & $1.86 \pm 0.03$ & $1.75 \pm 0.03$ & $1.56 \pm 0.03$ & $1.42 \pm 0.03$ \\
+		57586.54 & $7.01 \pm 0.97$ & $3.37 \pm 0.05$ & $3.03 \pm 0.05$ & $2.20 \pm 0.04$ & $1.77 \pm 0.03$ & $1.62 \pm 0.03$ & $1.37 \pm 0.02$ & $1.34 \pm 0.03$ \\
+		57587.56 & $12.19 \pm 0.57$ & $3.89 \pm 0.06$ & $3.37 \pm 0.06$ & $2.45 \pm 0.04$ & $2.00 \pm 0.03$ & $1.75 \pm 0.03$ & $1.46 \pm 0.02$ & $1.37 \pm 0.02$ \\
+		57588.48 & $12.31 \pm 0.20$ & $3.86 \pm 0.06$ & $3.48 \pm 0.05$ & $2.53 \pm 0.04$ & $2.08 \pm 0.03$ & $1.79 \pm 0.03$ & $1.49 \pm 0.03$ & $1.36 \pm 0.03$ \\
+		57589.41 & $12.74 \pm 0.25$ & $4.06 \pm 0.06$ & $3.60 \pm 0.06$ & $2.65 \pm 0.04$ & $2.06 \pm 0.03$ & $1.91 \pm 0.03$ & $1.60 \pm 0.02$ & $1.44 \pm 0.03$ \\
+		57590.41 & $13.51 \pm 0.37$ & $4.16 \pm 0.06$ & $3.55 \pm 0.06$ & $2.57 \pm 0.04$ & $2.12 \pm 0.03$ & $1.92 \pm 0.03$ & $1.66 \pm 0.04$ & $1.51 \pm 0.03$ \\
+		57591.40 & $10.31 \pm 0.85$ & $3.79 \pm 0.05$ & $3.39 \pm 0.05$ & $2.47 \pm 0.04$ & $2.07 \pm 0.04$ & $1.81 \pm 0.03$ & $1.49 \pm 0.03$ & $1.40 \pm 0.02$ \\
+		57592.39 & $8.49 \pm 0.13$ & $3.74 \pm 0.05$ & $3.30 \pm 0.06$ & $2.42 \pm 0.04$ & $1.99 \pm 0.04$ & $1.86 \pm 0.03$ & $1.59 \pm 0.04$ & $1.48 \pm 0.03$ \\
+		57593.39 & $9.36 \pm 0.61$ & $3.77 \pm 0.06$ & $3.42 \pm 0.06$ & $2.44 \pm 0.04$ & $2.03 \pm 0.03$ & $1.82 \pm 0.03$ & $1.63 \pm 0.03$ & $1.43 \pm 0.03$ \\
+		57594.32 & $10.35 \pm 0.41$ & $3.73 \pm 0.05$ & $3.37 \pm 0.06$ & $2.40 \pm 0.04$ & $2.07 \pm 0.03$ & $1.90 \pm 0.03$ & $1.61 \pm 0.04$ & $1.48 \pm 0.03$ \\
+		57595.31 & $9.06 \pm 0.22$ & $3.77 \pm 0.05$ & $3.32 \pm 0.05$ & $2.47 \pm 0.04$ & $2.12 \pm 0.03$ & $1.90 \pm 0.03$ & $1.65 \pm 0.03$ & $1.52 \pm 0.03$ \\
+		57596.43 & $7.71 \pm 1.17$ & $3.45 \pm 0.05$ & $3.08 \pm 0.06$ & $2.26 \pm 0.04$ & $1.90 \pm 0.03$ & $1.69 \pm 0.03$ & $1.44 \pm 0.02$ & $1.35 \pm 0.02$ \\
+		57597.42 & $7.77 \pm 0.27$ & $3.34 \pm 0.06$ & $3.07 \pm 0.05$ & $2.29 \pm 0.05$ & $1.85 \pm 0.03$ & $1.69 \pm 0.03$ & $1.48 \pm 0.03$ & $1.38 \pm 0.03$ \\
+		57598.29 & $7.45 \pm 0.46$ & $3.25 \pm 0.05$ & $3.01 \pm 0.06$ & $2.17 \pm 0.03$ & $1.82 \pm 0.03$ & $1.69 \pm 0.03$ & $1.46 \pm 0.02$ & $1.41 \pm 0.03$ \\
+		57599.28 & $7.66 \pm 0.35$ & $3.14 \pm 0.10$ & $2.91 \pm 0.05$ & $2.06 \pm 0.04$ & $1.77 \pm 0.03$ & $1.63 \pm 0.03$ & $1.41 \pm 0.02$ & $1.35 \pm 0.03$ \\
+		57600.21 & $5.35 \pm 0.21$ & $2.97 \pm 0.04$ & $2.76 \pm 0.05$ & $1.95 \pm 0.03$ & $1.67 \pm 0.03$ & $1.55 \pm 0.03$ & $1.40 \pm 0.03$ & $1.34 \pm 0.03$ \\
+		57602.20 & $6.33 \pm 0.31$ & $2.79 \pm 0.04$ & $2.52 \pm 0.06$ & $1.77 \pm 0.03$ & $1.56 \pm 0.02$ & $1.43 \pm 0.02$ & $1.27 \pm 0.02$ & $1.21 \pm 0.02$ \\
+		57603.19 & $5.24 \pm 0.13$ & $2.71 \pm 0.04$ & $2.53 \pm 0.04$ & $1.81 \pm 0.03$ & $1.54 \pm 0.03$ & $1.38 \pm 0.02$ & $1.21 \pm 0.02$ & $1.18 \pm 0.02$ \\
+		57604.18 & $5.65 \pm 0.13$ & $2.68 \pm 0.04$ & $2.50 \pm 0.05$ & $1.79 \pm 0.03$ & $1.49 \pm 0.03$ & $1.34 \pm 0.02$ & $1.20 \pm 0.03$ & $1.14 \pm 0.02$ \\
+		57605.24 & $5.50 \pm 0.51$ & $2.73 \pm 0.04$ & $2.46 \pm 0.05$ & $1.83 \pm 0.03$ & $1.52 \pm 0.03$ & $1.33 \pm 0.02$ & $1.18 \pm 0.02$ & $1.14 \pm 0.02$ \\
+		57606.17 & $5.87 \pm 0.37$ & $2.69 \pm 0.04$ & $2.42 \pm 0.04$ & $1.78 \pm 0.03$ & $1.52 \pm 0.03$ & $1.40 \pm 0.02$ & $1.28 \pm 0.02$ & $1.19 \pm 0.02$ \\
+		\hline
+	\end{tabular}
+	\label{tab:conts}
+\end{sidewaystable*}
