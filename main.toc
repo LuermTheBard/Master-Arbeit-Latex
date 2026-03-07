@@ -45,3 +45,4 @@
 \contentsline {section}{\numberline {5.2}Black Hole Mass}{47}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Variation and Bowen Fluorescence of O\,\textsc {I}$\,\lambda 8446$}{48}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Summary}{49}{section.5.4}%
+\contentsline {chapter}{\numberline {A}Additional Tables}{55}{appendix.A}%

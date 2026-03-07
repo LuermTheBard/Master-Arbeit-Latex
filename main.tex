@@ -158,6 +158,7 @@ dashed         = false,
 \usepackage{subcaption}   % Teilabbildungen (subfigure)
 \usepackage{tikz}         % Logo-Positionierung auf Titelseite
 \usepackage{overpic}
+\usepackage{pdfpages}
 \titleformat{\chapter}[hang]
 {\normalfont\huge\bfseries}
 {\thechapter.}{0.5em}{}
@@ -262,5 +263,7 @@ dashed         = false,
 	% Anhang
 	\appendix
 	\input{chapters/anhang.tex}
+	
+	%\includepdf[pages=-]{pictures/erklaerung.pdf}
 	
 \end{document}
