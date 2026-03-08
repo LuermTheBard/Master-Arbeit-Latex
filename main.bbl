@@ -614,6 +614,40 @@
       \field{pages}{33\bibrangedash 43}
       \range{pages}{11}
     \endentry
+    \entry{edelson1988discrete}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=09bf82231a0365167b139a8d6476c2f4}{%
+           family={Edelson},
+           familyi={E\bibinitperiod},
+           given={RA},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4fda3691081f6648aa2bea70b4934133}{%
+           family={Krolik},
+           familyi={K\bibinitperiod},
+           given={JH},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d5e3f04e697edbc0124f9cc95deba6b}
+      \strng{fullhash}{6d5e3f04e697edbc0124f9cc95deba6b}
+      \strng{fullhashraw}{6d5e3f04e697edbc0124f9cc95deba6b}
+      \strng{bibnamehash}{6d5e3f04e697edbc0124f9cc95deba6b}
+      \strng{authorbibnamehash}{6d5e3f04e697edbc0124f9cc95deba6b}
+      \strng{authornamehash}{6d5e3f04e697edbc0124f9cc95deba6b}
+      \strng{authorfullhash}{6d5e3f04e697edbc0124f9cc95deba6b}
+      \strng{authorfullhashraw}{6d5e3f04e697edbc0124f9cc95deba6b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{The discrete correlation function-A new method for analyzing unevenly sampled variability data}
+      \field{volume}{333}
+      \field{year}{1988}
+      \field{pages}{646\bibrangedash 659}
+      \range{pages}{14}
+    \endentry
     \entry{gaskell1982redshift}{article}{}{}
       \name{author}{1}{}{%
         {{hash=0204d0443d875dc3e5c7766e0cdeb0c5}{%
