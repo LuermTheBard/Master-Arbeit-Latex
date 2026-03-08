@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  8 MAR 2026 14:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.12)  8 MAR 2026 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2376,34 +2376,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <pictures/erklaerung.pdf, id=1939, 597.50731pt x 845.04607pt>
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf>
-Package pdftex.def Info: pictures/erklaerung.pdf  used on input line 275.
+Package pdftex.def Info: pictures/erklaerung.pdf  used on input line 280.
 (pdftex.def)             Requested size: 597.50584pt x 845.044pt.
 <pictures/erklaerung.pdf, id=1941, page=1, 597.50731pt x 845.04607pt>
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 280
 .
 (pdftex.def)             Requested size: 597.50584pt x 845.044pt.
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 280
 .
 (pdftex.def)             Requested size: 597.53319pt x 845.08269pt.
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 280
 .
 (pdftex.def)             Requested size: 597.53319pt x 845.08269pt.
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 280
 .
 (pdftex.def)             Requested size: 597.53319pt x 845.08269pt.
 
 
 File: pictures/erklaerung.pdf Graphic file (type pdf)
 <use pictures/erklaerung.pdf, page 1>
-Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 275
+Package pdftex.def Info: pictures/erklaerung.pdf , page1 used on input line 280
 .
 (pdftex.def)             Requested size: 597.53319pt x 845.08269pt.
 [61
@@ -2427,7 +2427,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  33065 strings out of 468225
  636610 string characters out of 5432973
- 1451192 words of memory out of 5000000
+ 1451189 words of memory out of 5000000
  60847 multiletter control sequences out of 15000+600000
  708818 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2448,7 +2448,7 @@ Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
 Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
 sers/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (69 pages, 3854546 bytes).
+Output written on main.pdf (69 pages, 3856846 bytes).
 PDF statistics:
  2080 PDF objects out of 2487 (max. 8388607)
  228 named destinations out of 1000 (max. 500000)
