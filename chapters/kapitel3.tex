@@ -52,14 +52,14 @@ The light curves of the continuum emission are derived from the mean flux densit
 		Ly$\alpha$ & $1207-1238$ & $1151-1161, 1461-1469$\\
 		\hline
 		He\,\textsc{i}$\,\lambda5875$ & $5742-6039$ & $5645-5653, 6044-6057$ \\
+		He\,\textsc{ii}$\,\lambda1640$ & $1599-1645$ & $1461-1468, 1680-1685$\\
 		He\,\textsc{ii}$\,\lambda4685$ & $4545-4758$ & $4435-4450, 4762-4774$ \\
-		O\,\textsc{i}$\,\lambda 8446$ & $8380-8500$ & $8005-8031, 8850-8955$ \\
 		\hline
 		N\,\textsc{v}$\,\lambda\lambda 1238,\,1242$ & $1207-1238$ & $1151-1161, 1461-1468$\\
 		Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402$ & $1358-1423$ & $1151-1161, 1461-1469$\\
 		C\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $1511-1578$ & $1461-1469, 1680-1685$\\
-		He\,\textsc{ii}$\,\lambda1640$ & $1599-1645$ & $1461-1468, 1680-1685$\\
 		\hline
+		O\,\textsc{i}$\,\lambda 8446$ & $8380-8500$ & $8005-8031, 8850-8955$ \\
 		O\,\textsc{iii}$\,\lambda 5007$ & $4982-5033$ & $4762-4774, 5085-5112$ \\
 		\hline
 		\hline
@@ -143,7 +143,7 @@ It shows that the higher ionized emission-lines tend to higher variability with 
 
 \begin{table}[htp] 
 	\centering 
-	\caption[Continua variability statistics]{Variability statistics of the continuum light curves with minimum flux $F_{\text{min}}$ and maximum flux density or integrated flux $F_{\text{max}}$, peak-to-peak ratio $R_{\text{max}}$, mean $\langle F \rangle$, standard deviation $\sigma_F$ and fractional variation $F_{\text{var}}$.} 
+	\caption[Continua variability statistics]{Variability statistics of the continuum light curves with minimum flux $F_{\text{min}}$ and maximum flux density or integrated flux $F_{\text{max}}$, maximum-to-minimum ratio $R_{\text{max}}$, mean $\langle F \rangle$, standard deviation $\sigma_F$ and fractional variation $F_{\text{var}}$.} 
 	\begin{tabular}{lrrrrrr} 
 		\hline 
 		\hline 
@@ -165,7 +165,7 @@ It shows that the higher ionized emission-lines tend to higher variability with 
 \end{table}
 \begin{table}[htp] 
 	\centering 
-	\caption[Emission-line variability statistics]{Variability statistics of the  emission-line light curves with minimum flux $F_{\text{min}}$ and maximum flux density or integrated flux $F_{\text{max}}$, peak-to-peak ratio $R_{\text{max}}$, mean $\langle F \rangle$, standard deviation $\sigma_F$ and fractional variation $F_{\text{var}}$.} 
+	\caption[Emission-line variability statistics]{Variability statistics of the  emission-line light curves with minimum flux $F_{\text{min}}$ and maximum flux density or integrated flux $F_{\text{max}}$, maximum-to-minimum ratio $R_{\text{max}}$, mean $\langle F \rangle$, standard deviation $\sigma_F$ and fractional variation $F_{\text{var}}$.} 
 	\begin{tabular}{lrrrrrr} 
 		\hline 
 		\hline 
@@ -277,6 +277,38 @@ The velocity dispersion of the BLR can be parameterized by the line widths of th
 \end{equation}\\
 Here, $\lambda_i$ denotes the wavelength values, $\lambda_\mathrm{central}$ the central wavelength of the emission-line in rest-frame and $c$ the speed of light. For the doublets N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $, Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ and C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ the rest-frame wavelength of the second line is used as the central wavelength of the emission-line. An overview of the mean and rms profiles for each emission-line is displayed in Figure \ref{fig:line_profiles} and described in the following.
 
+\begin{table}[htbp]
+	\centering
+	\small
+	\caption[Pseudo-continua boundaries of the line profiles]{Boundaries of the blue and red pseudo-continua used for the interpolation of underlying continua for line profile extraction.}
+	\label{tab:line_profiles_pseudo}
+	\begin{tabular}{lcc}
+		\hline
+		\hline
+		\textbf{Line} & \textbf{\textbf{Pseudo-Continua (mean) $[\AA]$}} & \textbf{Pseudo-Continua (rms) $[\AA]$}  \\
+		\hline
+		\hline
+		H$\alpha$ & $6194-6216, 6861-6900$ & $6279-6301, 6742-6781$ \\
+		H$\beta$ & $4762-4774, 5085-5112$ & $4762-4774, 4967-4984$ \\
+		H$\gamma$ & $4197-4220, 4435-4450$ & $4197-4220, 4417-4429$ \\
+		H$\delta$ & $4026-4033, 4197-4221$ &$4006-4016, 4197-4211$  \\
+		Ly$\alpha$ & $1151-1161, 1270-1285$  &  $1151-1161, 1340-1355$\\
+		\hline
+		He\,\textsc{i}$\,\lambda5875$ & $5679-5697, 6044-6057$ & $5736-5753, 6027-6045$ \\
+		He\,\textsc{ii}$\,\lambda1640$  & $1461-1468, 1679-1685$ & $1461-1468, 1679-1685$\\
+		He\,\textsc{ii}$\,\lambda4685$ & $4198-4225, 4762-4774$ & $4543-4554, 4766-4778$ \\
+		\hline
+		N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ & $1151-1161, 1270-1285$  &  $1151-1161, 1340-1355$\\
+		Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ & $1350-1360, 1430-1440$ &  $1340-1355, 1430-1440$\\
+		C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $1461-1468, 1679-1685$  &  $ 1461-1468, 1679-1685$\\
+		\hline
+		O\,\textsc{i}$\,\lambda 8446$ & $7999-8025, 8775-8798$ & $8222-8238, 8748-8767$ \\
+		
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\textwidth]{pictures/Chapter4/line_profiles/Normalized_Line_Profiles.pdf}
@@ -338,37 +370,7 @@ Comparing the mean and rms profiles, a clear distinction between lower- and high
 
 
 
-\begin{table}[htbp]
-	\centering
-	\small
-	\caption[Pseudo-continua boundaries of the line profiles]{Boundaries of the blue and red pseudo-continua used for the interpolation of underlying continua for line profile extraction.}
-	\label{tab:line_profiles_pseudo}
-	\begin{tabular}{lcc}
-		\hline
-		\hline
-		\textbf{Line} & \textbf{\textbf{Pseudo-Continua (mean) $[\AA]$}} & \textbf{Pseudo-Continua (rms) $[\AA]$}  \\
-		\hline
-		\hline
-		H$\alpha$ & $6194-6216, 6861-6900$ & $6279-6301, 6742-6781$ \\
-		H$\beta$ & $4762-4774, 5085-5112$ & $4762-4774, 4967-4984$ \\
-		H$\gamma$ & $4197-4220, 4435-4450$ & $4197-4220, 4417-4429$ \\
-		H$\delta$ & $4026-4033, 4197-4221$ &$4006-4016, 4197-4211$  \\
-		\hline
-		O\,\textsc{i}$\,\lambda 8446$ & $7999-8025, 8775-8798$ & $8222-8238, 8748-8767$ \\
-		\hline
-		He\,\textsc{i}$\,\lambda5875$ & $5679-5697, 6044-6057$ & $5736-5753, 6027-6045$ \\
-		He\,\textsc{ii}$\,\lambda1640$  & $1461-1468, 1679-1685$ & $1461-1468, 1679-1685$\\
-		He\,\textsc{ii}$\,\lambda4685$ & $4198-4225, 4762-4774$ & $4543-4554, 4766-4778$ \\
-		\hline
-		Ly$\alpha$ & $1151-1161, 1270-1285$  &  $1151-1161, 1340-1355$\\
-		N\,\textsc{v}$\,\lambda\lambda 1283,\,1242 $ & $1151-1161, 1270-1285$  &  $1151-1161, 1340-1355$\\
-		Si\,\textsc{iv}$\,\lambda\lambda 1393,\,1402 $ & $1350-1360, 1430-1440$ &  $1340-1355, 1430-1440$\\
-		C\,\textsc{iv}$\,\lambda\lambda 1548,\,1550$ & $1461-1468, 1679-1685$  &  $ 1461-1468, 1679-1685$\\
-		
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
+
 
 
 
@@ -431,6 +433,7 @@ with an uncertainty
 	\sigma_{\bar{M}}=\left(\sum_i w_i\right)^{-1/2}\,.
 \end{equation}
 This gives a weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (1.40 \pm 0.12)\times 10^{7}\,M_\odot$.\\
+\newpage
 \begin{table}[htp]
 	\centering
 	\small
@@ -456,7 +459,7 @@ This gives a weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}}\approx (1.40 \pm 
 		\hline
 		\hline
 	\end{tabular}
-\end{table}\\
+\end{table}
 It has to be noted that the scale factor of $f=1.8$ does not account the low-inclination $i \sim 11^\circ$ of the elliptic accretion disk, modeled in \cite{Ochmann_2025}. Adopting the scaling relation $f \sim \sin^{-2}(i)$ introduced by \cite{krolik2001systematic}, a value of $f \sim 27.5$ would be needed to account for the low inclination. Since \cite{krolik2001systematic} used the line dispersion to parameterize the velocity dispersion, the relation $\sigma_{\mathrm{line}} \approx \mathrm{FWHM}/2$ \parencite{peterson2004} must be applied again. Finally, due to the square relation of the velocity dispersion to the black hole mass seen in Equation \ref{eqn:BHM}, a scale factor of $f \sim 6.8$ is found. Subsequently the derived BH mass has to be multiplied by a additional factor of $3.77$ resulting in a weighted-mean SMBH mass of $\bar{M}_{\mathrm{BH}} \approx (5.28 \pm 0.12)\times 10^{7}\,M_\odot$.
 
 
@@ -494,7 +497,7 @@ It has to be noted that the scale factor of $f=1.8$ does not account the low-inc
 \section{Variation and Bowen Fluorescence of O\,\textsc{I}$\,\lambda 8446$}
 \label{sec:BF_Analysis}
 
-Emission-lines in the optical range, such as the Balmer and helium lines, are commonly monitored in reverberation mapping campaigns since they are readily accessible in nearby AGN \parencite{peterson1991steps, kollatschny1997balmer}.  This is not the case for the low-ionization line O\,\textsc{i}$\,\lambda 8446$, which, to this point, has never been monitored in a reverberation mapping analysis. exhibits variability in the HST/STIS dataset (see Table \ref{tab:varstatistics_lines}), it is possible to perform reverberation mapping of this line for the first time.\\ O\,\textsc{i}$\,\lambda 8446$ is also known as a Bowen fluorescence line that can be pumped by Ly$\beta$ emission \parencite{grandi1980}. As described in Section \ref{sec:bowen_fluorescence}, Ly$\beta$ excites O\,\textsc{i} via a near-resonant transition at $\lambda\,1025\,\AA$. This is followed by line transition through the O\,\textsc{i}\,$\lambda\,11287$ transition and subsequently the O\,\textsc{i}\,$\lambda\,8446$ transition, producing the observed O\,\textsc{i}\,$\lambda\,8446$ emission (see Figure \ref{fig:bowen_cascate}). This process has been identified as the dominant excitation mechanism of O\,\textsc{i}\,$\lambda\,8446$ in many AGN, rather than recombination (e.g. \cite{rudy1989detection, rodriguez2002oi, landt2008near}). To investigate if this is the case for NGC\,4593 as well, the line ratio of the quintet line O\,\textsc{i}\,$\lambda\,7774$ and O\,\textsc{i}\,$\lambda\,8446$ is derived. If recombination were a significant driver of the O\,\textsc{i}\,$\lambda\,8446$ emission, the quintet line O\,\textsc{i}\,$\lambda 7774$ would be expected to be comparatively strong, with an expected ratio of $\lambda7774/\lambda\,8446 \approx 1.1\text{--}1.7$ \parencite{grandi1980, landt2008near}. While O\,\textsc{i}\,$\lambda\,7774$ is not detected in the HST/STIS dataset, a ratio of $\lambda7774/\lambda8446 \approx 0.2$ can be estimated from the MUSE spectrum of NGC\,4593 presented by \cite{Ochmann_2025}. Therefore recombination can be excluded as a significant excitation mechanism for O\,\textsc{i}$\,\lambda\,8446$ in NGC\,4593, which indicated that its variability of O\,\textsc{i}$\,\lambda\,8446$ is primarily driven by L$\beta$ Bowen fluorescence. This allows the Bowen-fluorescence relation of O\,\textsc{i}\,$\lambda 8446$ to be examined in a reverberation mapping analysis for the first time. \\
+Emission-lines in the optical range, such as the Balmer and helium lines, are commonly monitored in reverberation mapping campaigns since they are readily accessible in nearby AGN \parencite{peterson1991steps, kollatschny1997balmer}.  This is not the case for the low-ionization line O\,\textsc{i}$\,\lambda 8446$, which, to this point, has never been monitored in a reverberation mapping analysis. exhibits variability in the HST/STIS dataset (see Table \ref{tab:varstatistics_lines}), it is possible to perform reverberation mapping of this line for the first time.\\ O\,\textsc{i}$\,\lambda 8446$ is also known as a Bowen fluorescence line that can be pumped by Ly$\beta$ emission \parencite{grandi1980}. As described in Section \ref{sec:bowen_fluorescence}, Ly$\beta$ excites O\,\textsc{i} via a near-resonant transition at $\lambda\,1025\,\AA$. This is followed by line transition through the O\,\textsc{i}\,$\lambda\,11287$ transition and subsequently the O\,\textsc{i}\,$\lambda\,8446$ transition, producing the observed O\,\textsc{i}\,$\lambda\,8446$ emission (see Figure \ref{fig:bowen_cascate}). This process has been identified as the dominant excitation mechanism of O\,\textsc{i}\,$\lambda\,8446$ in many AGN, rather than recombination (e.g. \cite{rudy1989detection, rodriguez2002oi, landt2008near}). To investigate if this is the case for NGC\,4593 as well, the line ratio of the quintet line O\,\textsc{i}\,$\lambda\,7774$ and O\,\textsc{i}\,$\lambda\,8446$ is derived. If recombination were a significant driver of the O\,\textsc{i}\,$\lambda\,8446$ emission, the quintet line O\,\textsc{i}\,$\lambda 7774$ would be expected to be comparatively strong, with an expected ratio of $\lambda7774/\lambda\,8446 \approx 1.1\text{--}1.7$ \parencite{grandi1980, landt2008near}. While O\,\textsc{i}\,$\lambda\,7774$ is not detected in the HST/STIS dataset, a ratio of $\lambda7774/\lambda8446 \approx 0.2$ can be estimated, by measuring O\,\textsc{i}\,$\lambda\,7774$ in the MUSE spectrum of NGC\,4593 presented by \cite{Ochmann_2025}. Therefore recombination can be excluded as a significant excitation mechanism for O\,\textsc{i}$\,\lambda\,8446$ in NGC\,4593, which indicated that its variability of O\,\textsc{i}$\,\lambda\,8446$ is primarily driven by L$\beta$ Bowen fluorescence. This allows the Bowen-fluorescence relation of O\,\textsc{i}\,$\lambda 8446$ to be examined in a reverberation mapping analysis for the first time. \\
 While Ly$\beta$ is not covered in the spectral range of the HST/STIS dataset, it is possible to use Ly$\alpha$ as a proxy for Ly$\beta$, since it is expected that both lines arise under similar physical conditions. Therefore, the time lags between the \textit{Swift} UVW2 and emission-line light curves, as well as the CCFs and time lags between O\,\textsc{i}$\,\lambda\,8446$ and Ly$\alpha$, between H$\alpha$ and Ly$\alpha$, and between O\,\textsc{i}$\,\lambda\,8446$ and H$\alpha$ are derived and shown in Figure \ref{fig:ccfs_Bowen}. All light curve show a strong correlation between $\sim 0.75 - 0.8$, with the exception of the O\,\textsc{i}$\,\lambda 8446$ and \textit{Swift} UVW2 light curves, which show a maximum correlation of only $0.6$. The time lags and their uncertainties are derived as before. O\,\textsc{i}$\,\lambda 8446$ lags behind Ly$\alpha$ by $2.5 \ensuremath{_{-0.3}^{+1.7}}$ days and behind \textit{Swift} UVW2 by $4.7 \ensuremath{_{-1.4}^{+2.4}}$ days, while H$\alpha$ lags behind Ly$\alpha$ by $1.8 \ensuremath{_{-0.5}^{+0.5}}$ days and behind \textit{Swift} UVW2 by $3.3 \ensuremath{_{-0.6}^{+1.1}}$ days. Therefore the direct relation of O\,\textsc{i}$\,\lambda 8446$ to UVW2 shows a slightly higher time lag than H$\alpha$ to UVW2 within uncertainties. Assuming Bowen fluorescence as the dominant excitation mechanism, the lag of O\,\textsc{i}$\,\lambda 8446$ has to be estimated by adding the time lag between the Ly$\alpha$ light curve and the \textit{Swift} UVW2 light curve and the time lag between the Ly$\alpha$ and O\,\textsc{i}$\,\lambda 8446$ light curve. With the Ly$\alpha$ light curve lagging behind the \textit{Swift} UVW2 light curve by $1.0 \ensuremath{_{-0.2}^{+0.4}}$ days, this sums up to a time lag of approximately $\sim 3.5$ days, which is consistent with the time lag between the H$\alpha$ and \textit{Swift} UVW2 light curve within uncertainties. Looking at the O\,\textsc{i}$\,\lambda 8446$ and H$\alpha$ light curves, they show a strong correlation, with O\,\textsc{i}$\,\lambda 8446$ lagging behind H$\alpha$ by about $0.3 \ensuremath{_{-0.1}^{+1.6}}$ days. This implies that O\,\textsc{i}\,$\lambda\,8446$ is emitted at approximately the same distance as H$\alpha$ within uncertainties.
 
 

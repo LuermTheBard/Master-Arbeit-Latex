@@ -2640,19 +2640,19 @@
     <bcf:citekey order="216" intorder="1">krolik2001systematic</bcf:citekey>
     <bcf:citekey order="217" intorder="1">peterson2004</bcf:citekey>
     <bcf:citekey order="218" intorder="1">kollatschny1997balmer</bcf:citekey>
-    <bcf:citekey order="219" intorder="1">denney2006ngc4593</bcf:citekey>
-    <bcf:citekey order="220" intorder="1">kollatschny1997balmer</bcf:citekey>
-    <bcf:citekey order="221" intorder="1">denney2006ngc4593</bcf:citekey>
-    <bcf:citekey order="222" intorder="1">kollatschny1997balmer</bcf:citekey>
-    <bcf:citekey order="223" intorder="1">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="218" intorder="2">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="219" intorder="1">kollatschny1997balmer</bcf:citekey>
+    <bcf:citekey order="220" intorder="1">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="221" intorder="1">kollatschny1997balmer</bcf:citekey>
+    <bcf:citekey order="222" intorder="1">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="223" intorder="1">grandi1980</bcf:citekey>
     <bcf:citekey order="224" intorder="1">grandi1980</bcf:citekey>
     <bcf:citekey order="225" intorder="1">grandi1980</bcf:citekey>
-    <bcf:citekey order="226" intorder="1">grandi1980</bcf:citekey>
-    <bcf:citekey order="227" intorder="1">landt2008near</bcf:citekey>
-    <bcf:citekey order="228" intorder="1">collin1988broad</bcf:citekey>
-    <bcf:citekey order="229" intorder="1">kollatschny1997balmer</bcf:citekey>
-    <bcf:citekey order="229" intorder="2">denney2006ngc4593</bcf:citekey>
-    <bcf:citekey order="230" intorder="1">ochmann2026first</bcf:citekey>
+    <bcf:citekey order="226" intorder="1">landt2008near</bcf:citekey>
+    <bcf:citekey order="227" intorder="1">collin1988broad</bcf:citekey>
+    <bcf:citekey order="228" intorder="1">kollatschny1997balmer</bcf:citekey>
+    <bcf:citekey order="228" intorder="2">denney2006ngc4593</bcf:citekey>
+    <bcf:citekey order="229" intorder="1">ochmann2026first</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
