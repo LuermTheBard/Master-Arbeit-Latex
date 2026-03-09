@@ -71,18 +71,30 @@ giveninits     = true,        % NEU: Vornamen als Initialen
 \DeclareNameAlias{sortname}{family-given}
 \DeclareNameAlias{default}{family-given}
 
-% Trennzeichen: immer Komma zwischen Autoren
+% Trennzeichen: Bibliographie = immer Komma
 \DeclareDelimFormat{multinamedelim}{\addcomma\space}
 \DeclareDelimFormat{finalnamedelim}{\addcomma\space}
 
-% "et al." mit Komma davor
+% Trennzeichen: Zitate im Text = "&" zwischen letzten zwei Autoren
+\DeclareDelimFormat[cite]{finalnamedelim}{%
+	\ifnumgreater{\value{liststop}}{2}
+	{\addcomma\space\&\space}%
+	{\space\&\space}%
+}
+\DeclareDelimFormat[cite]{multinamedelim}{\addcomma\space}
+
+
+% "et al." - Bibliographie mit Komma, Zitat ohne Komma
 \renewbibmacro*{name:andothers}{%
 	\ifboolexpr{
 		test {\ifnumequal{\value{listcount}}{\value{liststop}}}
 		and
 		test \ifmorenames
 	}
-	{\addcomma\space\bibstring{andothers}}%
+	{\ifnumgreater{\value{maxnames}}{0}
+		{\space\bibstring{andothers}}%           % Im Zitat: kein Komma
+		{\addcomma\space\bibstring{andothers}}%  % In Bibliographie: Komma
+	}%
 	{}%
 }
 
