@@ -49,15 +49,15 @@
 \usepackage[
 backend        = biber,
 style          = authoryear,
-maxcitenames   = 2,       % Zitate: bis 2 Namen, danach et al.
+maxcitenames   = 2,
 mincitenames   = 1,
-maxbibnames    = 3,       % Literaturverzeichnis: bis 3 Namen, dann et al.
+maxbibnames    = 3,
 minbibnames    = 3,
 uniquename     = false,
 uniquelist     = false,
 dashed         = false,
+giveninits     = true,        % NEU: Vornamen als Initialen
 ]{biblatex}
-
 \addbibresource{literatur.bib}
 
 % Abstände im Literaturverzeichnis
@@ -67,12 +67,23 @@ dashed         = false,
 % Seitenangaben ohne "S." / "pp."
 \DeclareFieldFormat{pages}{#1}
 
-% Trennzeichen zwischen Autorennamen
+% Namen: Nachname zuerst, dann Initialen
+\DeclareNameAlias{sortname}{family-given}
+\DeclareNameAlias{default}{family-given}
+
+% Trennzeichen: immer Komma zwischen Autoren
 \DeclareDelimFormat{multinamedelim}{\addcomma\space}
-\DeclareDelimFormat{finalnamedelim}{%
-	\ifnumgreater{\value{liststop}}{2}
-	{\addcomma\space\&\space}%   3+ Namen: ", &"
-	{\space\&\space}%             2 Namen:  " &"
+\DeclareDelimFormat{finalnamedelim}{\addcomma\space}
+
+% "et al." mit Komma davor
+\renewbibmacro*{name:andothers}{%
+	\ifboolexpr{
+		test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+		and
+		test \ifmorenames
+	}
+	{\addcomma\space\bibstring{andothers}}%
+	{}%
 }
 
 % --- Bibliographie-Treiber: Artikel ---
