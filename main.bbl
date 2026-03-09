@@ -2807,17 +2807,17 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{STIS Instrument Handbook: Gratings}
-      \field{urlday}{12}
-      \field{urlmonth}{5}
-      \field{urlyear}{2025}
+      \field{title}{STIS Instrument Handbook}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://hst-docs.stsci.edu/stisihb/chapter-13-spectroscopic-reference-material/13-3-gratings
+      \verb https://hst-docs.stsci.edu/stisihb
       \endverb
       \verb{url}
-      \verb https://hst-docs.stsci.edu/stisihb/chapter-13-spectroscopic-reference-material/13-3-gratings
+      \verb https://hst-docs.stsci.edu/stisihb
       \endverb
     \endentry
     \entry{DSS_IRSA441}{dataset}{}{}
