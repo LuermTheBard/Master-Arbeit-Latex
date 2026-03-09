@@ -40,44 +40,6 @@
       \verb https://aladin.cds.unistra.fr/AladinLite/
       \endverb
     \endentry
-    \entry{anderson2010empirical}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=fba14484c0de15296dc39f63583e6497}{%
-           family={Anderson},
-           familyi={A\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=72a1a68b5dee4394637859b68c4d3938}{%
-           family={Bedin},
-           familyi={B\bibinitperiod},
-           given={L.\bibnamedelimi R.},
-           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{43dc11421453a991bc959772d2c7de9d}
-      \strng{fullhash}{43dc11421453a991bc959772d2c7de9d}
-      \strng{fullhashraw}{43dc11421453a991bc959772d2c7de9d}
-      \strng{bibnamehash}{43dc11421453a991bc959772d2c7de9d}
-      \strng{authorbibnamehash}{43dc11421453a991bc959772d2c7de9d}
-      \strng{authornamehash}{43dc11421453a991bc959772d2c7de9d}
-      \strng{authorfullhash}{43dc11421453a991bc959772d2c7de9d}
-      \strng{authorfullhashraw}{43dc11421453a991bc959772d2c7de9d}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
-      \field{number}{895}
-      \field{title}{An empirical pixel-based correction for imperfect cte. i. hst’s advanced camera for surveys1}
-      \field{volume}{122}
-      \field{year}{2010}
-      \field{pages}{1035}
-      \range{pages}{1}
-    \endentry
     \entry{antonucci1993unified}{article}{}{}
       \name{author}{1}{}{%
         {{hash=565e2d447e8e9a73880c07fb89727e22}{%
@@ -241,11 +203,11 @@
            familyi={C\bibinitperiod},
            given={C.-Y.},
            giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
-        {{hash=c492917ca5a91fd9f482fdfa306d05de}{%
+        {{hash=7a47a269066f0c20a224ee9c326bf259}{%
            family={McHardy},
            familyi={M\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
         {{hash=fbd5b37857ee8049e4997717e427562c}{%
            family={Edelson},
            familyi={E\bibinitperiod},
@@ -271,13 +233,13 @@
         {IOP Publishing}%
       }
       \strng{namehash}{737e8cb57079971daaf4b2a199118e7d}
-      \strng{fullhash}{afa347efaf59ed1e3938d1eecd04916d}
-      \strng{fullhashraw}{afa347efaf59ed1e3938d1eecd04916d}
-      \strng{bibnamehash}{daff1373e24c03f9f80734095bf86447}
-      \strng{authorbibnamehash}{daff1373e24c03f9f80734095bf86447}
+      \strng{fullhash}{855b71d4837e2dcbb08ffc81a7782f64}
+      \strng{fullhashraw}{855b71d4837e2dcbb08ffc81a7782f64}
+      \strng{bibnamehash}{4c466511bb0a436e07df76239ffb2715}
+      \strng{authorbibnamehash}{4c466511bb0a436e07df76239ffb2715}
       \strng{authornamehash}{737e8cb57079971daaf4b2a199118e7d}
-      \strng{authorfullhash}{afa347efaf59ed1e3938d1eecd04916d}
-      \strng{authorfullhashraw}{afa347efaf59ed1e3938d1eecd04916d}
+      \strng{authorfullhash}{855b71d4837e2dcbb08ffc81a7782f64}
+      \strng{authorfullhashraw}{855b71d4837e2dcbb08ffc81a7782f64}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -1363,6 +1325,87 @@
       \field{pages}{282}
       \range{pages}{1}
     \endentry
+    \entry{mchardy2018x}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=7a47a269066f0c20a224ee9c326bf259}{%
+           family={McHardy},
+           familyi={M\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=eb407ba309e2f21489782450dc3c8e17}{%
+           family={Connolly},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c8f1f9c3abf4c7a07a52b82c35ef9d93}{%
+           family={Horne},
+           familyi={H\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=433fa9004c12c8f1e82cce2128c76e00}{%
+           family={Cackett},
+           familyi={C\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d8ad40875996bff0bff13cfa6712dc19}{%
+           family={Gelbord},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a52209f90e8529120b3798ec29079a84}{%
+           family={Pahari},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6c674ff80b2d72d665d0af918b3d729b}{%
+           family={Gehrels},
+           familyi={G\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1568c29ec405129daf6d1c96d742addd}{%
+           family={Goad},
+           familyi={G\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d48f3bc8f3c4a897d520a4ebf033d5cb}{%
+           family={Lira},
+           familyi={L\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{fullhash}{f1a754674ac40c0c42114ec118dd833c}
+      \strng{fullhashraw}{f1a754674ac40c0c42114ec118dd833c}
+      \strng{bibnamehash}{8f2ca82c823c7aa08ffadda965cc45a3}
+      \strng{authorbibnamehash}{8f2ca82c823c7aa08ffadda965cc45a3}
+      \strng{authornamehash}{16f01309783e0ce8c725f3b18f8c1385}
+      \strng{authorfullhash}{f1a754674ac40c0c42114ec118dd833c}
+      \strng{authorfullhashraw}{f1a754674ac40c0c42114ec118dd833c}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{number}{3}
+      \field{title}{X-ray/UV/optical variability of NGC 4593 with Swift: reprocessing of X-rays by an extended reprocessor}
+      \field{volume}{480}
+      \field{year}{2018}
+      \field{pages}{2881\bibrangedash 2897}
+      \range{pages}{17}
+    \endentry
     \entry{mchardy2017ngc4593}{article}{}{}
       \name{author}{11}{}{%
         {{hash=7a47a269066f0c20a224ee9c326bf259}{%
@@ -1429,7 +1472,7 @@
       \strng{authornamehash}{16f01309783e0ce8c725f3b18f8c1385}
       \strng{authorfullhash}{eafb9fc88c7849059d63c24b08defafe}
       \strng{authorfullhashraw}{eafb9fc88c7849059d63c24b08defafe}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1446,87 +1489,6 @@
       \verb{doi}
       \verb 10.1093/mnras/stw2719
       \endverb
-    \endentry
-    \entry{mchardy2018x}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=7a47a269066f0c20a224ee9c326bf259}{%
-           family={McHardy},
-           familyi={M\bibinitperiod},
-           given={IM},
-           giveni={I\bibinitperiod}}}%
-        {{hash=eb407ba309e2f21489782450dc3c8e17}{%
-           family={Connolly},
-           familyi={C\bibinitperiod},
-           given={SD},
-           giveni={S\bibinitperiod}}}%
-        {{hash=c8f1f9c3abf4c7a07a52b82c35ef9d93}{%
-           family={Horne},
-           familyi={H\bibinitperiod},
-           given={K},
-           giveni={K\bibinitperiod}}}%
-        {{hash=433fa9004c12c8f1e82cce2128c76e00}{%
-           family={Cackett},
-           familyi={C\bibinitperiod},
-           given={EM},
-           giveni={E\bibinitperiod}}}%
-        {{hash=d8ad40875996bff0bff13cfa6712dc19}{%
-           family={Gelbord},
-           familyi={G\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
-           family={Peterson},
-           familyi={P\bibinitperiod},
-           given={BM},
-           giveni={B\bibinitperiod}}}%
-        {{hash=a52209f90e8529120b3798ec29079a84}{%
-           family={Pahari},
-           familyi={P\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6c674ff80b2d72d665d0af918b3d729b}{%
-           family={Gehrels},
-           familyi={G\bibinitperiod},
-           given={N},
-           giveni={N\bibinitperiod}}}%
-        {{hash=1568c29ec405129daf6d1c96d742addd}{%
-           family={Goad},
-           familyi={G\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d48f3bc8f3c4a897d520a4ebf033d5cb}{%
-           family={Lira},
-           familyi={L\bibinitperiod},
-           given={P},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Oxford University Press}%
-      }
-      \strng{namehash}{16f01309783e0ce8c725f3b18f8c1385}
-      \strng{fullhash}{f1a754674ac40c0c42114ec118dd833c}
-      \strng{fullhashraw}{f1a754674ac40c0c42114ec118dd833c}
-      \strng{bibnamehash}{8f2ca82c823c7aa08ffadda965cc45a3}
-      \strng{authorbibnamehash}{8f2ca82c823c7aa08ffadda965cc45a3}
-      \strng{authornamehash}{16f01309783e0ce8c725f3b18f8c1385}
-      \strng{authorfullhash}{f1a754674ac40c0c42114ec118dd833c}
-      \strng{authorfullhashraw}{f1a754674ac40c0c42114ec118dd833c}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
-      \field{number}{3}
-      \field{title}{X-ray/UV/optical variability of NGC 4593 with Swift: reprocessing of X-rays by an extended reprocessor}
-      \field{volume}{480}
-      \field{year}{2018}
-      \field{pages}{2881\bibrangedash 2897}
-      \range{pages}{17}
     \endentry
     \entry{MAST}{online}{}{}
       \list{organization}{1}{%
@@ -2088,6 +2050,83 @@
       \field{title}{An Introduction to Active Galactic Nuclei}
       \field{year}{1997}
     \endentry
+    \entry{peterson1991steps}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4b3381e18b2984b7f92f3ae060a81a14}{%
+           family={Balonek},
+           familyi={B\bibinitperiod},
+           given={T.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=78152f1557fe4cacf2b27a920e9ee90d}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=2cc8348c58aff2723171ade92432da07}{%
+           family={Bechtold},
+           familyi={B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cf13c17a4a01a025bf50344ecd83c718}{%
+           family={Bertram},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e3757cf3835d9258c20eb7cc9d38dd08}{%
+           family={Bochkarev},
+           familyi={B\bibinitperiod},
+           given={NG},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c0b00f17ebfbcd7af1abdc6754c99a1f}{%
+           family={Bolte},
+           familyi={B\bibinitperiod},
+           given={MJ},
+           giveni={M\bibinitperiod}}}%
+        {{hash=15beee7839a9ed60648c0d5c322ad37f}{%
+           family={Bond},
+           familyi={B\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=acea8725546240a3bfdc174682f574b4}{%
+           family={Boroson},
+           familyi={B\bibinitperiod},
+           given={TA},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8c955cb4e52f1128ffe988917ad52474}{%
+           family={Carini},
+           familyi={C\bibinitperiod},
+           given={MT},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
+      \strng{fullhash}{cca2b7830420b478485bcc7b463558cc}
+      \strng{fullhashraw}{cca2b7830420b478485bcc7b463558cc}
+      \strng{bibnamehash}{588b611acba264df645383be241793c5}
+      \strng{authorbibnamehash}{588b611acba264df645383be241793c5}
+      \strng{authornamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
+      \strng{authorfullhash}{cca2b7830420b478485bcc7b463558cc}
+      \strng{authorfullhashraw}{cca2b7830420b478485bcc7b463558cc}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{Steps toward determination of the size and structure of the broad-line region in active galactic nuclei. II-an intensive study of NGC 5548 at optical wavelengths}
+      \field{volume}{368}
+      \field{year}{1991}
+      \field{pages}{119\bibrangedash 137}
+      \range{pages}{19}
+    \endentry
     \entry{peterson2004}{article}{}{}
       \name{author}{12}{}{%
         {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
@@ -2159,7 +2198,7 @@
       \strng{authornamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
       \strng{authorfullhash}{21fb0042c9ebeaeed15fb4627ed0afec}
       \strng{authorfullhashraw}{21fb0042c9ebeaeed15fb4627ed0afec}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -2274,7 +2313,7 @@
       \strng{authornamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
       \strng{authorfullhash}{7966e086e3a8b2443d76e51018f076cb}
       \strng{authorfullhashraw}{7966e086e3a8b2443d76e51018f076cb}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -2298,83 +2337,6 @@
       \verb{url}
       \verb https://doi.org/10.1086/316177
       \endverb
-    \endentry
-    \entry{peterson1991steps}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=b5f638db922a8b0fe518065b7d8659b9}{%
-           family={Peterson},
-           familyi={P\bibinitperiod},
-           given={BM},
-           giveni={B\bibinitperiod}}}%
-        {{hash=4b3381e18b2984b7f92f3ae060a81a14}{%
-           family={Balonek},
-           familyi={B\bibinitperiod},
-           given={TJ},
-           giveni={T\bibinitperiod}}}%
-        {{hash=78152f1557fe4cacf2b27a920e9ee90d}{%
-           family={Barker},
-           familyi={B\bibinitperiod},
-           given={ES},
-           giveni={E\bibinitperiod}}}%
-        {{hash=2cc8348c58aff2723171ade92432da07}{%
-           family={Bechtold},
-           familyi={B\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-        {{hash=cf13c17a4a01a025bf50344ecd83c718}{%
-           family={Bertram},
-           familyi={B\bibinitperiod},
-           given={R},
-           giveni={R\bibinitperiod}}}%
-        {{hash=e3757cf3835d9258c20eb7cc9d38dd08}{%
-           family={Bochkarev},
-           familyi={B\bibinitperiod},
-           given={NG},
-           giveni={N\bibinitperiod}}}%
-        {{hash=c0b00f17ebfbcd7af1abdc6754c99a1f}{%
-           family={Bolte},
-           familyi={B\bibinitperiod},
-           given={MJ},
-           giveni={M\bibinitperiod}}}%
-        {{hash=15beee7839a9ed60648c0d5c322ad37f}{%
-           family={Bond},
-           familyi={B\bibinitperiod},
-           given={D},
-           giveni={D\bibinitperiod}}}%
-        {{hash=acea8725546240a3bfdc174682f574b4}{%
-           family={Boroson},
-           familyi={B\bibinitperiod},
-           given={TA},
-           giveni={T\bibinitperiod}}}%
-        {{hash=8c955cb4e52f1128ffe988917ad52474}{%
-           family={Carini},
-           familyi={C\bibinitperiod},
-           given={MT},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
-      \strng{fullhash}{cca2b7830420b478485bcc7b463558cc}
-      \strng{fullhashraw}{cca2b7830420b478485bcc7b463558cc}
-      \strng{bibnamehash}{588b611acba264df645383be241793c5}
-      \strng{authorbibnamehash}{588b611acba264df645383be241793c5}
-      \strng{authornamehash}{da7957cdee1dc8b9e96ce41a4a63e9b0}
-      \strng{authorfullhash}{cca2b7830420b478485bcc7b463558cc}
-      \strng{authorfullhashraw}{cca2b7830420b478485bcc7b463558cc}
-      \field{extraname}{3}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Astrophysical Journal}
-      \field{title}{Steps toward determination of the size and structure of the broad-line region in active galactic nuclei. II-an intensive study of NGC 5548 at optical wavelengths}
-      \field{volume}{368}
-      \field{year}{1991}
-      \field{pages}{119\bibrangedash 137}
-      \range{pages}{19}
     \endentry
     \entry{probst2025emissionlinecontinuumreverberationmapping}{article}{}{}
       \name{author}{9}{}{%

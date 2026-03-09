@@ -18,10 +18,10 @@
 \contentsline {chapter}{\numberline {3}Campaign and Data Preparation}{16}{chapter.3}%
 \contentsline {section}{\numberline {3.1}The 2016 HST Campaign}{16}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Intercalibration and Determination of mean and rms Spectra}{18}{section.3.2}%
-\contentsline {section}{\numberline {3.3}NGC4593}{19}{section.3.3}%
+\contentsline {section}{\numberline {3.3}NGC\,4593}{19}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Reverberation Mapping Analysis of NGC4593}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Line Identification}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Emission-Line and Continua Measurement}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Emission Line and Continua Measurement}{23}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Light Curves}{25}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Variability Statistics}{29}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Uncertainty Estimation}{31}{subsection.4.3.2}%
@@ -30,7 +30,7 @@
 \contentsline {subsubsection}{Balmer lines}{37}{table.caption.28}%
 \contentsline {subsubsection}{Ly$\alpha $}{40}{figure.caption.31}%
 \contentsline {subsubsection}{O\,\textsc {I}$\,\lambda \,8446$}{40}{figure.caption.31}%
-\contentsline {subsubsection}{Helium Lines}{40}{figure.caption.31}%
+\contentsline {subsubsection}{Helium lines}{40}{figure.caption.31}%
 \contentsline {subsubsection}{N\,\textsc {V}$\,\lambda \lambda 1238,\,1242$}{40}{figure.caption.31}%
 \contentsline {subsubsection}{Si\,\textsc {IV}$\,\lambda \lambda 1393,\,1402$}{41}{figure.caption.31}%
 \contentsline {subsubsection}{C\,\textsc {IV}$\,\lambda \lambda 1548,\,1550$}{41}{figure.caption.31}%
